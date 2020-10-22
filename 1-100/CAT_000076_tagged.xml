@@ -209,7 +209,7 @@
                <trait>
                   <p>illustre grammairien et philologue allemand</p>
                </trait>
-               <desc xml:id="CAT_000076_e1_d1"><term ana="#document_type_7">L. a. s.</term>; Leipzig, 1782, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle pièce.</desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000076_e1_d1"><term ana="#document_type_7">L. a. s.</term>; Leipzig, <date when="1782">1782</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle pièce.</desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="2" xml:id="CAT_000076_e2">
                <num type="lot">2</num>
@@ -218,7 +218,7 @@
                   <p>dame de Combalet, nièce et, dit-on, maîtresse de Richelieu, fort maltraitée par
                      Tallemant des Réaux, et dont Fléchier prononça l'oraison funèbre</p>
                </trait>
-               <desc xml:id="CAT_000076_e2_d1"><term ana="#document_type_7">L. a. s.</term> à Chavigny; 28 mai 1639, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure>, cachets et soies.</desc><measure commodity="currency" unit="FRF" quantity="50">50</measure>
+               <desc xml:id="CAT_000076_e2_d1"><term ana="#document_type_7">L. a. s.</term> à Chavigny; <date when="1639-05-28">28 mai 1639</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure>, cachets et soies.</desc><measure commodity="currency" unit="FRF" quantity="50">50</measure>
                <note>Superbe et importante lettre historique. Elle le remercie de s'intéresser à
                   elle et regrette que Monsieur (&gt;Gaston d'Orléans) ne soit pas raccommodé avec
                   le Roi; elle espère que la charge de Mme de Liancourt (Jeanne de Schomberg) ne
@@ -231,7 +231,7 @@
                <trait>
                   <p>vice-amiral, né à Port-Louis (Morbihan)</p>
                </trait>
-               <desc xml:id="CAT_000076_e3_d1"><term ana="#document_type_7">L. a. s.</term>; Paris, 1er février 1817, <measure type="length" unit="p" n="3.5">3 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000076_e3_d1"><term ana="#document_type_7">L. a. s.</term>; Paris, <date when="1817-02-01">1er février 1817</date>, <measure type="length" unit="p" n="3.5">3 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Curieuse lettre relative à un incident qui s'est produit à l'audience du roi à
                   l'occasion des réceptions du jour de l'an. (Il présenta au roi, le 3 janvier, la
                   députation de l'Académie des sciences. Le roi donna l'ordre de retourner son
@@ -253,7 +253,7 @@
                <trait>
                   <p>amiral de France, fils de Charles X</p>
                </trait>
-               <desc xml:id="CAT_000076_e4_d1"><term ana="#document_type_7">L. a. s.</term> à l'évêque de L. a. Rochelle; Madrid, 17 mai 1815, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle lettre.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000076_e4_d1"><term ana="#document_type_7">L. a. s.</term> à l'évêque de L. a. Rochelle; Madrid, <date when="1815-05-17">17 mai 1815</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle lettre.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
             <item n="5" xml:id="CAT_000076_e5">
                <num type="lot">5</num>
@@ -263,7 +263,7 @@
                      de Bussy-Rabutin, auteur de plusieurs oraisons funèbres de persoinages célèbres
                      du XVIIe siècle</p>
                </trait>
-               <desc xml:id="CAT_000076_e5_d1">17 let. aut., dont 10 sig., à Mllé de Scudéry ; 1681-84, <measure type="length" unit="p" n="63">63 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8 o</measure>u in-4. Cachets.</desc><measure commodity="currency" unit="FRF" quantity="50">50</measure>
+               <desc xml:id="CAT_000076_e5_d1">17 let. aut., dont 10 sig., à Mllé de Scudéry ; <date when="1681">1681</date>-84, <measure type="length" unit="p" n="63">63 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8 o</measure>u in-4. Cachets.</desc><measure commodity="currency" unit="FRF" quantity="50">50</measure>
                <note>Correspondance des plus curieuses, plus galante que chrétienne, plus littéraire
                   que religi use. Il y parle de Pellisson, de l'abbé Ferrier son parent, de Bussy
                   Rabutin ; il revient à chaque instant sur « l'illustre auteur de l'histoire de
@@ -282,7 +282,7 @@
                <trait>
                   <p>un des plus célèbres solitaires et écrivains de Port-Royal</p>
                </trait>
-               <desc xml:id="CAT_000076_e6_d1"><term ana="#document_type_8">Let. aut.</term> (à Mme de Bouthillier); 18 février 1663, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000076_e6_d1"><term ana="#document_type_8">Let. aut.</term> (à Mme de Bouthillier); <date when="1663-02-18">18 février 1663</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Jolie lettre dans laquelle il parle de l'évêque d'Angers (Henri Arnauld)</note>
             </item>
             <item n="7" xml:id="CAT_000076_e7">
@@ -292,7 +292,7 @@
                   <p>théologien protestant, célèbre par ses thèses sur le denier de Saint-Pierre,
                      professeur à Nuremberg, sa patrie</p>
                </trait>
-               <desc xml:id="CAT_000076_e7_d1">Belle épître latine <term ana="#document_type_15">aut. sig.</term>, à Constantin Huyghens; Londres, 28 sept. 1682, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure>, joli cachet à son chiffre.</desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
+               <desc xml:id="CAT_000076_e7_d1">Belle épître latine <term ana="#document_type_15">aut. sig.</term>, à Constantin Huyghens; Londres, <date when="1682-09-28">28 sept. 1682</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure>, joli cachet à son chiffre.</desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
             </item>
             <item n="8" xml:id="CAT_000076_e8">
                <num type="lot">8</num>
@@ -301,7 +301,7 @@
                   <p>célèbre diplomate français du XVIIe siècle, ministre plénipotentiaire au
                      congrès de Nimégue, ambassadeur en Hollande et en Angleterre</p>
                </trait>
-               <desc xml:id="CAT_000076_e8_d1"><term ana="#document_type_7">L. a. s.</term>; a Haye, 17 mai 1680, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000076_e8_d1"><term ana="#document_type_7">L. a. s.</term>; a Haye, <date when="1680-05-17">17 mai 1680</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Intéressante lettre relative aux plaintes formulées par l'ambassadeur d'Espagne
                   en France aux Etals de Hollande, relativement à quelques châteaux que nous
                   demandions aux Pays-Bas comme des dépendances des places qui nous ont été cédées,
@@ -314,7 +314,7 @@
                   <p>le célèbre archevêque de Paris, né au château de la Roque (Périgord) en 1703,
                      mort en 1781</p>
                </trait>
-               <desc xml:id="CAT_000076_e9_d1">6 let., dont 4 <term ana="#document_type_15">aut. sig.</term> et 2 sig. à l'archevêque de Tours; la Trappe, 1764, <measure type="length" unit="p" n="13.5">13 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="40">40</measure>
+               <desc xml:id="CAT_000076_e9_d1">6 let., dont 4 <term ana="#document_type_15">aut. sig.</term> et 2 sig. à l'archevêque de Tours; la Trappe, <date when="1764">1764</date>, <measure type="length" unit="p" n="13.5">13 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="40">40</measure>
                <note>Importantes lettres, écrites pendant son exil à la Trappe, où il avait été
                   obligé de se retirer à cause de la lutte acharnée qu'il soutenait contre les
                   Jansénistes. En voici quelques extraits : 3 arril 1744. -« Je connais trop vostre
@@ -338,7 +338,7 @@
                <trait>
                   <p>célèbre écrivain romantique</p>
                </trait>
-               <desc xml:id="CAT_000076_e10_d1">8 l. <term ana="#document_type_15">a. s.</term> à Nogent-Saint-Laurent; 1859, <measure type="length" unit="p" n="11">11 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Curieuses.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000076_e10_d1">8 l. <term ana="#document_type_15">a. s.</term> à Nogent-Saint-Laurent; <date when="1859">1859</date>, <measure type="length" unit="p" n="11">11 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Curieuses.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
             <item n="11" xml:id="CAT_000076_e11">
                <num type="lot">11</num>
@@ -347,7 +347,7 @@
                   <p>amiral, commandant de la flotte de la Baltique pendant la guerre avec la
                      Prusse</p>
                </trait>
-               <desc xml:id="CAT_000076_e11_d1">5 l. <term ana="#document_type_15">a. s.</term>, dont une de ses initiales, à un journaliste; Toulon, Messine, etc., 1858-59, <measure type="length" unit="p" n="13.5">13 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="30">30</measure>
+               <desc xml:id="CAT_000076_e11_d1">5 l. <term ana="#document_type_15">a. s.</term>, dont une de ses initiales, à un journaliste; Toulon, Messine, etc., <date when="1858">1858</date>-59, <measure type="length" unit="p" n="13.5">13 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="30">30</measure>
                <note>Curieuses lettres relatives aux opérations de la flotte française pendant la
                   guerre d'Italie : 5 mars 1858. Son opinion sur la guerre de Crimée; les services
                   de la marine ont été inconnus, sinon méconnus. -12 juin 1859. Il part de Toulon
@@ -372,7 +372,7 @@
                   <p>célèbre maréchal de France, vainqueur d'Alger en 1830, né en 1773, mort en
                      1846</p>
                </trait>
-               <desc xml:id="CAT_000076_e12_d1">7 let., dont 3 <term ana="#document_type_15">aut. sig.</term> et 4 sig., à divers; Blois, Nantes, Bourmont, an VIII-1829, <measure type="length" unit="p" n="10">10 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure> et in-fol.</desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <desc xml:id="CAT_000076_e12_d1">7 let., dont 3 <term ana="#document_type_15">aut. sig.</term> et 4 sig., à divers; Blois, Nantes, Bourmont, <date when="1829">an VIII-1829</date>, <measure type="length" unit="p" n="10">10 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure> et in-fol.</desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Intéressante réunion. Une de ces lettres, adressée au maréchal Macdonald, est
                   toute relative à l'organisation de la garde royale</note>
             </item>
@@ -383,7 +383,7 @@
                   <p>abbé de Cinq-Mars, évêque d'Auxerre, attaché à Richelieu qui l'employa dans ses
                      négociations avec Mme de Chevreuse, mort en 1671</p>
                </trait>
-               <desc xml:id="CAT_000076_e13_d1"><term ana="#document_type_4">Pièce sig</term>. sur vélin, comme évêque d'Auxerre; 25 janvier 1649, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Tache de rousseur.</desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <desc xml:id="CAT_000076_e13_d1"><term ana="#document_type_4">Pièce sig</term>. sur vélin, comme évêque d'Auxerre; <date when="1649-01-25">25 janvier 1649</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Tache de rousseur.</desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Nomination de Henri Minard, du diocèse d'Autun, à la cure de Saint-
                   Laurent-de-Charentenaye.</note>
             </item>
@@ -394,7 +394,7 @@
                   <p>seigneur d'Epiry, lieutenant du roi en Nivernais, père du célèbre
                      Bussy-Rabutin, né en 1587, mort en 1645</p>
                </trait>
-               <desc xml:id="CAT_000076_e14_d1">Let. sig. au maréchal de Caumont <term ana="#document_type_8">L. a.</term> Force ; Trêves, 3 juin 1634, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> Cachets et soies.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000076_e14_d1">Let. sig. au maréchal de Caumont <term ana="#document_type_8">L. a.</term> Force ; Trêves, <date when="1634-06-03">3 juin 1634</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> Cachets et soies.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Intéressante lettre sur la défense des électorats de Trêves et de Cologne ; il
                   combine ses mouvements avec ceux du duc de Neubourg pour couvrir Ehrenbreinstein.
                   Projet d'attaque des Espagnols par le Luxembourg, etc</note>
@@ -406,7 +406,7 @@
                   <p>lectrice de Marie-Antoinette, auteur d'intéressants mémoires sur cette
                      princesse, directrice de la maison d'Ecouen</p>
                </trait>
-               <desc xml:id="CAT_000076_e15_d1">7 lettres dont 3 <term ana="#document_type_15">aut. sig.</term>, 3 aut. et 1 sig.; Mantes, Ecouen, Saint-Germain-en-Laye, 1803-21, <measure type="length" unit="p" n="13">13 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure>, in-4 et in-f. Une d'elles est piquée d'humidité.</desc><measure commodity="currency" unit="FRF" quantity="40">40</measure>
+               <desc xml:id="CAT_000076_e15_d1">7 lettres dont 3 <term ana="#document_type_15">aut. sig.</term>, 3 aut. et 1 sig.; Mantes, Ecouen, Saint-Germain-en-Laye, <date when="1803">1803</date>-21, <measure type="length" unit="p" n="13">13 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure>, in-4 et in-f. Une d'elles est piquée d'humidité.</desc><measure commodity="currency" unit="FRF" quantity="40">40</measure>
                <note>Lettres intéressantes pour sa biographie et pour l'administration de la maison
                   d'Ecouen sur laquelle elle donne de curieux détails</note>
             </item>
@@ -416,7 +416,7 @@
                <trait>
                   <p>poète dramatique, membre de l'Académie française</p>
                </trait>
-               <desc xml:id="CAT_000076_e16_d1">10 l. <term ana="#document_type_15">a. s.</term> à Ducis, 1811-15, <measure type="length" unit="p" n="21.5">21 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure>, cachets.</desc><measure commodity="currency" unit="FRF" quantity="40">40</measure>
+               <desc xml:id="CAT_000076_e16_d1">10 l. <term ana="#document_type_15">a. s.</term> à Ducis, <date when="1811">1811</date>-15, <measure type="length" unit="p" n="21.5">21 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure>, cachets.</desc><measure commodity="currency" unit="FRF" quantity="40">40</measure>
                <note>Très-curieuse correspondance inédite adressée à son « cher Sophocle. » En voici
                   une analyse sommaire : 11 mars 1811. L'Enfant prodigue de Campenon ; réponse à des
                   remerciments à propos de cet ouvrage. Le Roi Lear et Abufar de Ducis. -30 décembre
@@ -442,7 +442,7 @@
                <trait>
                   <p>roi de France</p>
                </trait>
-               <desc xml:id="CAT_000076_e17_d1"><term ana="#document_type_7">L. a. s.</term> à l'évêque de L. a. Rochelle; Edimbourg, 1er mars 1803, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachet. Légers raccommodages.</desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <desc xml:id="CAT_000076_e17_d1"><term ana="#document_type_7">L. a. s.</term> à l'évêque de L. a. Rochelle; Edimbourg, <date when="1803-03-01">1er mars 1803</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachet. Légers raccommodages.</desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Il le remercie de ses protestations de dévoûment</note>
             </item>
             <item n="18" xml:id="CAT_000076_e18">
@@ -461,7 +461,7 @@
                   <p>sire d'Argenton, l'illustre ministre et historien de Louis XI, né près de Lille
                      en 1445, mort en 1509</p>
                </trait>
-               <desc xml:id="CAT_000076_e19_d1"><term ana="#document_type_9">Let. sig.</term> au duc de Milan (Ludovic le Maure) ; Milan, 26 octobre (1495), <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Fragments de cachets. Très-rare.</desc><measure commodity="currency" unit="FRF" quantity="250">250</measure>
+               <desc xml:id="CAT_000076_e19_d1"><term ana="#document_type_9">Let. sig.</term> au duc de Milan (Ludovic le Maure) ; Milan, 26 octobre (<date when="1495">1495</date>), <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Fragments de cachets. Très-rare.</desc><measure commodity="currency" unit="FRF" quantity="250">250</measure>
                <note>Précieuse lettre historique. Il se plaint de la violation du traité de Verceil.
                   Des navires sont partis de Gènes pour renforcer la flotte du roi Ferrand
                   (Ferdinand II, roi de Naples); ils vont probablement amener la chute du château de
@@ -475,7 +475,7 @@
                   <p>ami et premier ministre de Pie VII, signataire du Concordat avec Napoléon, né
                      en 1757, mort en 1824</p>
                </trait>
-               <desc xml:id="CAT_000076_e20_d1">2 let. aut., dont une sig., en français, à la duchesse de Devonshire; 1816-23, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000076_e20_d1">2 let. aut., dont une sig., en français, à la duchesse de Devonshire; <date when="1816">1816</date>-23, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Charmantes lettres. Il lui annonce (1816) l'envoi de lettres de dispense à Mme
                   de Staël pour le mariage de sa fille, Albertine-Ida-Gustavine, avec le duc de
                   Broglie</note>
@@ -486,7 +486,7 @@
                <trait>
                   <p>spirituel vaudevilliste</p>
                </trait>
-               <desc xml:id="CAT_000076_e21_d1">15 l. <term ana="#document_type_15">a. s.</term> à Sauvage, directeur de l'Odéon; 1822-42, <measure type="length" unit="p" n="16">16 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure> et in-4.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000076_e21_d1">15 l. <term ana="#document_type_15">a. s.</term> à Sauvage, directeur de l'Odéon; <date when="1822">1822</date>-42, <measure type="length" unit="p" n="16">16 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure> et in-4.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Intéressante correspondance sur ses ouvrages</note>
             </item>
             <item n="22" xml:id="CAT_000076_e22">
@@ -496,7 +496,7 @@
                   <p>célèbre diplomate du XVIIIe siècle, ambassadeur à Berlin en 1697, puis a
                      Constantinople, envoyé secrètement près de Ragoczi en 1704, né en Normandie</p>
                </trait>
-               <desc xml:id="CAT_000076_e22_d1">5 let., dont 4 <term ana="#document_type_15">aut. sig.</term> et 1 seulement sig. avec un post-scriptum de 6 lignes aut., à M. de Fontenu, consul à Smyrne; Constantinople et Paris, 1716-20, <measure type="length" unit="p" n="15">15 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Une de ces lettres est piquée d'humidité.</desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <desc xml:id="CAT_000076_e22_d1">5 let., dont 4 <term ana="#document_type_15">aut. sig.</term> et 1 seulement sig. avec un post-scriptum de 6 lignes aut., à M. de Fontenu, consul à Smyrne; Constantinople et Paris, <date when="1716">1716</date>-20, <measure type="length" unit="p" n="15">15 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Une de ces lettres est piquée d'humidité.</desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Lettres politiques très-intéressantes sur les affaires d'Orient à cette époque.
                   Détails sur le rachat des esclaves égvptiens; il s'est borné à racheter les
                   Français capturés en Morée. La France est bouleversée par la chute du système de
@@ -511,7 +511,7 @@
                   <p>célèbre naturaliste suédois, conservateur de la riche collection scientifique
                      de Joseph Banks à Londres, né en 1748, mort en 1811</p>
                </trait>
-               <desc xml:id="CAT_000076_e23_d1">6 lettres, dont 5 <term ana="#document_type_15">aut. sig.</term> et 1 aut., au savant L'Héritier; Londres, 1788-89, <measure type="length" unit="p" n="18.5">18 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <desc xml:id="CAT_000076_e23_d1">6 lettres, dont 5 <term ana="#document_type_15">aut. sig.</term> et 1 aut., au savant L'Héritier; Londres, <date when="1788">1788</date>-89, <measure type="length" unit="p" n="18.5">18 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Importante correspondance scientifique</note>
             </item>
             <item n="24" xml:id="CAT_000076_e24">
@@ -520,7 +520,7 @@
                <trait>
                   <p>le célèbre poète tragique, de l'Acad. fr.</p>
                </trait>
-               <desc xml:id="CAT_000076_e24_d1">11 l. <term ana="#document_type_15">a. s.</term> à lui adressées par Anson, de Belloy, Auger, Sauvo, Mosneron. Taunay, etc.; 1806-14, <measure type="length" unit="p" n="19">19 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <desc xml:id="CAT_000076_e24_d1">11 l. <term ana="#document_type_15">a. s.</term> à lui adressées par Anson, de Belloy, Auger, Sauvo, Mosneron. Taunay, etc.; <date when="1806">1806</date>-14, <measure type="length" unit="p" n="19">19 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Dossier des plus curieux sur les ouvrages de Ducis et pouvant servir à sa
                   biographie</note>
             </item>
@@ -531,7 +531,7 @@
                   <p>célèbre peintre d'histoire, neveu du grand poète tragique et beau-frère de
                      Talma</p>
                </trait>
-               <desc xml:id="CAT_000076_e25_d1">1° <term ana="#document_type_7">L. a. s.</term> à M. Delcroix, 1828, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_18">in-18</measure>;</desc><date xml:id="CAT_000076_e25_d2">2° 55 lettres à lui adressées, 1813-28, environ 75
+               <desc xml:id="CAT_000076_e25_d1">1° <term ana="#document_type_7">L. a. s.</term> à M. Delcroix, <date when="1828">1828</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_18">in-18</measure>;</desc><date xml:id="CAT_000076_e25_d2">2° 55 lettres à lui adressées, 1813-28, environ 75
                   pages in-8 et in-4.</date>
                <measure commodity="currency" unit="FRF" quantity="30">30</measure>
                <note>Dossier important pour la biographie de cet artiste et pour l'histoire des
@@ -556,7 +556,7 @@
                <trait>
                   <p>célèbre orateur et homme d'Etat, de l'Académie française</p>
                </trait>
-               <desc xml:id="CAT_000076_e27_d1"><term ana="#document_type_7">L. a. s.</term> (au duc d'Angoulême); 19 déc. 1826, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000076_e27_d1"><term ana="#document_type_7">L. a. s.</term> (au duc d'Angoulême); <date when="1826-12-19">19 déc. 1826</date>, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Très-curieuse lettre toute relative à l'affaire de son collègue Isambert,
                   condamné pour un article publié dans la Gazette des Tribunaux, contre les
                   arrestations faites par des agents de police sans uniforme. Chargé de le défendre,
@@ -608,7 +608,7 @@
                <trait>
                   <p>prince des Pays-Bas, oncle du roi actuel, mort récemment</p>
                </trait>
-               <desc xml:id="CAT_000076_e30_d1"><term ana="#document_type_7">L. a. s.</term>, en allemand; 1824, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000076_e30_d1"><term ana="#document_type_7">L. a. s.</term>, en allemand; <date when="1824">1824</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
             <item n="31" xml:id="CAT_000076_e31">
                <num type="lot">31</num>
@@ -626,7 +626,7 @@
                   <p>roi de Suède, fils et successeur de Gustave III, détrôné en 1809, connu ensuite
                      sous le nom de colonel Gustafson, né en 1778, mort en 1853</p>
                </trait>
-               <desc xml:id="CAT_000076_e32_d1"><term ana="#document_type_7">L. a. s.</term>, en français, au directeur du journal l'Etoile; Worms, 25 septembre 1826, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachet. Léger raccommodage.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000076_e32_d1"><term ana="#document_type_7">L. a. s.</term>, en français, au directeur du journal l'Etoile; Worms, <date when="1826-09-25">25 septembre 1826</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachet. Léger raccommodage.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Curieuse lettre relative à un manuscrit qu'il lui a envoyé; elle est signée le
                   colonel Gustafson. « Fatigué de tout genre par les caprices et la méchanceté, je
                   couserve cependant la consolation de n'y avoir aucune part directe et avec la
@@ -639,7 +639,7 @@
                <trait>
                   <p>maréchal de France, aussi célèbre par son faste que par ses exploits</p>
                </trait>
-               <desc xml:id="CAT_000076_e33_d1"><term ana="#document_type_7">L. a. s.</term>; Compiègne, 1649, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachets.</desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <desc xml:id="CAT_000076_e33_d1"><term ana="#document_type_7">L. a. s.</term>; Compiègne, <date when="1649">1649</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachets.</desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Importante lettre toule relative à la ville de Compiègne dont il était
                   gouverneur. Les habitants ne veulent pas faire cause commune avec le Parlement;
                   ils n'ouvrent pas les lettres que celui-ci leur adresse; les murailles, à
@@ -661,7 +661,7 @@
                   <p>duc de Bavière et de Deux-Ponts, comte et gouverneur du Palatinat pendant la
                      minorité de Frédéric V, roi de Bohême, né en 1584, mort en 1635</p>
                </trait>
-               <desc xml:id="CAT_000076_e35_d1"><term ana="#document_type_7">L. a. s.</term>, en français, au duc de Rohan (dont il avait épousé la soeur Catherine) ; Deux-Ponts, 23 février 1610, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure>, cachets et soies. Rare.</desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <desc xml:id="CAT_000076_e35_d1"><term ana="#document_type_7">L. a. s.</term>, en français, au duc de Rohan (dont il avait épousé la soeur Catherine) ; Deux-Ponts, <date when="1610-02-23">23 février 1610</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure>, cachets et soies. Rare.</desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Superbe lettre historique, où il lui annonce que l'Union évangélique de Halle
                   va se joindre aux troupes du roi (Henri IV) et de Rohan pour chasser de Clèves
                   Léopold d'Autriche</note>
@@ -672,7 +672,7 @@
                <trait>
                   <p>l'illustre écrivain et homme d'Etat</p>
                </trait>
-               <desc xml:id="CAT_000076_e36_d1"><term ana="#document_type_7">L. a. s.</term> à l'ambassadeur d'Angleterre à Paris, 6 mai 1830, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000076_e36_d1"><term ana="#document_type_7">L. a. s.</term> à l'ambassadeur d'Angleterre à Paris, <date when="1830-05-06">6 mai 1830</date>, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Superbe lettre relative à la mort de Mme Henri de Churchill, tante de Mme de
                   Lamartine</note>
             </item>
@@ -684,7 +684,7 @@
                   <p>célèbre diplomate, mort à Stockholm en 1729 ; il était l'ami de la duchesse du
                      Maine</p>
                </trait>
-               <desc xml:id="CAT_000076_e37_d1"><term ana="#document_type_9">Let. sig.</term> à M. d'Alion ; Stockholm, 25 décembre 1746, <measure type="length" unit="p" n="5">5 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><measure commodity="currency" unit="FRF" quantity="40">40</measure>
+               <desc xml:id="CAT_000076_e37_d1"><term ana="#document_type_9">Let. sig.</term> à M. d'Alion ; Stockholm, <date when="1746-12-25">25 décembre 1746</date>, <measure type="length" unit="p" n="5">5 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><measure commodity="currency" unit="FRF" quantity="40">40</measure>
                <note>Importante dépêche sur l'état de la Suède et de la Russie. Il est arrivé à
                   rendre l'avantage au parti français des chapeaux; il a dû dépenser beaucoup
                   d'argent, et on ne lui en sait pas beaucoup de gré à la cour de France. Le chargé
@@ -699,7 +699,7 @@
                <trait>
                   <p>contrôleur général des finances sous Louis XV, de l'Académie des sciences.</p>
                </trait>
-               <desc xml:id="CAT_000076_e38_d1">3 let. sig. au maréchal de Besons, commandant en chef de l'armée du Rhin; Paris, 16 mai 1710-15 août 1713, <measure type="length" unit="p" n="7">7 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <desc xml:id="CAT_000076_e38_d1">3 let. sig. au maréchal de Besons, commandant en chef de l'armée du Rhin; Paris, <date when="1710">16 mai 1710-15 août 1713</date>, <measure type="length" unit="p" n="7">7 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Lettres historiques. Envoi de l'état des ingénieurs choisis pour servir à la
                   suite de l'armée d'Allemagne, à Strasbourg, Marsal, Lauterbourg, Belfort et
                   Fort-Louis, avec leurs noms et les chiffres de leurs appointements (1710). Progrès
@@ -735,7 +735,7 @@
                <trait>
                   <p>roi de France</p>
                </trait>
-               <desc xml:id="CAT_000076_e41_d1"><term ana="#document_type_7">L. a. s.</term> à un évêque ; Varsovie, 11 juin 1801, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <desc xml:id="CAT_000076_e41_d1"><term ana="#document_type_7">L. a. s.</term> à un évêque ; Varsovie, <date when="1801-06-11">11 juin 1801</date>, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Superbe lettre où il le remercie de ses témoignages de dévoûment</note>
             </item>
             <item n="42" xml:id="CAT_000076_e42">
@@ -783,7 +783,7 @@
                <trait>
                   <p>le grand diplomate autrichien</p>
                </trait>
-               <desc xml:id="CAT_000076_e45_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à un général; Wolkendorff, 4 juillet 1809, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000076_e45_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à un général; Wolkendorff, <date when="1809-07-04">4 juillet 1809</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Intéressante lettre écrite pendant la guerre contre l'Autriche. On lui a
                   confié, au quartier général de Napoléon, trois lettres qu'il s'empresse de lui
                   faire remettre. Il le prie de disposer de lui s'il est momentanément sans
@@ -799,7 +799,7 @@
                   <p>célèbre antiquaire et archéologue anglais de ce siècle, né en 1774, mort en
                      1845</p>
                </trait>
-               <desc xml:id="CAT_000076_e46_d1">16 l. <term ana="#document_type_15">a. s.</term>, en français et en anglais, au libraire Molini, à Florence, et à M. Zardetti, à Milan ; Rome, Florence, 1817-43, <measure type="length" unit="p" n="18">18 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <desc xml:id="CAT_000076_e46_d1">16 l. <term ana="#document_type_15">a. s.</term>, en français et en anglais, au libraire Molini, à Florence, et à M. Zardetti, à Milan ; Rome, Florence, <date when="1817">1817</date>-43, <measure type="length" unit="p" n="18">18 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Intéressantes lettres relatives à ses travaux sur l'archéologie et la
                   numismatique</note>
             </item>
@@ -810,7 +810,7 @@
                   <p>célèbre homme d'Etat, habile ministre du Trésor public sous Napoléon 1er, né à
                      Rouen</p>
                </trait>
-               <desc xml:id="CAT_000076_e47_d1">2 l. <term ana="#document_type_15">a. s.</term>, dont 1 de ses initiales, à Talleyrand ; Paris et Jeurs, 16 janvier-6 août 1831, <measure type="length" unit="p" n="7">7 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000076_e47_d1">2 l. <term ana="#document_type_15">a. s.</term>, dont 1 de ses initiales, à Talleyrand ; Paris et Jeurs, <date when="1831">16 janvier-6 août 1831</date>, <measure type="length" unit="p" n="7">7 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Très-curieuses lettres écrites pendant la célèbre ambassade de Talleyrand à
                   Londres. Il lui donne des détails sur la politique intérieure de la France, le
                   félicite sur son heureuse intervention dans la question des places fortes de la
@@ -826,7 +826,7 @@
                <trait>
                   <p>littérateur et auteur dramatique contemporain</p>
                </trait>
-               <desc xml:id="CAT_000076_e48_d1">7 l. <term ana="#document_type_15">a. s.</term> à Nogent-Saint-Laurent; 1857, <measure type="length" unit="p" n="12">12 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000076_e48_d1">7 l. <term ana="#document_type_15">a. s.</term> à Nogent-Saint-Laurent; <date when="1857">1857</date>, <measure type="length" unit="p" n="12">12 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Curieuses lettres relatives à son procès à propos des Filles de Plâtre, dans
                   lequel il eut Nogent Saint-Laurent pour défenseur</note>
             </item>
@@ -837,7 +837,7 @@
                   <p>célèbre homme d'Etat, ministre de Louis XVIII, membre de l'Académie française,
                      ami de Mme de Staël, né en 1766, mort en 1826</p>
                </trait>
-               <desc xml:id="CAT_000076_e49_d1">3 l. <term ana="#document_type_15">a. s.</term> à la duchesse de Devonshire, 1803-14, <measure type="length" unit="p" n="7">7 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Une d'elles est déchirée en deux.</desc><measure commodity="currency" unit="FRF" quantity="25">25</measure>
+               <desc xml:id="CAT_000076_e49_d1">3 l. <term ana="#document_type_15">a. s.</term> à la duchesse de Devonshire, <date when="1803">1803</date>-14, <measure type="length" unit="p" n="7">7 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Une d'elles est déchirée en deux.</desc><measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note>Jolies lettres dans lesquelles il parle des habitués du salon de Mme de Staël :
                   « Un excellent métaphysicien (Royer-Collard) dont vous avés si bien su démêler les
                   précieuses et touchantes qualités à travers son air austère, et Camille (Jordan)
@@ -852,7 +852,7 @@
                      l'armée de Condé, essaya de faire évader Férdinand VI du château de
                      Valençay</p>
                </trait>
-               <desc xml:id="CAT_000076_e50_d1">3 let. aut. à la duchesse de Devonshire; 1811-13, <measure type="length" unit="p" n="5.25">5 p. 1/4</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure> et in-8. Légère brûlure.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000076_e50_d1">3 let. aut. à la duchesse de Devonshire; <date when="1811">1811</date>-13, <measure type="length" unit="p" n="5.25">5 p. 1/4</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure> et in-8. Légère brûlure.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Spirituelles lettres intimes</note>
             </item>
             <item n="51" xml:id="CAT_000076_e51">
@@ -861,7 +861,7 @@
                <trait>
                   <p>jeune, dessinateur, fécond et gracieux vignettiste</p>
                </trait>
-               <desc xml:id="CAT_000076_e51_d1"><term ana="#document_type_7">L. a. s.</term> à Renouard; 1814, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000076_e51_d1"><term ana="#document_type_7">L. a. s.</term> à Renouard; <date when="1814">1814</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Demande d'argent des plus pressantes.</note>
             </item>
             <item n="52" xml:id="CAT_000076_e52">
@@ -870,7 +870,7 @@
                <trait>
                   <p>duc de Reichstadt, fils unique de Napoléon Ier</p>
                </trait>
-               <desc xml:id="CAT_000076_e52_d1"><term ana="#document_type_13">Manuscrit aut.</term>; janvier 1826, <measure type="length" unit="p" n="24">24 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> A mi-marges.</desc><measure commodity="currency" unit="FRF" quantity="200">200</measure>
+               <desc xml:id="CAT_000076_e52_d1"><term ana="#document_type_13">Manuscrit aut.</term>; <date when="1826-01">janvier 1826</date>, <measure type="length" unit="p" n="24">24 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> A mi-marges.</desc><measure commodity="currency" unit="FRF" quantity="200">200</measure>
                <note>Précieuse pièce. Cahier de devoirs écrits par le duc de Reichstadt à l'âge de
                   15 ans et certifié par son instituteur, le chevalier de Foresti</note>
             </item>
@@ -881,7 +881,7 @@
                   <p>gouverneur de Nimègue, brave et hardi capitaine qui servit le duc de Bouillon,
                      son neveu, mort le 1er septembre 1595 des suites de ses blessures</p>
                </trait>
-               <desc xml:id="CAT_000076_e53_d1"><term ana="#document_type_7">L. a. s.</term>, en français; 13 mars (1595), <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure> Rare.</desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <desc xml:id="CAT_000076_e53_d1"><term ana="#document_type_7">L. a. s.</term>, en français; 13 mars (<date when="1595">1595</date>), <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure> Rare.</desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Importante lettre historique sur les opérations militaires de son armée depuis
                   le passage du Rhin jusqu'à son arrivée à Meisenheim (Bavière). Il dit avoir vu le
                   duc de Bouillon; il est opposé à Martin von Rossen, fait crier sur son passage :
@@ -896,7 +896,7 @@
                      insuccès aménèrent le traité de Belgrade (1739) il fut battu par Frédéric II à
                      Malwitz en 1741; né en 1684, mort en 1774</p>
                </trait>
-               <desc xml:id="CAT_000076_e54_d1">et. sig. au maréchal de Belle-Isle; Luxembourg, 16 septembre 1730, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> Rare.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000076_e54_d1">et. sig. au maréchal de Belle-Isle; Luxembourg, <date when="1730-09-16">16 septembre 1730</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> Rare.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Il remercie le maréchal d'avoir fait rechercher les déserteurs; mais il le
                   prévient que les officiers français qui se aisent partisans (officiers sans
                   commission qui cherchaient à embaucher des soldats en pays étrangers) seront
@@ -911,7 +911,7 @@
                      gouvernement, gendre du roi d'Angleterre Georges II par son mariage avec la
                      reine Anne</p>
                </trait>
-               <desc xml:id="CAT_000076_e55_d1"><term ana="#document_type_7">L. a. s.</term>, en français, au comte William Bentinck; La Haye, 29 août 1747, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000076_e55_d1"><term ana="#document_type_7">L. a. s.</term>, en français, au comte William Bentinck; La Haye, <date when="1747-08-29">29 août 1747</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Belle lettre historique écrite pendant la guerre avec la France et relative à
                   la négociation d'un emprunt avec Lord Sandhwich. Il annonce en terminant que leurs
                   soldats se défendent bien et que les Français avancent très-peu</note>
@@ -923,7 +923,7 @@
                   <p>dit l'abbé de Pomponne, célèbre diplomate, ambassadeur à Venise, membre de
                      l'Académie des Inscriptions, né en 1669, mort en 1756</p>
                </trait>
-               <desc xml:id="CAT_000076_e56_d1"><term ana="#document_type_7">L. a. s.</term> à M. Chibert, conseiller à la cour des Aides, (1716), <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <desc xml:id="CAT_000076_e56_d1"><term ana="#document_type_7">L. a. s.</term> à M. Chibert, conseiller à la cour des Aides, (<date when="1716">1716</date>), <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
                <note>Belle et intéressante lettre relative aux essais de réforme financière qui
                   précédèrent le système de Law. Dans son rapport sur la perception des emprunts
                   directs, Chibert a fait de mémoire les calculs que l'abbé le prie de répéter à
@@ -948,7 +948,7 @@
                      cousine et belle-soeur du coadjuteur, amie de Saint Vincent-de-Paul, fondatrice
                      du calvaire de Machecoul</p>
                </trait>
-               <desc xml:id="CAT_000076_e58_d1"><term ana="#document_type_7">L. a. s.</term>; Princay, 24 mai 1669, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000076_e58_d1"><term ana="#document_type_7">L. a. s.</term>; Princay, <date when="1669-05-24">24 mai 1669</date>, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Curieuse lettre dans laquelle elle demande la grâce d'un capucin</note>
             </item>
             <item n="59" xml:id="CAT_000076_e59">
@@ -957,7 +957,7 @@
                <trait>
                   <p>publiciste et critique, membre de l'Académie française</p>
                </trait>
-               <desc xml:id="CAT_000076_e59_d1">17 l. <term ana="#document_type_15">a. s.</term> à M. Cocheris, 1866-71, <measure type="length" unit="p" n="38">38 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="25">25</measure>
+               <desc xml:id="CAT_000076_e59_d1">17 l. <term ana="#document_type_15">a. s.</term> à M. Cocheris, <date when="1866">1866</date>-71, <measure type="length" unit="p" n="38">38 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note>Très-curieuse correspondance, toute relative à l'administration de la
                   Bibliothèque Mazarine, qui paraît beaucoup le préoccuper, surtout quand il est en
                   voyage. Il s'en rapporte à M. Cocheris, qu'il considère comme son successeur
@@ -973,7 +973,7 @@
                   <p>le célèbre feldmaréchal autrichien, ami de Napoléon Ier, né en 1771, mort en
                      1820</p>
                </trait>
-               <desc xml:id="CAT_000076_e60_d1"><term ana="#document_type_9">L. sig.</term>, en français, au chevalier de Moriès; Paris, 7 sept. 1815, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure> Très-belle lettre.</desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <desc xml:id="CAT_000076_e60_d1"><term ana="#document_type_9">L. sig.</term>, en français, au chevalier de Moriès; Paris, <date when="1815-09-07">7 sept. 1815</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure> Très-belle lettre.</desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
             </item>
             <item n="61" xml:id="CAT_000076_e61">
                <num type="lot">61</num>
@@ -998,7 +998,7 @@
                   <p>fameux capitaine huguenot, qui fut chargé par Henri IV de préparer les bases de
                      l'édit de Nantes, né en Saxe en 1540, mort en 1599</p>
                </trait>
-               <desc xml:id="CAT_000076_e63_d1">Quit. sig. sur vélin, 1594, <measure type="format" unit="f" ana="#document_format_108">in-8 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000076_e63_d1">Quit. sig. sur vélin, <date when="1594">1594</date>, <measure type="format" unit="f" ana="#document_format_108">in-8 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="64" xml:id="CAT_000076_e64">
                <num type="lot">64</num>
@@ -1007,7 +1007,7 @@
                   <p>célèbre romancière du XVIIe siècle, créatrice du genre précieux, surnommée la
                      S'pho moderne, née au Havre</p>
                </trait>
-               <desc xml:id="CAT_000076_e64_d1">11 lettres à elle adressées par Daulède-Lestenac, datées de Bordeaux, 1670, <measure type="length" unit="p" n="22">22 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachets.</desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <desc xml:id="CAT_000076_e64_d1">11 lettres à elle adressées par Daulède-Lestenac, datées de Bordeaux, <date when="1670">1670</date>, <measure type="length" unit="p" n="22">22 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachets.</desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Lettres galantes et littéraires où Daulède loue Mlle de Scudéry sur ses
                   oeuvres, donne une étymologie de son nom aussi fantaisiste que plaisante. Il se
                   prétend Grec d'origine et dit avoir eu parmi ses ancêtres la nymphe Daulède, fille
@@ -1042,7 +1042,7 @@
                   <p>intendant de Provence et de Hainaut, bel esprit du XVIIIe siècle et écrivain
                      ingénieux, auteur des Mémoires de la princesse Palatine</p>
                </trait>
-               <desc xml:id="CAT_000076_e67_d1"><term ana="#document_type_7">L. a. s.</term> à M. du Castelet, 21 juin 1780, <measure type="length" unit="p" n="1">1 p.</measure> pet. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
+               <desc xml:id="CAT_000076_e67_d1"><term ana="#document_type_7">L. a. s.</term> à M. du Castelet, <date when="1780-06-21">21 juin 1780</date>, <measure type="length" unit="p" n="1">1 p.</measure> pet. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
             </item>
             <item n="68" xml:id="CAT_000076_e68">
                <num type="lot">68</num>
@@ -1058,7 +1058,7 @@
                <trait>
                   <p>habile négociateur, ministre de Louis XIII, né à Grenoble</p>
                </trait>
-               <desc xml:id="CAT_000076_e69_d1">Quit. sig. sur vélin, 1636, <measure type="format" unit="f" ana="#document_format_108">in-8 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000076_e69_d1">Quit. sig. sur vélin, <date when="1636">1636</date>, <measure type="format" unit="f" ana="#document_format_108">in-8 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="70" xml:id="CAT_000076_e70">
                <num type="lot">70</num>
@@ -1091,7 +1091,7 @@
                   <p>mère du comte de Soissons, tué à La Marfée, femme remuante, connue par ses
                      intrigues contre Richelieu</p>
                </trait>
-               <desc xml:id="CAT_000076_e73_d1"><term ana="#document_type_7">L. a. s.</term> à Louis XIII; février 1637, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="35">35</measure>
+               <desc xml:id="CAT_000076_e73_d1"><term ana="#document_type_7">L. a. s.</term> à Louis XIII; <date when="1637-02">février 1637</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="35">35</measure>
                <note>Curieuse lettre. Elle supplie le roi de ne pas l'éloigner de Paris; elle
                   s'étonne aussi de l'éloignement de son fils. (A la suite de la campagne de
                   Picardie et de la prise de Corbie, le comte de Soissons s'était retiré à Sedan
@@ -1109,7 +1109,7 @@
                   <p>fille de Jean-Albert, comte de Solms Brunsfelds, femme d'Henri-Frédéric de
                      Nassau, belle-fille de Guillaume-le-Taciturne</p>
                </trait>
-               <desc xml:id="CAT_000076_e74_d1"><term ana="#document_type_7">L. a. s.</term> de son monogramme, en français, à la comtesse de Berlaymont; Bréda, 23 septembre 16177 <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachets et soies.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000076_e74_d1"><term ana="#document_type_7">L. a. s.</term> de son monogramme, en français, à la comtesse de Berlaymont; Bréda, <date when="1617-09-23">23 septembre 1617</date>7 <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachets et soies.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
             <item n="75" xml:id="CAT_000076_e75">
                <num type="lot">75</num>
@@ -1118,7 +1118,7 @@
                   <p>lieutenant-général, gouverneur des Invalides, célèbre par le dévoûment de sa
                      fille</p>
                </trait>
-               <desc xml:id="CAT_000076_e75_d1"><term ana="#document_type_4">P. s.</term>, 1788, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000076_e75_d1"><term ana="#document_type_4">P. s.</term>, <date when="1788">1788</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="76" xml:id="CAT_000076_e76">
                <num type="lot">76</num>
@@ -1135,7 +1135,7 @@
                <trait>
                   <p>évêque de Strasbourg, membre de l'Acad. fr.</p>
                </trait>
-               <desc xml:id="CAT_000076_e77_d1"><term ana="#document_type_9">L. s.</term> au chancelier; Paris, 3 juil. 1752, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000076_e77_d1"><term ana="#document_type_9">L. s.</term> au chancelier; Paris, <date when="1752-07-03">3 juil. 1752</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Curieuse lettre. Il lui adresse tous les éclaircissements qu'il a pu avoir sur
                   la conduite « qui s'est tenue jusqu'à présent à Strasbourg pour l'Administration
                   spirituelle, tant à l'égard des Luthériens ou Calvinistes condamnés à mort qui
@@ -1148,7 +1148,7 @@
                   <p>naturaliste et littérateur, inspirateur secret de Robespierre, né à Largentière
                      (Ardèche)</p>
                </trait>
-               <desc xml:id="CAT_000076_e78_d1"><term ana="#document_type_7">L. a. s.</term> à l'imprimeur Ruault, 4,fév. 1789, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000076_e78_d1"><term ana="#document_type_7">L. a. s.</term> à l'imprimeur Ruault, 4,<date when="1789-02">fév. 1789</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="79" xml:id="CAT_000076_e79">
                <num type="lot">79</num>
@@ -1156,7 +1156,7 @@
                <trait>
                   <p>maréchal de France, ministre de Louis-Philippe</p>
                </trait>
-               <desc xml:id="CAT_000076_e79_d1"><term ana="#document_type_7">L. a. s.</term>; Paris, 13 déc. 1841, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Jolie lettre.</desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
+               <desc xml:id="CAT_000076_e79_d1"><term ana="#document_type_7">L. a. s.</term>; Paris, <date when="1841-12-13">13 déc. 1841</date>, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Jolie lettre.</desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
             </item>
             <item n="80" xml:id="CAT_000076_e80">
                <num type="lot">80</num>
@@ -1164,7 +1164,7 @@
                <trait>
                   <p>célèbre compositeur et musicographe polonais, né en 1803</p>
                </trait>
-               <desc xml:id="CAT_000076_e80_d1"><term ana="#document_type_7">L. a. s.</term>, en français, (1852), <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000076_e80_d1"><term ana="#document_type_7">L. a. s.</term>, en français, (<date when="1852">1852</date>), <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="81" xml:id="CAT_000076_e81">
                <num type="lot">81</num>
@@ -1172,7 +1172,7 @@
                <trait>
                   <p>illustre femme auteur française</p>
                </trait>
-               <desc xml:id="CAT_000076_e81_d1"><term ana="#document_type_7">L. a. s.</term> à M. Ternaux; Blois, 1810, <measure type="length" unit="p" n="4">4 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="30">30</measure>
+               <desc xml:id="CAT_000076_e81_d1"><term ana="#document_type_7">L. a. s.</term> à M. Ternaux; Blois, <date when="1810">1810</date>, <measure type="length" unit="p" n="4">4 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="30">30</measure>
                <note>Superbe et curieuse lettre où elle lui réclame 10,000 livres qu'il lui doit sur
                   l'achat de sa terre de St-Ouen. « Vous me deviez 80,000 livres et je n'en ai reçu
                   que 70, il n'est pas possible que 70 acquitte 80. » Elle n'a pas agi en femme
@@ -1185,7 +1185,7 @@
                <trait>
                   <p>roi de Pologne, beau-père de Louis XV</p>
                </trait>
-               <desc xml:id="CAT_000076_e82_d1"><term ana="#document_type_7">L. a. s.</term>, en français; Commercy, 23 mai 1750, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle lettre.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000076_e82_d1"><term ana="#document_type_7">L. a. s.</term>, en français; Commercy, <date when="1750-05-23">23 mai 1750</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle lettre.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
             <item n="83" xml:id="CAT_000076_e83">
                <num type="lot">83</num>
@@ -1193,7 +1193,7 @@
                <trait>
                   <p>le célèbre explorateur et voyageur</p>
                </trait>
-               <desc xml:id="CAT_000076_e83_d1">Sa signature aut. au crayon, avec date, 28 sept. 1882, <measure type="length" unit="p" n="0.25">1/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_18">in-18.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000076_e83_d1">Sa signature aut. au crayon, avec date, <date when="1882-09-28">28 sept. 1882</date>, <measure type="length" unit="p" n="0.25">1/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_18">in-18.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="84" xml:id="CAT_000076_e84">
                <num type="lot">84</num>
@@ -1202,7 +1202,7 @@
                   <p>le célèbre romancier, auteur du Juif-Errant, représentant de la Seine en
                      1851</p>
                </trait>
-               <desc xml:id="CAT_000076_e84_d1">16 lettres, dont 2 <term ana="#document_type_15">aut. sig.</term> et 14 aut., à Louis Desnoyers; 1850-55, <measure type="length" unit="p" n="25">25 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="25">25</measure>
+               <desc xml:id="CAT_000076_e84_d1">16 lettres, dont 2 <term ana="#document_type_15">aut. sig.</term> et 14 aut., à Louis Desnoyers; <date when="1850">1850</date>-55, <measure type="length" unit="p" n="25">25 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note>Correspondance littéraire très-intéressante sur ses ouvrages et sur sa
                   collaboration au journal le Siècle</note>
             </item>
@@ -1213,7 +1213,7 @@
                   <p>intrépide corsaire, célèbre par les prises qu'il fit sur les Anglais, sous la
                      République et l'Empire, né à Saint-Malo</p>
                </trait>
-               <desc xml:id="CAT_000076_e85_d1"><term ana="#document_type_9">L. s.</term>; Saint-Malo, 24 déc. 1821, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000076_e85_d1"><term ana="#document_type_9">L. s.</term>; Saint-Malo, <date when="1821-12-24">24 déc. 1821</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="86" xml:id="CAT_000076_e86">
                <num type="lot">86</num>
@@ -1229,7 +1229,7 @@
                <trait>
                   <p>philosophe et littérateur, de l'Acad. fr.</p>
                </trait>
-               <desc xml:id="CAT_000076_e87_d1"><term ana="#document_type_7">L. a. s.</term> à Philarète Chasles; (Orsay), 2 septembre 1860, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <desc xml:id="CAT_000076_e87_d1"><term ana="#document_type_7">L. a. s.</term> à Philarète Chasles; (Orsay), <date when="1860-09-02">2 septembre 1860</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
                <note>Curieuse lettre. Il vient de lire Carlyle et s'occupe de l'Angleterre qu'il est
                   en train d'étudier. « J'en viens et j'y ai appris bien des choses. Par malheur, ce
                   ne sont pas des choses gaies. Vous avez été prophète pour la France, et vous savez
@@ -1241,7 +1241,7 @@
                <trait>
                   <p>l'illustre homme d'Etat</p>
                </trait>
-               <desc xml:id="CAT_000076_e88_d1"><term ana="#document_type_7">L. a. s.</term>, 3 nov. 1824, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle lettre.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000076_e88_d1"><term ana="#document_type_7">L. a. s.</term>, <date when="1824-11-03">3 nov. 1824</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle lettre.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
             <item n="89" xml:id="CAT_000076_e89">
                <num type="lot">89</num>
@@ -1258,7 +1258,7 @@
                   <p>célèbre peintre français, élève de Lethière, né en 1800, mort par suicide en
                      1874</p>
                </trait>
-               <desc xml:id="CAT_000076_e90_d1"><term ana="#document_type_7">L. a. s.</term> à M. Poirat, 1859, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000076_e90_d1"><term ana="#document_type_7">L. a. s.</term> à M. Poirat, <date when="1859">1859</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="91" xml:id="CAT_000076_e91">
                <num type="lot">91</num>
@@ -1274,7 +1274,7 @@
                <trait>
                   <p>célèbre révolutionnaire hongrois</p>
                </trait>
-               <desc xml:id="CAT_000076_e92_d1"><term ana="#document_type_4">Pièce sig</term>., en français, 1er mars 1855, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000076_e92_d1"><term ana="#document_type_4">Pièce sig</term>., en français, <date when="1855-03-01">1er mars 1855</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Convention à propos du journal l'Homme ; curieuse pièce qui porte aussi les
                   signatures de Zéno Swietoslawski, Duverdier, Ch. Bibeyrolles, etc</note>
             </item>
@@ -1284,7 +1284,7 @@
                <trait>
                   <p>fameux contrôleur général des finances sous Louis XV</p>
                </trait>
-               <desc xml:id="CAT_000076_e93_d1"><term ana="#document_type_7">L. a. s.</term> à M. Joly; L. a. Motte-Pilly, 14 sept. 1764, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle pièce.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000076_e93_d1"><term ana="#document_type_7">L. a. s.</term> à M. Joly; L. a. Motte-Pilly, <date when="1764-09-14">14 sept. 1764</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle pièce.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
             <item n="94" xml:id="CAT_000076_e94">
                <num type="lot">94</num>
@@ -1292,7 +1292,7 @@
                <trait>
                   <p>célèbre maréchal de France du règne de Louis XIV</p>
                </trait>
-               <desc xml:id="CAT_000076_e94_d1">Quit. <term ana="#document_type_15">aut. sig.</term> sur vélin, 1695, <measure type="format" unit="f" ana="#document_format_108">in-8 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000076_e94_d1">Quit. <term ana="#document_type_15">aut. sig.</term> sur vélin, <date when="1695">1695</date>, <measure type="format" unit="f" ana="#document_format_108">in-8 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="95" xml:id="CAT_000076_e95">
                <num type="lot">95</num>
@@ -1300,7 +1300,7 @@
                <trait>
                   <p>pianiste et compositeur</p>
                </trait>
-               <desc xml:id="CAT_000076_e95_d1"><term ana="#document_type_7">L. a. s.</term> à M. Benacci; Paris, 20 nov. 1849, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000076_e95_d1"><term ana="#document_type_7">L. a. s.</term> à M. Benacci; Paris, <date when="1849-11-20">20 nov. 1849</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="96" xml:id="CAT_000076_e96">
                <num type="lot">96</num>
@@ -1309,7 +1309,7 @@
                   <p>maréchal de France qui défendit Henri III contre les Ligueurs, arrêta le prince
                      de Condé en 1616, et mourut gouverneur de Bretagne</p>
                </trait>
-               <desc xml:id="CAT_000076_e96_d1">Quit. sig. sur vélin, 1605, <measure type="format" unit="f" ana="#document_format_108">in-8 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000076_e96_d1">Quit. sig. sur vélin, <date when="1605">1605</date>, <measure type="format" unit="f" ana="#document_format_108">in-8 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
             <item n="97" xml:id="CAT_000076_e97">
                <num type="lot">97</num>
@@ -1326,7 +1326,7 @@
                <trait>
                   <p>romancier et auteur dramatique, ami de Voltaire</p>
                </trait>
-               <desc xml:id="CAT_000076_e98_d1">P. <term ana="#document_type_15">a. s.</term>, 10 fév. 1755, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_118">in-18 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000076_e98_d1">P. <term ana="#document_type_15">a. s.</term>, <date when="1755-02-10">10 fév. 1755</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_118">in-18 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
                <note>Il reconnaît devoir 2,400 livres au maréchal de Belle-Isle</note>
             </item>
             <item n="99" xml:id="CAT_000076_e99">
@@ -1335,7 +1335,7 @@
                <trait>
                   <p>illustre historien</p>
                </trait>
-               <desc xml:id="CAT_000076_e99_d1">Quit. sig. sur vélin, 1638, <measure type="format" unit="f" ana="#document_format_104">in-4 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000076_e99_d1">Quit. sig. sur vélin, <date when="1638">1638</date>, <measure type="format" unit="f" ana="#document_format_104">in-4 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="100" xml:id="CAT_000076_e100">
                <num type="lot">100</num>
@@ -1343,7 +1343,7 @@
                <trait>
                   <p>ministre actuel des finances</p>
                </trait>
-               <desc xml:id="CAT_000076_e100_d1"><term ana="#document_type_7">L. a. s.</term>, 10 juil. 1871, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Curieuse.</desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
+               <desc xml:id="CAT_000076_e100_d1"><term ana="#document_type_7">L. a. s.</term>, <date when="1871-07-10">10 juil. 1871</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Curieuse.</desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
             </item>
             <item n="101" xml:id="CAT_000076_e101">
                <num type="lot">101</num>
@@ -1352,7 +1352,7 @@
                   <p>célèbre médecin suisse du XVIIIe siècle, auteur de l'Onanisme, né en 1728, mort
                      en 1797</p>
                </trait>
-               <desc xml:id="CAT_000076_e101_d1"><term ana="#document_type_7">L. a. s.</term> aux éditeurs Barde, Menget et Cie, à Genève ; Lausanne, 7 mai 1786, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachet.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000076_e101_d1"><term ana="#document_type_7">L. a. s.</term> aux éditeurs Barde, Menget et Cie, à Genève ; Lausanne, <date when="1786-05-07">7 mai 1786</date>, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachet.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="102" xml:id="CAT_000076_e102">
                <num type="lot">102</num>
@@ -1368,7 +1368,7 @@
                <trait>
                   <p>habile diplomate et ministre de Louis XIV, neveu du grand Colbert</p>
                </trait>
-               <desc xml:id="CAT_000076_e103_d1"><term ana="#document_type_4">P. s.</term>, 1720, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000076_e103_d1"><term ana="#document_type_4">P. s.</term>, <date when="1720">1720</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="104" xml:id="CAT_000076_e104">
                <num type="lot">104</num>
@@ -1376,7 +1376,7 @@
                <trait>
                   <p>président du gouvernement de la Défense nationale</p>
                </trait>
-               <desc xml:id="CAT_000076_e104_d1"><term ana="#document_type_7">L. a. s.</term>, 16 avril 1870, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000076_e104_d1"><term ana="#document_type_7">L. a. s.</term>, <date when="1870-04-16">16 avril 1870</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="105" xml:id="CAT_000076_e105">
                <num type="lot">105</num>
@@ -1386,7 +1386,7 @@
                      d'Henriette d'Angleterre, lié avec Boileau et tous les écrivains de son époque,
                      né en 1641, mort en 1708</p>
                </trait>
-               <desc xml:id="CAT_000076_e105_d1"><term ana="#document_type_12">Quitt</term>ance sig. sur vélin; 1696, <measure type="format" unit="f" ana="#document_format_108">in-8 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000076_e105_d1"><term ana="#document_type_12">Quitt</term>ance sig. sur vélin; <date when="1696">1696</date>, <measure type="format" unit="f" ana="#document_format_108">in-8 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="106" xml:id="CAT_000076_e106">
                <num type="lot">106</num>
@@ -1394,7 +1394,7 @@
                <trait>
                   <p>illustre jurisconsulte, défenseur de Louis XVI, de l'Acad. fr.</p>
                </trait>
-               <desc xml:id="CAT_000076_e106_d1"><term ana="#document_type_7">L. a. s.</term> à Berthier; 28 prairial an XI, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000076_e106_d1"><term ana="#document_type_7">L. a. s.</term> à Berthier; <date date="1803-06-17" type="length">28 prairial an XI</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="107" xml:id="CAT_000076_e107">
                <num type="lot">107</num>
@@ -1410,7 +1410,7 @@
                <trait>
                   <p>éminent juriconsulte, président du Sénat, né à Saint-Gaudens</p>
                </trait>
-               <desc xml:id="CAT_000076_e108_d1"><term ana="#document_type_7">L. a. s.</term> à Dupin, 1861, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000076_e108_d1"><term ana="#document_type_7">L. a. s.</term> à Dupin, <date when="1861">1861</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="109" xml:id="CAT_000076_e109">
                <num type="lot">109</num>
@@ -1418,7 +1418,7 @@
                <trait>
                   <p>le fameux assassin</p>
                </trait>
-               <desc xml:id="CAT_000076_e109_d1"><term ana="#document_type_7">L. a. s.</term>, 2 janvier 1870, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000076_e109_d1"><term ana="#document_type_7">L. a. s.</term>, <date when="1870-01-02">2 janvier 1870</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="110" xml:id="CAT_000076_e110">
                <num type="lot">110</num>
@@ -1426,7 +1426,7 @@
                <trait>
                   <p>l'illustre maréchal de France</p>
                </trait>
-               <desc xml:id="CAT_000076_e110_d1"><term ana="#document_type_4">Pièce sig</term>., 1669, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Très-fatiguée. Beau cachet à ses armes.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000076_e110_d1"><term ana="#document_type_4">Pièce sig</term>., <date when="1669">1669</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Très-fatiguée. Beau cachet à ses armes.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="111" xml:id="CAT_000076_e111">
                <num type="lot">111</num>
@@ -1434,7 +1434,7 @@
                <trait>
                   <p>défenseur de Strasbourg, député à l'Assemblée nationale</p>
                </trait>
-               <desc xml:id="CAT_000076_e111_d1"><term ana="#document_type_4">Pièce sig</term>., 1849, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000076_e111_d1"><term ana="#document_type_4">Pièce sig</term>., <date when="1849">1849</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="112" xml:id="CAT_000076_e112">
                <num type="lot">112</num>
@@ -1464,7 +1464,7 @@
                      calviniste de religion, mais libertin de moeurs, suivant Tallemant des
                      Réaux</p>
                </trait>
-               <desc xml:id="CAT_000076_e114_d1">Quit. sig. sur vélin, 31 déc. 1617, <measure type="format" unit="f" ana="#document_format_108">in-8 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000076_e114_d1">Quit. sig. sur vélin, <date when="1617-12-31">31 déc. 1617</date>, <measure type="format" unit="f" ana="#document_format_108">in-8 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="115" xml:id="CAT_000076_e115">
                <num type="lot">115</num>
@@ -1473,7 +1473,7 @@
                   <p>célèbre médecin du XVIIe siècle, qui guérit Louis XIV, né en 1594, mort en
                      1671</p>
                </trait>
-               <desc xml:id="CAT_000076_e115_d1">Quit. sig. sur vélin, 1649, <measure type="format" unit="f" ana="#document_format_108">in-8 obl.</measure>, écornée.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000076_e115_d1">Quit. sig. sur vélin, <date when="1649">1649</date>, <measure type="format" unit="f" ana="#document_format_108">in-8 obl.</measure>, écornée.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="116" xml:id="CAT_000076_e116">
                <num type="lot">116</num>
@@ -1491,7 +1491,7 @@
                      nommé gouverneur du Louvre à la Restauration, né a Saint-Domingue en 1740, mort
                      en 1817</p>
                </trait>
-               <desc xml:id="CAT_000076_e117_d1"><term ana="#document_type_7">L. a. s.</term> à M. de Sainte-James; Paris, 25 mars 1784, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000076_e117_d1"><term ana="#document_type_7">L. a. s.</term> à M. de Sainte-James; Paris, <date when="1784-03-25">25 mars 1784</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Relative à la nomination de M. de Montplaisir comme trésorier de
                   l'Ile-de-France</note>
             </item>
@@ -1501,7 +1501,7 @@
                <trait>
                   <p>illustre guerrier du siècle de Louis XIV</p>
                </trait>
-               <desc xml:id="CAT_000076_e118_d1">Quit. sig. sur vélin, 1696, <measure type="format" unit="f" ana="#document_format_108">in-8 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000076_e118_d1">Quit. sig. sur vélin, <date when="1696">1696</date>, <measure type="format" unit="f" ana="#document_format_108">in-8 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="119" xml:id="CAT_000076_e119">
                <num type="lot">119</num>
@@ -1509,7 +1509,7 @@
                <trait>
                   <p>célèbre peintre d'animaux, le Rosa Bonheur de la Belgique</p>
                </trait>
-               <desc xml:id="CAT_000076_e119_d1"><term ana="#document_type_7">L. a. s.</term> a M. Bossuet; Schaerbeck, 9 déc. 1847, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000076_e119_d1"><term ana="#document_type_7">L. a. s.</term> a M. Bossuet; Schaerbeck, <date when="1847-12-09">9 déc. 1847</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="120" xml:id="CAT_000076_e120">
                <num type="lot">120</num>
@@ -1517,7 +1517,7 @@
                <trait>
                   <p>célèbre amiral hollandais</p>
                </trait>
-               <desc xml:id="CAT_000076_e120_d1"><term ana="#document_type_7">L. a. s.</term> au duc Pasquier, 1836, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachet.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000076_e120_d1"><term ana="#document_type_7">L. a. s.</term> au duc Pasquier, <date when="1836">1836</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachet.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Il regrette que l'état de sa santé ne lui permette pas d'assister aux débats de
                   la Chambre des Pairs, « qui auront, je l'espère, le résultat satisfaisant de
                   fortifier le gouvernement d'un roi qui mérite à un si haut degré tout notre
@@ -1530,7 +1530,7 @@
                   <p>fils naturel de Louis XIV et de la duchesse de la Vallière, amiral de
                      France</p>
                </trait>
-               <desc xml:id="CAT_000076_e121_d1"><term ana="#document_type_4">Pièce sig</term>. sur vélin, 1673, <measure type="format" unit="f" ana="#document_format_101">in-f. obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <desc xml:id="CAT_000076_e121_d1"><term ana="#document_type_4">Pièce sig</term>. sur vélin, <date when="1673">1673</date>, <measure type="format" unit="f" ana="#document_format_101">in-f. obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
             </item>
             <item n="122" xml:id="CAT_000076_e122">
                <num type="lot">122</num>
@@ -1539,7 +1539,7 @@
                   <p>journaliste et littérateur, rédacteur du Père Duchène sous la Commune, né à
                      Lille en 1845, mort à l'hôpital à Londres</p>
                </trait>
-               <desc xml:id="CAT_000076_e122_d1"><term ana="#document_type_7">L. a. s.</term> à M. Vossen, 1869, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000076_e122_d1"><term ana="#document_type_7">L. a. s.</term> à M. Vossen, <date when="1869">1869</date>, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="123" xml:id="CAT_000076_e123">
                <num type="lot">123</num>
@@ -1548,7 +1548,7 @@
                   <p>journaliste républicain, membre de la Commune de Paris, né à Denise (Rhône)
                      mort en 1871 des suites de ses blessures reçues aux barricades</p>
                </trait>
-               <desc xml:id="CAT_000076_e123_d1"><term ana="#document_type_7">L. a. s.</term>, 1868, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_18">in-18.</measure> Jolie lettre.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000076_e123_d1"><term ana="#document_type_7">L. a. s.</term>, <date when="1868">1868</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_18">in-18.</measure> Jolie lettre.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="124" xml:id="CAT_000076_e124">
                <num type="lot">124</num>
@@ -1564,7 +1564,7 @@
                <trait>
                   <p>le célèbre peintre</p>
                </trait>
-               <desc xml:id="CAT_000076_e125_d1"><term ana="#document_type_7">L. a. s.</term> à M. de la Mésangère, 1811, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000076_e125_d1"><term ana="#document_type_7">L. a. s.</term> à M. de la Mésangère, <date when="1811">1811</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="126" xml:id="CAT_000076_e126">
                <num type="lot">126</num>
@@ -1572,7 +1572,7 @@
                <trait>
                   <p>le célèbre écrivain ultramontain, mort récemment</p>
                </trait>
-               <desc xml:id="CAT_000076_e126_d1"><term ana="#document_type_7">L. a. s.</term>; 23 septembre 1858, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Jolie lettre.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000076_e126_d1"><term ana="#document_type_7">L. a. s.</term>; <date when="1858-09-23">23 septembre 1858</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Jolie lettre.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="127" xml:id="CAT_000076_e127">
                <num type="lot">127</num>
@@ -1581,7 +1581,7 @@
                   <p>fille de Louis XV et de Marie Leczinska, née à Versailles en 1733, morte à
                      Trieste en 1799</p>
                </trait>
-               <desc xml:id="CAT_000076_e127_d1"><term ana="#document_type_7">L. a. s.</term> au cardinal de Bernis, 1775, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachet à. ses armes.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000076_e127_d1"><term ana="#document_type_7">L. a. s.</term> au cardinal de Bernis, <date when="1775">1775</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachet à. ses armes.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Jolie lettre où elle exprime le désir de prendre comme dame, auprès d'elle,
                   Mlle Du Puy Montbrun, petite-nièce du cardinal, quand elle aura épousé M. de
                   Bernis</note>
@@ -1592,7 +1592,7 @@
                <trait>
                   <p>roi d'Italie</p>
                </trait>
-               <desc xml:id="CAT_000076_e128_d1"><term ana="#document_type_9">Let. sig.</term>, contresignée par Aziglio, au cardinal Ferretti; Turin, 28 fév. 1851, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure> Sceau.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000076_e128_d1"><term ana="#document_type_9">Let. sig.</term>, contresignée par Aziglio, au cardinal Ferretti; Turin, <date when="1851-02-28">28 fév. 1851</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure> Sceau.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
             <item n="129" xml:id="CAT_000076_e129">
                <num type="lot">129</num>
@@ -1601,7 +1601,7 @@
                   <p>peintre célèbre, le restaurateur de la peinture en France, maître de David, né
                      à Montpellier en 1716, mort en 1809</p>
                </trait>
-               <desc xml:id="CAT_000076_e129_d1"><term ana="#document_type_4">Pièce sig</term>.; Rome, 1779, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_104">in-4 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000076_e129_d1"><term ana="#document_type_4">Pièce sig</term>.; Rome, <date when="1779">1779</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_104">in-4 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="130" xml:id="CAT_000076_e130">
                <num type="lot">130</num>
@@ -1626,7 +1626,7 @@
                   <p>célèbre poète dramatique, auteur de CinqMurs, membre de l'Académie française,
                      né à Loches</p>
                </trait>
-               <desc xml:id="CAT_000076_e132_d1">1° <term ana="#document_type_7">L. a. s.</term> à M. Merle, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure>;</desc><desc xml:id="CAT_000076_e132_d2">2° 14 lettres à lui adressées par divers, 1834-60, <measure type="length" unit="p" n="29">29 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000076_e132_d1">1° <term ana="#document_type_7">L. a. s.</term> à M. Merle, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure>;</desc><desc xml:id="CAT_000076_e132_d2">2° 14 lettres à lui adressées par divers, <date when="1834">1834</date>-60, <measure type="length" unit="p" n="29">29 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Dossier intéressant au point de vue littéraire et pouvant servir à sa
                   biographie</note>
             </item>
@@ -1636,7 +1636,7 @@
                <trait>
                   <p>illustre maréchal de France, né à Moulins en 1653, mort en 1734</p>
                </trait>
-               <desc xml:id="CAT_000076_e133_d1"><term ana="#document_type_9">L. s.</term> au comte de Salians; 16 octobre 1715, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000076_e133_d1"><term ana="#document_type_9">L. s.</term> au comte de Salians; <date when="1715-10-16">16 octobre 1715</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="134" xml:id="CAT_000076_e134">
                <num type="lot">134</num>
@@ -1660,7 +1660,7 @@
                <trait>
                   <p>célèbre chroniqueur, directeur du Figaro, né à Rouen</p>
                </trait>
-               <desc xml:id="CAT_000076_e136_d1"><term ana="#document_type_7">L. a. s.</term>; (1855), <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_18">in-18.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000076_e136_d1"><term ana="#document_type_7">L. a. s.</term>; (<date when="1855">1855</date>), <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_18">in-18.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
                <note>Curieuse lettre. Il demande « aide et protection » et le prie de venir le voir
                   au sujet d'une affaire désagréable</note>
             </item>
@@ -1680,7 +1680,7 @@
                      retour de Napoléon de l'île d'Elbe, il s'honora en restant le dernier à son
                      poste, né à Rupp (Vosges) en 1734, mort en 1827</p>
                </trait>
-               <desc xml:id="CAT_000076_e138_d1"><term ana="#document_type_7">L. a. s.</term> au vicomte de Tabarrier, 1816, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000076_e138_d1"><term ana="#document_type_7">L. a. s.</term> au vicomte de Tabarrier, <date when="1816">1816</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Curieuse lettre sur sa nomination comme maréchal de France</note>
             </item>
             <item n="139" xml:id="CAT_000076_e139">
@@ -1689,7 +1689,7 @@
                <trait>
                   <p>le grand violoniste</p>
                </trait>
-               <desc xml:id="CAT_000076_e139_d1"><term ana="#document_type_7">L. a. s.</term>, 1821, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <desc xml:id="CAT_000076_e139_d1"><term ana="#document_type_7">L. a. s.</term>, <date when="1821">1821</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
             </item>
             <item n="140" xml:id="CAT_000076_e140">
                <num type="lot">140</num>
@@ -1714,7 +1714,7 @@
                   <p>roi de Pologne, fils et successeur de Sigismond III, époux de Marie de
                      Gonzague</p>
                </trait>
-               <desc xml:id="CAT_000076_e142_d1"><term ana="#document_type_9">Let. sig.</term> avec la souscript. aut., en italien, à l'Electrice de Bavière; Vilna, 20 janvier 1644, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Très-beau sceau.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000076_e142_d1"><term ana="#document_type_9">Let. sig.</term> avec la souscript. aut., en italien, à l'Electrice de Bavière; Vilna, <date when="1644-01-20">20 janvier 1644</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Très-beau sceau.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
             <item n="143" xml:id="CAT_000076_e143">
                <num type="lot">143</num>
@@ -1723,7 +1723,7 @@
                   <p>poète aussi spirituel que fécond, le type des épicuriens du siècle de Louis XV,
                      de l'Acad. fr.</p>
                </trait>
-               <desc xml:id="CAT_000076_e143_d1"><term ana="#document_type_7">L. a. s.</term> ; Voisenon, 1727, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000076_e143_d1"><term ana="#document_type_7">L. a. s.</term> ; Voisenon, <date when="1727">1727</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Jole lettre où il parle du plan de la seigneurie de Montereau</note>
             </item>
             <item n="144" xml:id="CAT_000076_e144">
@@ -1733,7 +1733,7 @@
                   <p>chancelier de France, protégé par Mme de Maintenon, rédacteur du testament de
                      Louis XIV, né en 1655, mort en 1717</p>
                </trait>
-               <desc xml:id="CAT_000076_e144_d1"><term ana="#document_type_9">Let. sig.</term> au duc de Bourbon; Marly, 4 août 1709, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000076_e144_d1"><term ana="#document_type_9">Let. sig.</term> au duc de Bourbon; Marly, <date when="1709-08-04">4 août 1709</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Superbe lettre où il annonce au duc que le roi l'autorise à prendre le
                   commandement des milices si la région du Haut-Rhône est envahie par la Savoie et
                   la Bresse. Le roi approuve également les ordres donnés à M. de Chouin; il peut
@@ -1746,7 +1746,7 @@
                <trait>
                   <p>littérateur et poète, traducteur d'Horace, né en 1770, mort en 1821</p>
                </trait>
-               <desc xml:id="CAT_000076_e145_d1"><term ana="#document_type_7">L. a. s.</term> à M. de L. a. Garde ; an XII, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000076_e145_d1"><term ana="#document_type_7">L. a. s.</term> à M. de L. a. Garde ; an <date date="1803-1804" type="length">XII</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="146" xml:id="CAT_000076_e146">
                <num type="lot">146</num>
@@ -1764,7 +1764,7 @@
                      au traité de Paris et au congrès de Vienne, ami de Metternich, né en 1773, mort
                      en 1858</p>
                </trait>
-               <desc xml:id="CAT_000076_e147_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à la duchesse de Devonshire; Harwich, 10 mars 1814, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000076_e147_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à la duchesse de Devonshire; Harwich, <date when="1814-03-10">10 mars 1814</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Belle lettre par laquelle il lui annonce son départ d'Angleterre, où il
                   séjournait depuis 1813</note>
             </item>
@@ -1784,7 +1784,7 @@
                      avoir servi Bernard de Saxe-Weimar, il fut résident du landgrave de
                      Hesse-Cassel en Hollande</p>
                </trait>
-               <desc xml:id="CAT_000076_e149_d1"><term ana="#document_type_7">L. a. s.</term>, en français, au cardinal de Richelieu, 3 septembre 1637, <measure type="length" unit="p" n="1.25">1 p. 1/4</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure>, cachets.</desc><measure commodity="currency" unit="FRF" quantity="25">25</measure>
+               <desc xml:id="CAT_000076_e149_d1"><term ana="#document_type_7">L. a. s.</term>, en français, au cardinal de Richelieu, <date when="1637-09-03">3 septembre 1637</date>, <measure type="length" unit="p" n="1.25">1 p. 1/4</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure>, cachets.</desc><measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note>Importante lettre. Lui et son frère Abraham ont avancé 10,000 écus au maréchal
                   de Brézé, en Hollande, et 2,000 ecus au colonel Wardembourg; il a ramené à ses
                   frais 600 hommes du régiment de Rantzau en France. li demande qu'on lui rembourse
@@ -1800,7 +1800,7 @@
                <trait>
                   <p>illustre littérateur, le Voltaire allemand</p>
                </trait>
-               <desc xml:id="CAT_000076_e150_d1"><term ana="#document_type_7">L. a. s.</term> à M. Wilmans, à Francfort; 1802, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachet. Belle lettre.</desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <desc xml:id="CAT_000076_e150_d1"><term ana="#document_type_7">L. a. s.</term> à M. Wilmans, à Francfort; <date when="1802">1802</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachet. Belle lettre.</desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
             </item>
             <item n="151" xml:id="CAT_000076_e151">
                <num type="lot">151</num>
@@ -1808,7 +1808,7 @@
                <trait>
                   <p>célèbre philosophe allemand, disciple de Leibnitz, né en 1679, mort en 1754</p>
                </trait>
-               <desc xml:id="CAT_000076_e151_d1"><term ana="#document_type_7">L. a. s.</term> en latin; Halle, 20 mars 1751, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <desc xml:id="CAT_000076_e151_d1"><term ana="#document_type_7">L. a. s.</term> en latin; Halle, <date when="1751-03-20">20 mars 1751</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
                <note>Sur un ouvrage qu'on vient de lui adresser; quoiqu'il s'adonne surtout à la
                   philosophie, il a aussi du goût pour les travaux littéraires</note>
             </item>
@@ -1819,7 +1819,7 @@
                   <p>comte de Hardwicke, diplomate et homme politique, ambassadeur de la Grande
                      Bretagne en Hollande, fils de l'auteur des Athenian letters</p>
                </trait>
-               <desc xml:id="CAT_000076_e152_d1"><term ana="#document_type_7">L. a. s.</term>, en français (au secrétaire de l'Amirauté d'Amsterdam); L. a. Haye, 20 octobre 1774, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> curieuse.</desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <desc xml:id="CAT_000076_e152_d1"><term ana="#document_type_7">L. a. s.</term>, en français (au secrétaire de l'Amirauté d'Amsterdam); L. a. Haye, <date when="1774-10-20">20 octobre 1774</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> curieuse.</desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
             </item>
             <item n="153" xml:id="CAT_000076_e153">
                <num type="lot">153</num>
@@ -1843,7 +1843,7 @@
                <trait>
                   <p>célèbre général polonais</p>
                </trait>
-               <desc xml:id="CAT_000076_e155_d1"><term ana="#document_type_4">Pièce sig</term>. en français avec 1 lig. aut.; an VI, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure> Curieuse. Rare.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000076_e155_d1"><term ana="#document_type_4">Pièce sig</term>. en français avec <date date="none" type="length">1 lig. aut.; an VI</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure> Curieuse. Rare.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="156" xml:id="CAT_000076_e156">
                <num type="lot">156</num>
@@ -1851,14 +1851,14 @@
                <trait>
                   <p>le célèbre romancier réaliste</p>
                </trait>
-               <desc xml:id="CAT_000076_e156_d1"><term ana="#document_type_7">L. a. s.</term> à M. de Calonne, 11 décembre 1865, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <desc xml:id="CAT_000076_e156_d1"><term ana="#document_type_7">L. a. s.</term> à M. de Calonne, <date when="1865-12-11">11 décembre 1865</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
                <note>Relative à son article sur Taine qui doit passer dans la Revue
                   contemporaine</note>
             </item>
             <item n="157" xml:id="CAT_000076_e157">
                <num type="lot">157</num>
                <name type="author">Zola (Emile)</name>
-               <desc xml:id="CAT_000076_e157_d1"><term ana="#document_type_7">L. a. s.</term> (à M. de Calonne, directeur de la Revue contemporaine); Paris, 12 déc. 1865, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <desc xml:id="CAT_000076_e157_d1"><term ana="#document_type_7">L. a. s.</term> (à M. de Calonne, directeur de la Revue contemporaine); Paris, <date when="1865-12-12">12 déc. 1865</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
                <note>Curieuse lettre. Il lui recommande son roman la Confession de Claude. « Vous me
                   ferez le plus grand plaisir en lui consacrant quelques lignes dans votre
                   chronique.</note>

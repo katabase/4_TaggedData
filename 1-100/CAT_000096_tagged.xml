@@ -220,31 +220,31 @@
             <item n="27" xml:id="CAT_000096_e27">
                <num type="lot">27.</num>
                <name>ARNAULD (Antoine).</name>
-               <desc xml:id="CAT_000096_e27_d1">3 septembre 1636; <term ana="#document_type_15">aut. sig.</term> – <measure type="length" unit="p" n="3">3 pag.</measure> – A monseigneur le maréchal de Brézé. (Belle lettre avec deux cachets.)</desc></item>
+               <desc xml:id="CAT_000096_e27_d1"><date when="1636-09-03">3 septembre 1636</date>; <term ana="#document_type_15">aut. sig.</term> – <measure type="length" unit="p" n="3">3 pag.</measure> – A monseigneur le maréchal de Brézé. (Belle lettre avec deux cachets.)</desc></item>
             <item n="28" xml:id="CAT_000096_e28">
                <num type="lot">28.</num>
                <name>ARNAULD D'ANDILLY</name>
-               <desc xml:id="CAT_000096_e28_d1">Paris, 12 juillet 1636; <term ana="#document_type_15">aut. sig.</term> – <measure type="length" unit="p" n="1">1 pag.</measure> – A M. le maréchal de Brézé.</desc></item>
+               <desc xml:id="CAT_000096_e28_d1">Paris, <date when="1636-07-12">12 juillet 1636</date>; <term ana="#document_type_15">aut. sig.</term> – <measure type="length" unit="p" n="1">1 pag.</measure> – A M. le maréchal de Brézé.</desc></item>
             <item n="56" xml:id="CAT_000096_e56">
                <num type="lot">56.</num>
                <name>BAYLE.</name>
-               <desc xml:id="CAT_000096_e56_d1">20 mai 1697; aut. – <measure type="length" unit="p" n="4">4 pag.</measure> – AM. Janniçon. (Très-curieuse.)</desc></item>
+               <desc xml:id="CAT_000096_e56_d1"><date when="1697-05-20">20 mai 1697</date>; aut. – <measure type="length" unit="p" n="4">4 pag.</measure> – AM. Janniçon. (Très-curieuse.)</desc></item>
             <item n="101" xml:id="CAT_000096_e101">
                <num type="lot">101.</num>
                <name>BOILEAU (Nicolas).</name>
-               <desc xml:id="CAT_000096_e101_d1">Paris, 25 septembre 1705; <term ana="#document_type_15">aut. sig.</term> – 1 pièces de 7 lignes, sur parchemin. (Rare)</desc></item>
+               <desc xml:id="CAT_000096_e101_d1">Paris, <date when="1705-09-25">25 septembre 1705</date>; <term ana="#document_type_15">aut. sig.</term> – 1 pièces de 7 lignes, sur parchemin. (Rare)</desc></item>
             <item n="116" xml:id="CAT_000096_e116">
                <num type="lot">116.</num>
                <name>BOSSUET.</name>
-               <desc xml:id="CAT_000096_e116_d1">Meaux, 19 mars 1692; <term ana="#document_type_15">aut. sig.</term> – 6 pages-– A M. Gerbais, docteur en Sorbonne. (Très-belle lettre avec cachet.)</desc></item>
+               <desc xml:id="CAT_000096_e116_d1">Meaux, <date when="1692-03-19">19 mars 1692</date>; <term ana="#document_type_15">aut. sig.</term> – 6 pages-– A M. Gerbais, docteur en Sorbonne. (Très-belle lettre avec cachet.)</desc></item>
             <item n="117" xml:id="CAT_000096_e117">
                <num type="lot">117.</num>
                <name>BOUHOURS.</name>
-               <desc xml:id="CAT_000096_e117_d1">8 janv. 1667; <term ana="#document_type_15">aut. sig.</term> – 2 pages. – A Mlle de Scudéry.</desc></item>
+               <desc xml:id="CAT_000096_e117_d1"><date when="1667-01-08">8 janv. 1667</date>; <term ana="#document_type_15">aut. sig.</term> – 2 pages. – A Mlle de Scudéry.</desc></item>
             <item n="144" xml:id="CAT_000096_e144">
                <num type="lot">144.</num>
                <name>BUSSY RABUTIN.</name>
-               <desc xml:id="CAT_000096_e144_d1">A Bussy, 8 août 1677; <term ana="#document_type_15">aut. sig.</term> – 2 pag.</desc></item>
+               <desc xml:id="CAT_000096_e144_d1">A Bussy, <date when="1677-08-08">8 août 1677</date>; <term ana="#document_type_15">aut. sig.</term> – 2 pag.</desc></item>
             <item n="246" xml:id="CAT_000096_e246">
                <num type="lot">246.</num>
                <name>CORBINELLI.</name>
@@ -252,7 +252,7 @@
             <item n="249" xml:id="CAT_000096_e249">
                <num type="lot">249.</num>
                <name>COULANGES (l'abbé de)</name>
-               <desc xml:id="CAT_000096_e249_d1">Rome, 20 juillet 1691; <term ana="#document_type_15">aut. sig.</term> – <measure type="length" unit="p" n="7">7 pag.</measure> – A M. de Lamoignon, avocat-général. (Très-curieuse.)</desc></item>
+               <desc xml:id="CAT_000096_e249_d1">Rome, <date when="1691-07-20">20 juillet 1691</date>; <term ana="#document_type_15">aut. sig.</term> – <measure type="length" unit="p" n="7">7 pag.</measure> – A M. de Lamoignon, avocat-général. (Très-curieuse.)</desc></item>
             <item n="363" xml:id="CAT_000096_e363">
                <num type="lot">363.</num>
                <name>EVREMOND (de St.-)</name>
@@ -277,7 +277,7 @@
                <trait>
                   <p>académicien.</p>
                </trait>
-               <desc xml:id="CAT_000096_e384_d1">5 mars 1709; aut. – <measure type="length" unit="p" n="3">3 pag.</measure> – A Mme la marquise de Lambert. (Rare).</desc></item>
+               <desc xml:id="CAT_000096_e384_d1"><date when="1709-03-05">5 mars 1709</date>; aut. – <measure type="length" unit="p" n="3">3 pag.</measure> – A Mme la marquise de Lambert. (Rare).</desc></item>
             <item n="427" xml:id="CAT_000096_e427">
                <num type="lot">427.</num>
                <name>GRIGNAN (Comtesse de).</name>
@@ -285,23 +285,23 @@
             <item n="428" xml:id="CAT_000096_e428">
                <num type="lot">428.</num>
                <name>GRIGNAN (de) (Julie-Françoise-Adhemar de Monteil, marquise de Vibraie).</name>
-               <desc xml:id="CAT_000096_e428_d1">Paris, 10 juillet 1705; sig. – 1 pag.. – Sur parchemin.</desc></item>
+               <desc xml:id="CAT_000096_e428_d1">Paris, <date when="1705-07-10">10 juillet 1705</date>; sig. – 1 pag.. – Sur parchemin.</desc></item>
             <item n="429" xml:id="CAT_000096_e429">
                <num type="lot">429.</num>
                <name>GRIGNAN (de), abbé.</name>
-               <desc xml:id="CAT_000096_e429_d1">Saint-Germain, 5 août 1675; <term ana="#document_type_15">aut. sig.</term> – 2 pag.</desc></item>
+               <desc xml:id="CAT_000096_e429_d1">Saint-Germain, <date when="1675-08-05">5 août 1675</date>; <term ana="#document_type_15">aut. sig.</term> – 2 pag.</desc></item>
             <item n="430" xml:id="CAT_000096_e430">
                <num type="lot">430.</num>
                <name>GRIGNAN, évêque d'Uzès.</name>
-               <desc xml:id="CAT_000096_e430_d1">13 juillet 1660; <term ana="#document_type_15">aut. sig.</term> – <measure type="length" unit="p" n="3">3 pag.</measure> – A M. le révérend Père Blancheur, à Paris. (Deux cachets.)</desc></item>
+               <desc xml:id="CAT_000096_e430_d1"><date when="1660-07-13">13 juillet 1660</date>; <term ana="#document_type_15">aut. sig.</term> – <measure type="length" unit="p" n="3">3 pag.</measure> – A M. le révérend Père Blancheur, à Paris. (Deux cachets.)</desc></item>
             <item n="431" xml:id="CAT_000096_e431">
                <num type="lot">431.</num>
                <name>GRIGNAN (de) (Catherine-Louise-Adhemar de Monteil).</name>
-               <desc xml:id="CAT_000096_e431_d1">Paris, 22 septembre 1711; sig. – <measure type="length" unit="p" n="1">1 pag.</measure> – Sur parchemin.</desc></item>
+               <desc xml:id="CAT_000096_e431_d1">Paris, <date when="1711-09-22">22 septembre 1711</date>; sig. – <measure type="length" unit="p" n="1">1 pag.</measure> – Sur parchemin.</desc></item>
             <item n="432" xml:id="CAT_000096_e432">
                <num type="lot">432.</num>
                <name>GRIGNAN (chevalier de).</name>
-               <desc xml:id="CAT_000096_e432_d1">Grignan, 28 juin 1703; <term ana="#document_type_15">aut. sig.</term>, – <measure type="length" unit="p" n="2">2 pag.</measure> – A M. de Lamoignon.</desc></item>
+               <desc xml:id="CAT_000096_e432_d1">Grignan, <date when="1703-06-28">28 juin 1703</date>; <term ana="#document_type_15">aut. sig.</term>, – <measure type="length" unit="p" n="2">2 pag.</measure> – A M. de Lamoignon.</desc></item>
             <item n="495" xml:id="CAT_000096_e495">
                <num type="lot">495.</num>
                <name>LA FONTAINE (Jean de).</name>
@@ -321,7 +321,7 @@
             <item n="496" xml:id="CAT_000096_e496">
                <num type="lot">496.</num>
                <name>Le même.</name>
-               <desc xml:id="CAT_000096_e496_d1">A Rheims, 1er septembre 1646; <term ana="#document_type_15">aut. sig.</term> – <measure type="length" unit="p" n="2">2 pag.</measure> – A M. Bafoy, intendant des affaires de son altesse monseigneur le duc de Bouillon, à Paris. Cette lettre a été vendue 400 f. à la vente de Mme la comtesse de Castellane.</desc></item>
+               <desc xml:id="CAT_000096_e496_d1">A Rheims, <date when="1646-09-01">1er septembre 1646</date>; <term ana="#document_type_15">aut. sig.</term> – <measure type="length" unit="p" n="2">2 pag.</measure> – A M. Bafoy, intendant des affaires de son altesse monseigneur le duc de Bouillon, à Paris. Cette lettre a été vendue 400 f. à la vente de Mme la comtesse de Castellane.</desc></item>
             <item n="525" xml:id="CAT_000096_e525">
                <num type="lot">525.</num>
                <name>LAROCHEFOUCAULT</name>
@@ -335,7 +335,7 @@
                <trait>
                   <p>de la congrégation de St-Maur.</p>
                </trait>
-               <desc xml:id="CAT_000096_e603_d1">Moyen-Moutier, 3 octobre 1696; <term ana="#document_type_15">aut. sig.</term> – <measure type="length" unit="p" n="4">4 pag.</measure> – Relation d'un voyage bibliographique.</desc></item>
+               <desc xml:id="CAT_000096_e603_d1">Moyen-Moutier, <date when="1696-10-03">3 octobre 1696</date>; <term ana="#document_type_15">aut. sig.</term> – <measure type="length" unit="p" n="4">4 pag.</measure> – Relation d'un voyage bibliographique.</desc></item>
             <item n="614" xml:id="CAT_000096_e614">
                <num type="lot">614.</num>
                <name>MALHERBE (François de)</name>
@@ -368,7 +368,7 @@
                <trait>
                   <p>grammairien.</p>
                </trait>
-               <desc xml:id="CAT_000096_e657_d1">Paris, 1er août 1662; <term ana="#document_type_15">aut. sig.</term> – <measure type="length" unit="p" n="3">3 pag.</measure> – (Rare.)</desc></item>
+               <desc xml:id="CAT_000096_e657_d1">Paris, <date when="1662-08-01">1er août 1662</date>; <term ana="#document_type_15">aut. sig.</term> – <measure type="length" unit="p" n="3">3 pag.</measure> – (Rare.)</desc></item>
             <item n="746" xml:id="CAT_000096_e746">
                <num type="lot">746.</num>
                <name>PELISSON FONTANIER (Paul)</name>
@@ -380,14 +380,14 @@
                <trait>
                   <p>de l'Académie française.</p>
                </trait>
-               <desc xml:id="CAT_000096_e750_d1">Paris, 1er décembre 1666; <term ana="#document_type_15">aut. sig.</term> – 1 pag.</desc></item>
+               <desc xml:id="CAT_000096_e750_d1">Paris, <date when="1666-12-01">1er décembre 1666</date>; <term ana="#document_type_15">aut. sig.</term> – 1 pag.</desc></item>
             <item n="767" xml:id="CAT_000096_e767">
                <num type="lot">767.</num>
                <name>POMPONE (Simon-Arnauld, marquis de)</name>
                <trait>
                   <p>ministre d'État.</p>
                </trait>
-               <desc xml:id="CAT_000096_e767_d1">Stockholm, ce 26 juillet 1667; aut. – <measure type="length" unit="p" n="2">2 pag.</measure> – A M. d'Andilly, à Pompone. (Rare.)</desc></item>
+               <desc xml:id="CAT_000096_e767_d1">Stockholm, <date when="1667">ce 26 juillet 1667</date>; aut. – <measure type="length" unit="p" n="2">2 pag.</measure> – A M. d'Andilly, à Pompone. (Rare.)</desc></item>
             <item n="782" xml:id="CAT_000096_e782">
                <num type="lot">782.</num>
                <name>QUINAULT (Philippe)</name>
@@ -396,14 +396,14 @@
                      de l'Académie française et de celle des inscriptions
                      et des belles-lettres.</p>
                </trait>
-               <desc xml:id="CAT_000096_e782_d1">26 septembre 1678; sig. – Pièce sur parchemin.</desc></item>
+               <desc xml:id="CAT_000096_e782_d1"><date when="1678-09-26">26 septembre 1678</date>; sig. – Pièce sur parchemin.</desc></item>
             <item n="790" xml:id="CAT_000096_e790">
                <num type="lot">790.</num>
                <name>RANCÉ (Armand-Jean de Bouthillier)</name>
                <trait>
                   <p>célèbre réformateur de la Trappe.</p>
                </trait>
-               <desc xml:id="CAT_000096_e790_d1"><term ana="#document_type_8">L. a.</term> Trappe, 29 juillet 1691; aut. sig., … <measure type="length" unit="p" n="1">1 pag.</measure> (Lettre affectueuse. Rare.)</desc></item>
+               <desc xml:id="CAT_000096_e790_d1"><term ana="#document_type_8">L. a.</term> Trappe, <date when="1691-07-29">29 juillet 1691</date>; aut. sig., … <measure type="length" unit="p" n="1">1 pag.</measure> (Lettre affectueuse. Rare.)</desc></item>
             <item n="791" xml:id="CAT_000096_e791">
                <num type="lot">791.</num>
                <name>RAPIN (René)</name>
@@ -421,7 +421,7 @@
                <trait>
                   <p>célèbre grammairien.</p>
                </trait>
-               <desc xml:id="CAT_000096_e817_d1">Paris, 3 septembre 1693; sig. – Pièce sur parchemin.</desc></item>
+               <desc xml:id="CAT_000096_e817_d1">Paris, <date when="1693-09-03">3 septembre 1693</date>; sig. – Pièce sur parchemin.</desc></item>
             <item n="863" xml:id="CAT_000096_e863">
                <num type="lot">863.</num>
                <name>SAINT-VINCENT DE PAUL.</name>
@@ -433,14 +433,14 @@
                <trait>
                   <p>modèle inimitable dans le genre épistolaire.</p>
                </trait>
-               <desc xml:id="CAT_000096_e887_d1">11 septembre 1684; aut. – <measure type="length" unit="p" n="3">3 pag.</measure> – A Mlle de Scudéry (très-rare)</desc></item>
+               <desc xml:id="CAT_000096_e887_d1"><date when="1684-09-11">11 septembre 1684</date>; aut. – <measure type="length" unit="p" n="3">3 pag.</measure> – A Mlle de Scudéry (très-rare)</desc></item>
             <item n="888" xml:id="CAT_000096_e888">
                <num type="lot">888</num>
                <name>SEVIGNÉ (Charles, marquis de)</name>
                <trait>
                   <p>fils de la précédente.</p>
                </trait>
-               <desc xml:id="CAT_000096_e888_d1">Aux Rochers, le 6 janvier 1690; <term ana="#document_type_15">aut. sig.</term> – A M. Branjon. (Rare.)</desc></item>
+               <desc xml:id="CAT_000096_e888_d1">Aux Rochers, <date when="1690-01-06">le 6 janvier 1690</date>; <term ana="#document_type_15">aut. sig.</term> – A M. Branjon. (Rare.)</desc></item>
             <gap/>
          </list>
       </body>

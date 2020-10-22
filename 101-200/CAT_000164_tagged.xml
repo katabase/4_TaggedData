@@ -224,7 +224,7 @@
                   <p>médecin, bibliothécaire de
 						Montpellier.</p>
                </trait>
-               <desc xml:id="CAT_000164_e3_d1"><term ana="#document_type_7">L. a. s.</term> à son cousin l'ingénieur Delisle ; Montpellier, 15 ventôse an IX, <measure type="length" unit="p" n="4">4 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle pièce.</desc></item>
+               <desc xml:id="CAT_000164_e3_d1"><term ana="#document_type_7">L. a. s.</term> à son cousin l'ingénieur Delisle ; Montpellier, <date date="1801-03-06" type="length">15 ventôse an IX</date>, <measure type="length" unit="p" n="4">4 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle pièce.</desc></item>
             <item n="4" xml:id="CAT_000164_e4">
                <num>4</num>
                <name type="author">Ampère (André-Marie),</name>
@@ -233,7 +233,7 @@
 						illustres de ce siècle, auquel on doit le télégraphe
 					électrique.</p>
                </trait>
-               <desc xml:id="CAT_000164_e4_d1"><term ana="#document_type_7">L. a. s.</term> au savant Gergonne; Paris, 1er déc. 1825, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Intéressante lettre sur la solution d'un
+               <desc xml:id="CAT_000164_e4_d1"><term ana="#document_type_7">L. a. s.</term> au savant Gergonne; Paris, <date when="1825-12-01">1er déc. 1825</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Intéressante lettre sur la solution d'un
 						problème.</note>
             </item>
             <item n="5" xml:id="CAT_000164_e5">
@@ -242,7 +242,7 @@
                <trait>
                   <p>le grand astronome.</p>
                </trait>
-               <desc xml:id="CAT_000164_e5_d1"><term ana="#document_type_7">L. a. s.</term> à Poncelet; (1825), <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Il lui
+               <desc xml:id="CAT_000164_e5_d1"><term ana="#document_type_7">L. a. s.</term> à Poncelet; (<date when="1825">1825</date>), <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Il lui
 						annonce que l'Académie des sciences vient de lui décerner son prix annuel de
 						mécanique pour son Mémoire sur les roues hydrauliques.</note>
             </item>
@@ -273,7 +273,7 @@
                   <p>célèbre botaniste anglais, compagnon
 						du capitaine Cook.</p>
                </trait>
-               <desc xml:id="CAT_000164_e9_d1"><term ana="#document_type_7">L. a. s.</term> à L. a. Billardière; 9 juin 1796, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Très belle et très intéressante
+               <desc xml:id="CAT_000164_e9_d1"><term ana="#document_type_7">L. a. s.</term> à L. a. Billardière; <date when="1796-06-09">9 juin 1796</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Très belle et très intéressante
 					lettre.</note>
             </item>
             <item n="10" xml:id="CAT_000164_e10">
@@ -291,7 +291,7 @@
                   <p>célèbre conventionnel et
 						directeur.</p>
                </trait>
-               <desc xml:id="CAT_000164_e11_d1">1° Certificat de 5 lignes <term ana="#document_type_15">aut. sig.</term> au bas d'une pièce, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><desc xml:id="CAT_000164_e11_d2">2° P. <term ana="#document_type_15">a. s.</term> ; 1822, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc></item>
+               <desc xml:id="CAT_000164_e11_d1">1° Certificat de 5 lignes <term ana="#document_type_15">aut. sig.</term> au bas d'une pièce, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><desc xml:id="CAT_000164_e11_d2">2° P. <term ana="#document_type_15">a. s.</term> ; <date when="1822">1822</date>, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc></item>
             <item n="12" xml:id="CAT_000164_e12">
                <num>12</num>
                <name type="author">Baumé (Antoine),</name>
@@ -299,7 +299,7 @@
                   <p>pharmacien et chimiste, de l'Acad.
 						des Sciences.</p>
                </trait>
-               <desc xml:id="CAT_000164_e12_d1"><term ana="#document_type_7">L. a. s.</term> au cit. Agasse; les Carrières-Charenton, 29 juin 1797, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Relative à l'impression d'un de ses
+               <desc xml:id="CAT_000164_e12_d1"><term ana="#document_type_7">L. a. s.</term> au cit. Agasse; les Carrières-Charenton, <date when="1797-06-29">29 juin 1797</date>, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Relative à l'impression d'un de ses
 						ouvrages.</note>
             </item>
             <item n="13" xml:id="CAT_000164_e13">
@@ -309,7 +309,7 @@
                   <p>célèbre peintre de
 					batailles.</p>
                </trait>
-               <desc xml:id="CAT_000164_e13_d1"><term ana="#document_type_7">L. a. s.</term> à M. Davin; Rouen, 16 janv. 1839, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure>, cachet.</desc><note>Il annonce qu'il est sur le point de terminer
+               <desc xml:id="CAT_000164_e13_d1"><term ana="#document_type_7">L. a. s.</term> à M. Davin; Rouen, <date when="1839-01-16">16 janv. 1839</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure>, cachet.</desc><note>Il annonce qu'il est sur le point de terminer
 						son tableau représentant la Bataille d'Altenhirchen.</note>
             </item>
             <item n="14" xml:id="CAT_000164_e14">
@@ -319,7 +319,7 @@
                   <p>célèbre médecin et
 						botaniste italien.</p>
                </trait>
-               <desc xml:id="CAT_000164_e14_d1"><term ana="#document_type_7">L. a. s.</term> à L. a. Billardière; 1er mai (1826), <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc></item>
+               <desc xml:id="CAT_000164_e14_d1"><term ana="#document_type_7">L. a. s.</term> à L. a. Billardière; 1er mai (<date when="1826">1826</date>), <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc></item>
             <item n="15" xml:id="CAT_000164_e15">
                <num>15</num>
                <name type="author">Bernard (Samuel),</name>
@@ -327,7 +327,7 @@
                   <p>le célèbre financier du règne de
 						Louis XIV.</p>
                </trait>
-               <desc xml:id="CAT_000164_e15_d1"><term ana="#document_type_9">L. s.</term> ; Paris, 22 fév. 1709, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle pièce.</desc></item>
+               <desc xml:id="CAT_000164_e15_d1"><term ana="#document_type_9">L. s.</term> ; Paris, <date when="1709-02-22">22 fév. 1709</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle pièce.</desc></item>
             <item n="16" xml:id="CAT_000164_e16">
                <num>16</num>
                <name type="author">Berzelius (J.),</name>
@@ -335,7 +335,7 @@
                   <p>le grand chimiste
 					suédois.</p>
                </trait>
-               <desc xml:id="CAT_000164_e16_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à Pelouze; Stockholm, 20 août 1839, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Très belle lettre, toute
+               <desc xml:id="CAT_000164_e16_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à Pelouze; Stockholm, <date when="1839-08-20">20 août 1839</date>, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Très belle lettre, toute
 					scientifique.</note>
             </item>
             <item n="17" xml:id="CAT_000164_e17">
@@ -345,7 +345,7 @@
                   <p>joaillier, qui vendit au cardinal
 						de Rohan le fameux collier de la Reine.</p>
                </trait>
-               <desc xml:id="CAT_000164_e17_d1"><term ana="#document_type_7">L. a. s.</term>; Paris, 31 mai 1786, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><note>Belle
+               <desc xml:id="CAT_000164_e17_d1"><term ana="#document_type_7">L. a. s.</term>; Paris, <date when="1786-05-31">31 mai 1786</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><note>Belle
 						lettre où il sollicite du Roi la jouissance d'un logement.</note>
             </item>
             <item n="18" xml:id="CAT_000164_e18">
@@ -355,7 +355,7 @@
                   <p>diplomate,
 						maréchal de camp, puis évêque d'Amiens sous la Restauration.</p>
                </trait>
-               <desc xml:id="CAT_000164_e18_d1"><term ana="#document_type_7">L. a. s.</term>; Saint-Mars de la Jaille, 21 sept. 1786, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Relative à la mort de M. d'Harvelay, son
+               <desc xml:id="CAT_000164_e18_d1"><term ana="#document_type_7">L. a. s.</term>; Saint-Mars de la Jaille, <date when="1786-09-21">21 sept. 1786</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Relative à la mort de M. d'Harvelay, son
 						bienfaiteur.</note>
             </item>
             <item n="19" xml:id="CAT_000164_e19">
@@ -365,7 +365,7 @@
                   <p>célèbre naturaliste et philosophe
 						genevois.</p>
                </trait>
-               <desc xml:id="CAT_000164_e19_d1"><term ana="#document_type_7">L. a. s.</term> (à Malesherbes) ; Genève, 27 juillet 1761, <measure type="length" unit="p" n="2.75">2 p. 3/4</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Importante lettre où il demande qu'on laisse
+               <desc xml:id="CAT_000164_e19_d1"><term ana="#document_type_7">L. a. s.</term> (à Malesherbes) ; Genève, <date when="1761-07-27">27 juillet 1761</date>, <measure type="length" unit="p" n="2.75">2 p. 3/4</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Importante lettre où il demande qu'on laisse
 						pénétrer en France son Essai analytique des facultés de l'âme. Curieux
 						détails.</note>
             </item>
@@ -386,7 +386,7 @@
                   <p>peintre, auteur des Funérailles
 						de Marceau.</p>
                </trait>
-               <desc xml:id="CAT_000164_e22_d1"><term ana="#document_type_7">L. a. s.</term>; Vaux, 13 déc. 1836, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Relative à
+               <desc xml:id="CAT_000164_e22_d1"><term ana="#document_type_7">L. a. s.</term>; Vaux, <date when="1836-12-13">13 déc. 1836</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Relative à
 						un de ses tableaux.</note>
             </item>
             <item n="23" xml:id="CAT_000164_e23">
@@ -397,7 +397,7 @@
 						ministre de Louis XVI, qui s'occupa spécialement de l'affaire du
 						Collier.</p>
                </trait>
-               <desc xml:id="CAT_000164_e23_d1">2 l. <term ana="#document_type_15">a. s.</term> à son frère; Vienne, 10 juillet et 13 août 1776, <measure type="length" unit="p" n="5.5">5 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Très belles lettres. Détails de
+               <desc xml:id="CAT_000164_e23_d1">2 l. <term ana="#document_type_15">a. s.</term> à son frère; Vienne, <date when="1776">10 juillet et 13 août 1776</date>, <measure type="length" unit="p" n="5.5">5 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Très belles lettres. Détails de
 					famille.</note>
             </item>
             <item n="24" xml:id="CAT_000164_e24">
@@ -415,7 +415,7 @@
                   <p>botaniste et poète
 						suisse.</p>
                </trait>
-               <desc xml:id="CAT_000164_e25_d1"><term ana="#document_type_7">L. a. s.</term> à L. a. Billardière ; Gotha, 9 sept. 1798, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Lettre scientifique.</note>
+               <desc xml:id="CAT_000164_e25_d1"><term ana="#document_type_7">L. a. s.</term> à L. a. Billardière ; Gotha, <date when="1798-09-09">9 sept. 1798</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Lettre scientifique.</note>
             </item>
             <item n="26" xml:id="CAT_000164_e26">
                <num>26</num>
@@ -424,7 +424,7 @@
                   <p>médecin, naturaliste et
 						botaniste.</p>
                </trait>
-               <desc xml:id="CAT_000164_e26_d1"><term ana="#document_type_7">L. a. s.</term>; Paris, 26 vendém. an IX, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Déchirure.</desc><note>Envoi d'un compte rendu de ses travaux
+               <desc xml:id="CAT_000164_e26_d1"><term ana="#document_type_7">L. a. s.</term>; Paris, <date date="1800-10-18" type="length">26 vendém. an IX</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Déchirure.</desc><note>Envoi d'un compte rendu de ses travaux
 						botaniques.</note>
             </item>
             <item n="27" xml:id="CAT_000164_e27">
@@ -434,7 +434,7 @@
                   <p>fils du grand
 						naturaliste, décapité en 1793, à l'âge de 29 ans.</p>
                </trait>
-               <desc xml:id="CAT_000164_e27_d1"><term ana="#document_type_7">L. a. s.</term> à M. de Repas; Montbard, 7 oct. 1770, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachet armorié. Belle pièce.</desc></item>
+               <desc xml:id="CAT_000164_e27_d1"><term ana="#document_type_7">L. a. s.</term> à M. de Repas; Montbard, <date when="1770-10-07">7 oct. 1770</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachet armorié. Belle pièce.</desc></item>
             <item n="28" xml:id="CAT_000164_e28">
                <num>28</num>
                <name type="author">Cambacérès (Fr.-R.),</name>
@@ -442,7 +442,7 @@
                   <p>archi-chancelier de
 						l'Empire.</p>
                </trait>
-               <desc xml:id="CAT_000164_e28_d1">4 l. s.; an XIV-1813, <measure type="length" unit="p" n="3.5">3 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure> et 2 p. in-fol.</desc></item>
+               <desc xml:id="CAT_000164_e28_d1">4 l. s.; <date when="1813">an XIV-1813</date>, <measure type="length" unit="p" n="3.5">3 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure> et 2 p. in-fol.</desc></item>
             <item n="29" xml:id="CAT_000164_e29">
                <num>29</num>
                <name type="author">Casenove (Guillaume de),</name>
@@ -450,7 +450,7 @@
                   <p>dit COuLlon, vice-amiral de
 						France sous Louis XI.</p>
                </trait>
-               <desc xml:id="CAT_000164_e29_d1"><term ana="#document_type_4">P. s.</term>, sur vélin; 25 janv. 1481 (1482, n. s.), <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_101">in-fol. obl</measure>ong. Rare.</desc></item>
+               <desc xml:id="CAT_000164_e29_d1"><term ana="#document_type_4">P. s.</term>, sur vélin; 25 janv. 1481 (<date when="1482">1482</date>, n. s.), <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_101">in-fol. obl</measure>ong. Rare.</desc></item>
             <item n="30" xml:id="CAT_000164_e30">
                <num>30</num>
                <name type="author">Carrier (J.-B.),</name>
@@ -458,7 +458,7 @@
                   <p>fameux conventionnel, décapité en
 						1794.</p>
                </trait>
-               <desc xml:id="CAT_000164_e30_d1"><measure type="length" unit="p" n="2">2 p.</measure> s.; an II, 2 p. <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure>, vig. et têtes impr. Belles <term ana="#document_type_4">pièces.</term></desc></item>
+               <desc xml:id="CAT_000164_e30_d1"><date date="none" type="length"><measure type="length" unit="p" n="2">2 p.</measure> s.; an II</date>, 2 p. <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure>, vig. et têtes impr. Belles <term ana="#document_type_4">pièces.</term></desc></item>
             <item n="31" xml:id="CAT_000164_e31">
                <num>31</num>
                <name type="author">Cassini (Henri de),</name>
@@ -466,7 +466,7 @@
                   <p>botaniste, de l'Acad. des
 						Sciences.</p>
                </trait>
-               <desc xml:id="CAT_000164_e31_d1"><term ana="#document_type_7">L. a. s.</term> au cit. Hervet; Thury, 28 frimaire an X, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle lettre.</desc></item>
+               <desc xml:id="CAT_000164_e31_d1"><term ana="#document_type_7">L. a. s.</term> au cit. Hervet; Thury, <date date="1801-12-19" type="length">28 frimaire an X</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle lettre.</desc></item>
             <item n="32" xml:id="CAT_000164_e32">
                <num>32</num>
                <name type="author">Castel (René),</name>
@@ -474,7 +474,7 @@
                   <p>poète, auteur des
 					Plantes.</p>
                </trait>
-               <desc xml:id="CAT_000164_e32_d1"><term ana="#document_type_7">L. a. s.</term> Renéà son fils; Villers, 26 juill. 1826, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Charmante épître.</desc></item>
+               <desc xml:id="CAT_000164_e32_d1"><term ana="#document_type_7">L. a. s.</term> Renéà son fils; Villers, <date when="1826">26 juill. 1826</date>, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Charmante épître.</desc></item>
             <item n="33" xml:id="CAT_000164_e33">
                <num>33</num>
                <name type="author">Caylus (Charles Gabriel de),</name>
@@ -482,7 +482,7 @@
                   <p>évêque d'Auxerre,
 						beau-frère de la comtesse de Caylus.</p>
                </trait>
-               <desc xml:id="CAT_000164_e33_d1"><term ana="#document_type_7">L. a. s.</term> au R. P. Jabineau; 6 nov. 1749, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle lettre, un peu jaunie sur les bords.</desc></item>
+               <desc xml:id="CAT_000164_e33_d1"><term ana="#document_type_7">L. a. s.</term> au R. P. Jabineau; <date when="1749-11-06">6 nov. 1749</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle lettre, un peu jaunie sur les bords.</desc></item>
             <item n="34" xml:id="CAT_000164_e34">
                <num>34</num>
                <name type="author">Chamillart (Michel de),</name>
@@ -490,11 +490,11 @@
                   <p>ministre de la guerre sous
 						Louis XIV.</p>
                </trait>
-               <desc xml:id="CAT_000164_e34_d1"><term ana="#document_type_7">L. a. s.</term> à Mansart; 14 mars 1704, <measure type="length" unit="p" n="1">1 p.</measure> pet. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle pièce.</desc></item>
+               <desc xml:id="CAT_000164_e34_d1"><term ana="#document_type_7">L. a. s.</term> à Mansart; <date when="1704-03-14">14 mars 1704</date>, <measure type="length" unit="p" n="1">1 p.</measure> pet. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle pièce.</desc></item>
             <item n="35" xml:id="CAT_000164_e35">
                <num>35</num>
                <name type="author">Chamillart (Michel de)</name>
-               <desc xml:id="CAT_000164_e35_d1"><term ana="#document_type_7">L. a. s.</term> au prince de Vaudemont; Bourbon, 1er juin 1717, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Belle lettre, où il s'informe de la santé du
+               <desc xml:id="CAT_000164_e35_d1"><term ana="#document_type_7">L. a. s.</term> au prince de Vaudemont; Bourbon, <date when="1717-06-01">1er juin 1717</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Belle lettre, où il s'informe de la santé du
 						prince.</note>
             </item>
             <item n="36" xml:id="CAT_000164_e36">
@@ -505,7 +505,7 @@
 						ami de Rivarol, rédacteur des Actes des apôtres, décapité en
 					1794.</p>
                </trait>
-               <desc xml:id="CAT_000164_e36_d1"><term ana="#document_type_7">L. a. s.</term>; les Tuileries, 1er mars 1790, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle lettre, où il réclame des réparations à l'appartement qu'il occupe aux Tuileries.</desc></item>
+               <desc xml:id="CAT_000164_e36_d1"><term ana="#document_type_7">L. a. s.</term>; les Tuileries, <date when="1790-03-01">1er mars 1790</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle lettre, où il réclame des réparations à l'appartement qu'il occupe aux Tuileries.</desc></item>
             <item n="37" xml:id="CAT_000164_e37">
                <num>37</num>
                <name type="author">Chateaubriand (le vicomte de),</name>
@@ -513,13 +513,13 @@
                   <p>le grand
 						écrivain.</p>
                </trait>
-               <desc xml:id="CAT_000164_e37_d1"><term ana="#document_type_7">L. a. s.</term> à un curé; Paris, 16 oct. 1820, <measure type="length" unit="p" n="1">1 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Légère tache.</desc><note>Hommage de sa Vie du duc de
+               <desc xml:id="CAT_000164_e37_d1"><term ana="#document_type_7">L. a. s.</term> à un curé; Paris, <date when="1820-10-16">16 oct. 1820</date>, <measure type="length" unit="p" n="1">1 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Légère tache.</desc><note>Hommage de sa Vie du duc de
 					Berri.</note>
             </item>
             <item n="38" xml:id="CAT_000164_e38">
                <num>38</num>
                <name type="author">Chateaubriand (le vicomte de)</name>
-               <desc xml:id="CAT_000164_e38_d1">1° <term ana="#document_type_7">L. a. s.</term> (au comte du Hallay) ; Paris, 13 déc. 1834, <measure type="length" unit="p" n="1.75">1 p. 3/4</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Jolie lettre.</desc><desc xml:id="CAT_000164_e38_d2">2° Billet de 4 lignes <term ana="#document_type_15">autographes</term> à Mme Récamier, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Jolie pièce.</desc></item>
+               <desc xml:id="CAT_000164_e38_d1">1° <term ana="#document_type_7">L. a. s.</term> (au comte du Hallay) ; Paris, <date when="1834-12-13">13 déc. 1834</date>, <measure type="length" unit="p" n="1.75">1 p. 3/4</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Jolie lettre.</desc><desc xml:id="CAT_000164_e38_d2">2° Billet de 4 lignes <term ana="#document_type_15">autographes</term> à Mme Récamier, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Jolie pièce.</desc></item>
             <item n="39" xml:id="CAT_000164_e39">
                <num>39</num>
                <name type="author">Chaulnes (M.-Ferd. d'Albert d'Ailly, duc
@@ -528,7 +528,7 @@
                   <p>lieutenant général, gouverneur de Picardie, membre
 						honoraire de l'Académie des Sciences.</p>
                </trait>
-               <desc xml:id="CAT_000164_e39_d1"><term ana="#document_type_7">L. a. s.</term>; Paris, 11 mai 1760, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle lettre militaire.</desc></item>
+               <desc xml:id="CAT_000164_e39_d1"><term ana="#document_type_7">L. a. s.</term>; Paris, <date when="1760-05-11">11 mai 1760</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle lettre militaire.</desc></item>
             <item n="40" xml:id="CAT_000164_e40">
                <num>40</num>
                <name type="author">Chaumette (P.-G.),</name>
@@ -536,7 +536,7 @@
                   <p>procureur de la Commune de Paris,
 						décapité en 1794.</p>
                </trait>
-               <desc xml:id="CAT_000164_e40_d1"><term ana="#document_type_9">L. s.</term> à Dalbarade; Paris, 24 mai 1793, <measure type="length" unit="p" n="1.25">1 p. 1/4</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, vig. et tête impr.</desc></item>
+               <desc xml:id="CAT_000164_e40_d1"><term ana="#document_type_9">L. s.</term> à Dalbarade; Paris, <date when="1793-05-24">24 mai 1793</date>, <measure type="length" unit="p" n="1.25">1 p. 1/4</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, vig. et tête impr.</desc></item>
             <item n="41" xml:id="CAT_000164_e41">
                <num>41</num>
                <name type="author">Chenedollé (Charles de),</name>
@@ -544,7 +544,7 @@
                   <p>poète, ami de Chateaubriand,
 						auteur du Génie de l'homme.</p>
                </trait>
-               <desc xml:id="CAT_000164_e41_d1"><term ana="#document_type_7">L. a. s.</term> à M. Couvert; 25 fév. 1826, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc></item>
+               <desc xml:id="CAT_000164_e41_d1"><term ana="#document_type_7">L. a. s.</term> à M. Couvert; <date when="1826-02-25">25 fév. 1826</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc></item>
             <item n="42" xml:id="CAT_000164_e42">
                <num>42</num>
                <name type="author">Chimistes</name>
@@ -558,7 +558,7 @@
                   <p>célèbre antiquaire,
 						conservateur du musée des Antiques.</p>
                </trait>
-               <desc xml:id="CAT_000164_e43_d1"><term ana="#document_type_7">L. a. s.</term> (au comte de Forbin); (1831), <measure type="length" unit="p" n="8">8 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Très importante lettre où il donne son avis sur
+               <desc xml:id="CAT_000164_e43_d1"><term ana="#document_type_7">L. a. s.</term> (au comte de Forbin); (<date when="1831">1831</date>), <measure type="length" unit="p" n="8">8 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Très importante lettre où il donne son avis sur
 						les oeuvres de sculpture exposées au Salon de 1831; il parle de Duret, de
 						Seurre, de Dumont, de Lemaire, de Barye, du Spartacus de Foyatier, etc.
 						Intéressants détails.</note>
@@ -593,7 +593,7 @@
                   <p>célèbre médecin de Napoléon
 						Ier.</p>
                </trait>
-               <desc xml:id="CAT_000164_e48_d1"><term ana="#document_type_7">L. a. s.</term> à Daru; Paris, 21 juin 1806, <measure type="length" unit="p" n="2.25">2 p. 1/4</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle lettre.</desc></item>
+               <desc xml:id="CAT_000164_e48_d1"><term ana="#document_type_7">L. a. s.</term> à Daru; Paris, <date when="1806-06-21">21 juin 1806</date>, <measure type="length" unit="p" n="2.25">2 p. 1/4</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle lettre.</desc></item>
             <item n="49" xml:id="CAT_000164_e49">
                <num>49</num>
                <name type="author">Courtois (Edme-Bonaventure),</name>
@@ -602,7 +602,7 @@
 						Danton, auteur du Rapport sur les papiers trouvés chez Robespierre et ses
 						complices.</p>
                </trait>
-               <desc xml:id="CAT_000164_e49_d1"><term ana="#document_type_7">L. a. s.</term>; Paris, 23 sept. 1780, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc></item>
+               <desc xml:id="CAT_000164_e49_d1"><term ana="#document_type_7">L. a. s.</term>; Paris, <date when="1780-09-23">23 sept. 1780</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc></item>
             <item n="50" xml:id="CAT_000164_e50">
                <num>50</num>
                <name type="author">Crell (L. de),</name>
@@ -610,13 +610,13 @@
                   <p>chimiste et minéralogiste
 						allemand.</p>
                </trait>
-               <desc xml:id="CAT_000164_e50_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à Dolomieu; Helmstadt, 8 août 1797, <measure type="length" unit="p" n="3">3 p.</measure> pet. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Très belle lettre, toute
+               <desc xml:id="CAT_000164_e50_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à Dolomieu; Helmstadt, <date when="1797-08-08">8 août 1797</date>, <measure type="length" unit="p" n="3">3 p.</measure> pet. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Très belle lettre, toute
 					scientifique.</note>
             </item>
             <item n="51" xml:id="CAT_000164_e51">
                <num>51</num>
                <name type="author">Defauconpret (Aug.-J.-B.), traducteur de Walter Scott et de Cooper.</name>
-               <desc xml:id="CAT_000164_e51_d1"><term ana="#document_type_7">L. a. s.</term> à Mme Rousselle; Londres, 10 janv. 1826, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Il
+               <desc xml:id="CAT_000164_e51_d1"><term ana="#document_type_7">L. a. s.</term> à Mme Rousselle; Londres, <date when="1826-01-10">10 janv. 1826</date>, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Il
 						exprime ses regrets d'être éloigné de France. « Le goût que j'ai pour le
 						travail et la nécessité où je suis de travailler constamment me rendent
 						seuls la vie supportable.»</note>
@@ -628,7 +628,7 @@
                   <p>actrice de l'Odéon, m.
 						1847.</p>
                </trait>
-               <desc xml:id="CAT_000164_e52_d1"><term ana="#document_type_7">L. a. s.</term>; 5 oct. 1822, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Elle sollicite
+               <desc xml:id="CAT_000164_e52_d1"><term ana="#document_type_7">L. a. s.</term>; <date when="1822-10-05">5 oct. 1822</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Elle sollicite
 						une représentation à son bénéfice.</note>
             </item>
             <item n="53" xml:id="CAT_000164_e53">
@@ -647,14 +647,14 @@
                   <p>célèbre compositeur de
 						musique.</p>
                </trait>
-               <desc xml:id="CAT_000164_e54_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à M. de Coussy ; Vienne, 14 janvier 1844, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Déchirure enlevant plusieurs mots.</desc><note>Il consent à
+               <desc xml:id="CAT_000164_e54_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à M. de Coussy ; Vienne, <date when="1844-01-14">14 janvier 1844</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Déchirure enlevant plusieurs mots.</desc><note>Il consent à
 						céder à Mrs Escudier son opéra de Jeanne la Folle moyennant 22,000
 						francs.</note>
             </item>
             <item n="55" xml:id="CAT_000164_e55">
                <num>55</num>
                <name type="author">Donizetti (Gaetano)</name>
-               <desc xml:id="CAT_000164_e55_d1"><term ana="#document_type_7">L. a. s.</term> au même ; (Vienne, 16 mai 1845), <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Déchirée et raccommodée.</desc><note>Lettre des plus intéressantes sur son
+               <desc xml:id="CAT_000164_e55_d1"><term ana="#document_type_7">L. a. s.</term> au même ; (Vienne, <date when="1845-05-16">16 mai 1845</date>), <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Déchirée et raccommodée.</desc><note>Lettre des plus intéressantes sur son
 						opéra le Duc d'Albe.</note>
             </item>
             <item n="56" xml:id="CAT_000164_e56">
@@ -664,7 +664,7 @@
                   <p>dernier
 						colonel des gardes françaises, décapité en 1793.</p>
                </trait>
-               <desc xml:id="CAT_000164_e56_d1"><term ana="#document_type_7">L. a. s.</term> au baron de Breteuil; Paris, 6 mai 1784, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle lettre.</desc></item>
+               <desc xml:id="CAT_000164_e56_d1"><term ana="#document_type_7">L. a. s.</term> au baron de Breteuil; Paris, <date when="1784-05-06">6 mai 1784</date>, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle lettre.</desc></item>
             <item n="57" xml:id="CAT_000164_e57">
                <num>57</num>
                <name type="author">Ducis (J.-Fr.),</name>
@@ -672,7 +672,7 @@
                   <p>poète tragique, de l'Acad.
 					fr.</p>
                </trait>
-               <desc xml:id="CAT_000164_e57_d1"><term ana="#document_type_7">L. a. s.</term> (au comte d'Angiviller); Paris, 10 avril 1786, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><note>Relative à la mise à la retraite de son
+               <desc xml:id="CAT_000164_e57_d1"><term ana="#document_type_7">L. a. s.</term> (au comte d'Angiviller); Paris, <date when="1786-04-10">10 avril 1786</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><note>Relative à la mise à la retraite de son
 						gendre, M. de la Grange.</note>
             </item>
             <item n="58" xml:id="CAT_000164_e58">
@@ -682,7 +682,7 @@
                   <p>célèbre chimiste et physicien, qui
 						découvrit le chlorure d'azote.</p>
                </trait>
-               <desc xml:id="CAT_000164_e58_d1"><term ana="#document_type_7">L. a. s.</term> au peintre Boilly ; Paris, 12 avril 1825, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Il lui mande qu'il est né à Rouen le 12 février
+               <desc xml:id="CAT_000164_e58_d1"><term ana="#document_type_7">L. a. s.</term> au peintre Boilly ; Paris, <date when="1825-04-12">12 avril 1825</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Il lui mande qu'il est né à Rouen le 12 février
 						1785.</note>
             </item>
             <item n="59" xml:id="CAT_000164_e59">
@@ -693,7 +693,7 @@
 						XVIII, éditeur des Lettres de Madame Elisabeth, membre de l'Acad.
 					fr.</p>
                </trait>
-               <desc xml:id="CAT_000164_e59_d1"><term ana="#document_type_7">L. a. s.</term> au comte de Blacas ; Paris, 22 mai 1814, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Rare.</desc></item>
+               <desc xml:id="CAT_000164_e59_d1"><term ana="#document_type_7">L. a. s.</term> au comte de Blacas ; Paris, <date when="1814-05-22">22 mai 1814</date>, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Rare.</desc></item>
             <item n="60" xml:id="CAT_000164_e60">
                <num>60</num>
                <name type="author">Florian (J.-P. Claris de),</name>
@@ -708,7 +708,7 @@
                   <p>chimiste, membre de
 						l'Académie des Sciences.</p>
                </trait>
-               <desc xml:id="CAT_000164_e61_d1"><term ana="#document_type_7">L. a. s.</term>; (Paris, janv. 1768), <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Il
+               <desc xml:id="CAT_000164_e61_d1"><term ana="#document_type_7">L. a. s.</term>; (Paris, <date when="1768-01">janv. 1768</date>), <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Il
 						demande pour le sieur de Bergeray la place de contrôleur des marbres du
 						Roi.</note>
             </item>
@@ -719,7 +719,7 @@
                   <p>le chef de l'école
 						phalanstérienne.</p>
                </trait>
-               <desc xml:id="CAT_000164_e62_d1"><term ana="#document_type_7">L. a. s.</term>; Paris, 10 avril 1829, <measure type="length" unit="p" n="15.5">15 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Lettre des plus importantes où il expose
+               <desc xml:id="CAT_000164_e62_d1"><term ana="#document_type_7">L. a. s.</term>; Paris, <date when="1829-04-10">10 avril 1829</date>, <measure type="length" unit="p" n="15.5">15 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Lettre des plus importantes où il expose
 						longuement ce que doit faire la société de propagation pour protéger les
 						inventeurs. Détails fort curieux.</note>
             </item>
@@ -730,7 +730,7 @@
                   <p>roi de Prusse, le boute-feu de
 						la coalition.</p>
                </trait>
-               <desc xml:id="CAT_000164_e63_d1"><term ana="#document_type_9">L. s.</term>, en français, au comte de Broglie ; Potsdam, 23 avril 1787, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Il l'autorise à assister aux différentes revues
+               <desc xml:id="CAT_000164_e63_d1"><term ana="#document_type_9">L. s.</term>, en français, au comte de Broglie ; Potsdam, <date when="1787-04-23">23 avril 1787</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Il l'autorise à assister aux différentes revues
 						des troupes prussiennes.</note>
             </item>
             <item n="64" xml:id="CAT_000164_e64">
@@ -740,7 +740,7 @@
                   <p>peintre d'histoire, membre de
 						l'Institut.</p>
                </trait>
-               <desc xml:id="CAT_000164_e64_d1"><term ana="#document_type_7">L. a. s.</term> au directeur du Musée royal; Paris, 5 mars 1815, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Il le remercie de l'acquisition faite, par ordre
+               <desc xml:id="CAT_000164_e64_d1"><term ana="#document_type_7">L. a. s.</term> au directeur du Musée royal; Paris, <date when="1815-03-05">5 mars 1815</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Il le remercie de l'acquisition faite, par ordre
 						du Roi, de son tableau d'Eponine et Sabinus.</note>
             </item>
             <item n="65" xml:id="CAT_000164_e65">
@@ -757,7 +757,7 @@
                   <p>romancier, auteur du Comte de
 						Valmont.</p>
                </trait>
-               <desc xml:id="CAT_000164_e66_d1"><term ana="#document_type_7">L. a. s.</term>; Passy, 29 germinal an XII, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Rognée en tête.</desc></item>
+               <desc xml:id="CAT_000164_e66_d1"><term ana="#document_type_7">L. a. s.</term>; Passy, <date date="1804-04-20" type="length">29 germinal an XII</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Rognée en tête.</desc></item>
             <item n="67" xml:id="CAT_000164_e67">
                <num>67</num>
                <name type="author">Girodet-Trioson (A.-L.),</name>
@@ -799,7 +799,7 @@
                   <p>peintre d'histoire et graveur,
 						élève de David.</p>
                </trait>
-               <desc xml:id="CAT_000164_e71_d1"><term ana="#document_type_7">L. a. s.</term> au comte de Forbin; Tournay, 5 déc. 1830, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Relative à des tableaux qu'il est en train
+               <desc xml:id="CAT_000164_e71_d1"><term ana="#document_type_7">L. a. s.</term> au comte de Forbin; Tournay, <date when="1830-12-05">5 déc. 1830</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Relative à des tableaux qu'il est en train
 						d'esquisser.</note>
             </item>
             <item n="72" xml:id="CAT_000164_e72">
@@ -808,7 +808,7 @@
                <trait>
                   <p>roi de France.</p>
                </trait>
-               <desc xml:id="CAT_000164_e72_d1"><term ana="#document_type_9">L. s.</term> au procureur général au parlement de Rouen; 6 août 1599, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure>, trace de cachet. Belle et intéressante lettre.</desc></item>
+               <desc xml:id="CAT_000164_e72_d1"><term ana="#document_type_9">L. s.</term> au procureur général au parlement de Rouen; <date when="1599-08-06">6 août 1599</date>, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure>, trace de cachet. Belle et intéressante lettre.</desc></item>
             <item n="73" xml:id="CAT_000164_e73">
                <num>73</num>
                <name type="author">Hersent (Louis),</name>
@@ -816,7 +816,7 @@
                   <p>peintre d'histoire, membre de
 						l'Institut.</p>
                </trait>
-               <desc xml:id="CAT_000164_e73_d1"><term ana="#document_type_7">L. a. s.</term> au comte de Forbin ; Paris, 24 avril 1824, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Relative à une copie de son tableau de la Prise
+               <desc xml:id="CAT_000164_e73_d1"><term ana="#document_type_7">L. a. s.</term> au comte de Forbin ; Paris, <date when="1824-04-24">24 avril 1824</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Relative à une copie de son tableau de la Prise
 						de Landshut.</note>
             </item>
             <item n="74" xml:id="CAT_000164_e74">
@@ -833,7 +833,7 @@
                <trait>
                   <p>le grand poète.</p>
                </trait>
-               <desc xml:id="CAT_000164_e75_d1"><term ana="#document_type_7">L. a. s.</term> à Auger; 28 déc. 1827, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Envoi de
+               <desc xml:id="CAT_000164_e75_d1"><term ana="#document_type_7">L. a. s.</term> à Auger; <date when="1827-12-28">28 déc. 1827</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Envoi de
 						deux exemplaires de Cromwell, un pour l'Académie française, et l'autre pour
 						son secrétaire perpétuel.</note>
             </item>
@@ -867,14 +867,14 @@
                   <p>empereur du Mexique, fusillé
 						en 1824</p>
                </trait>
-               <desc xml:id="CAT_000164_e79_d1"><term ana="#document_type_9">L. s.</term> à Jean Arago; 20 juin 1821, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Rare.</desc></item>
+               <desc xml:id="CAT_000164_e79_d1"><term ana="#document_type_9">L. s.</term> à Jean Arago; <date when="1821-06-20">20 juin 1821</date>, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Rare.</desc></item>
             <item n="80" xml:id="CAT_000164_e80">
                <num>80</num>
                <name type="author">Jardin (Nic.-H.),</name>
                <trait>
                   <p>célèbre architecte.</p>
                </trait>
-               <desc xml:id="CAT_000164_e80_d1"><term ana="#document_type_7">L. a. s.</term>; Paris, 21 sept. 1771, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Il
+               <desc xml:id="CAT_000164_e80_d1"><term ana="#document_type_7">L. a. s.</term>; Paris, <date when="1771-09-21">21 sept. 1771</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Il
 						sollicite la place vacante à l'Académie d'architecture par la mort de M.
 						Aubry.</note>
             </item>
@@ -885,7 +885,7 @@
                   <p>célèbre tragédien, rival de
 						Talma.</p>
                </trait>
-               <desc xml:id="CAT_000164_e81_d1"><term ana="#document_type_7">L. a. s.</term> (au vicomte de L. a. Rochefoucauld); 23 oct. 1825, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><note>Intéressante lettre sur la tragédie de Camille
+               <desc xml:id="CAT_000164_e81_d1"><term ana="#document_type_7">L. a. s.</term> (au vicomte de L. a. Rochefoucauld); <date when="1825-10-23">23 oct. 1825</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><note>Intéressante lettre sur la tragédie de Camille
 						de Lemercier.</note>
             </item>
             <item n="82" xml:id="CAT_000164_e82">
@@ -903,7 +903,7 @@
                   <p>mathématicien, physicien et
 						météorologiste allemand.</p>
                </trait>
-               <desc xml:id="CAT_000164_e83_d1"><term ana="#document_type_7">L. a. s.</term>, en latin, aux membres de l'Académie de Berlin; 24 janv. 1746, <measure type="length" unit="p" n="4">4 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><note>Superbe lettre où il les remercie de son
+               <desc xml:id="CAT_000164_e83_d1"><term ana="#document_type_7">L. a. s.</term>, en latin, aux membres de l'Académie de Berlin; <date when="1746-01-24">24 janv. 1746</date>, <measure type="length" unit="p" n="4">4 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><note>Superbe lettre où il les remercie de son
 						admission dans l'Académie de Berlin.</note>
             </item>
             <item n="84" xml:id="CAT_000164_e84">
@@ -913,7 +913,7 @@
                   <p>célèbre
 					naturaliste.</p>
                </trait>
-               <desc xml:id="CAT_000164_e84_d1"><term ana="#document_type_7">L. a. s.</term> à M. de Chalandray ; 6 février (1821), <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc></item>
+               <desc xml:id="CAT_000164_e84_d1"><term ana="#document_type_7">L. a. s.</term> à M. de Chalandray ; 6 février (<date when="1821">1821</date>), <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc></item>
             <item n="85" xml:id="CAT_000164_e85">
                <num>85</num>
                <name type="author">La Fayette (le marquis de),</name>
@@ -921,7 +921,7 @@
                   <p>célèbre général et
 						député.</p>
                </trait>
-               <desc xml:id="CAT_000164_e85_d1">1° <term ana="#document_type_7">L. a. s.</term>; L. a. Grange, 18 pluviôse an IX, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><desc xml:id="CAT_000164_e85_d2">2° <term ana="#document_type_7">L. a. s.</term> à M. Toré; Paris, 25 avril 1824, <measure type="length" unit="p" n="1.25">1 p. 1/4</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Curieuse
+               <desc xml:id="CAT_000164_e85_d1">1° <term ana="#document_type_7">L. a. s.</term>; L. a. Grange, <date date="1801-02-07" type="length">18 pluviôse an IX</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><desc xml:id="CAT_000164_e85_d2">2° <term ana="#document_type_7">L. a. s.</term> à M. Toré; Paris, <date when="1824-04-25">25 avril 1824</date>, <measure type="length" unit="p" n="1.25">1 p. 1/4</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Curieuse
 						épître de recommandation en faveur de Mme Bidault, soeur de Pommier, un des
 						quatre sergents de La Rochelle. Intéressants détails.</note>
             </item>
@@ -938,7 +938,7 @@
                <trait>
                   <p>le grand écrivain.</p>
                </trait>
-               <desc xml:id="CAT_000164_e87_d1"><term ana="#document_type_7">L. a. s.</term>; Paris, 14 fév. 1839, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc></item>
+               <desc xml:id="CAT_000164_e87_d1"><term ana="#document_type_7">L. a. s.</term>; Paris, <date when="1839-02-14">14 fév. 1839</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc></item>
             <item n="88" xml:id="CAT_000164_e88">
                <num>88</num>
                <name type="author">Lamoignon (Guillaume II de),</name>
@@ -946,12 +946,12 @@
                   <p>chancelier de France,
 						père de Malesherbes.</p>
                </trait>
-               <desc xml:id="CAT_000164_e88_d1"><term ana="#document_type_7">L. a. s.</term> à l'abbé d'Héricourt; Versailles, 15 août 1754, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Relative au duc de Penthièvre.</note>
+               <desc xml:id="CAT_000164_e88_d1"><term ana="#document_type_7">L. a. s.</term> à l'abbé d'Héricourt; Versailles, <date when="1754-08-15">15 août 1754</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Relative au duc de Penthièvre.</note>
             </item>
             <item n="89" xml:id="CAT_000164_e89">
                <num>89</num>
                <name type="author">Lamoignon (Guillaume II de)</name>
-               <desc xml:id="CAT_000164_e89_d1"><term ana="#document_type_7">L. a. s.</term> au duc de Penthièvre ; Malesherbes, 3 janv. 1767, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, enveloppe et cachet.</desc><note>Belle lettre de félicitations sur
+               <desc xml:id="CAT_000164_e89_d1"><term ana="#document_type_7">L. a. s.</term> au duc de Penthièvre ; Malesherbes, <date when="1767-01-03">3 janv. 1767</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, enveloppe et cachet.</desc><note>Belle lettre de félicitations sur
 						le mariage du prince de Lamballe.</note>
             </item>
             <item n="90" xml:id="CAT_000164_e90">
@@ -961,7 +961,7 @@
                   <p>célèbre conventionnel et
 						jurisconsulte.</p>
                </trait>
-               <desc xml:id="CAT_000164_e90_d1"><term ana="#document_type_7">L. a. s.</term>; Paris, 17 août 1814, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc></item>
+               <desc xml:id="CAT_000164_e90_d1"><term ana="#document_type_7">L. a. s.</term>; Paris, <date when="1814-08-17">17 août 1814</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc></item>
             <item n="91" xml:id="CAT_000164_e91">
                <num>91</num>
                <name type="author">La Rochefoucauld (L.-Alex., duc de),</name>
@@ -970,7 +970,7 @@
 						de l'Acad. des Sciences, constituant, massacré à Gisors en
 					1792.</p>
                </trait>
-               <desc xml:id="CAT_000164_e91_d1"><term ana="#document_type_7">L. a. s.</term> à Lavoisier; Paris, 15 nov. 1790, <measure type="length" unit="p" n="1.25">1 p. 1/4</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Belle lettre où il lui mande qu'il a remis sa
+               <desc xml:id="CAT_000164_e91_d1"><term ana="#document_type_7">L. a. s.</term> à Lavoisier; Paris, <date when="1790-11-15">15 nov. 1790</date>, <measure type="length" unit="p" n="1.25">1 p. 1/4</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Belle lettre où il lui mande qu'il a remis sa
 						lettre au Comité de l'imposition et le remercie de l'envoi de son ouvrage
 						sur le tabac.</note>
             </item>
@@ -981,7 +981,7 @@
                   <p>l'illustre
 					chirurgien.</p>
                </trait>
-               <desc xml:id="CAT_000164_e92_d1"><term ana="#document_type_7">L. a. s.</term> à M. de Cailleux; Paris, 7 août 1834, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc></item>
+               <desc xml:id="CAT_000164_e92_d1"><term ana="#document_type_7">L. a. s.</term> à M. de Cailleux; Paris, <date when="1834-08-07">7 août 1834</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc></item>
             <item n="93" xml:id="CAT_000164_e93">
                <num>93</num>
                <name type="author">La Tourrette (M.-Ant.-L. Claret de FLEURIEU
@@ -998,7 +998,7 @@
                   <p>lieutenant général, gouverneur de Louis
 					XVI.</p>
                </trait>
-               <desc xml:id="CAT_000164_e94_d1"><term ana="#document_type_7">L. a. s.</term> (au comte d'Angiviller) ; Versailles, 27 mai 1758, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Très belle lettre.</desc></item>
+               <desc xml:id="CAT_000164_e94_d1"><term ana="#document_type_7">L. a. s.</term> (au comte d'Angiviller) ; Versailles, <date when="1758-05-27">27 mai 1758</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Très belle lettre.</desc></item>
             <item n="95" xml:id="CAT_000164_e95">
                <num>95</num>
                <name type="author">L'Averdy (Cl.-Ch.-Fr. de),</name>
@@ -1006,7 +1006,7 @@
                   <p>contrôleur général des
 						finances sous Louis XVI, décapité en 1793.</p>
                </trait>
-               <desc xml:id="CAT_000164_e95_d1"><term ana="#document_type_7">L. a. s.</term> au duc de L. a. Vrillière; Paris, 4 mai 1771, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Superbe lettre d'envoi de sa
+               <desc xml:id="CAT_000164_e95_d1"><term ana="#document_type_7">L. a. s.</term> au duc de L. a. Vrillière; Paris, <date when="1771-05-04">4 mai 1771</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Superbe lettre d'envoi de sa
 					démission.</note>
             </item>
             <item n="96" xml:id="CAT_000164_e96">
@@ -1016,7 +1016,7 @@
                   <p>ministre
 						sous Louis XIV et sous la Régence.</p>
                </trait>
-               <desc xml:id="CAT_000164_e96_d1"><term ana="#document_type_7">L. a. s.</term>; Paris, 2 sept. 1699, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle lettre.</desc></item>
+               <desc xml:id="CAT_000164_e96_d1"><term ana="#document_type_7">L. a. s.</term>; Paris, <date when="1699-09-02">2 sept. 1699</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle lettre.</desc></item>
             <item n="97" xml:id="CAT_000164_e97">
                <num>97</num>
                <name type="author">Le Bailly (Ant.-Fr.),</name>
@@ -1024,7 +1024,7 @@
                   <p>littérateur et
 					fabuliste.</p>
                </trait>
-               <desc xml:id="CAT_000164_e97_d1"><term ana="#document_type_7">L. a. s.</term> au chevalier de Broval; Paris, 25 juillet 1819, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Curieuse.</desc></item>
+               <desc xml:id="CAT_000164_e97_d1"><term ana="#document_type_7">L. a. s.</term> au chevalier de Broval; Paris, <date when="1819-07-25">25 juillet 1819</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Curieuse.</desc></item>
             <item n="98" xml:id="CAT_000164_e98">
                <num>98</num>
                <name type="author">Le Blanc (l'abbé Jean-Bernard),</name>
@@ -1032,7 +1032,7 @@
                   <p>poète, historiographe
 						des bâtiments du Roi.</p>
                </trait>
-               <desc xml:id="CAT_000164_e98_d1"><term ana="#document_type_7">L. a. s.</term>; Paris, 25 avril (1780), <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Demande du paiement de ses
+               <desc xml:id="CAT_000164_e98_d1"><term ana="#document_type_7">L. a. s.</term>; Paris, 25 avril (<date when="1780">1780</date>), <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Demande du paiement de ses
 					appointements.</note>
             </item>
             <item n="99" xml:id="CAT_000164_e99">
@@ -1050,7 +1050,7 @@
                   <p>littérateur, ordonnateur à la
 						Guyane, correspondant de l'Académie des Sciences, né à Lyon.</p>
                </trait>
-               <desc xml:id="CAT_000164_e100_d1"><term ana="#document_type_7">L. a. s.</term> au comte d'Angiviller; Cayenne, 21 mai 1787, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Annonce de l'arrivée du botaniste Le Blond,
+               <desc xml:id="CAT_000164_e100_d1"><term ana="#document_type_7">L. a. s.</term> au comte d'Angiviller; Cayenne, <date when="1787-05-21">21 mai 1787</date>, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Annonce de l'arrivée du botaniste Le Blond,
 						envoyé à Cayenne par le département des finances pour faire des recherches
 						sur divers objets utiles au commerce, aux sciences et à la
 					médecine.</note>
@@ -1062,7 +1062,7 @@
                   <p>célèbre physicien et hydrographe,
 						de l'Acad. des Sciences.</p>
                </trait>
-               <desc xml:id="CAT_000164_e101_d1"><term ana="#document_type_7">L. a. s.</term> à un confrère ; Paris, 17 frimaire an X, <measure type="length" unit="p" n="3">3 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Il expose les raisons qui l'ont empêché de se
+               <desc xml:id="CAT_000164_e101_d1"><term ana="#document_type_7">L. a. s.</term> à un confrère ; Paris, <date date="1801-12-08" type="length">17 frimaire an X</date>, <measure type="length" unit="p" n="3">3 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Il expose les raisons qui l'ont empêché de se
 						rendre à Gand pour les examens.</note>
             </item>
             <item n="102" xml:id="CAT_000164_e102">
@@ -1072,7 +1072,7 @@
                   <p>littérateur, de l'Acad.
 						fr.</p>
                </trait>
-               <desc xml:id="CAT_000164_e102_d1"><term ana="#document_type_7">L. a. s.</term> au comte…; Paris, 30 oct. 1820, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Il lui accuse réception de la lettre annonçant
+               <desc xml:id="CAT_000164_e102_d1"><term ana="#document_type_7">L. a. s.</term> au comte…; Paris, <date when="1820-10-30">30 oct. 1820</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Il lui accuse réception de la lettre annonçant
 						sa nomination de président du collège électoral de la Somme et transcrit la
 						formule du serment de fidélité au Roi.</note>
             </item>
@@ -1083,7 +1083,7 @@
                   <p>physicien, connu par ses recherches
 						sur l'électricité.</p>
                </trait>
-               <desc xml:id="CAT_000164_e103_d1"><term ana="#document_type_7">L. a. s.</term> à Blainville ; Paris, 8 déc. 1821, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc></item>
+               <desc xml:id="CAT_000164_e103_d1"><term ana="#document_type_7">L. a. s.</term> à Blainville ; Paris, <date when="1821-12-08">8 déc. 1821</date>, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc></item>
             <item n="104" xml:id="CAT_000164_e104">
                <num>104</num>
                <name type="author">Liebig (Justus, baron de),</name>
@@ -1091,7 +1091,7 @@
                   <p>le célèbre chimiste
 						allemand.</p>
                </trait>
-               <desc xml:id="CAT_000164_e104_d1">1° <term ana="#document_type_7">L. a. s.</term> à M. Moldenhauer; Munich, 23 juin 1853, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><desc xml:id="CAT_000164_e104_d2">2° Mémoire aut., <measure type="length" unit="p" n="23">23 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc></item>
+               <desc xml:id="CAT_000164_e104_d1">1° <term ana="#document_type_7">L. a. s.</term> à M. Moldenhauer; Munich, <date when="1853-06-23">23 juin 1853</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><desc xml:id="CAT_000164_e104_d2">2° Mémoire aut., <measure type="length" unit="p" n="23">23 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc></item>
             <item n="105" xml:id="CAT_000164_e105">
                <num>105</num>
                <name type="author">Littérateurs</name>
@@ -1114,7 +1114,7 @@
                   <p>célèbre graveur
 					italien.</p>
                </trait>
-               <desc xml:id="CAT_000164_e107_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à Tardieu ; Milan, 12 juin 1824, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Déchirure par la rupture du cachet enlevant quelques mots.</desc><note>Belle lettre où il parle de sa planche de
+               <desc xml:id="CAT_000164_e107_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à Tardieu ; Milan, <date when="1824-06-12">12 juin 1824</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Déchirure par la rupture du cachet enlevant quelques mots.</desc><note>Belle lettre où il parle de sa planche de
 						Galatée d'après l'Albane.</note>
             </item>
             <item n="108" xml:id="CAT_000164_e108">
@@ -1124,14 +1124,14 @@
                   <p>fameux
 					historien.</p>
                </trait>
-               <desc xml:id="CAT_000164_e108_d1">P. <term ana="#document_type_15">a. s.</term>; Saint-Acheul, 2 août 1827, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_108">in-8 obl</measure>ong.</desc></item>
+               <desc xml:id="CAT_000164_e108_d1">P. <term ana="#document_type_15">a. s.</term>; Saint-Acheul, <date when="1827-08-02">2 août 1827</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_108">in-8 obl</measure>ong.</desc></item>
             <item n="109" xml:id="CAT_000164_e109">
                <num>109</num>
                <name type="author">Lorry (Anne-Charles),</name>
                <trait>
                   <p>célèbre médecin.</p>
                </trait>
-               <desc xml:id="CAT_000164_e109_d1">P. <term ana="#document_type_15">a. s.</term>; Paris, 17 mai 1767, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Déchirures et taches de rousseur. Consultation médicale.</desc></item>
+               <desc xml:id="CAT_000164_e109_d1">P. <term ana="#document_type_15">a. s.</term>; Paris, <date when="1767-05-17">17 mai 1767</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Déchirures et taches de rousseur. Consultation médicale.</desc></item>
             <item n="110" xml:id="CAT_000164_e110">
                <num>110</num>
                <name type="author">Luxembourg (Fr.-H. de Montmorency, duc de),</name>
@@ -1147,7 +1147,7 @@
                   <p>curé de Saint-Germain l'Auxerrois,
 						qui confessa Marie-Antoinette à la Conciergerie.</p>
                </trait>
-               <desc xml:id="CAT_000164_e111_d1"><term ana="#document_type_7">L. a. s.</term> au baron de L. a. Ferté; Paris, 21 fév. 1828, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Il annonce que la Dauphine et la duchesse de
+               <desc xml:id="CAT_000164_e111_d1"><term ana="#document_type_7">L. a. s.</term> au baron de L. a. Ferté; Paris, <date when="1828-02-21">21 fév. 1828</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Il annonce que la Dauphine et la duchesse de
 						Berri doivent venir lundi prochain dans son église à uue assemblée de
 						charité.</note>
             </item>
@@ -1158,7 +1158,7 @@
                   <p>écrivain, qui prit
 						une part active aux journées du 20 juin et du 10 août.</p>
                </trait>
-               <desc xml:id="CAT_000164_e112_d1"><term ana="#document_type_7">L. a. s.</term> à Frochot; Paris, 15 oct. 1812, <measure type="length" unit="p" n="2.75">2 p. 3/4</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> Belle pièce.</desc></item>
+               <desc xml:id="CAT_000164_e112_d1"><term ana="#document_type_7">L. a. s.</term> à Frochot; Paris, <date when="1812-10-15">15 oct. 1812</date>, <measure type="length" unit="p" n="2.75">2 p. 3/4</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> Belle pièce.</desc></item>
             <item n="113" xml:id="CAT_000164_e113">
                <num>113</num>
                <name type="author">Mathématiciens</name>
@@ -1172,7 +1172,7 @@
                   <p>célèbre astronome, membre de
 						l'Institut.</p>
                </trait>
-               <desc xml:id="CAT_000164_e114_d1"><term ana="#document_type_7">L. a. s.</term> au général Calon; Carcassonne, 11 nivôse an V, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Lettre écrite en sa qualité de « chargé de
+               <desc xml:id="CAT_000164_e114_d1"><term ana="#document_type_7">L. a. s.</term> au général Calon; Carcassonne, <date date="1796-12-31" type="length">11 nivôse an V</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Lettre écrite en sa qualité de « chargé de
 						continuer les opérations de la Méridienne dans le midi de la
 						République.»</note>
             </item>
@@ -1190,7 +1190,7 @@
 						la duchesse de Berri, qui fut arrêté avec cette princesse en
 					1832.</p>
                </trait>
-               <desc xml:id="CAT_000164_e116_d1"><term ana="#document_type_7">L. a. s.</term> au marquis…; Elisée Bourbon, 13 août 1823, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Intéressante.</desc></item>
+               <desc xml:id="CAT_000164_e116_d1"><term ana="#document_type_7">L. a. s.</term> au marquis…; Elisée Bourbon, <date when="1823-08-13">13 août 1823</date>, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Intéressante.</desc></item>
             <item n="117" xml:id="CAT_000164_e117">
                <num>117</num>
                <name type="author">Meusnier (J.-B.-M.),</name>
@@ -1198,7 +1198,7 @@
                   <p>savant ingénieur, général de la
 						République, blessé mortellement en défendant Mayence.</p>
                </trait>
-               <desc xml:id="CAT_000164_e117_d1"><term ana="#document_type_7">L. a. s.</term> à Lavoisier; Paris, 9 avril 1785, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Relative à un peson à ressort destiné à marquer
+               <desc xml:id="CAT_000164_e117_d1"><term ana="#document_type_7">L. a. s.</term> à Lavoisier; Paris, <date when="1785-04-09">9 avril 1785</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Relative à un peson à ressort destiné à marquer
 						les gros.</note>
             </item>
             <item n="118" xml:id="CAT_000164_e118">
@@ -1208,14 +1208,14 @@
                   <p>peintre d'histoire, membre de
 						l'Institut.</p>
                </trait>
-               <desc xml:id="CAT_000164_e118_d1"><term ana="#document_type_7">L. a. s.</term> au comte de Forbin; 7 juin 1817, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> Très légères taches. Il sollicite la commande d'un tableau.</desc></item>
+               <desc xml:id="CAT_000164_e118_d1"><term ana="#document_type_7">L. a. s.</term> au comte de Forbin; <date when="1817-06-07">7 juin 1817</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> Très légères taches. Il sollicite la commande d'un tableau.</desc></item>
             <item n="119" xml:id="CAT_000164_e119">
                <num>119</num>
                <name type="author">Michelet (Jules),</name>
                <trait>
                   <p>le célèbre écrivain.</p>
                </trait>
-               <desc xml:id="CAT_000164_e119_d1"><term ana="#document_type_7">L. a. s.</term> au baron d'Eckstein; (10 juillet 1829), <measure type="length" unit="p" n="1.75">1 p. 3/4</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Un peu jaunie. Belle lettre où il lui demande ses conseils pour une étude qu'il prépare sur la littérature allemande au moyen âge.</desc></item>
+               <desc xml:id="CAT_000164_e119_d1"><term ana="#document_type_7">L. a. s.</term> au baron d'Eckstein; <date when="1829-07-10">(10 juillet 1829</date>), <measure type="length" unit="p" n="1.75">1 p. 3/4</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Un peu jaunie. Belle lettre où il lui demande ses conseils pour une étude qu'il prépare sur la littérature allemande au moyen âge.</desc></item>
             <item n="120" xml:id="CAT_000164_e120">
                <num>120</num>
                <name type="author">Michu (Louis),</name>
@@ -1223,7 +1223,7 @@
                   <p>célèbre chanteur, mort par suicide en
 						1802.</p>
                </trait>
-               <desc xml:id="CAT_000164_e120_d1"><term ana="#document_type_7">L. a. s.</term> à Camerani ; Amiens, 29 août an V, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Déchirures par la rupture du cachet. Très
+               <desc xml:id="CAT_000164_e120_d1"><term ana="#document_type_7">L. a. s.</term> à Camerani ; Amiens, <date date="none" type="length">29 août an V</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Déchirures par la rupture du cachet. Très
 						intéressante lettre où il lui narre les éclatants succès qu'il vient
 						d'obtenir à Amiens.</note>
             </item>
@@ -1234,7 +1234,7 @@
                   <p>garde des sceaux sous
 						Louis XVI.</p>
                </trait>
-               <desc xml:id="CAT_000164_e121_d1"><term ana="#document_type_7">L. a. s.</term> (à la duchesse de Chartres); Versailles, 7 sept. 1778, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Belle lettre où il lui annonce que le Roi a
+               <desc xml:id="CAT_000164_e121_d1"><term ana="#document_type_7">L. a. s.</term> (à la duchesse de Chartres); Versailles, <date when="1778-09-07">7 sept. 1778</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Belle lettre où il lui annonce que le Roi a
 						gracié un de ses protégés.</note>
             </item>
             <item n="122" xml:id="CAT_000164_e122">
@@ -1252,7 +1252,7 @@
                   <p>savant général du
 						génie, membre de l'Acad. des Sciences.</p>
                </trait>
-               <desc xml:id="CAT_000164_e123_d1"><term ana="#document_type_7">L. a. s.</term> à un confrère ; Paris, 23 nov. 1762, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Envoi d'un rapport sur un mémoire que l'Académie
+               <desc xml:id="CAT_000164_e123_d1"><term ana="#document_type_7">L. a. s.</term> à un confrère ; Paris, <date when="1762-11-23">23 nov. 1762</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Envoi d'un rapport sur un mémoire que l'Académie
 						des sciences l'a chargé d'examiner.</note>
             </item>
             <item n="124" xml:id="CAT_000164_e124">
@@ -1263,7 +1263,7 @@
 						meilleurs capitaines de Henri IV, qui se couvrit de gloire à Jarnac, à
 						Montcontour, à Arques et à Ivry.</p>
                </trait>
-               <desc xml:id="CAT_000164_e124_d1"><term ana="#document_type_4">P. s.</term>; 6 sept. 1581, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><note>Pièce
+               <desc xml:id="CAT_000164_e124_d1"><term ana="#document_type_4">P. s.</term>; <date when="1581-09-06">6 sept. 1581</date>, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><note>Pièce
 						historique. C'est l'état des sommes qui lui sont dues par le
 					Roi.</note>
             </item>
@@ -1275,7 +1275,7 @@
 						précédent, gouverneur de Normandie, fidèle serviteur de Henri
 					IV.</p>
                </trait>
-               <desc xml:id="CAT_000164_e125_d1">1° <term ana="#document_type_9">L. s.</term> à Henri IV ; novembre 1597, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> Légère déchirure.</desc><desc xml:id="CAT_000164_e125_d2">2° <term ana="#document_type_4">P. s.</term>; (nov. 1597), <measure type="length" unit="p" n="6.5">6 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><note>Importants
+               <desc xml:id="CAT_000164_e125_d1">1° <term ana="#document_type_9">L. s.</term> à Henri IV ; <date when="1597-11">novembre 1597</date>, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> Légère déchirure.</desc><desc xml:id="CAT_000164_e125_d2">2° <term ana="#document_type_4">P. s.</term>; <date when="1597-11">(nov. 1597</date>), <measure type="length" unit="p" n="6.5">6 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><note>Importants
 						documents historiques. Le duc de Montpensier envoie au Roi l'état, joint à
 						sa lettre, des sommes qui lui sont dues, ainsi qu'au feu duc de Montpensier,
 						son père.</note>
@@ -1288,7 +1288,7 @@
                   <p>dite la Grande Mademoiselle, auteur de
 						Mémoires.</p>
                </trait>
-               <desc xml:id="CAT_000164_e126_d1"><term ana="#document_type_9">L. s.</term> à M. d'Herbigny ; Argenton, 18 août 1666, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachets et soies. Taches de rousseur.</desc><note>Il les prie d'exonérer des tailles les hanitants de La Chastre-le-Vicomte, qui sont dans une
+               <desc xml:id="CAT_000164_e126_d1"><term ana="#document_type_9">L. s.</term> à M. d'Herbigny ; Argenton, <date when="1666-08-18">18 août 1666</date>, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachets et soies. Taches de rousseur.</desc><note>Il les prie d'exonérer des tailles les hanitants de La Chastre-le-Vicomte, qui sont dans une
 						extrême misère.</note>
             </item>
             <item n="127" xml:id="CAT_000164_e127">
@@ -1297,7 +1297,7 @@
                <trait>
                   <p>célèbre chirurgien.</p>
                </trait>
-               <desc xml:id="CAT_000164_e127_d1"><term ana="#document_type_7">L. a. s.</term> au R. P. Cotte ; les Invalides, 27 nov. 1772, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle pièce.</desc></item>
+               <desc xml:id="CAT_000164_e127_d1"><term ana="#document_type_7">L. a. s.</term> au R. P. Cotte ; les Invalides, <date when="1772-11-27">27 nov. 1772</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle pièce.</desc></item>
             <item n="128" xml:id="CAT_000164_e128">
                <num>128</num>
                <name type="author">Moscati (Pietro),</name>
@@ -1305,7 +1305,7 @@
                   <p>célèbre médecin, chimiste et
 						physicien italien.</p>
                </trait>
-               <desc xml:id="CAT_000164_e128_d1"><term ana="#document_type_7">L. a. s.</term>, en français, Milan, 14 juill. 1811, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Envoi de son rapport sur l'état de l'instruction
+               <desc xml:id="CAT_000164_e128_d1"><term ana="#document_type_7">L. a. s.</term>, en français, Milan, <date when="1811">14 juill. 1811</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Envoi de son rapport sur l'état de l'instruction
 						publique du royaume d'Italie en 1807.</note>
             </item>
             <item n="129" xml:id="CAT_000164_e129">
@@ -1315,7 +1315,7 @@
                   <p>célèbre peintre d'histoire
 						belge.</p>
                </trait>
-               <desc xml:id="CAT_000164_e129_d1"><term ana="#document_type_7">L. a. s.</term> à Granet; Bruxelles, 13 fév. 1835, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Relative à un envoi de tableaux.</note>
+               <desc xml:id="CAT_000164_e129_d1"><term ana="#document_type_7">L. a. s.</term> à Granet; Bruxelles, <date when="1835-02-13">13 fév. 1835</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Relative à un envoi de tableaux.</note>
             </item>
             <item n="130" xml:id="CAT_000164_e130">
                <num>130</num>
@@ -1324,7 +1324,7 @@
                   <p>botaniste, qui a fait partie de
 						l'expédition d'Egypte.</p>
                </trait>
-               <desc xml:id="CAT_000164_e130_d1"><term ana="#document_type_7">L. a. s.</term> à Thouin; à bord la corvette anglaise le GoodDessing, en rade de Toulon, 24 brumaire an X, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> Passée au vinaigre.</desc><note>Curieuse épître où il lui mande son arrivée
+               <desc xml:id="CAT_000164_e130_d1"><term ana="#document_type_7">L. a. s.</term> à Thouin; à bord la corvette anglaise le GoodDessing, en rade de Toulon, <date date="1801-11-15" type="length">24 brumaire an X</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> Passée au vinaigre.</desc><note>Curieuse épître où il lui mande son arrivée
 						en France après l'évacuation de l'Egypte. Il apporte une ample collection de
 						grains de toutes les productions de ce pays.</note>
             </item>
@@ -1335,7 +1335,7 @@
                   <p>savant archéologue
 					italien.</p>
                </trait>
-               <desc xml:id="CAT_000164_e131_d1"><term ana="#document_type_7">L. a. s.</term> à Cristini; Rome, 1er sept. 1824, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle pièce.</desc></item>
+               <desc xml:id="CAT_000164_e131_d1"><term ana="#document_type_7">L. a. s.</term> à Cristini; Rome, <date when="1824-07-01">1er sept. 1824</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle pièce.</desc></item>
             <item n="132" xml:id="CAT_000164_e132">
                <num>132</num>
                <name type="author">Palmella (Don Pedro de Souza-Holstein, duc
@@ -1343,7 +1343,7 @@
                <trait>
                   <p>célèbre homme d'Etat portugais.</p>
                </trait>
-               <desc xml:id="CAT_000164_e132_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à Sidney Smith ; Paris, 9 janv. 1832, <measure type="length" unit="p" n="2.25">2 p. 1/4</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Très belle lettre.</desc></item>
+               <desc xml:id="CAT_000164_e132_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à Sidney Smith ; Paris, <date when="1832-01-09">9 janv. 1832</date>, <measure type="length" unit="p" n="2.25">2 p. 1/4</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Très belle lettre.</desc></item>
             <item n="133" xml:id="CAT_000164_e133">
                <num>133</num>
                <name type="author">Peintres</name>
@@ -1384,7 +1384,7 @@
                   <p>célèbre astronome
 					italien.</p>
                </trait>
-               <desc xml:id="CAT_000164_e137_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à Poncelet ; Turin, 21 juin 1840, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Recommandation en faveur de l'aubé Cervesi,
+               <desc xml:id="CAT_000164_e137_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à Poncelet ; Turin, <date when="1840-06-21">21 juin 1840</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Recommandation en faveur de l'aubé Cervesi,
 						physicien italien.</note>
             </item>
             <item n="138" xml:id="CAT_000164_e138">
@@ -1402,7 +1402,7 @@
                   <p>ministre
 						de la marine et contrôleur général des finances sous Louis XIV.</p>
                </trait>
-               <desc xml:id="CAT_000164_e139_d1"><term ana="#document_type_7">L. a. s.</term> à MANSART; 17 nov. 1695, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Il sollicite le don de trois ou quatre cents
+               <desc xml:id="CAT_000164_e139_d1"><term ana="#document_type_7">L. a. s.</term> à MANSART; <date when="1695-11-17">17 nov. 1695</date>, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Il sollicite le don de trois ou quatre cents
 						pieds d'ormes,</note>
             </item>
             <item n="140" xml:id="CAT_000164_e140">
@@ -1420,7 +1420,7 @@
                   <p>minéralogiste et géologue, de
 						l'Acad. des Sciences.</p>
                </trait>
-               <desc xml:id="CAT_000164_e141_d1"><term ana="#document_type_7">L. a. s.</term> à de Blainville; 19 juillet 1832, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Curieuse épître sur un rapport qu'il doit faire
+               <desc xml:id="CAT_000164_e141_d1"><term ana="#document_type_7">L. a. s.</term> à de Blainville; <date when="1832-07-19">19 juillet 1832</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Curieuse épître sur un rapport qu'il doit faire
 						à l'Académie des sciences.</note>
             </item>
             <item n="142" xml:id="CAT_000164_e142">
@@ -1429,7 +1429,7 @@
                <trait>
                   <p>le célèbre écrivain.</p>
                </trait>
-               <desc xml:id="CAT_000164_e142_d1"><term ana="#document_type_7">L. a. s.</term>; Veytaux, 2 mars 1861, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Intéressante.</desc></item>
+               <desc xml:id="CAT_000164_e142_d1"><term ana="#document_type_7">L. a. s.</term>; Veytaux, <date when="1861-03-02">2 mars 1861</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Intéressante.</desc></item>
             <item n="143" xml:id="CAT_000164_e143">
                <num>143</num>
                <name type="author">Ravignan (le père X. de),</name>
@@ -1437,7 +1437,7 @@
                   <p>célèbre
 					prédicateur.</p>
                </trait>
-               <desc xml:id="CAT_000164_e143_d1"><term ana="#document_type_7">L. a. s.</term> au vicaire général; Paris, 22 fév. 1852, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Jolie lettre.</desc></item>
+               <desc xml:id="CAT_000164_e143_d1"><term ana="#document_type_7">L. a. s.</term> au vicaire général; Paris, <date when="1852-02-22">22 fév. 1852</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Jolie lettre.</desc></item>
             <item n="144" xml:id="CAT_000164_e144">
                <num>144</num>
                <name type="author">Rémusat (Claire-Elisabeth-Jeanne de VERGENNes, comtesse
@@ -1464,7 +1464,7 @@
                   <p>peintre de genre, né à
 					Lyon.</p>
                </trait>
-               <desc xml:id="CAT_000164_e146_d1"><term ana="#document_type_7">L. a. s.</term> à M. de Cailleux; Paris, 28 fév. 1841, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Relative à ses tableaux pour la salle des
+               <desc xml:id="CAT_000164_e146_d1"><term ana="#document_type_7">L. a. s.</term> à M. de Cailleux; Paris, <date when="1841-02-28">28 fév. 1841</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Relative à ses tableaux pour la salle des
 						Croisades.</note>
             </item>
             <item n="147" xml:id="CAT_000164_e147">
@@ -1474,7 +1474,7 @@
                   <p>habile sculpteur, membre de
 						l'Institut.</p>
                </trait>
-               <desc xml:id="CAT_000164_e147_d1"><term ana="#document_type_7">L. a. s.</term> à Seurre ; Florence, 11 nov. 1821, <measure type="length" unit="p" n="1">1 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Rare.</desc><note>Intéressante lettre sur son séjour à Florence,
+               <desc xml:id="CAT_000164_e147_d1"><term ana="#document_type_7">L. a. s.</term> à Seurre ; Florence, <date when="1821-11-11">11 nov. 1821</date>, <measure type="length" unit="p" n="1">1 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Rare.</desc><note>Intéressante lettre sur son séjour à Florence,
 						où il n'y a presque rien pour la sculpture.</note>
             </item>
             <item n="148" xml:id="CAT_000164_e148">
@@ -1484,7 +1484,7 @@
                   <p>fils naturel du Régent,
 						évêque de Laon, puis archevêque de Cambrai.</p>
                </trait>
-               <desc xml:id="CAT_000164_e148_d1"><term ana="#document_type_7">L. a. s.</term> au comte de Toulouse ; Cambrai, 19 mai 1736, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Taches de rousseur.</desc><note>Compliments de condoléances sur la mort
+               <desc xml:id="CAT_000164_e148_d1"><term ana="#document_type_7">L. a. s.</term> au comte de Toulouse ; Cambrai, <date when="1736-05-19">19 mai 1736</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Taches de rousseur.</desc><note>Compliments de condoléances sur la mort
 						du duc du Maine.</note>
             </item>
             <item n="149" xml:id="CAT_000164_e149">
@@ -1495,7 +1495,7 @@
                   <p>célèbre tragédienne du
 					Théâtre-Français.</p>
                </trait>
-               <desc xml:id="CAT_000164_e149_d1"><term ana="#document_type_7">L. a. s.</term> aux commissaires de la section de la Montagne; 25 prairial an II, <measure type="length" unit="p" n="1">1 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Rare.</desc><note>Recommandation en faveur d'un
+               <desc xml:id="CAT_000164_e149_d1"><term ana="#document_type_7">L. a. s.</term> aux commissaires de la section de la Montagne; <date date="1794-06-13" type="length">25 prairial an II</date>, <measure type="length" unit="p" n="1">1 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Rare.</desc><note>Recommandation en faveur d'un
 						père de famille très infortuné.</note>
             </item>
             <item n="150" xml:id="CAT_000164_e150">
@@ -1515,7 +1515,7 @@
                <trait>
                   <p>célèbre conventionnel.</p>
                </trait>
-               <desc xml:id="CAT_000164_e151_d1"><term ana="#document_type_7">L. a. s.</term> à Pomme; port de la Montagne, 13 nivôse an II, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure>, vig. et tête impr.</desc><note>Il mande qu'il va accompagner les
+               <desc xml:id="CAT_000164_e151_d1"><term ana="#document_type_7">L. a. s.</term> à Pomme; port de la Montagne, <date date="1794-01-02" type="length">13 nivôse an II</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure>, vig. et tête impr.</desc><note>Il mande qu'il va accompagner les
 						troupes en Corse.</note>
             </item>
             <item n="152" xml:id="CAT_000164_e152">
@@ -1525,7 +1525,7 @@
                   <p>président de la
 						République mexicaine.</p>
                </trait>
-               <desc xml:id="CAT_000164_e152_d1"><term ana="#document_type_9">L. s.</term> à Jean Arago ; Vera-Cruz, 15 mars 1823, <measure type="length" unit="p" n="2.75">2 p. 3/4</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Intéressante lettre sur les événements
+               <desc xml:id="CAT_000164_e152_d1"><term ana="#document_type_9">L. s.</term> à Jean Arago ; Vera-Cruz, <date when="1823-03-15">15 mars 1823</date>, <measure type="length" unit="p" n="2.75">2 p. 3/4</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Intéressante lettre sur les événements
 						politiques.</note>
             </item>
             <item n="153" xml:id="CAT_000164_e153">
@@ -1534,7 +1534,7 @@
                <trait>
                   <p>peintre de genre.</p>
                </trait>
-               <desc xml:id="CAT_000164_e153_d1"><term ana="#document_type_7">L. a. s.</term>; Paris, 25 sept. 1786, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Demande
+               <desc xml:id="CAT_000164_e153_d1"><term ana="#document_type_7">L. a. s.</term>; Paris, <date when="1786-09-25">25 sept. 1786</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Demande
 						d'un congé pour aller en Flandre.</note>
             </item>
             <item n="154" xml:id="CAT_000164_e154">
@@ -1550,7 +1550,7 @@
                   <p>peintre d'histoire, membre de
 						l'Institut.</p>
                </trait>
-               <desc xml:id="CAT_000164_e155_d1"><term ana="#document_type_7">L. a. s.</term> au comte (de Forbin); (Rome), 19 avril 1828, <measure type="length" unit="p" n="4">4 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Intéressante lettre sur ses travaux, sur
+               <desc xml:id="CAT_000164_e155_d1"><term ana="#document_type_7">L. a. s.</term> au comte (de Forbin); (Rome), <date when="1828-04-19">19 avril 1828</date>, <measure type="length" unit="p" n="4">4 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Intéressante lettre sur ses travaux, sur
 						l'exposition des oeuvres des pensionnaires de Rome et sur l'annonce de
 						l'arrivée prochaine d'Horace Vernet. Il vient d'apprendre que son tableau du
 						Pâtre assassiné n'a pas été admis au Salon. Demande de renseignements à ce
@@ -1563,7 +1563,7 @@
                   <p>célèbre auteur dramatique, de
 						l'Acad. fr.</p>
                </trait>
-               <desc xml:id="CAT_000164_e156_d1"><term ana="#document_type_7">L. a. s.</term> (à Marin); (1788), <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Relative à
+               <desc xml:id="CAT_000164_e156_d1"><term ana="#document_type_7">L. a. s.</term> (à Marin); (<date when="1788">1788</date>), <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Relative à
 						une de ses comédies qui a été reçue en janvier 1770 et qui, depuis dix-huit
 						ans, n'a pas encore été jouée.</note>
             </item>
@@ -1574,7 +1574,7 @@
                   <p>lieutenant général,
 						père du maréchal.</p>
                </trait>
-               <desc xml:id="CAT_000164_e157_d1"><term ana="#document_type_7">L. a. s.</term> à la comtesse de Mailly ; camp de Platlinga, 22 sept. 1741, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Compliments de condoléance sur la mort de la
+               <desc xml:id="CAT_000164_e157_d1"><term ana="#document_type_7">L. a. s.</term> à la comtesse de Mailly ; camp de Platlinga, <date when="1741-09-22">22 sept. 1741</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Compliments de condoléance sur la mort de la
 						comtesse de Vintimille.</note>
             </item>
             <item n="158" xml:id="CAT_000164_e158">
@@ -1584,7 +1584,7 @@
                   <p>voyageur et
 					botaniste.</p>
                </trait>
-               <desc xml:id="CAT_000164_e158_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à Chatin; Leyde, 29 mars 1865, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Il lui mande qu'il l'attend à Leyde pour
+               <desc xml:id="CAT_000164_e158_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à Chatin; Leyde, <date when="1865-03-29">29 mars 1865</date>, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Il lui mande qu'il l'attend à Leyde pour
 						examiner avec lui les plantes du Japon qu'on pourrait cultiver en
 						France.</note>
             </item>
@@ -1604,7 +1604,7 @@
                   <p>l'architecte du
 					Panthéon.</p>
                </trait>
-               <desc xml:id="CAT_000164_e160_d1"><term ana="#document_type_7">L. a. s.</term> ; Paris, 16 oct. 1755, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Rognée en tête.</desc></item>
+               <desc xml:id="CAT_000164_e160_d1"><term ana="#document_type_7">L. a. s.</term> ; Paris, <date when="1755-10-16">16 oct. 1755</date>, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Rognée en tête.</desc></item>
             <item n="161" xml:id="CAT_000164_e161">
                <num>161</num>
                <name type="author">Talma (Fr.-Jos.),</name>
@@ -1619,7 +1619,7 @@
                   <p>valet de chambre
 						de Louis XVI, massacré en 1792.</p>
                </trait>
-               <desc xml:id="CAT_000164_e162_d1">2 l. <term ana="#document_type_15">a. s.</term> (au comte d'Angiviller) ; Versailles, 1781-86, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belles lettres.</desc></item>
+               <desc xml:id="CAT_000164_e162_d1">2 l. <term ana="#document_type_15">a. s.</term> (au comte d'Angiviller) ; Versailles, <date when="1781">1781</date>-86, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belles lettres.</desc></item>
             <item n="163" xml:id="CAT_000164_e163">
                <num>163</num>
                <name type="author">Thiers (Ad.),</name>
@@ -1641,7 +1641,7 @@
                   <p>célèbre astronome et physicien
 						italien.</p>
                </trait>
-               <desc xml:id="CAT_000164_e165_d1"><term ana="#document_type_7">L. a. s.</term> au professeur Gerti; Padoue, 21 nov. 1794, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle pièce.</desc></item>
+               <desc xml:id="CAT_000164_e165_d1"><term ana="#document_type_7">L. a. s.</term> au professeur Gerti; Padoue, <date when="1794-11-21">21 nov. 1794</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle pièce.</desc></item>
             <item n="166" xml:id="CAT_000164_e166">
                <num>166</num>
                <name type="author">Treviranus (L.-C.),</name>
@@ -1649,7 +1649,7 @@
                   <p>botaniste et physiologiste
 						allemand.</p>
                </trait>
-               <desc xml:id="CAT_000164_e166_d1"><term ana="#document_type_7">L. a. s.</term>, en français, au professeur Fée; Bonn, 9 janv. 1839, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Envoi du 2e volume de son ouvrage
+               <desc xml:id="CAT_000164_e166_d1"><term ana="#document_type_7">L. a. s.</term>, en français, au professeur Fée; Bonn, <date when="1839-01-09">9 janv. 1839</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Envoi du 2e volume de son ouvrage
 						physiologique.</note>
             </item>
             <item n="167" xml:id="CAT_000164_e167">
@@ -1660,7 +1660,7 @@
 						économiste, gouverneur général de la Guyane, membre libre de l'Académie des
 						Sciences.</p>
                </trait>
-               <desc xml:id="CAT_000164_e167_d1"><term ana="#document_type_7">L. a. s.</term> à Lhéritier; 12 nov. 1779, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachet. Belle lettre.</desc></item>
+               <desc xml:id="CAT_000164_e167_d1"><term ana="#document_type_7">L. a. s.</term> à Lhéritier; <date when="1779-11-12">12 nov. 1779</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachet. Belle lettre.</desc></item>
             <item n="168" xml:id="CAT_000164_e168">
                <num>168</num>
                <name type="author">Valmont de Bomare (J.-Chr.),</name>
@@ -1668,7 +1668,7 @@
                   <p>célèbre
 						naturaliste.</p>
                </trait>
-               <desc xml:id="CAT_000164_e168_d1"><term ana="#document_type_7">L. a. s.</term> à M. de L. a. Viéville; Paris, 5 mars 1775, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachet. Belle lettre.</desc></item>
+               <desc xml:id="CAT_000164_e168_d1"><term ana="#document_type_7">L. a. s.</term> à M. de L. a. Viéville; Paris, <date when="1775-03-05">5 mars 1775</date>, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachet. Belle lettre.</desc></item>
             <item n="169" xml:id="CAT_000164_e169">
                <num>169</num>
                <name type="author">Van Daël (J.-Fr.),</name>
@@ -1691,7 +1691,7 @@
                   <p>ministre des
 						affaires étrangères sous Louis XVI.</p>
                </trait>
-               <desc xml:id="CAT_000164_e171_d1">2 l. <term ana="#document_type_15">a. s.</term>; 1761-86, <measure type="length" unit="p" n="4">4 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belles lettres.</desc></item>
+               <desc xml:id="CAT_000164_e171_d1">2 l. <term ana="#document_type_15">a. s.</term>; <date when="1761">1761</date>-86, <measure type="length" unit="p" n="4">4 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belles lettres.</desc></item>
             <item n="172" xml:id="CAT_000164_e172">
                <num>172</num>
                <name type="author">Villars (Dominique),</name>
@@ -1699,14 +1699,14 @@
                   <p>botaniste et
 					médecin.</p>
                </trait>
-               <desc xml:id="CAT_000164_e172_d1"><term ana="#document_type_7">L. a. s.</term> à un confrère; Grenoble, 28 fév. 1789, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle lettre.</desc></item>
+               <desc xml:id="CAT_000164_e172_d1"><term ana="#document_type_7">L. a. s.</term> à un confrère; Grenoble, <date when="1789-02-28">28 fév. 1789</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle lettre.</desc></item>
             <item n="173" xml:id="CAT_000164_e173">
                <num>173</num>
                <name type="author">Wallin (J.-Olof),</name>
                <trait>
                   <p>poète suédois.</p>
                </trait>
-               <desc xml:id="CAT_000164_e173_d1"><term ana="#document_type_7">L. a. s.</term> ; Stockholm, 9 avril 1836, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc></item>
+               <desc xml:id="CAT_000164_e173_d1"><term ana="#document_type_7">L. a. s.</term> ; Stockholm, <date when="1836-04-09">9 avril 1836</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc></item>
             <item n="174" xml:id="CAT_000164_e174">
                <num>174</num>
                <name type="author"/>

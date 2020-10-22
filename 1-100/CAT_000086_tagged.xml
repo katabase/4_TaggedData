@@ -210,7 +210,7 @@
                   <p>dame de Combalet, nièce de Richelieu, fort maltraitée par Tallemant des Réaux,
                      et dont Fléchier prononça l'oraison funèbre</p>
                </trait>
-               <desc xml:id="CAT_000086_e1_d1">-Pièce si g., 1674, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure> sceau.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000086_e1_d1">-Pièce si g., <date when="1674">1674</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure> sceau.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Sur la généralité de Pontoise</note>
             </item>
             <item n="2" xml:id="CAT_000086_e2">
@@ -219,7 +219,7 @@
                <trait>
                   <p>empereur de Russie</p>
                </trait>
-               <desc xml:id="CAT_000086_e2_d1">-<term ana="#document_type_4">Pièce sig</term>., en allemand, 15 fév. 1813, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure> Cachet à ses armes. Belle pièce.</desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
+               <desc xml:id="CAT_000086_e2_d1">-<term ana="#document_type_4">Pièce sig</term>., en allemand, <date when="1813-02-15">15 fév. 1813</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure> Cachet à ses armes. Belle pièce.</desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
             </item>
             <item n="3" xml:id="CAT_000086_e3">
                <num type="lot">3</num>
@@ -227,7 +227,7 @@
                <trait>
                   <p>grand homme d'Etat autrichien</p>
                </trait>
-               <desc xml:id="CAT_000086_e3_d1"><term ana="#document_type_9">Let. sig.</term>; 11 juil. 1870, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e3_d1"><term ana="#document_type_9">Let. sig.</term>; <date when="1870-07-11">11 juil. 1870</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="4" xml:id="CAT_000086_e4">
                <num type="lot">4</num>
@@ -243,7 +243,7 @@
                <trait>
                   <p>romancière, femme du peintre Biard</p>
                </trait>
-               <desc xml:id="CAT_000086_e5_d1"><term ana="#document_type_7">L. a. s.</term>; 1857, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e5_d1"><term ana="#document_type_7">L. a. s.</term>; <date when="1857">1857</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="6" xml:id="CAT_000086_e6">
                <num type="lot">6</num>
@@ -251,7 +251,7 @@
                <trait>
                   <p>conventionnel, le fameux rapporteur du Comité de salut public</p>
                </trait>
-               <desc xml:id="CAT_000086_e6_d1">-<term ana="#document_type_2">Pièce aut. sig.</term>; Tarbes, 19 mars 1790, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000086_e6_d1">-<term ana="#document_type_2">Pièce aut. sig.</term>; Tarbes, <date when="1790-03-19">19 mars 1790</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Curieuse pièce écrite comme curé d'Auriébat, et où il donne, pour se conformer
                   au décret de l'Assemblée nationale du 5 février, la liste des bénéfices dont il a
                   la jouissance dans le département des Hautes- Pyrénées</note>
@@ -262,7 +262,7 @@
                <trait>
                   <p>l'historien de Venise</p>
                </trait>
-               <desc xml:id="CAT_000086_e7_d1"><term ana="#document_type_7">L. a. s.</term> à Ch. Blanc; Francfort-sur-Mein, 29 sept. (1857), <measure type="length" unit="p" n="4">4 p.</measure> <measure type="format" unit="f" ana="#document_format_18">in-18.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000086_e7_d1"><term ana="#document_type_7">L. a. s.</term> à Ch. Blanc; Francfort-sur-Mein, 29 sept. (<date when="1857">1857</date>), <measure type="length" unit="p" n="4">4 p.</measure> <measure type="format" unit="f" ana="#document_format_18">in-18.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Charmante epître relative au livre de Ch. Blanc, ayant pour titre : De Paria à
                   Venise, notes au crayon. » Le souvenir de votre voyage à Venise est pour moi une
                   cordiale autant qu'attachante page de mon séjour prolongé en cette adorable ville,
@@ -275,7 +275,7 @@
                <trait>
                   <p>graveur et dessinateur du roi</p>
                </trait>
-               <desc xml:id="CAT_000086_e8_d1">-<term ana="#document_type_2">Pièce aut. sig.</term>, 24 juil. 1787, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure> Coupure enlevant plusieurs mots.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e8_d1">-<term ana="#document_type_2">Pièce aut. sig.</term>, <date when="1787-07-24">24 juil. 1787</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure> Coupure enlevant plusieurs mots.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
                <note>Relative à la gravure de vingt-trois planches du Traité de la mâture</note>
             </item>
             <item n="9" xml:id="CAT_000086_e9">
@@ -284,7 +284,7 @@
                <trait>
                   <p>savant et agronome polonais</p>
                </trait>
-               <desc xml:id="CAT_000086_e9_d1"><term ana="#document_type_7">L. a. s.</term>, en français, 1849, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Curieuse.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e9_d1"><term ana="#document_type_7">L. a. s.</term>, en français, <date when="1849">1849</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Curieuse.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="10" xml:id="CAT_000086_e10">
                <num type="lot">10</num>
@@ -292,7 +292,7 @@
                <trait>
                   <p>littérateur du XVIIIe siècle, fameux par ses calembourgs</p>
                </trait>
-               <desc xml:id="CAT_000086_e10_d1"><term ana="#document_type_7">L. a. s.</term> à M. de la Bapaumerie; 1771, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachet à ses armes. Belle lettre.</desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <desc xml:id="CAT_000086_e10_d1"><term ana="#document_type_7">L. a. s.</term> à M. de la Bapaumerie; <date when="1771">1771</date>, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachet à ses armes. Belle lettre.</desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
             </item>
             <item n="11" xml:id="CAT_000086_e11">
                <num type="lot">11</num>
@@ -308,7 +308,7 @@
                <trait>
                   <p>frère de Napoléon Ier, roi de Hollande, père de Napoléon III</p>
                </trait>
-               <desc xml:id="CAT_000086_e12_d1"><term ana="#document_type_7">L. a. s.</term>, en abrégé, à M. de Broc; Nimègue, an XIV, <measure type="length" unit="p" n="1.25">1 p. 1/4</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000086_e12_d1"><term ana="#document_type_7">L. a. s.</term>, en abrégé, à M. de Broc; Nimègue, an <date date="1805" type="length">XIV</date>, <measure type="length" unit="p" n="1.25">1 p. 1/4</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="13" xml:id="CAT_000086_e13">
                <num type="lot">13</num>
@@ -324,7 +324,7 @@
                <trait>
                   <p>célèbre auteur dramatique, de l'Acad. fr.</p>
                </trait>
-               <desc xml:id="CAT_000086_e14_d1"><term ana="#document_type_7">L. a. s.</term> à M. Deville; 1813, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e14_d1"><term ana="#document_type_7">L. a. s.</term> à M. Deville; <date when="1813">1813</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="15" xml:id="CAT_000086_e15">
                <num type="lot">15</num>
@@ -332,7 +332,7 @@
                <trait>
                   <p>l'illustre conventionnel</p>
                </trait>
-               <desc xml:id="CAT_000086_e15_d1"><term ana="#document_type_7">L. a. s.</term> à François de Neufchâteau, 1815, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000086_e15_d1"><term ana="#document_type_7">L. a. s.</term> à François de Neufchâteau, <date when="1815">1815</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="16" xml:id="CAT_000086_e16">
                <num type="lot">16</num>
@@ -340,7 +340,7 @@
                <trait>
                   <p>célèbre compositeur de musique, né à Marseille</p>
                </trait>
-               <desc xml:id="CAT_000086_e16_d1"><term ana="#document_type_7">L. a. s.</term> à M. de Saint-Martin; Cologne, an V, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Charmante épître.</desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
+               <desc xml:id="CAT_000086_e16_d1"><term ana="#document_type_7">L. a. s.</term> à M. de Saint-Martin; Cologne, an <date date="1796-1797" type="length">V</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Charmante épître.</desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
             </item>
             <item n="17" xml:id="CAT_000086_e17">
                <num type="lot">17</num>
@@ -348,7 +348,7 @@
                <trait>
                   <p>célèbre historien et littérateur polonais</p>
                </trait>
-               <desc xml:id="CAT_000086_e17_d1"><term ana="#document_type_7">L. a. s.</term>, en français, 1850, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e17_d1"><term ana="#document_type_7">L. a. s.</term>, en français, <date when="1850">1850</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="18" xml:id="CAT_000086_e18">
                <num type="lot">18</num>
@@ -356,7 +356,7 @@
                <trait>
                   <p>célèbre poète dramatique, de l'Acad. fr.</p>
                </trait>
-               <desc xml:id="CAT_000086_e18_d1"><term ana="#document_type_7">L. a. s.</term> (à Andrieux); Chartres, 21 mai 1783, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <desc xml:id="CAT_000086_e18_d1"><term ana="#document_type_7">L. a. s.</term> (à Andrieux); Chartres, <date when="1783-05-21">21 mai 1783</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
                <note>Curieuse lettre, pleine de découragement, écrite après la première
                   représentation de sa comédie l'Insconstant. Il a pris le parti de renoncer tout à
                   fait aux vers et au théâtre, et il le remercie de son bienveillant concours «a Si
@@ -370,7 +370,7 @@
                <trait>
                   <p>père du Grand Condé</p>
                </trait>
-               <desc xml:id="CAT_000086_e19_d1"><term ana="#document_type_7">L. a. s.</term>; Valéry, 13 oct. 1621, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Légère écornure.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000086_e19_d1"><term ana="#document_type_7">L. a. s.</term>; Valéry, <date when="1621-10-13">13 oct. 1621</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Légère écornure.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Relative à l'expédition des Bulles de l'Archevêché de Bourges et des abbayes de
                   Breteuil et de Ferrières</note>
             </item>
@@ -381,7 +381,7 @@
                <trait>
                   <p>mère du duc d'Enghien</p>
                </trait>
-               <desc xml:id="CAT_000086_e20_d1"><term ana="#document_type_7">L. a. s.</term>; fév. 1789, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000086_e20_d1"><term ana="#document_type_7">L. a. s.</term>; <date when="1789-02">fév. 1789</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Demande de pension en faveur de la veuve du sieur Gros, vétéran de la musique
                   du Roi.</note>
             </item>
@@ -391,7 +391,7 @@
                <trait>
                   <p>poète tragique, de l'Acad. fr.</p>
                </trait>
-               <desc xml:id="CAT_000086_e21_d1">-Approbation de 4 lig. <term ana="#document_type_15">aut. sig.</term> au bas du manuscrit du Siège de Cythère, 1743, <measure type="length" unit="p" n="30">30 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000086_e21_d1">-Approbation de 4 lig. <term ana="#document_type_15">aut. sig.</term> au bas du manuscrit du Siège de Cythère, <date when="1743">1743</date>, <measure type="length" unit="p" n="30">30 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="22" xml:id="CAT_000086_e22">
                <num type="lot">22</num>
@@ -408,7 +408,7 @@
                <trait>
                   <p>littérateur et historien polonais</p>
                </trait>
-               <desc xml:id="CAT_000086_e23_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à un auteur dramatique, 1861, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e23_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à un auteur dramatique, <date when="1861">1861</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
                <note>Il annonce qu'il a fait représenter deux comédies et un drame au théâtre de la
                   Porte-Saint-Martin, sous le pseudonyme d'Ernest Rollin, et qu'il lui enverra son
                   dernier travail intitulé : Israël en Pologne</note>
@@ -427,7 +427,7 @@
                <trait>
                   <p>poète et auteur drama¬ tique du XVIIIe siècle, né à Sèze-la-Rousse (Drôme)</p>
                </trait>
-               <desc xml:id="CAT_000086_e25_d1"><term ana="#document_type_7">L. a. s.</term> à Danchet, de l'Acad. fr.; Versailles, 30 juil. 1737, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachet armorié.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000086_e25_d1"><term ana="#document_type_7">L. a. s.</term> à Danchet, de l'Acad. fr.; Versailles, <date when="1737-07-30">30 juil. 1737</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachet armorié.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="26" xml:id="CAT_000086_e26">
                <num type="lot">26</num>
@@ -435,7 +435,7 @@
                <trait>
                   <p>littérateur célèbre, auteur des Lettres à Emilie, né à Villers-Cotterets</p>
                </trait>
-               <desc xml:id="CAT_000086_e26_d1"><term ana="#document_type_7">L. a. s.</term> à M. Deshayes; Compiègne, 30 therm. an VIII, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000086_e26_d1"><term ana="#document_type_7">L. a. s.</term> à M. Deshayes; Compiègne, <date date="1800-08-18" type="length">30 therm. an VIII</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Jolie lettre sur le mauvais état de sa santé</note>
             </item>
             <item n="27" xml:id="CAT_000086_e27">
@@ -446,7 +446,7 @@
                      maréchale de l'Hospital, condamnée par contumace, en 1633, pour sa
                      participation au traité signé avec l'Espagne</p>
                </trait>
-               <desc xml:id="CAT_000086_e27_d1"><term ana="#document_type_12">Quitt. sig.</term>, sur vélin, 1622, <measure type="format" unit="f" ana="#document_format_104">in-4. ob</measure>i.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000086_e27_d1"><term ana="#document_type_12">Quitt. sig.</term>, sur vélin, <date when="1622">1622</date>, <measure type="format" unit="f" ana="#document_format_104">in-4. ob</measure>i.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Reçu de la somme dé 12,000 livres, à elle ordonnée par sa Majesté pour être
                   employée à l'acquittement des dettes de Mlles de Romorantin, soeurs naturelles du
                   Roi</note>
@@ -457,7 +457,7 @@
                <trait>
                   <p>sculpteur distingué du XVIIIe siècle</p>
                </trait>
-               <desc xml:id="CAT_000086_e28_d1"><term ana="#document_type_12">Quitt. sig.</term>, sur vélin, 1704, <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Obl.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e28_d1"><term ana="#document_type_12">Quitt. sig.</term>, sur vélin, <date when="1704">1704</date>, <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Obl.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="29" xml:id="CAT_000086_e29">
                <num type="lot">29</num>
@@ -466,7 +466,7 @@
                   <p>homme illustre du règne de Charles IX par son savoir et sa tolérance,
                      archevêque de Toulouse</p>
                </trait>
-               <desc xml:id="CAT_000086_e29_d1">Quit. sig. sur vélin, 16 déc. 1578, <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, fragment de cachet. Très-rare.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000086_e29_d1">Quit. sig. sur vélin, <date when="1578-12-16">16 déc. 1578</date>, <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, fragment de cachet. Très-rare.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Reçu de 300 écus sols comme » commissaire député par sa Majesté pour
                   l'établissement et observance de l'édit de pacification des troubles des provinces
                   do Guienne, Languedoc et Dauphiné.</note>
@@ -496,7 +496,7 @@
                <trait>
                   <p>illustre homme d'Etat anglais</p>
                </trait>
-               <desc xml:id="CAT_000086_e31_d1"><term ana="#document_type_7">L. a. s.</term> à M. de Schwartz; Londres, 1862, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Jolie lettre.</desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <desc xml:id="CAT_000086_e31_d1"><term ana="#document_type_7">L. a. s.</term> à M. de Schwartz; Londres, <date when="1862">1862</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Jolie lettre.</desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
             </item>
             <item n="32" xml:id="CAT_000086_e32">
                <num type="lot">32</num>
@@ -520,7 +520,7 @@
                <trait>
                   <p>célèbre homme d'Etat anglais</p>
                </trait>
-               <desc xml:id="CAT_000086_e34_d1"><term ana="#document_type_7">L. a. s.</term> au comte Wolkenstein; Londres, 1872, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e34_d1"><term ana="#document_type_7">L. a. s.</term> au comte Wolkenstein; Londres, <date when="1872">1872</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="35" xml:id="CAT_000086_e35">
                <num type="lot">35</num>
@@ -536,7 +536,7 @@
                <trait>
                   <p>poète et auteur dramatique allemand, né à Vienne en 1790</p>
                </trait>
-               <desc xml:id="CAT_000086_e36_d1">-Fragment d'un manuscr. aut., 1821, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Rare.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e36_d1">-Fragment d'un manuscr. aut., <date when="1821">1821</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Rare.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="37" xml:id="CAT_000086_e37">
                <num type="lot">37</num>
@@ -544,7 +544,7 @@
                <trait>
                   <p>célèbre philosophe et critique du XVIIIe siècle</p>
                </trait>
-               <desc xml:id="CAT_000086_e37_d1">-Lettre de change aut. et sig. trois fois; 1782, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Deux des signatures sont biffées légèrement.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000086_e37_d1">-Lettre de change aut. et sig. trois fois; <date when="1782">1782</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Deux des signatures sont biffées légèrement.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Cette lettre de 3,000 livres tournois, est à l'ordre du peintre Hoüel qui l'a
                   acquittée et signée</note>
             </item>
@@ -554,7 +554,7 @@
                <trait>
                   <p>prêtre de l'Oratoire, poète et littérateur du XVIIIe siècle, né à Beaune</p>
                </trait>
-               <desc xml:id="CAT_000086_e38_d1"><term ana="#document_type_7">L. a. sig.</term> de ses initiales à M. Macault; Beaune, 23 janv. 1761, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e38_d1"><term ana="#document_type_7">L. a. sig.</term> de ses initiales à M. Macault; Beaune, <date when="1761-01-23">23 janv. 1761</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="39" xml:id="CAT_000086_e39">
                <num type="lot">39</num>
@@ -562,7 +562,7 @@
                <trait>
                   <p>roi de France</p>
                </trait>
-               <desc xml:id="CAT_000086_e39_d1"><term ana="#document_type_9">Let. sig.</term> au maréchal d'Aumont; Paris, 4 juin 1585, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure> Traces de cachet. Piquée d'humidité.</desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <desc xml:id="CAT_000086_e39_d1"><term ana="#document_type_9">Let. sig.</term> au maréchal d'Aumont; Paris, <date when="1585-06-04">4 juin 1585</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure> Traces de cachet. Piquée d'humidité.</desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
                <note>Lettre de l'époque de la Ligue, par laquelle il lui annonce la nomi¬ nation de
                   M. de Malabry, comme commissaire-général des vivres</note>
             </item>
@@ -580,7 +580,7 @@
                <trait>
                   <p>célèbre diplomate et homme politique russe</p>
                </trait>
-               <desc xml:id="CAT_000086_e41_d1"><term ana="#document_type_7">L. a. s.</term>, en français; Berlin, 1806, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Curieuse.</desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
+               <desc xml:id="CAT_000086_e41_d1"><term ana="#document_type_7">L. a. s.</term>, en français; Berlin, <date when="1806">1806</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Curieuse.</desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
             </item>
             <item n="42" xml:id="CAT_000086_e42">
                <num type="lot">42</num>
@@ -588,7 +588,7 @@
                <trait>
                   <p>le prince des critiques, membre de l'Acad. franc</p>
                </trait>
-               <desc xml:id="CAT_000086_e42_d1"><term ana="#document_type_7">L. a. s.</term> à un littérateur, 1846, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <desc xml:id="CAT_000086_e42_d1"><term ana="#document_type_7">L. a. s.</term> à un littérateur, <date when="1846">1846</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
                <note>Charmante épître relative à sa traduction de Clarisse Harlowe : « Ma tentative
                   vous paraîtra bien hardie, moi je la trouve téméraire, et si je n'avais pas
                   apporté à ce travail tout le soin, tout le zèle et toute l'ardeur d'un vrai jeune
@@ -601,13 +601,13 @@
                <trait>
                   <p>moraliste, fabuliste estimé, né en Provence</p>
                </trait>
-               <desc xml:id="CAT_000086_e43_d1"><term ana="#document_type_7">L. a. s.</term> au libraire Maradan, 20 févr. 1815, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000086_e43_d1"><term ana="#document_type_7">L. a. s.</term> au libraire Maradan, <date when="1815-02-20">20 févr. 1815</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Sur ses Fables nouvelles.</note>
             </item>
             <item n="44" xml:id="CAT_000086_e44">
                <num type="lot">44</num>
                <name type="author">Joseph</name>
-               <desc xml:id="CAT_000086_e44_d1">II, empereur d'Allemagne, célèbre par ses réformes, frère de la reine Marie-Antoinette.-<term ana="#document_type_4">Pièce sig</term>., 1788, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure> Sceau. Superbe pièce.</desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <desc xml:id="CAT_000086_e44_d1">II, empereur d'Allemagne, célèbre par ses réformes, frère de la reine Marie-Antoinette.-<term ana="#document_type_4">Pièce sig</term>., <date when="1788">1788</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure> Sceau. Superbe pièce.</desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
             </item>
             <item n="45" xml:id="CAT_000086_e45">
                <num type="lot">45</num>
@@ -615,7 +615,7 @@
                <trait>
                   <p>savant orientaliste allemand</p>
                </trait>
-               <desc xml:id="CAT_000086_e45_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à M. Pillet, 1817, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e45_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à M. Pillet, <date when="1817">1817</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
                <note>Relative à l'acquisition d'un ouvrage chinois</note>
             </item>
             <item n="46" xml:id="CAT_000086_e46">
@@ -624,7 +624,7 @@
                <trait>
                   <p>brave général polonais, compagnon de Kosciusko</p>
                </trait>
-               <desc xml:id="CAT_000086_e46_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à M. Prudhomme, 1832, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Rure.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000086_e46_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à M. Prudhomme, <date when="1832">1832</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Rure.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="47" xml:id="CAT_000086_e47">
                <num type="lot">47</num>
@@ -632,7 +632,7 @@
                <trait>
                   <p>savant russe très-distingué</p>
                </trait>
-               <desc xml:id="CAT_000086_e47_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à l'abbé Moigno; Paris, 1869, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e47_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à l'abbé Moigno; Paris, <date when="1869">1869</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="48" xml:id="CAT_000086_e48">
                <num type="lot">48</num>
@@ -640,7 +640,7 @@
                <trait>
                   <p>homme d'Etat russe, favori de Paul 1er</p>
                </trait>
-               <desc xml:id="CAT_000086_e48_d1"><term ana="#document_type_9">Let. sig.</term>, en français, avec un post¬ script. de 10 lig. aut., 1796, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e48_d1"><term ana="#document_type_9">Let. sig.</term>, en français, avec un post¬ script. de 10 lig. aut., <date when="1796">1796</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="49" xml:id="CAT_000086_e49">
                <num type="lot">49</num>
@@ -656,7 +656,7 @@
                <trait>
                   <p>célèbre général et écrivain russe, historien de Marie Stuart</p>
                </trait>
-               <desc xml:id="CAT_000086_e50_d1"><term ana="#document_type_7">L. a. s.</term>, en français, 1835, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e50_d1"><term ana="#document_type_7">L. a. s.</term>, en français, <date when="1835">1835</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="51" xml:id="CAT_000086_e51">
                <num type="lot">51</num>
@@ -665,7 +665,7 @@
                   <p>roi de Pologne, célèbre par ses succès contre les Russes, époux de Marie de
                      Gonzague</p>
                </trait>
-               <desc xml:id="CAT_000086_e51_d1"><term ana="#document_type_9">L. sig.</term>, en latin, au cardinal de Montalte; Varsovie, 1645, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <desc xml:id="CAT_000086_e51_d1"><term ana="#document_type_9">L. sig.</term>, en latin, au cardinal de Montalte; Varsovie, <date when="1645">1645</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
             </item>
             <item n="52" xml:id="CAT_000086_e52">
                <num type="lot">52</num>
@@ -673,7 +673,7 @@
                <trait>
                   <p>illustre général</p>
                </trait>
-               <desc xml:id="CAT_000086_e52_d1"><term ana="#document_type_7">L. a. sig.</term> de ses initiales à M. Masclet; Washington, 13 août 1825, <measure type="length" unit="p" n="1.25">1 p. 1/4</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Un peu fatiguée.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000086_e52_d1"><term ana="#document_type_7">L. a. sig.</term> de ses initiales à M. Masclet; Washington, <date when="1825-08-13">13 août 1825</date>, <measure type="length" unit="p" n="1.25">1 p. 1/4</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Un peu fatiguée.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Tres-curieuse lettre sur le voyage qu'il lit en Amérique, de 1824 à 1825. «
                   C'est avec de bien tendres regrets que je quitterai cette terre américaine, le
                   bon, grand et heureux peuple des Etats-Unis auquel je suis amalgamé depuis près
@@ -691,7 +691,7 @@
                <trait>
                   <p>fils du général, condamné pour tentative de viol</p>
                </trait>
-               <desc xml:id="CAT_000086_e53_d1"><term ana="#document_type_7">L. a. s.</term> aux officiers et élèves de l'école de Saumur; Paris, mai 1836, <measure type="length" unit="p" n="3">3 p.</measure> pet. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000086_e53_d1"><term ana="#document_type_7">L. a. s.</term> aux officiers et élèves de l'école de Saumur; Paris, <date when="1836-05">mai 1836</date>, <measure type="length" unit="p" n="3">3 p.</measure> pet. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Très-curieuse lettre toute relative à son procès</note>
             </item>
             <item n="54" xml:id="CAT_000086_e54">
@@ -714,7 +714,7 @@
                <trait>
                   <p>romancier et poète allemand, né en 1806</p>
                </trait>
-               <desc xml:id="CAT_000086_e55_d1"><term ana="#document_type_7">L. a. s.</term>; Vienne, 26 avr. 1872, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
+               <desc xml:id="CAT_000086_e55_d1"><term ana="#document_type_7">L. a. s.</term>; Vienne, <date when="1872-04-26">26 avr. 1872</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
             </item>
             <item n="56" xml:id="CAT_000086_e56">
                <num type="lot">56</num>
@@ -722,7 +722,7 @@
                <trait>
                   <p>célèbre femme peintre</p>
                </trait>
-               <desc xml:id="CAT_000086_e56_d1"><term ana="#document_type_8">Let. aut.</term> à Mlle d'Emar, 1816, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Charmante épître.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e56_d1"><term ana="#document_type_8">Let. aut.</term> à Mlle d'Emar, <date when="1816">1816</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Charmante épître.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="57" xml:id="CAT_000086_e57">
                <num type="lot">57</num>
@@ -730,7 +730,7 @@
                <trait>
                   <p>savant médecin et physiologiste du XVIIIe siècle</p>
                </trait>
-               <desc xml:id="CAT_000086_e57_d1"><term ana="#document_type_7">L. a. s.</term> à Valmont de Bomare; Rouen, 12 déc. 1760, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachet à ses armes. Rare.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000086_e57_d1"><term ana="#document_type_7">L. a. s.</term> à Valmont de Bomare; Rouen, <date when="1760-12-12">12 déc. 1760</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachet à ses armes. Rare.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Il lui annonce sa nomination comme membre de l'Académie de Rouen</note>
             </item>
             <item n="58" xml:id="CAT_000086_e58">
@@ -739,7 +739,7 @@
                <trait>
                   <p>célèbre homme d'État et théologien suisse, élève de Cujas</p>
                </trait>
-               <desc xml:id="CAT_000086_e58_d1"><term ana="#document_type_7">L. a. s.</term>, en-tête, en latin, 1598, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000086_e58_d1"><term ana="#document_type_7">L. a. s.</term>, en-tête, en latin, <date when="1598">1598</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
             <item n="59" xml:id="CAT_000086_e59">
                <num type="lot">59</num>
@@ -747,7 +747,7 @@
                <trait>
                   <p>compositeur de musique du XVIIIe siècle, né à Nantes</p>
                </trait>
-               <desc xml:id="CAT_000086_e59_d1"><term ana="#document_type_7">L. a. s.</term>; Nantes, 22 mai 1766, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
+               <desc xml:id="CAT_000086_e59_d1"><term ana="#document_type_7">L. a. s.</term>; Nantes, <date when="1766-05-22">22 mai 1766</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
                <note>Relative à un concert qu'il vient de donner à Auch</note>
             </item>
             <item n="60" xml:id="CAT_000086_e60">
@@ -780,7 +780,7 @@
                <trait>
                   <p>roi de France</p>
                </trait>
-               <desc xml:id="CAT_000086_e63_d1"><term ana="#document_type_9">Let. sig.</term> aux chanoines comtes de Lyon; 1er fév. 1752, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachets et soies. Peu commune comme lettre signée.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000086_e63_d1"><term ana="#document_type_9">Let. sig.</term> aux chanoines comtes de Lyon; <date when="1752-02-01">1er fév. 1752</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachets et soies. Peu commune comme lettre signée.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Superbe pièce relative à la nomination de l'abbé de Marbeuf au Chapitre de
                   Lyon</note>
             </item>
@@ -807,7 +807,7 @@
                   <p>cardinal, archevêque de Sens, ennemi des Jansénistes, astronome, membre de
                      l'Acad. fr.</p>
                </trait>
-               <desc xml:id="CAT_000086_e66_d1"><term ana="#document_type_9">Let. sig.</term>; Sens, 1786, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e66_d1"><term ana="#document_type_9">Let. sig.</term>; Sens, <date when="1786">1786</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="67" xml:id="CAT_000086_e67">
                <num type="lot">67</num>
@@ -823,7 +823,7 @@
                <trait>
                   <p>reine et régente de France, seconde femme de Henri IV</p>
                </trait>
-               <desc xml:id="CAT_000086_e68_d1"><term ana="#document_type_7">L. a. s.</term> au cardinal de Richelieu; 6 avril 1630, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachets et soies.</desc><measure commodity="currency" unit="FRF" quantity="40">40</measure>
+               <desc xml:id="CAT_000086_e68_d1"><term ana="#document_type_7">L. a. s.</term> au cardinal de Richelieu; <date when="1630-04-06">6 avril 1630</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachets et soies.</desc><measure commodity="currency" unit="FRF" quantity="40">40</measure>
                <note>Elle vient d'apprendre l'heureux succès des affaires du roi : « J'espère que
                   sous vostre bonne conduitte tout ira tousjours de mieux en mieux.</note>
             </item>
@@ -841,7 +841,7 @@
                <trait>
                   <p>célèbre auteur drama¬ tique</p>
                </trait>
-               <desc xml:id="CAT_000086_e70_d1">-<term ana="#document_type_2">Pièce aut. sig.</term>; Paris, 1789, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e70_d1">-<term ana="#document_type_2">Pièce aut. sig.</term>; Paris, <date when="1789">1789</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
                <note>Curieuse pièce par laquelle il vend, au libraire Brunet, moyennant la somme de
                   520 livres, une pièce qui a pour titre : Les deux petits Savoyards, et qui a été
                   jouée à la Comédie italienne</note>
@@ -860,7 +860,7 @@
                <trait>
                   <p>jésuite, confesseur et panégyriste du duc de Bourgogne, né à Angers</p>
                </trait>
-               <desc xml:id="CAT_000086_e72_d1"><term ana="#document_type_4">Pièce sig</term>. trois fois, avec 4 lig. aut., sig. aussi du Pere de Frémont; Paris, 1er mai 1705, <measure type="length" unit="p" n="4">4 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
+               <desc xml:id="CAT_000086_e72_d1"><term ana="#document_type_4">Pièce sig</term>. trois fois, avec 4 lig. aut., sig. aussi du Pere de Frémont; Paris, <date when="1705-05-01">1er mai 1705</date>, <measure type="length" unit="p" n="4">4 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
                <note>Traité avec le libraire Rigaud pour la publication, par le P. Marti¬ neau, des
                   quatre premiers volumes des Sermons de Bourdaloue</note>
             </item>
@@ -870,7 +870,7 @@
                <trait>
                   <p>gracieux compositeur, auteur de la Reine Topaze</p>
                </trait>
-               <desc xml:id="CAT_000086_e73_d1">-Morceau de musique <term ana="#document_type_15">aut. sig.</term> avec paroles, 1871, <measure type="format" unit="f" ana="#document_format_1">in-f.</measure>, format d'agenda.</desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
+               <desc xml:id="CAT_000086_e73_d1">-Morceau de musique <term ana="#document_type_15">aut. sig.</term> avec paroles, <date when="1871">1871</date>, <measure type="format" unit="f" ana="#document_format_1">in-f.</measure>, format d'agenda.</desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
             </item>
             <item n="74" xml:id="CAT_000086_e74">
                <num type="lot">74</num>
@@ -878,7 +878,7 @@
                <trait>
                   <p>célèbre violoniste et chanteur, né à Liège</p>
                </trait>
-               <desc xml:id="CAT_000086_e74_d1"><term ana="#document_type_7">L. a. s.</term>, 1876, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_18">in-18.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e74_d1"><term ana="#document_type_7">L. a. s.</term>, <date when="1876">1876</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_18">in-18.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="75" xml:id="CAT_000086_e75">
                <num type="lot">75</num>
@@ -886,7 +886,7 @@
                <trait>
                   <p>célèbre médecin et savant du XVIIIe siècle</p>
                </trait>
-               <desc xml:id="CAT_000086_e75_d1"><term ana="#document_type_7">L. a. s.</term> à Valmont de Bomare; 1783, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000086_e75_d1"><term ana="#document_type_7">L. a. s.</term> à Valmont de Bomare; <date when="1783">1783</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Belle et curieuse lettre relative à l'Encyclopédie méthodique et à l'Histoire
                   des Oiseaux, de Buffon</note>
             </item>
@@ -896,7 +896,7 @@
                <trait>
                   <p>constituant, archevêque de Paris, de l'Acad. fr.</p>
                </trait>
-               <desc xml:id="CAT_000086_e76_d1"><term ana="#document_type_7">L. a. s.</term> à M. de Saint-Martin; Montefiascone, 5 avr. 1795, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachet. Belle lettre.</desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <desc xml:id="CAT_000086_e76_d1"><term ana="#document_type_7">L. a. s.</term> à M. de Saint-Martin; Montefiascone, <date when="1795-04-05">5 avr. 1795</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachet. Belle lettre.</desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
             </item>
             <item n="77" xml:id="CAT_000086_e77">
                <num type="lot">77</num>
@@ -931,7 +931,7 @@
                <trait>
                   <p>poète, historien des Croisades, de l'Acad. fr., né à Bourg</p>
                </trait>
-               <desc xml:id="CAT_000086_e80_d1"><term ana="#document_type_7">L. a. s.</term>; (1814), <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000086_e80_d1"><term ana="#document_type_7">L. a. s.</term>; (<date when="1814">1814</date>), <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Curieuse lettre écrite à un journaliste, comme censeur des journaux. Il
                   regrette de supprimer son article, mais des ordres sévères ont été donnés pour ne
                   rien laisser passer qui pût aigrir « MM. les Jacobins et MM. les Régicides.</note>
@@ -972,7 +972,7 @@
                <trait>
                   <p>célèbre orientaliste persan, né en 1803</p>
                </trait>
-               <desc xml:id="CAT_000086_e84_d1"><term ana="#document_type_7">L. a. s.</term>, en allemand, 1861, <measure type="length" unit="p" n="3">3 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e84_d1"><term ana="#document_type_7">L. a. s.</term>, en allemand, <date when="1861">1861</date>, <measure type="length" unit="p" n="3">3 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="85" xml:id="CAT_000086_e85">
                <num type="lot">85</num>
@@ -980,7 +980,7 @@
                <trait>
                   <p>célèbre poète provençal</p>
                </trait>
-               <desc xml:id="CAT_000086_e85_d1"><term ana="#document_type_7">L. a. s.</term>; Maillane (Bouches-du-Rhône), 25 fév. 1863, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Curieuse.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e85_d1"><term ana="#document_type_7">L. a. s.</term>; Maillane (Bouches-du-Rhône), <date when="1863-02-25">25 fév. 1863</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Curieuse.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="86" xml:id="CAT_000086_e86">
                <num type="lot">86</num>
@@ -988,7 +988,7 @@
                <trait>
                   <p>célèbre homme d'Etat., ministre de Louis-Philippe, de l'Acad. fr.</p>
                </trait>
-               <desc xml:id="CAT_000086_e86_d1"><term ana="#document_type_7">L. a. s.</term> à une princesse; 1847, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Jolie lettre.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e86_d1"><term ana="#document_type_7">L. a. s.</term> à une princesse; <date when="1847">1847</date>, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Jolie lettre.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="87" xml:id="CAT_000086_e87">
                <num type="lot">87</num>
@@ -996,7 +996,7 @@
                <trait>
                   <p>éditeur des Lettres de Mme de Sévigné, de l'Institut</p>
                </trait>
-               <desc xml:id="CAT_000086_e87_d1"><term ana="#document_type_7">L. a. s.</term> à Paul Lacroix; 31 mai 1836, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Légère déchirure.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e87_d1"><term ana="#document_type_7">L. a. s.</term> à Paul Lacroix; <date when="1836-05-31">31 mai 1836</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Légère déchirure.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
                <note>Très-curieuse lettre sur le Masque de fer.n, J'ai eu tort, dans une note sur
                   les lettres de Mme de Sévigné, de pencher pour l'opinion qui en fait un frère ainé
                   de Louis XIV. J'ai depuis reconnu la fausseté de cette assertion et je partage
@@ -1009,7 +1009,7 @@
                <trait>
                   <p>spirituel dessinateur, le créateur du type de Joseph Prudhomme</p>
                </trait>
-               <desc xml:id="CAT_000086_e88_d1"><term ana="#document_type_7">L. a. s.</term> à l'acteur Samson; 1854, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e88_d1"><term ana="#document_type_7">L. a. s.</term> à l'acteur Samson; <date when="1854">1854</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="89" xml:id="CAT_000086_e89">
                <num type="lot">89</num>
@@ -1017,7 +1017,7 @@
                <trait>
                   <p>célèbre orateur parlementaire, de l'Acad. fr.</p>
                </trait>
-               <desc xml:id="CAT_000086_e89_d1"><term ana="#document_type_7">L. a. s.</term> 1840. 2 n. <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
+               <desc xml:id="CAT_000086_e89_d1"><term ana="#document_type_7">L. a. s.</term> <date when="1840">1840</date>. 2 n. <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
             </item>
             <item n="90" xml:id="CAT_000086_e90">
                <num type="lot">90</num>
@@ -1025,7 +1025,7 @@
                <trait>
                   <p>ministre de Louis-Philippe, mort récemment</p>
                </trait>
-               <desc xml:id="CAT_000086_e90_d1"><term ana="#document_type_7">L. a. s.</term>; 1850, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e90_d1"><term ana="#document_type_7">L. a. s.</term>; <date when="1850">1850</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="91" xml:id="CAT_000086_e91">
                <num type="lot">91</num>
@@ -1033,7 +1033,7 @@
                <trait>
                   <p>gouverneur du grand Dauphin, époux de Julie d'Angennes</p>
                </trait>
-               <desc xml:id="CAT_000086_e91_d1">Quit. sig. sur vélin, comme gouverneur d'Angoulême, 1605, <measure type="format" unit="f" ana="#document_format_108">in-8 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e91_d1">Quit. sig. sur vélin, comme gouverneur d'Angoulême, <date when="1605">1605</date>, <measure type="format" unit="f" ana="#document_format_108">in-8 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="92" xml:id="CAT_000086_e92">
                <num type="lot">92</num>
@@ -1041,7 +1041,7 @@
                <trait>
                   <p>archevêque de Lyon, de l'Acad. tr</p>
                </trait>
-               <desc xml:id="CAT_000086_e92_d1">-<term ana="#document_type_9">Let. sig.</term>; Lyon, 1787, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e92_d1">-<term ana="#document_type_9">Let. sig.</term>; Lyon, <date when="1787">1787</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="93" xml:id="CAT_000086_e93">
                <num type="lot">93</num>
@@ -1049,7 +1049,7 @@
                <trait>
                   <p>illustre bénédictin, auteur de l'Antiquité expliquée, né près de Narbonne</p>
                </trait>
-               <desc xml:id="CAT_000086_e93_d1"><term ana="#document_type_7">L. a. s.</term> au R. P. dom Cl. de Vic, bénédictin de la congrégation de Saint-Maur; 19 août 1723. <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachet. Tachée d'humi¬ dité et légèrement déchirée.</desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <desc xml:id="CAT_000086_e93_d1"><term ana="#document_type_7">L. a. s.</term> au R. P. dom Cl. de Vic, bénédictin de la congrégation de Saint-Maur; <date when="1723-08-19">19 août 1723</date>. <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachet. Tachée d'humi¬ dité et légèrement déchirée.</desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
                <note>Relative aux quatre premiers tomes de son Saint Jean Chrysostôme</note>
             </item>
             <item n="94" xml:id="CAT_000086_e94">
@@ -1066,7 +1066,7 @@
                <trait>
                   <p>illustre connétable de France, tué à la bataille de Saint-Denis</p>
                </trait>
-               <desc xml:id="CAT_000086_e95_d1">-<term ana="#document_type_4">Pièce sig</term>. sur vélin, 1553, <measure type="format" unit="f" ana="#document_format_104">in-4 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <desc xml:id="CAT_000086_e95_d1">-<term ana="#document_type_4">Pièce sig</term>. sur vélin, <date when="1553">1553</date>, <measure type="format" unit="f" ana="#document_format_104">in-4 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
             </item>
             <item n="96" xml:id="CAT_000086_e96">
                <num type="lot">96</num>
@@ -1075,7 +1075,7 @@
                   <p>cinquième fils du roi Louis-Philippe, beau-frère de la reine d'Espagne, Isa¬
                      belle II</p>
                </trait>
-               <desc xml:id="CAT_000086_e96_d1"><term ana="#document_type_7">L. a. s.</term>; 1875, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Curieuse.</desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <desc xml:id="CAT_000086_e96_d1"><term ana="#document_type_7">L. a. s.</term>; <date when="1875">1875</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Curieuse.</desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
             </item>
             <item n="97" xml:id="CAT_000086_e97">
                <num type="lot">97</num>
@@ -1083,7 +1083,7 @@
                <trait>
                   <p>roi de Naples</p>
                </trait>
-               <desc xml:id="CAT_000086_e97_d1"><term ana="#document_type_7">L. a. s.</term> au général Samson; Milan, 16 vent, an II, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Curieuse.</desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <desc xml:id="CAT_000086_e97_d1"><term ana="#document_type_7">L. a. s.</term> au général Samson; Milan, <date date="1794-03-06" type="length">16 vent, an II</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Curieuse.</desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
             </item>
             <item n="98" xml:id="CAT_000086_e98">
                <num type="lot">98</num>
@@ -1091,7 +1091,7 @@
                <trait>
                   <p>célèbre littérateur fantaisiste, le roi et l'historien de la Bohème</p>
                </trait>
-               <desc xml:id="CAT_000086_e98_d1"><term ana="#document_type_7">L. a. s.</term> à Léon Noël; 1842, <measure type="length" unit="p" n="3">3 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachet.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000086_e98_d1"><term ana="#document_type_7">L. a. s.</term> à Léon Noël; <date when="1842">1842</date>, <measure type="length" unit="p" n="3">3 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachet.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Superbe et curieuse lettre sur son état de détresse; depuis trois jours il ne
                   mange que du pain sec. « Je n'ai jamais été si malheureux que maintenant. Je
                   m'ennuie horriblement. » Son portrait va figurer au Salon, etc</note>
@@ -1102,17 +1102,17 @@
                <trait>
                   <p>brave amiral anglais, historien de ses glorieuses campagnes</p>
                </trait>
-               <desc xml:id="CAT_000086_e99_d1"><term ana="#document_type_7">L. a. s.</term>; 1857, <measure type="length" unit="p" n="1">I p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e99_d1"><term ana="#document_type_7">L. a. s.</term>; <date when="1857">1857</date>, <measure type="length" unit="p" n="1">I p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="100" xml:id="CAT_000086_e100">
                <num type="lot">100</num>
                <name type="author">Napoléon</name>
-               <desc xml:id="CAT_000086_e100_d1">Ier, empereur des Français.-<term ana="#document_type_10">Brevet sig.</term> Nupolé, sur vélin; 1812, in-t.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000086_e100_d1">Ier, empereur des Français.-<term ana="#document_type_10">Brevet sig.</term> Nupolé, sur vélin; <date when="1812">1812</date>, in-t.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
             <item n="101" xml:id="CAT_000086_e101">
                <num type="lot">101</num>
                <name type="author">Le même</name>
-               <desc xml:id="CAT_000086_e101_d1"><term ana="#document_type_4">Pièce sig</term>. Bonaparte; an II, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <desc xml:id="CAT_000086_e101_d1"><term ana="#document_type_4">Pièce sig</term>. Bonaparte; an <date date="1793-1794" type="length">II</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
             </item>
             <item n="102" xml:id="CAT_000086_e102">
                <num type="lot">102</num>
@@ -1120,7 +1120,7 @@
                <trait>
                   <p>célèbre cantatrice de l'Opéra</p>
                </trait>
-               <desc xml:id="CAT_000086_e102_d1"><term ana="#document_type_7">L. a. s.</term> 1854, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e102_d1"><term ana="#document_type_7">L. a. s.</term> <date when="1854">1854</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="103" xml:id="CAT_000086_e103">
                <num type="lot">103</num>
@@ -1152,7 +1152,7 @@
                <trait>
                   <p>célèbre diplomate russe</p>
                </trait>
-               <desc xml:id="CAT_000086_e106_d1"><term ana="#document_type_7">L. a. s.</term>, en français, 1864, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Charmante épître.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e106_d1"><term ana="#document_type_7">L. a. s.</term>, en français, <date when="1864">1864</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Charmante épître.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="107" xml:id="CAT_000086_e107">
                <num type="lot">107</num>
@@ -1161,7 +1161,7 @@
                   <p>gouverneur de Cham¬ pagne, qui sauva l'armée française à la bataille de
                      Saint-Quentin, et découvrit au roi François II, la conjuration d'Amboise</p>
                </trait>
-               <desc xml:id="CAT_000086_e107_d1"><term ana="#document_type_9">Let. sig.</term> avec la souscr. aut. à M. de Bourdillon, gouverneur du Piémont; Saint-Eloi, 6 mars 1561, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> Cachet. Légère écornure. Rare.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000086_e107_d1"><term ana="#document_type_9">Let. sig.</term> avec la souscr. aut. à M. de Bourdillon, gouverneur du Piémont; Saint-Eloi, <date when="1561-03-06">6 mars 1561</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> Cachet. Légère écornure. Rare.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
             <item n="108" xml:id="CAT_000086_e108">
                <num type="lot">108</num>
@@ -1169,7 +1169,7 @@
                <trait>
                   <p>un de nos meilleurs fabulistes, de l'Acad. fr.</p>
                </trait>
-               <desc xml:id="CAT_000086_e108_d1"><term ana="#document_type_7">L. a. s.</term> 1775. <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
+               <desc xml:id="CAT_000086_e108_d1"><term ana="#document_type_7">L. a. s.</term> <date when="1775">1775</date>. <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
             </item>
             <item n="109" xml:id="CAT_000086_e109">
                <num type="lot">109</num>
@@ -1177,7 +1177,7 @@
                <trait>
                   <p>gracieux et original compositeur de musique</p>
                </trait>
-               <desc xml:id="CAT_000086_e109_d1"><term ana="#document_type_7">L. a. s.</term>; 1876, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000086_e109_d1"><term ana="#document_type_7">L. a. s.</term>; <date when="1876">1876</date>, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Charmante épître relative à une valse qu'il doit composer pour une fête. -Ou a
                   joint une lettre de 3 p. 1/2 in-8 de Mme Offenbach sur le même sujet</note>
             </item>
@@ -1198,7 +1198,7 @@
                   <p>chevalier de Rothelin, fils de François d'Orléans, lieutenant général de
                      l'artillerie, mort au siège de la Rochelle en 1628</p>
                </trait>
-               <desc xml:id="CAT_000086_e111_d1"><term ana="#document_type_12">Quitt. sig.</term>, sur vélin, 1622, <measure type="format" unit="f" ana="#document_format_108">in-8 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e111_d1"><term ana="#document_type_12">Quitt. sig.</term>, sur vélin, <date when="1622">1622</date>, <measure type="format" unit="f" ana="#document_format_108">in-8 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="112" xml:id="CAT_000086_e112">
                <num type="lot">112</num>
@@ -1208,13 +1208,13 @@
                      par ordre de Richelieu, et se maria de nouveau avec elle après la mort du
                      cardinal; morte en 1672, d'une vieille apoplexie, dit Mme de Sévigné</p>
                </trait>
-               <desc xml:id="CAT_000086_e112_d1">-<term ana="#document_type_2">Pièce aut. sig.</term> ; 13 oct. 1669, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
+               <desc xml:id="CAT_000086_e112_d1">-<term ana="#document_type_2">Pièce aut. sig.</term> ; <date when="1669-10-13">13 oct. 1669</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note>Relative au marquis et à la marquise de Cricé</note>
             </item>
             <item n="113" xml:id="CAT_000086_e113">
                <num type="lot">113</num>
                <name type="author">La même</name>
-               <desc xml:id="CAT_000086_e113_d1"><term ana="#document_type_4">Pièce sig</term>., avec une ligne aut., sur vélin ; 3 juin 1665, <measure type="format" unit="f" ana="#document_format_101">in-fol. obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000086_e113_d1"><term ana="#document_type_4">Pièce sig</term>., avec une ligne aut., sur vélin ; <date when="1665-06-03">3 juin 1665</date>, <measure type="format" unit="f" ana="#document_format_101">in-fol. obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Nomination de la marquise de Cricé comme dame d'honneur.</note>
             </item>
             <item n="114" xml:id="CAT_000086_e114">
@@ -1223,7 +1223,7 @@
                <trait>
                   <p>roi de Grèce</p>
                </trait>
-               <desc xml:id="CAT_000086_e114_d1"><term ana="#document_type_9">Let. sig.</term>, en français, à Achille Comte; Athènes, 1847, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e114_d1"><term ana="#document_type_9">Let. sig.</term>, en français, à Achille Comte; Athènes, <date when="1847">1847</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
                <note>Il accepte avec plaisir les exemplaires qu'il lui a adressés de ses deux
                   ouvrages intitulés : Organisation et Physiologie de l'Homme et Annuaire des
                   Sociétés savantes de France et de l'Etranger</note>
@@ -1235,7 +1235,7 @@
                   <p>célèbre voyageur en Sibérie, grand naturaliste, un des créateurs de la
                      géologie</p>
                </trait>
-               <desc xml:id="CAT_000086_e115_d1"><term ana="#document_type_7">L. a. s.</term>, en français; Saint-Pétersbourg, 1779. <measure type="length" unit="p" n="4">4 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000086_e115_d1"><term ana="#document_type_7">L. a. s.</term>, en français; Saint-Pétersbourg, <date when="1779">1779</date>. <measure type="length" unit="p" n="4">4 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Superbe lettre scientifique toute relative à ses ouvrages, et dans laquelle il
                   parle de Buffon, de Linnée, etc</note>
             </item>
@@ -1245,7 +1245,7 @@
                <trait>
                   <p>célèbre poète, de l'Acad. franc</p>
                </trait>
-               <desc xml:id="CAT_000086_e116_d1"><term ana="#document_type_7">L. a. s.</term> à Cailhava, 1813, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle lettre. Rare.</desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <desc xml:id="CAT_000086_e116_d1"><term ana="#document_type_7">L. a. s.</term> à Cailhava, <date when="1813">1813</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle lettre. Rare.</desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
             </item>
             <item n="117" xml:id="CAT_000086_e117">
                <num type="lot">117</num>
@@ -1262,7 +1262,7 @@
                   <p>jésuite célèbre par la part qu'il eut au rétablissement de son ordre en France
                      en 1603, écrivain ascé¬ tique, né à Blois</p>
                </trait>
-               <desc xml:id="CAT_000086_e118_d1"><term ana="#document_type_7">L. a. s.</term> à M. Voillot, conseiller du duc de Lorraine; Paris, 14 juill. 1630, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure>, cachet. Très-belle pièce.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000086_e118_d1"><term ana="#document_type_7">L. a. s.</term> à M. Voillot, conseiller du duc de Lorraine; Paris, <date when="1630">14 juill. 1630</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure>, cachet. Très-belle pièce.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="119" xml:id="CAT_000086_e119">
                <num type="lot">119</num>
@@ -1280,7 +1280,7 @@
                <trait>
                   <p>peintre, géologue et érudit, memb. de l'Institut</p>
                </trait>
-               <desc xml:id="CAT_000086_e120_d1"><term ana="#document_type_7">L. a. s.</term> à Mme de Vimeux; (vers 1776), <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Très-rare autog. signé, Pougens étant devenu aveugle à 24 ans.</desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
+               <desc xml:id="CAT_000086_e120_d1"><term ana="#document_type_7">L. a. s.</term> à Mme de Vimeux; <date when="1776">(vers 1776</date>), <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Très-rare autog. signé, Pougens étant devenu aveugle à 24 ans.</desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note>Relative à la candidature de leur ami, M. de Bonneville, en faveur de laquelle
                   il prie Mme de Vimeux d'agir auprès du comte d'Argental et des abbés Delille et
                   Arnaud</note>
@@ -1292,7 +1292,7 @@
                   <p>littérateur célèbre, historien de Turenne et de Fénelon, qui l'avait converti
                      au catholicisme</p>
                </trait>
-               <desc xml:id="CAT_000086_e121_d1">-<term ana="#document_type_2">Pièce aut. sig.</term>, 1736, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e121_d1">-<term ana="#document_type_2">Pièce aut. sig.</term>, <date when="1736">1736</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
                <note>Reçu de ses appointements comme gouverneur du prince de Turenne (plus tard duc
                   de Bouillon)</note>
             </item>
@@ -1302,14 +1302,14 @@
                <trait>
                   <p>humaniste et historien, auteur de l'</p>
                </trait>
-               <desc xml:id="CAT_000086_e122_d1">Histoire ancienne, de l'Acad. des Inscri<term ana="#document_type_3">p.-Reçu aut.</term> sig., 1732, <measure type="format" unit="f" ana="#document_format_118">in-18 obl.</measure> 4 «</desc></item>
+               <desc xml:id="CAT_000086_e122_d1">Histoire ancienne, de l'Acad. des Inscri<term ana="#document_type_3">p.-Reçu aut.</term> sig., <date when="1732">1732</date>, <measure type="format" unit="f" ana="#document_format_118">in-18 obl.</measure> 4 «</desc></item>
             <item n="123" xml:id="CAT_000086_e123">
                <num type="lot">123</num>
                <name type="author">Rossi (Ernest)</name>
                <trait>
                   <p>le grand tragédien italien</p>
                </trait>
-               <desc xml:id="CAT_000086_e123_d1"><term ana="#document_type_7">L. a. s.</term>; Vienne, 6 avril 1874, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000086_e123_d1"><term ana="#document_type_7">L. a. s.</term>; Vienne, <date when="1874-04-06">6 avril 1874</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Charmante épître adressée au maire de la ville de Vienne, pour le remercier de
                   l'hospitalité qui lui a été si gracieusement accordée. Sur le point de son départ,
                   il lui envoie la somme de 400 florins qu'il le prie de distribuer aux familles les
@@ -1329,7 +1329,7 @@
                <trait>
                   <p>célèbre écrivain humoristique allemand, mort en 1858</p>
                </trait>
-               <desc xml:id="CAT_000086_e125_d1"><term ana="#document_type_9">Let. sig.</term> ; Vienne, 1856, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Rare.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000086_e125_d1"><term ana="#document_type_9">Let. sig.</term> ; Vienne, <date when="1856">1856</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Rare.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="126" xml:id="CAT_000086_e126">
                <num type="lot">126</num>
@@ -1338,7 +1338,7 @@
                   <p>littérateur du XVIIIe siècle, auteur d'un grand nombre d'ouvrages publiés sous
                      le pseudonyme de de Mirone.</p>
                </trait>
-               <desc xml:id="CAT_000086_e126_d1"><term ana="#document_type_7">L. a. s.</term>; Munich, 24 oct. 1716, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e126_d1"><term ana="#document_type_7">L. a. s.</term>; Munich, <date when="1716-10-24">24 oct. 1716</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="127" xml:id="CAT_000086_e127">
                <num type="lot">127</num>
@@ -1356,7 +1356,7 @@
                <trait>
                   <p>célèbre homme d'Etat autrichien</p>
                </trait>
-               <desc xml:id="CAT_000086_e128_d1"><term ana="#document_type_9">Let. sig.</term>; Vienne, 1er janv. 1867, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e128_d1"><term ana="#document_type_9">Let. sig.</term>; Vienne, <date when="1867-01-01">1er janv. 1867</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="129" xml:id="CAT_000086_e129">
                <num type="lot">129</num>
@@ -1365,7 +1365,7 @@
                   <p>un des meilleurs peintres contempo¬ rains de l'Allemagne, élève de
                      Cornélius</p>
                </trait>
-               <desc xml:id="CAT_000086_e129_d1"><term ana="#document_type_7">L. a. s.</term> ; Munich, 1868, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Belle et curieuse lettre.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000086_e129_d1"><term ana="#document_type_7">L. a. s.</term> ; Munich, <date when="1868">1868</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Belle et curieuse lettre.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="130" xml:id="CAT_000086_e130">
                <num type="lot">130</num>
@@ -1373,7 +1373,7 @@
                <trait>
                   <p>célèbre général polonais</p>
                </trait>
-               <desc xml:id="CAT_000086_e130_d1"><term ana="#document_type_9">Let. sig.</term>, en fran¬ çais au maire de Pierrefonds; Compiègne, 19 fév. 1814. <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure> Curieuse.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e130_d1"><term ana="#document_type_9">Let. sig.</term>, en fran¬ çais au maire de Pierrefonds; Compiègne, <date when="1814-02-19">19 fév. 1814</date>. <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure> Curieuse.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="131" xml:id="CAT_000086_e131">
                <num type="lot">131</num>
@@ -1397,7 +1397,7 @@
                <trait>
                   <p>fils du précédent, général et antiquaire russe</p>
                </trait>
-               <desc xml:id="CAT_000086_e133_d1"><term ana="#document_type_7">L. a. s.</term>, en français, 1857, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e133_d1"><term ana="#document_type_7">L. a. s.</term>, en français, <date when="1857">1857</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="134" xml:id="CAT_000086_e134">
                <num type="lot">134</num>
@@ -1421,7 +1421,7 @@
                <trait>
                   <p>célèbre médecin et botaniste suisse</p>
                </trait>
-               <desc xml:id="CAT_000086_e136_d1"><term ana="#document_type_7">L. a. s.</term> à Haller; Lausanne, 1774, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Sur la médecine.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000086_e136_d1"><term ana="#document_type_7">L. a. s.</term> à Haller; Lausanne, <date when="1774">1774</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Sur la médecine.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="137" xml:id="CAT_000086_e137">
                <num type="lot">137</num>
@@ -1429,7 +1429,7 @@
                <trait>
                   <p>le grand écrivain</p>
                </trait>
-               <desc xml:id="CAT_000086_e137_d1"><term ana="#document_type_7">L. a. s.</term> au poète Blin de Sainmore; les Délices, 12 déc. 1751, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Très-fatiguée.</desc><measure commodity="currency" unit="FRF" quantity="40">40</measure>
+               <desc xml:id="CAT_000086_e137_d1"><term ana="#document_type_7">L. a. s.</term> au poète Blin de Sainmore; les Délices, <date when="1751-12-12">12 déc. 1751</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Très-fatiguée.</desc><measure commodity="currency" unit="FRF" quantity="40">40</measure>
                <note>Au sujet du poème de Blin de Sainmore sur l'amiral Bing. Voltaire rappelle ce
                   qu'il a fait pour sauver cet infortuné. Il signe : Voltaire, gentilh. ord. du
                   roy</note>
@@ -1437,7 +1437,7 @@
             <item n="138" xml:id="CAT_000086_e138">
                <num type="lot">138</num>
                <name type="author">Le même</name>
-               <desc xml:id="CAT_000086_e138_d1"><term ana="#document_type_7">L. a. s.</term> F., à Mme de Vaulx, maîtresse des comptes, à Lons-le-Saunier; Ferney, 16 Auguste 1765, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, fragm. de cachet. Ecornure par la rupture du cachet.</desc><measure commodity="currency" unit="FRF" quantity="35">35</measure>
+               <desc xml:id="CAT_000086_e138_d1"><term ana="#document_type_7">L. a. s.</term> F., à Mme de Vaulx, maîtresse des comptes, à Lons-le-Saunier; Ferney, <date when="1765">16 Auguste 1765</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, fragm. de cachet. Ecornure par la rupture du cachet.</desc><measure commodity="currency" unit="FRF" quantity="35">35</measure>
                <note>Relative aux représentations données par Mlle Clairon sur le théâtre de Ferney.
                   Il la regarde comme étant de sa famille</note>
             </item>
@@ -1447,7 +1447,7 @@
                <trait>
                   <p>le célèbre compositeur anglais</p>
                </trait>
-               <desc xml:id="CAT_000086_e139_d1">-Portée de musique <term ana="#document_type_15">aut. sig.</term>; Deventer, 1847. Obl.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000086_e139_d1">-Portée de musique <term ana="#document_type_15">aut. sig.</term>; Deventer, <date when="1847">1847</date>. Obl.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="140" xml:id="CAT_000086_e140">
                <num type="lot">140</num>
@@ -1463,7 +1463,7 @@
                <trait>
                   <p>littérateur distingué</p>
                </trait>
-               <desc xml:id="CAT_000086_e141_d1"><term ana="#document_type_7">L. a. s.</term> à Philarète Chasles, 9 avril 1849, <measure type="length" unit="p" n="4">4 p.</measure> pl. pet. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e141_d1"><term ana="#document_type_7">L. a. s.</term> à Philarète Chasles, <date when="1849-04-09">9 avril 1849</date>, <measure type="length" unit="p" n="4">4 p.</measure> pl. pet. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
                <note>Curieuse lettre où il raconte une aventure qui lui est arrivée au collège
                   hébraïque de Metz, pour s'être servi d'une expression hardie sur Jésus</note>
             </item>
@@ -1473,7 +1473,7 @@
                <trait>
                   <p>le célèbre diplomate hollandais.</p>
                </trait>
-               <desc xml:id="CAT_000086_e142_d1"><term ana="#document_type_7">L. a. s.</term> en abrégé; Amsterdam, 2 janv. 1640, <measure type="length" unit="p" n="3">3 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000086_e142_d1"><term ana="#document_type_7">L. a. s.</term> en abrégé; Amsterdam, <date when="1640-01-02">2 janv. 1640</date>, <measure type="length" unit="p" n="3">3 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Intéressante lettre politique sur les affaires du Danemark</note>
             </item>
             <item n="143" xml:id="CAT_000086_e143">
@@ -1482,7 +1482,7 @@
                <trait>
                   <p>général russe, ministre de la Maison de l'empereur Nicolas</p>
                </trait>
-               <desc xml:id="CAT_000086_e143_d1"><term ana="#document_type_9">Let. sig.</term>, en français, 1819, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e143_d1"><term ana="#document_type_9">Let. sig.</term>, en français, <date when="1819">1819</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="144" xml:id="CAT_000086_e144">
                <num type="lot">144</num>
@@ -1491,7 +1491,7 @@
                   <p>fils de Constantin, aide-de-camp d'Alexan¬ dre Ier, puis chef des
                      Hétairistes</p>
                </trait>
-               <desc xml:id="CAT_000086_e144_d1"><term ana="#document_type_7">L. a. s.</term>, en français; Kiew, 1818, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
+               <desc xml:id="CAT_000086_e144_d1"><term ana="#document_type_7">L. a. s.</term>, en français; Kiew, <date when="1818">1818</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
             </item>
             <item n="145" xml:id="CAT_000086_e145">
                <num type="lot">145</num>
@@ -1499,7 +1499,7 @@
                <trait>
                   <p>célèbre général polonais</p>
                </trait>
-               <desc xml:id="CAT_000086_e145_d1"><term ana="#document_type_9">L. sig.</term> en français, au général Wolodkiewicz ; Napiwoden, 8 juin (1807), <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure> Cachet. Curieuse.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e145_d1"><term ana="#document_type_9">L. sig.</term> en français, au général Wolodkiewicz ; Napiwoden, 8 juin (<date when="1807">1807</date>), <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure> Cachet. Curieuse.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
                <note>AUTOGRAPHES CLASSÉS PAR DÉPARTEMENTS PERSONNAGES QUI Y SONT NÉS OU S'Y
                   RATTACHENT. AVEYRON</note>
             </item>
@@ -1517,7 +1517,7 @@
                <trait>
                   <p>célèbre médecin, né à Villefranche</p>
                </trait>
-               <desc xml:id="CAT_000086_e147_d1"><term ana="#document_type_7">L. a. s.</term> à Mme Barbé, 1807, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Charmante épitre.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e147_d1"><term ana="#document_type_7">L. a. s.</term> à Mme Barbé, <date when="1807">1807</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Charmante épitre.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="148" xml:id="CAT_000086_e148">
                <num type="lot">148</num>
@@ -1525,7 +1525,7 @@
                <trait>
                   <p>évêque de Vabres</p>
                </trait>
-               <desc xml:id="CAT_000086_e148_d1">-<term ana="#document_type_4">Pièce sig</term>., 1690, <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Petite écornure.</desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e148_d1">-<term ana="#document_type_4">Pièce sig</term>., <date when="1690">1690</date>, <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Petite écornure.</desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="149" xml:id="CAT_000086_e149">
                <num type="lot">149</num>
@@ -1533,12 +1533,12 @@
                <trait>
                   <p>botaniste distingué, auteur des Mémoires sur la Flore de l'Aveyron</p>
                </trait>
-               <desc xml:id="CAT_000086_e149_d1"><term ana="#document_type_7">L. a. s.</term> à Moquin-Tandon; Rodez, 1838, <measure type="length" unit="p" n="1.25">1 p. 1/4</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Sur la botanique.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e149_d1"><term ana="#document_type_7">L. a. s.</term> à Moquin-Tandon; Rodez, <date when="1838">1838</date>, <measure type="length" unit="p" n="1.25">1 p. 1/4</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Sur la botanique.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="150" xml:id="CAT_000086_e150">
                <num type="lot">150</num>
                <name type="author">BO (J)</name>
-               <desc xml:id="CAT_000086_e150_d1">-B.), député de l'Aveyron.-<term ana="#document_type_2">Pièce aut. sig.</term>; Nantes, an II. <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e150_d1">-B.), député de l'Aveyron.-<term ana="#document_type_2">Pièce aut. sig.</term>; Nantes, an <date date="1793-1794" type="length">II</date>. <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="151" xml:id="CAT_000086_e151">
                <num type="lot">151</num>
@@ -1546,7 +1546,7 @@
                <trait>
                   <p>architecte distingué</p>
                </trait>
-               <desc xml:id="CAT_000086_e151_d1"><term ana="#document_type_7">L. a. s.</term>; Rodez, 1840, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e151_d1"><term ana="#document_type_7">L. a. s.</term>; Rodez, <date when="1840">1840</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="152" xml:id="CAT_000086_e152">
                <num type="lot">152</num>
@@ -1554,7 +1554,7 @@
                <trait>
                   <p>botaniste, médecin et agronome</p>
                </trait>
-               <desc xml:id="CAT_000086_e152_d1"><term ana="#document_type_7">L. a. s.</term>; Turin, 1827, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Sur la chimie.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e152_d1"><term ana="#document_type_7">L. a. s.</term>; Turin, <date when="1827">1827</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Sur la chimie.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="153" xml:id="CAT_000086_e153">
                <num type="lot">153</num>
@@ -1570,7 +1570,7 @@
                <trait>
                   <p>botaniste et médecin, né à Villefranche</p>
                </trait>
-               <desc xml:id="CAT_000086_e154_d1">1° <term ana="#document_type_7">L. a. s.</term> à Moquin-Tandon; Villefranche, 1839, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Sur l'histoire naturelle.</desc><desc xml:id="CAT_000086_e154_d2">2° liste autog. de plantes découvertes dans le Midi.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e154_d1">1° <term ana="#document_type_7">L. a. s.</term> à Moquin-Tandon; Villefranche, <date when="1839">1839</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Sur l'histoire naturelle.</desc><desc xml:id="CAT_000086_e154_d2">2° liste autog. de plantes découvertes dans le Midi.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="155" xml:id="CAT_000086_e155">
                <num type="lot">155</num>
@@ -1578,7 +1578,7 @@
                <trait>
                   <p>évêque de Vabres</p>
                </trait>
-               <desc xml:id="CAT_000086_e155_d1"><term ana="#document_type_7">L. a. s.</term>; 1769, <measure type="length" unit="p" n="8">8 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
+               <desc xml:id="CAT_000086_e155_d1"><term ana="#document_type_7">L. a. s.</term>; <date when="1769">1769</date>, <measure type="length" unit="p" n="8">8 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
                <note>Très-curieuse lettre toute relative aux affaires de son diocèse.</note>
             </item>
             <item n="156" xml:id="CAT_000086_e156">
@@ -1595,7 +1595,7 @@
                <trait>
                   <p>littérateur, né dans l'Aveyron</p>
                </trait>
-               <desc xml:id="CAT_000086_e157_d1"><term ana="#document_type_7">L. a. s.</term> au libraire Rusand, à Lyon; 1805, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Sur ses ouvrages.</desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e157_d1"><term ana="#document_type_7">L. a. s.</term> au libraire Rusand, à Lyon; <date when="1805">1805</date>, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Sur ses ouvrages.</desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="158" xml:id="CAT_000086_e158">
                <num type="lot">158</num>
@@ -1603,7 +1603,7 @@
                <trait>
                   <p>littérateur, député de l'Aveyron, né à Coussergues</p>
                </trait>
-               <desc xml:id="CAT_000086_e158_d1"><term ana="#document_type_7">L. a. s.</term>; 1825, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e158_d1"><term ana="#document_type_7">L. a. s.</term>; <date when="1825">1825</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
                <note>Toute relative à son ouvrage sur le Sacre des rois de France.</note>
             </item>
             <item n="159" xml:id="CAT_000086_e159">
@@ -1612,7 +1612,7 @@
                <trait>
                   <p>évêque de Rodez</p>
                </trait>
-               <desc xml:id="CAT_000086_e159_d1"><term ana="#document_type_7">L. a. s.</term>; Rodez, 1784, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e159_d1"><term ana="#document_type_7">L. a. s.</term>; Rodez, <date when="1784">1784</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="160" xml:id="CAT_000086_e160">
                <num type="lot">160</num>
@@ -1620,7 +1620,7 @@
                <trait>
                   <p>évêque de Rodez</p>
                </trait>
-               <desc xml:id="CAT_000086_e160_d1">-<term ana="#document_type_4">Pièce sig</term>.; Rodez, 1590, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e160_d1">-<term ana="#document_type_4">Pièce sig</term>.; Rodez, <date when="1590">1590</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="161" xml:id="CAT_000086_e161">
                <num type="lot">161</num>
@@ -1628,7 +1628,7 @@
                <trait>
                   <p>évêque de Rodez</p>
                </trait>
-               <desc xml:id="CAT_000086_e161_d1">-<term ana="#document_type_4">Pièce sig</term>.; 1629, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e161_d1">-<term ana="#document_type_4">Pièce sig</term>.; <date when="1629">1629</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="162" xml:id="CAT_000086_e162">
                <num type="lot">162</num>
@@ -1636,7 +1636,7 @@
                <trait>
                   <p>député de l'Aveyron</p>
                </trait>
-               <desc xml:id="CAT_000086_e162_d1"><term ana="#document_type_7">L. a. s.</term>; Vabres, 1848, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e162_d1"><term ana="#document_type_7">L. a. s.</term>; Vabres, <date when="1848">1848</date>, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="163" xml:id="CAT_000086_e163">
                <num type="lot">163</num>
@@ -1644,7 +1644,7 @@
                <trait>
                   <p>évêque de Rodez</p>
                </trait>
-               <desc xml:id="CAT_000086_e163_d1"><term ana="#document_type_7">L. a. s.</term> à l'évêque d'Orléans; Rodez, 28 déc. 1848, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> 3»</desc><note>Curieuse lettre sur les moyens à employer pour subvenir aux besoins pécuniaires
+               <desc xml:id="CAT_000086_e163_d1"><term ana="#document_type_7">L. a. s.</term> à l'évêque d'Orléans; Rodez, <date when="1848-12-28">28 déc. 1848</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> 3»</desc><note>Curieuse lettre sur les moyens à employer pour subvenir aux besoins pécuniaires
                   du pape Pie IX dans les circonstances extraordinaires où il se trouve</note>
             </item>
             <item n="164" xml:id="CAT_000086_e164">
@@ -1654,7 +1654,7 @@
                   <p>poète et auteur dramatique, connu dès 1793 par son fameux chant de la Montagne,
                      né à Rodez</p>
                </trait>
-               <desc xml:id="CAT_000086_e164_d1"><term ana="#document_type_7">L. a. s.</term>; 1818, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e164_d1"><term ana="#document_type_7">L. a. s.</term>; <date when="1818">1818</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
                <note>Relative à son opéra intitulé Marini ou le Muet de Venise</note>
             </item>
             <item n="165" xml:id="CAT_000086_e165">
@@ -1663,7 +1663,7 @@
                <trait>
                   <p>littérateur, membre de plusieurs sociétés savantes, né à Rodez</p>
                </trait>
-               <desc xml:id="CAT_000086_e165_d1"><term ana="#document_type_7">L. a. s.</term> à M. Bixio; 1860, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e165_d1"><term ana="#document_type_7">L. a. s.</term> à M. Bixio; <date when="1860">1860</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="166" xml:id="CAT_000086_e166">
                <num type="lot">166</num>
@@ -1671,7 +1671,7 @@
                <trait>
                   <p>littérateur, né à Cornus</p>
                </trait>
-               <desc xml:id="CAT_000086_e166_d1"><term ana="#document_type_7">L. a. s.</term> à l'abbé Roman; 1808, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e166_d1"><term ana="#document_type_7">L. a. s.</term> à l'abbé Roman; <date when="1808">1808</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
                <note>Cette lettre est écrite sur le feuillet blanc d'un numéro-spécimen du
                   Spectateur français au XIXe siècle, dont il était l'éditeur</note>
             </item>
@@ -1681,7 +1681,7 @@
                <trait>
                   <p>littérateur, né à Saint-Déniez</p>
                </trait>
-               <desc xml:id="CAT_000086_e167_d1"><term ana="#document_type_7">L. a. s.</term>; 1840, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e167_d1"><term ana="#document_type_7">L. a. s.</term>; <date when="1840">1840</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="168" xml:id="CAT_000086_e168">
                <num type="lot">168</num>
@@ -1689,7 +1689,7 @@
                <trait>
                   <p>député de l'Aveyron, né à Rodez</p>
                </trait>
-               <desc xml:id="CAT_000086_e168_d1"><term ana="#document_type_7">L. a. s.</term> au comte Jaubert, 1815, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e168_d1"><term ana="#document_type_7">L. a. s.</term> au comte Jaubert, <date when="1815">1815</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="169" xml:id="CAT_000086_e169">
                <num type="lot">169</num>
@@ -1697,7 +1697,7 @@
                <trait>
                   <p>médecin distingué, auteur d'un ouvrage sur le Tasse</p>
                </trait>
-               <desc xml:id="CAT_000086_e169_d1"><term ana="#document_type_7">L. a. s.</term>; Milhau, 1819, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Sur ses ouvrages.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e169_d1"><term ana="#document_type_7">L. a. s.</term>; Milhau, <date when="1819">1819</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Sur ses ouvrages.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="170" xml:id="CAT_000086_e170">
                <num type="lot">170</num>
@@ -1705,7 +1705,7 @@
                <trait>
                   <p>évêque d'Hermopolis, ministre de Louis XVIII, de l'Acad. fr.</p>
                </trait>
-               <desc xml:id="CAT_000086_e170_d1">-<term ana="#document_type_9">Let. sig.</term> ; 6 fev. 1823, <measure type="length" unit="p" n="2">2 p.</measure> pet. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e170_d1">-<term ana="#document_type_9">Let. sig.</term> ; <date when="1823-02-06">6 fev. 1823</date>, <measure type="length" unit="p" n="2">2 p.</measure> pet. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
                <note>Curieuse lettre sur l'anniversaire de la mort de Louis XVI</note>
             </item>
             <item n="171" xml:id="CAT_000086_e171">
@@ -1714,7 +1714,7 @@
                <trait>
                   <p>poète distingué, né à Rodez en 1767.</p>
                </trait>
-               <desc xml:id="CAT_000086_e171_d1">1° <term ana="#document_type_7">L. a. s.</term> à M. Déhault, 10 flor, an XII, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Légère déchirure toute relative à sa traduction de l'Enéide.</desc><desc xml:id="CAT_000086_e171_d2">2° Sa biographie, <term ana="#document_type_3">pièce aut.</term> de M. Villenave, <measure type="length" unit="p" n="11">11 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000086_e171_d1">1° <term ana="#document_type_7">L. a. s.</term> à M. Déhault, <date date="1804-05-01" type="length">10 flor, an XII</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Légère déchirure toute relative à sa traduction de l'Enéide.</desc><desc xml:id="CAT_000086_e171_d2">2° Sa biographie, <term ana="#document_type_3">pièce aut.</term> de M. Villenave, <measure type="length" unit="p" n="11">11 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="172" xml:id="CAT_000086_e172">
                <num type="lot">172</num>
@@ -1722,7 +1722,7 @@
                <trait>
                   <p>médecin, député de l'Aveyron</p>
                </trait>
-               <desc xml:id="CAT_000086_e172_d1"><term ana="#document_type_7">L. a. s.</term>, 1856, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e172_d1"><term ana="#document_type_7">L. a. s.</term>, <date when="1856">1856</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="173" xml:id="CAT_000086_e173">
                <num type="lot">173</num>
@@ -1730,7 +1730,7 @@
                <trait>
                   <p>évêque de Vabres</p>
                </trait>
-               <desc xml:id="CAT_000086_e173_d1">-<term ana="#document_type_4">Pièce sig</term>., 1630, <measure type="length" unit="p" n="8.5">8 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure> Curieuse.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e173_d1">-<term ana="#document_type_4">Pièce sig</term>., <date when="1630">1630</date>, <measure type="length" unit="p" n="8.5">8 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure> Curieuse.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="174" xml:id="CAT_000086_e174">
                <num type="lot">174</num>
@@ -1738,7 +1738,7 @@
                <trait>
                   <p>évêque de Vabres.</p>
                </trait>
-               <desc xml:id="CAT_000086_e174_d1"><term ana="#document_type_4">Pièce sig</term>. ; 1726, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e174_d1"><term ana="#document_type_4">Pièce sig</term>. ; <date when="1726">1726</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="175" xml:id="CAT_000086_e175">
                <num type="lot">175</num>
@@ -1746,7 +1746,7 @@
                <trait>
                   <p>évêque de Rodez</p>
                </trait>
-               <desc xml:id="CAT_000086_e175_d1">-<term ana="#document_type_4">Pièce sig</term>.; 1690, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e175_d1">-<term ana="#document_type_4">Pièce sig</term>.; <date when="1690">1690</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="176" xml:id="CAT_000086_e176">
                <num type="lot">176</num>
@@ -1754,7 +1754,7 @@
                <trait>
                   <p>député de l'Aveyron</p>
                </trait>
-               <desc xml:id="CAT_000086_e176_d1"><term ana="#document_type_7">L. a. s.</term> à M. Candieu, 1807, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e176_d1"><term ana="#document_type_7">L. a. s.</term> à M. Candieu, <date when="1807">1807</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="177" xml:id="CAT_000086_e177">
                <num type="lot">177</num>
@@ -1762,7 +1762,7 @@
                <trait>
                   <p>comte de la Redorte, général de division, né à Saint-Afrique</p>
                </trait>
-               <desc xml:id="CAT_000086_e177_d1"><term ana="#document_type_7">L. a. s.</term> au général Berthier, an II, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e177_d1"><term ana="#document_type_7">L. a. s.</term> au général Berthier, an <date date="1793-1794" type="length">II</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="178" xml:id="CAT_000086_e178">
                <num type="lot">178</num>
@@ -1770,7 +1770,7 @@
                <trait>
                   <p>député de l'Aveyron</p>
                </trait>
-               <desc xml:id="CAT_000086_e178_d1"><term ana="#document_type_7">L. a. s.</term>, 1828, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e178_d1"><term ana="#document_type_7">L. a. s.</term>, <date when="1828">1828</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="179" xml:id="CAT_000086_e179">
                <num type="lot">179</num>
@@ -1778,7 +1778,7 @@
                <trait>
                   <p>député de l'Aveyron</p>
                </trait>
-               <desc xml:id="CAT_000086_e179_d1"><term ana="#document_type_7">L. a. s.</term>, 1830, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e179_d1"><term ana="#document_type_7">L. a. s.</term>, <date when="1830">1830</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="180" xml:id="CAT_000086_e180">
                <num type="lot">180</num>
@@ -1786,7 +1786,7 @@
                <trait>
                   <p>littérateur</p>
                </trait>
-               <desc xml:id="CAT_000086_e180_d1"><term ana="#document_type_7">L. a. s.</term>; Rodez, 1816, <measure type="length" unit="p" n="4">4 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e180_d1"><term ana="#document_type_7">L. a. s.</term>; Rodez, <date when="1816">1816</date>, <measure type="length" unit="p" n="4">4 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="181" xml:id="CAT_000086_e181">
                <num type="lot">181</num>
@@ -1794,7 +1794,7 @@
                <trait>
                   <p>jurisconsulte, né près de Rodez</p>
                </trait>
-               <desc xml:id="CAT_000086_e181_d1">-<term ana="#document_type_4">Pièce sig</term>., 1768, <measure type="length" unit="p" n="16">16 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e181_d1">-<term ana="#document_type_4">Pièce sig</term>., <date when="1768">1768</date>, <measure type="length" unit="p" n="16">16 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="182" xml:id="CAT_000086_e182">
                <num type="lot">182</num>
@@ -1802,7 +1802,7 @@
                <trait>
                   <p>fécond et spirituel auteur dramatique, né à Milhau</p>
                </trait>
-               <desc xml:id="CAT_000086_e182_d1"><term ana="#document_type_7">L. a. s.</term> au duc d'Aumont, 1823, <measure type="length" unit="p" n="2">2 p.</measure> pet. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Très-curieuse lettre sur ses ouvrages.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e182_d1"><term ana="#document_type_7">L. a. s.</term> au duc d'Aumont, <date when="1823">1823</date>, <measure type="length" unit="p" n="2">2 p.</measure> pet. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Très-curieuse lettre sur ses ouvrages.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="183" xml:id="CAT_000086_e183">
                <num type="lot">183</num>
@@ -1818,7 +1818,7 @@
                <trait>
                   <p>évêque de Rodez</p>
                </trait>
-               <desc xml:id="CAT_000086_e184_d1"><term ana="#document_type_7">L. a. s.</term> au vicomte de Montmorency; 1817, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e184_d1"><term ana="#document_type_7">L. a. s.</term> au vicomte de Montmorency; <date when="1817">1817</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="185" xml:id="CAT_000086_e185">
                <num type="lot">185</num>
@@ -1834,7 +1834,7 @@
                <trait>
                   <p>député de l'Aveyron</p>
                </trait>
-               <desc xml:id="CAT_000086_e186_d1"><term ana="#document_type_7">L. a. s.</term>; Rodez, an XII, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e186_d1"><term ana="#document_type_7">L. a. s.</term>; Rodez, an <date date="1803-1804" type="length">XII</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="187" xml:id="CAT_000086_e187">
                <num type="lot">187</num>
@@ -1842,7 +1842,7 @@
                <trait>
                   <p>député de l'Aveyron</p>
                </trait>
-               <desc xml:id="CAT_000086_e187_d1">-<term ana="#document_type_2">Pièce aut. sig.</term>, 1789, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e187_d1">-<term ana="#document_type_2">Pièce aut. sig.</term>, <date when="1789">1789</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="188" xml:id="CAT_000086_e188">
                <num type="lot">188</num>
@@ -1850,7 +1850,7 @@
                <trait>
                   <p>littérateur et bibliographe, né dans l'Aveyron</p>
                </trait>
-               <desc xml:id="CAT_000086_e188_d1"><term ana="#document_type_7">L. a. s.</term>, à M. Peuchet, 1817, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e188_d1"><term ana="#document_type_7">L. a. s.</term>, à M. Peuchet, <date when="1817">1817</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
                <note>Relative à son ouvrage sur le Règne de Louis XVIl.</note>
             </item>
             <item n="189" xml:id="CAT_000086_e189">
@@ -1859,7 +1859,7 @@
                <trait>
                   <p>général, né à Milhau</p>
                </trait>
-               <desc xml:id="CAT_000086_e189_d1"><term ana="#document_type_7">L. a. s.</term>, 1819, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e189_d1"><term ana="#document_type_7">L. a. s.</term>, <date when="1819">1819</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="190" xml:id="CAT_000086_e190">
                <num type="lot">190</num>
@@ -1867,7 +1867,7 @@
                <trait>
                   <p>gouverneur de Saint-Affrique</p>
                </trait>
-               <desc xml:id="CAT_000086_e190_d1">-<term ana="#document_type_4">Pièce sig</term>.; 1717, <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e190_d1">-<term ana="#document_type_4">Pièce sig</term>.; <date when="1717">1717</date>, <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="191" xml:id="CAT_000086_e191">
                <num type="lot">191</num>
@@ -1875,7 +1875,7 @@
                <trait>
                   <p>mathématicien, membre de plusieurs sociétés savantes, né à Saint-Géniez</p>
                </trait>
-               <desc xml:id="CAT_000086_e191_d1"><term ana="#document_type_7">L. a. s.</term>; Saint-Géniez, an IV, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Curieuse.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e191_d1"><term ana="#document_type_7">L. a. s.</term>; Saint-Géniez, an <date date="1795-1796" type="length">IV</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Curieuse.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="192" xml:id="CAT_000086_e192">
                <num type="lot">192</num>
@@ -1883,7 +1883,7 @@
                <trait>
                   <p>évêque de Rodez</p>
                </trait>
-               <desc xml:id="CAT_000086_e192_d1"><term ana="#document_type_7">L. a. s.</term> à M. de Saint-Julien; Rodez, 1725, <measure type="length" unit="p" n="4">4 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Curieuse.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e192_d1"><term ana="#document_type_7">L. a. s.</term> à M. de Saint-Julien; Rodez, <date when="1725">1725</date>, <measure type="length" unit="p" n="4">4 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Curieuse.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="193" xml:id="CAT_000086_e193">
                <num type="lot">193</num>
@@ -1891,7 +1891,7 @@
                <trait>
                   <p>général français, né dans l'Aveyron</p>
                </trait>
-               <desc xml:id="CAT_000086_e193_d1"><term ana="#document_type_7">L. a. s.</term>, Saint-Rémy. 1818, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e193_d1"><term ana="#document_type_7">L. a. s.</term>, <date when="1818">Saint-Rémy. 1818</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="194" xml:id="CAT_000086_e194">
                <num type="lot">194</num>
@@ -1899,7 +1899,7 @@
                <trait>
                   <p>littérateur et poète, né à Rodez</p>
                </trait>
-               <desc xml:id="CAT_000086_e194_d1"><term ana="#document_type_7">L. a. s.</term>, 1821, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e194_d1"><term ana="#document_type_7">L. a. s.</term>, <date when="1821">1821</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="195" xml:id="CAT_000086_e195">
                <num type="lot">195</num>
@@ -1907,7 +1907,7 @@
                <trait>
                   <p>député de l'Aveyron</p>
                </trait>
-               <desc xml:id="CAT_000086_e195_d1"><term ana="#document_type_7">L. a. s.</term>; 1843, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e195_d1"><term ana="#document_type_7">L. a. s.</term>; <date when="1843">1843</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="196" xml:id="CAT_000086_e196">
                <num type="lot">196</num>
@@ -1915,7 +1915,7 @@
                <trait>
                   <p>député de l'Aveyron</p>
                </trait>
-               <desc xml:id="CAT_000086_e196_d1"><term ana="#document_type_7">L. a. s.</term>; 1825; <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
+               <desc xml:id="CAT_000086_e196_d1"><term ana="#document_type_7">L. a. s.</term>; <date when="1825">1825</date>; <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="2">2</measure>
             </item>
             <item n="197" xml:id="CAT_000086_e197">
                <num type="lot">197</num>
@@ -1923,7 +1923,7 @@
                <trait>
                   <p>général français, né à Rodez</p>
                </trait>
-               <desc xml:id="CAT_000086_e197_d1"><term ana="#document_type_7">L. a. s.</term>; 1867, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure> Curieuse.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000086_e197_d1"><term ana="#document_type_7">L. a. s.</term>; <date when="1867">1867</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-f.</measure> Curieuse.</desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="198" xml:id="CAT_000086_e198">
                <num type="lot">198</num>
@@ -1931,7 +1931,7 @@
                <trait>
                   <p>143 lettres ou pièces du XVIe au XIXe siècle</p>
                </trait>
-               <desc xml:id="CAT_000086_e198_d1">Curieux document manuscrit de 1587 sur une sédition des habitants de la ville de Milhau, sous le gouvernement de M. de Chastillon; quit. sig. des gouverneurs des différentes villes et places-fortes de l'Aveyron, sous Henri IV, Louis XIII et Louis XIV ; dossier intéressant sur la Révolu¬ tion; nombreuses pièces émanant ou concernant le clergé, la noblesse, etc.; lettres adressées à Napoléon III, à l'occasion de son avènement ou de divers attentats contre sa personne, etc., etc. 75</desc></item>
+               <desc xml:id="CAT_000086_e198_d1"><date when="1587">Curieux document manuscrit de 1587</date> sur une sédition des habitants de la ville de Milhau, sous le gouvernement de M. de Chastillon; quit. sig. des gouverneurs des différentes villes et places-fortes de l'Aveyron, sous Henri IV, Louis XIII et Louis XIV ; dossier intéressant sur la Révolu¬ tion; nombreuses pièces émanant ou concernant le clergé, la noblesse, etc.; lettres adressées à Napoléon III, à l'occasion de son avènement ou de divers attentats contre sa personne, etc., etc. 75</desc></item>
          </list>
       </body>
       <gap/>

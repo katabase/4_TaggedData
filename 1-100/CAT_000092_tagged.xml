@@ -211,7 +211,7 @@
             </item>
             <item n="304" xml:id="CAT_000092_e304">
                <num type="lot">304</num>
-               <desc xml:id="CAT_000092_e304_d1">BAYLE,dated 6th of July, 1697, author of the “Hist and Crit. Dictionary”, which forms the subject of this Letter;HELVETIUS,the celebrated writer, dated Versailles, 1750,2</desc><num type="price"/>
+               <desc xml:id="CAT_000092_e304_d1">BAYLE,dated 6th of July, 1697, author of the “Hist and Crit. Dictionary”, which forms the subject of this Letter;HELVETIUS,the celebrated writer, dated Versailles, <date when="1750">1750</date>,2</desc><num type="price"/>
             </item>
             <item n="305" xml:id="CAT_000092_e305">
                <num type="lot">305</num>
@@ -220,7 +220,7 @@
             <item n="306" xml:id="CAT_000092_e306">
                <num type="lot">306</num>
                <name>D’EON (LA CHEVALIERE);</name>
-               <desc xml:id="CAT_000092_e306_d1">a letter of six pages, addressed to the minister, Count of Maurepas, stating her reasons for her having alternatively worn breeches and petticoats. She was at one time ambassador from France resident in London, and had been captain in the dragoons, as well as “Avocat au Parlement,” and Censeur Royal. This very curious Letter is written throughout at the time she wore petticoats, being in the feminine gender, she says, “le plus sot des Roles' a jouer, est celui de Pucelle à la Cour. It is dated Versailles, 8th of Feb. 1779. One other from her also.</desc><num type="price">2</num>
+               <desc xml:id="CAT_000092_e306_d1">a letter of six pages, addressed to the minister, Count of Maurepas, stating her reasons for her having alternatively worn breeches and petticoats. She was at one time ambassador from France resident in London, and had been captain in the dragoons, as well as “Avocat au Parlement,” and Censeur Royal. This very curious Letter is written throughout at the time she wore petticoats, being in the feminine gender, she says, “le plus sot des Roles' a jouer, est celui de Pucelle à la Cour. It is dated Versailles, <date when="1779-02-08">8th of Feb. 1779</date>. One other from her also.</desc><num type="price">2</num>
             </item>
             <item n="307" xml:id="CAT_000092_e307">
                <num type="lot">307</num>
@@ -229,11 +229,11 @@
             </item>
             <item n="308" xml:id="CAT_000092_e308">
                <num type="lot">308</num>
-               <desc xml:id="CAT_000092_e308_d1">DE LA LANDE,dated 3d of July, 1800, addressed "A la savante Miss Herschell", in which he states that he has fifty thousand stars "bien determinees;"Ducis, Jean FrançoisMembre of the Institut National,dated Versailles, 27th of March, 1807.This learned man translated several of Shakspeare’s Plays, in all the spirit of the original text,2</desc><num type="price"/>
+               <desc xml:id="CAT_000092_e308_d1">DE LA LANDE,dated 3d of July, 1800, addressed "A la savante Miss Herschell", in which he states that he has fifty thousand stars "bien determinees;"Ducis, Jean FrançoisMembre of the Institut National,dated Versailles, 27th of March, <date when="1807">1807</date>.This learned man translated several of Shakspeare’s Plays, in all the spirit of the original text,2</desc><num type="price"/>
             </item>
             <item n="309" xml:id="CAT_000092_e309">
                <num type="lot">309</num>
-               <desc xml:id="CAT_000092_e309_d1">De la Landethe astronomer,written in the valley of Chamouni, August, 1796, in admiration of the beauties of that wonderful country; on the same paper the signature of his learned niece, and a very handsome tribute of respect to De la Lande, by his associate Fred. Maurice the astronomer;Viscount de Vaux ;Humboldt the traveller;Baron de Costaz,President of the Committee for Egyptian Antiquities;and Dom Calmet,the learned abbe and antiquary,1734, &amp;c.</desc><num type="price">9</num>
+               <desc xml:id="CAT_000092_e309_d1">De la Landethe astronomer,written in the valley of Chamouni, August, 1796, in admiration of the beauties of that wonderful country; on the same paper the signature of his learned niece, and a very handsome tribute of respect to De la Lande, by his associate Fred. Maurice the astronomer;Viscount de Vaux ;Humboldt the traveller;Baron de Costaz,President of the Committee for Egyptian Antiquities;and Dom Calmet,the learned abbe and antiquary,<date when="1734">1734</date>, &amp;c.</desc><num type="price">9</num>
             </item>
             <item n="310" xml:id="CAT_000092_e310">
                <num type="lot">310</num>
@@ -256,7 +256,7 @@
             </item>
             <item n="315" xml:id="CAT_000092_e315">
                <num type="lot">315</num>
-               <desc xml:id="CAT_000092_e315_d1">PEYRESC,the celebrated antiquary of the 16th century,and DOM JEAN MABILLON,dated Paris, 1696, so often celebrated in literature2</desc><num type="price"/>
+               <desc xml:id="CAT_000092_e315_d1">PEYRESC,the celebrated antiquary of the 16th century,and DOM JEAN MABILLON,dated Paris, <date when="1696">1696</date>, so often celebrated in literature2</desc><num type="price"/>
             </item>
             <item n="316" xml:id="CAT_000092_e316">
                <num type="lot">316</num>
@@ -272,11 +272,11 @@
             </item>
             <item n="319" xml:id="CAT_000092_e319">
                <num type="lot">319</num>
-               <desc xml:id="CAT_000092_e319_d1">Valli,of Pisa, whose experiments on Animal Physiolgy are well known,dated 1792;De Luc'saccount of him in his own hand-writing;Madame de Montolieu, writer3</desc><num type="price"/>
+               <desc xml:id="CAT_000092_e319_d1">Valli,of Pisa, whose experiments on Animal Physiolgy are well known,<date when="1792">dated 1792</date>;De Luc'saccount of him in his own hand-writing;Madame de Montolieu, writer3</desc><num type="price"/>
             </item>
             <item n="320" xml:id="CAT_000092_e320">
                <num type="lot"/>
-               <desc xml:id="CAT_000092_e320_d1">VOLTAIRE,dated Ferney, 3d of July, 1773, an account of money transactions between him and Mons. Rozé;D'ALEMBERT,mentioning an attack on the French King’s life by Damiens2</desc><num type="price"/>
+               <desc xml:id="CAT_000092_e320_d1">VOLTAIRE,dated Ferney, 3d of July, <date when="1773">1773</date>, an account of money transactions between him and Mons. Rozé;D'ALEMBERT,mentioning an attack on the French King’s life by Damiens2</desc><num type="price"/>
             </item>
             <item n="321" xml:id="CAT_000092_e321">
                <num type="lot">321</num>
@@ -285,7 +285,7 @@
             </item>
             <item n="322" xml:id="CAT_000092_e322">
                <num type="lot">322</num>
-               <desc xml:id="CAT_000092_e322_d1">VOLNEY,(Ruins of Empires,)Paris, 3d of August, 1818, a letter in very good English;another, in French, Paris, 19th of September,</desc><num type="price">18182</num>
+               <desc xml:id="CAT_000092_e322_d1">VOLNEY,(Ruins of Empires,)Paris, 3d of August, <date when="1818">1818</date>, a letter in very good English;another, in French, Paris, 19th of September,</desc><num type="price">18182</num>
             </item>
             <item n="323" xml:id="CAT_000092_e323">
                <num type="lot">323</num>

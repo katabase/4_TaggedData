@@ -211,7 +211,7 @@
                <trait>
                   <p>la célèbre épistolaire, n. 1636, m. 1696.</p>
                </trait>
-               <desc xml:id="CAT_000009_e1113_d1"><term ana="#document_type_8">L. a.</term> à M. Duplessis; les Rochers, 30 août (1690), <measure type="length" unit="p" n="3.25">3 p. 1/4</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Légers raccomodages.</desc><note>BELLE LETTRE où elle parle du gain du procès de M. de Grignan contre
+               <desc xml:id="CAT_000009_e1113_d1"><term ana="#document_type_8">L. a.</term> à M. Duplessis; les Rochers, 30 août (<date when="1690">1690</date>), <measure type="length" unit="p" n="3.25">3 p. 1/4</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Légers raccomodages.</desc><note>BELLE LETTRE où elle parle du gain du procès de M. de Grignan contre
                M. d'Aiguebonne et de la bataille de Fleurus.</note>
             </item>
             <item n="1114" xml:id="CAT_000009_e1114" corresp="#MS_000008">
@@ -230,7 +230,7 @@
             <item n="1115" xml:id="CAT_000007_e1115">
                <num type="lot">1115</num>
                <name type="author">SÉVIGNÉ (Marie de RABUTIN-CHANTAL, marquise de)</name>
-               <desc xml:id="CAT_000009_e1115_d1"><term ana="#document_type_8">L. a.</term> à M. Du Plessis; Grignan, 19 janvier 1691, <measure type="length" unit="p" n="3.5">3 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Jolie lettre. «Il a plu à Dieu que j'eusse des plumes taillées de votre
+               <desc xml:id="CAT_000009_e1115_d1"><term ana="#document_type_8">L. a.</term> à M. Du Plessis; Grignan, <date when="1691-01-19">19 janvier 1691</date>, <measure type="length" unit="p" n="3.5">3 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Jolie lettre. «Il a plu à Dieu que j'eusse des plumes taillées de votre
                   main… jamais on a si bien fait de la prose… nous y avons trouvé même
                   de la poésie, en vous remerciant donc Monsieur plus de mille fois, je serais
                   bien heureuse si dans cette longue vie que vous me souhaiter je pourrais

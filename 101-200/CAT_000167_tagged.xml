@@ -212,7 +212,7 @@
                <trait>
                   <p>pape, le père de César et de Lucrèce Borgia, n. 1430, m. 1503.</p>
                </trait>
-               <desc xml:id="CAT_000167_e1_d1"><term ana="#document_type_3">Pièce, sur vélin, avec les mots Fiat ut petit., autographe</term>s; Rome, 14 des calendes d'avril (1502), <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio.</measure> Petit trou dans la partie blanche du parchemin. Très rare.</desc><note>Le pape accorde à Antonio de Tolentino et à sa femme des indulgences et le
+               <desc xml:id="CAT_000167_e1_d1"><term ana="#document_type_3">Pièce, sur vélin, avec les mots Fiat ut petit., autographe</term>s; Rome, 14 des calendes d'avril (<date when="1502">1502</date>), <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio.</measure> Petit trou dans la partie blanche du parchemin. Très rare.</desc><note>Le pape accorde à Antonio de Tolentino et à sa femme des indulgences et le
                   droit d'avoir un autel particulier pour y faire dire la messe.</note>
             </item>
             <item n="2" xml:id="CAT_000167_e2">
@@ -222,7 +222,7 @@
                   <p>littérateur du XVIIIe siècle, auteur des fameux Mémoires secrets, n. 1690, m.
                      1771.</p>
                </trait>
-               <desc xml:id="CAT_000167_e2_d1"><term ana="#document_type_7">L. a. s.</term>; 13 mars 1750, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Rare.</desc><note>Belle lettre relative à l'acquisition de la colonne de l'hôtel de Sois-
+               <desc xml:id="CAT_000167_e2_d1"><term ana="#document_type_7">L. a. s.</term>; <date when="1750-03-13">13 mars 1750</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Rare.</desc><note>Belle lettre relative à l'acquisition de la colonne de l'hôtel de Sois-
                   sons.</note>
             </item>
             <item n="3" xml:id="CAT_000167_e3">
@@ -231,7 +231,7 @@
                <trait>
                   <p>le célèbre érudit, bibliothécaire de Colbert, n. 1630, m. 1718.</p>
                </trait>
-               <desc xml:id="CAT_000167_e3_d1"><term ana="#document_type_7">L. a. s.</term> ; Paris, 29 janvier 1677, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Belle pièce concernant ses fonctions de bibliothécaire.</note>
+               <desc xml:id="CAT_000167_e3_d1"><term ana="#document_type_7">L. a. s.</term> ; Paris, <date when="1677-01-29">29 janvier 1677</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Belle pièce concernant ses fonctions de bibliothécaire.</note>
             </item>
             <item n="4" xml:id="CAT_000167_e4">
                <num type="lot">4</num>
@@ -240,7 +240,7 @@
                   <p>célèbre conventionnel, le rapporteur infatigable du Comité de salut public, n.
                      1755, m. 1841.</p>
                </trait>
-               <desc xml:id="CAT_000167_e4_d1">Minute aut. d'une lettre à Fouché; Paris, 9 brumaire an II (30 octobre 1793), <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Curieux document, rédigé au nom du Comité de salut public. Il est -Fouché,
+               <desc xml:id="CAT_000167_e4_d1">Minute aut. d'une lettre à Fouché; Paris, <date when="1793-10-30">9 brumaire an II (30 octobre 1793</date>), <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Curieux document, rédigé au nom du Comité de salut public. Il est -Fouché,
                   alors dans la Nièvre, de se rendre à Lyon avec ses enjoint à Collot-d'Herbois et
                   Montaut. « Le salut de la Patrie vous a5 silé'à ville-Affranchie, partés, votre
                   patriotisme nous répond de e zèle et de la fermeté avec laquelle il faut opérer
@@ -253,7 +253,7 @@
                <trait>
                   <p>fils adoptif de Napoléon Ier, vice-roi d'Italie, n. 1781, m. 1824.</p>
                </trait>
-               <desc xml:id="CAT_000167_e5_d1">2 l. <term ana="#document_type_15">a. s.</term> (à la duchesse de Raguse); Ismaning-Munich, juinaoût 1823, <measure type="length" unit="p" n="6">6 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Jolies lettres où il parle de son séjour à Marienbad. « Il ne manque plus,
+               <desc xml:id="CAT_000167_e5_d1">2 l. <term ana="#document_type_15">a. s.</term> (à la duchesse de Raguse); Ismaning-Munich, <date when="1823">juinaoût 1823</date>, <measure type="length" unit="p" n="6">6 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Jolies lettres où il parle de son séjour à Marienbad. « Il ne manque plus,
                   dit-il, que de la force à mes nerfs et je n'obtiendrai cela que du temps. » Il se
                   rendra ensuite à Eichstett pour s'y établir en famille, il parle ensuite de son
                   voyage sur le lac de Constance, dont il espère beaucoup pour sa santé.
@@ -273,7 +273,7 @@
             <item n="7" xml:id="CAT_000167_e7">
                <num type="lot">7</num>
                <name type="author">BÉRANGER (Pierre-Jean de)</name>
-               <desc xml:id="CAT_000167_e7_d1"><term ana="#document_type_7">L. a. s.</term> à son père; Péronne, 18 pluviôse an II (6 février 1794), <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Très jolie lettre de la jeunesse de Béranger; il assure son père que sa triste
+               <desc xml:id="CAT_000167_e7_d1"><term ana="#document_type_7">L. a. s.</term> à son père; Péronne, <date when="1794-02-06">18 pluviôse an II (6 février 1794</date>), <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Très jolie lettre de la jeunesse de Béranger; il assure son père que sa triste
                   situation lui cause un grand chagrin (le père de Béranger était détenu comme
                   suspect). -On joint à celte pièce la copie d'un arrêté du tribunal révolutionnaire
                   ordonnant de mettre en liberté Jean-François Béranger, dit Mercix. L'arrêté est du
@@ -285,7 +285,7 @@
                <trait>
                   <p>le grand compositeur de musique, n. 1803, m. 1869.</p>
                </trait>
-               <desc xml:id="CAT_000167_e8_d1"><term ana="#document_type_7">L. a. s.</term> à Jules Janin; Paris, 28 novembre 1839, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_12">in-12.</measure></desc><note>Joli billet où il fait allusion au don Paganini. Il est ainsi conçu : « Je ne
+               <desc xml:id="CAT_000167_e8_d1"><term ana="#document_type_7">L. a. s.</term> à Jules Janin; Paris, <date when="1839-11-28">28 novembre 1839</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_12">in-12.</measure></desc><note>Joli billet où il fait allusion au don Paganini. Il est ainsi conçu : « Je ne
                   suis plus ou pas encore à l'âge où l'on pleure volontiers d'attendrissement, mais
                   votre apostrophe à Paganini m'a fait fondre en larmes.»</note>
             </item>
@@ -296,7 +296,7 @@
                   <p>illustre maréchal de l'Empire, puis roi de Suède sous le nom de Charles-Jean
                      XIV, n. 1764, m. 1844.</p>
                </trait>
-               <desc xml:id="CAT_000167_e9_d1"><term ana="#document_type_9">L. s.</term> à Rousselin ; Rennes, 16 prairial (juin 1795), <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Pièce historique. Il annonce que Cadoudal remue et qu'il ordonne aux généraux
+               <desc xml:id="CAT_000167_e9_d1"><term ana="#document_type_9">L. s.</term> à Rousselin ; Rennes, <date when="1795-06">16 prairial (juin 1795</date>), <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Pièce historique. Il annonce que Cadoudal remue et qu'il ordonne aux généraux
                   de l'attaquer partout où ils le rencontreront. Il annonce le débarquement des
                   Anglais à Quiberon.</note>
             </item>
@@ -306,7 +306,7 @@
                <trait>
                   <p>célèbre conventionnel, n. à La Rochelle, 1756, m. 1819.</p>
                </trait>
-               <desc xml:id="CAT_000167_e10_d1"><term ana="#document_type_7">L. a. s.</term> à Panis; Paris, 21 août l'an 4 de la Liberté (1792), <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, tête et vignette imprimées.</desc><note>Il lui recommande un patriote pour l'emploi de garçon de bureau.</note>
+               <desc xml:id="CAT_000167_e10_d1"><term ana="#document_type_7">L. a. s.</term> à Panis; Paris, 21 août l'an 4 de la Liberté (<date when="1792">1792</date>), <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, tête et vignette imprimées.</desc><note>Il lui recommande un patriote pour l'emploi de garçon de bureau.</note>
             </item>
             <item n="11" xml:id="CAT_000167_e11">
                <num type="lot">11</num>
@@ -323,7 +323,7 @@
                <trait>
                   <p>l'illustre évêque de Meaux, n. 1627, m.</p>
                </trait>
-               <desc xml:id="CAT_000167_e12_d1">17040 <term ana="#document_type_8">L. aut.</term> ; Paris, 29 janvier 1688, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachet.</desc><note>Intéressante lettre relative aux persécutions qu'auraient pu endurer les
+               <desc xml:id="CAT_000167_e12_d1">17040 <term ana="#document_type_8">L. aut.</term> ; Paris, <date when="1688-01-29">29 janvier 1688</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachet.</desc><note>Intéressante lettre relative aux persécutions qu'auraient pu endurer les
                   chrétiens en Espagne, sous le règne de quelques empereurs.</note>
             </item>
             <item n="13" xml:id="CAT_000167_e13">
@@ -333,7 +333,7 @@
                   <p>célèbre conventionnel girondin n. à Chartres, 1754, décapité le 31 octobre
                      1793.</p>
                </trait>
-               <desc xml:id="CAT_000167_e13_d1"><term ana="#document_type_7">L. a. s.</term> à Cahille Desmoulins; (Paris), samedi (17902), <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Important document. Il l'informe que les patriotes étant peu nombreux à
+               <desc xml:id="CAT_000167_e13_d1"><term ana="#document_type_7">L. a. s.</term> à Cahille Desmoulins; (Paris), samedi (<date when="1790">1790</date>2), <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Important document. Il l'informe que les patriotes étant peu nombreux à
                   l'Assemblée, Malouet a pu obtenir un décret qui enjoint au procureur de le
                   poursuivre. Il s'empresse de l'avertir afin qu'il prenne ses précautions. Il
                   annonce qu'il sera à son poste pour défendre la Société des Amis de la
@@ -346,7 +346,7 @@
                   <p>célèbre général républicain, maréchal de l'Empire, n. 1763, massacré en
                      1815.</p>
                </trait>
-               <desc xml:id="CAT_000167_e14_d1"><term ana="#document_type_7">L. a. s.</term> au citoyen Verne ; quartier général de Vérone, 18 vendémiaire an VI (18 octobre 1797), <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio</measure>, vignette.</desc><note>Superbe pièce. Les Autrichiens vaincus sont incorrigibles, et son opinion est
+               <desc xml:id="CAT_000167_e14_d1"><term ana="#document_type_7">L. a. s.</term> au citoyen Verne ; quartier général de Vérone, <date when="1797-10-18">18 vendémiaire an VI (18 octobre 1797</date>), <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio</measure>, vignette.</desc><note>Superbe pièce. Les Autrichiens vaincus sont incorrigibles, et son opinion est
                   que les opérations militaires reprendront bientôt. « Si la valeur et l'amour de la
                   liberté forcent les villes et détruisent les armées, il ne faut pas douter de nos
                   succès.»</note>
@@ -357,14 +357,14 @@
                <trait>
                   <p>chef du parti montagnard à Lyon, n. 1747, décapité en 1793.</p>
                </trait>
-               <desc xml:id="CAT_000167_e15_d1"><term ana="#document_type_4">P. s.</term> ; Lyon, 6 novembre 1791, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio.</measure> Très rare.</desc></item>
+               <desc xml:id="CAT_000167_e15_d1"><term ana="#document_type_4">P. s.</term> ; Lyon, <date when="1791-11-06">6 novembre 1791</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio.</measure> Très rare.</desc></item>
             <item n="16" xml:id="CAT_000167_e16">
                <num type="lot">16</num>
                <name type="author">CHAMBORD (Henri de Bourbon, comte de),</name>
                <trait>
                   <p>le dernier représentant de la branche aînée des Bourbons, n. 1820, m. 1883.</p>
                </trait>
-               <desc xml:id="CAT_000167_e16_d1"><term ana="#document_type_7">L. a. s.</term> à M. le baron Vincent; Kirchberg, 31 juillet 1840, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Remarquable lettre où il exprime le plaisir qu'il ressent quand il parle de la
+               <desc xml:id="CAT_000167_e16_d1"><term ana="#document_type_7">L. a. s.</term> à M. le baron Vincent; Kirchberg, <date when="1840-07-31">31 juillet 1840</date>, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Remarquable lettre où il exprime le plaisir qu'il ressent quand il parle de la
                   France, qu'il voudrait rendre heureuse et puissante. « Qu'il me serait bien plus
                   doux de parler de la France en France même! Au reste, il faut que l'on sache, si
                   j'ai l'ambition d'y rentrer jamais, ce n'est pas, Dieu m'en garde, en lui
@@ -377,7 +377,7 @@
                <trait>
                   <p>l’illustre général républicain, n. à Valence, 1762, m. 1800.</p>
                </trait>
-               <desc xml:id="CAT_000167_e17_d1"><term ana="#document_type_7">L. a. s.</term> à Barras ; quartier-général de Rome, 29 brumaire an VII (20 novembre 1798), <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio.</measure></desc><note>Très intéressante lettre où il fait part à Barras du dénuement de son armée. Il
+               <desc xml:id="CAT_000167_e17_d1"><term ana="#document_type_7">L. a. s.</term> à Barras ; quartier-général de Rome, <date when="1798-11-20">29 brumaire an VII (20 novembre 1798</date>), <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio.</measure></desc><note>Très intéressante lettre où il fait part à Barras du dénuement de son armée. Il
                   demande une augmentation de ses forces, surtout en cavalerie ; quand son armée
                   sera organisée, il recevra républicainement le roi de Naples. Il veut purger son
                   armée des coquins qui le suivent « comme des oiseaux de proie pour dévorer le peu
@@ -389,7 +389,7 @@
             <item n="18" xml:id="CAT_000167_e18">
                <num type="lot">18</num>
                <name type="author">CHARETTE</name>
-               <desc xml:id="CAT_000167_e18_d1">DE LA CONTRIE (François-Athanase), un des plus fameux chefs vendéens, n. 1763, fusillé à Nantes en 1796. <term ana="#document_type_9">Lettre signée</term> à Stofflet; Montorgueil, 20 février 1796, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Très rare.</desc><note>Précieuse pièce. Il lui annonce l'envoi de la copie des propositions que venait
+               <desc xml:id="CAT_000167_e18_d1">DE LA CONTRIE (François-Athanase), un des plus fameux chefs vendéens, n. 1763, fusillé à Nantes en 1796. <term ana="#document_type_9">Lettre signée</term> à Stofflet; Montorgueil, <date when="1796-02-20">20 février 1796</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Très rare.</desc><note>Précieuse pièce. Il lui annonce l'envoi de la copie des propositions que venait
                   de lui faire le gouvernement républicain. « Ma réponse n'exprime que bien
                   faiblement mon inviolable attachement a la cause glorieuse pour laquelle nous
                   combattons. » Il le prie de donner la plus grande publicité à sa réponse. (Une
@@ -411,11 +411,11 @@
             <item n="20" xml:id="CAT_000167_e20">
                <num type="lot">20</num>
                <name type="author">CHATEAUBRIAND (François-René, vicomte de)</name>
-               <desc xml:id="CAT_000167_e20_d1"><term ana="#document_type_7">L. a. s.</term> à M. Delamarinière; Aunay, 27 août 1809, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Jolie lettre.</desc></item>
+               <desc xml:id="CAT_000167_e20_d1"><term ana="#document_type_7">L. a. s.</term> à M. Delamarinière; Aunay, <date when="1809-08-27">27 août 1809</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Jolie lettre.</desc></item>
             <item n="21" xml:id="CAT_000167_e21">
                <num type="lot">21</num>
                <name type="author">CHATEAUBRIAND (François-René, vicomte de)</name>
-               <desc xml:id="CAT_000167_e21_d1"><term ana="#document_type_7">L. a. s.</term> (à Béranger) ; Genève, 16 septembre 1832, <measure type="length" unit="p" n="4">4 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Superbe lettre d'un grand intérêt où il l'entretient de l'état de la France Il
+               <desc xml:id="CAT_000167_e21_d1"><term ana="#document_type_7">L. a. s.</term> (à Béranger) ; Genève, <date when="1832-09-16">16 septembre 1832</date>, <measure type="length" unit="p" n="4">4 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Superbe lettre d'un grand intérêt où il l'entretient de l'état de la France Il
                   se demande si le perfectionnement de sa civilisation ne la mènera pas à la
                   décadence. Puis, revenant sur lui-même, il s'étonne de l'intérêt qu'il prend
                   encore à la politique, lui, qui n'est plus Français que de nom, et homme que d'une
@@ -429,7 +429,7 @@
                <trait>
                   <p>le célèbre compositeur de musique. n. 1760, m. 1842.</p>
                </trait>
-               <desc xml:id="CAT_000167_e22_d1">9 1. <term ana="#document_type_15">a. s.</term> et 11. aut. à M. Faurie-Devienne; Paris, 1811-1828, <measure type="length" unit="p" n="24">24 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Intéressante correspondance, toute musicale, où Cherubini prodigue des conseils
+               <desc xml:id="CAT_000167_e22_d1">9 1. <term ana="#document_type_15">a. s.</term> et 11. aut. à M. Faurie-Devienne; Paris, <date when="1811">1811-1828</date>, <measure type="length" unit="p" n="24">24 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Intéressante correspondance, toute musicale, où Cherubini prodigue des conseils
                   à son ami Faurie, qui lui soumettait ses compositions. Ces observations sont très
                   remarquables. En voici un exemple; « Examinez l'introduction et vous verrez que
                   j'ai voulu exprimer, autant que la musique peut le faire, avec le lever du soleil,
@@ -468,7 +468,7 @@
                <trait>
                   <p>pape (1592), qui reçut l'abjuration de Henri IV, n. 1536, m. 1605.</p>
                </trait>
-               <desc xml:id="CAT_000167_e25_d1"><term ana="#document_type_7">L. a. s.</term> à Marie de Médicis; Rome, 23 septembre 1600, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> Très rare.</desc><note>Superbe lettre où il mande qu'il a député le comte Aldobrandini, son neveu,
+               <desc xml:id="CAT_000167_e25_d1"><term ana="#document_type_7">L. a. s.</term> à Marie de Médicis; Rome, <date when="1600-09-23">23 septembre 1600</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> Très rare.</desc><note>Superbe lettre où il mande qu'il a député le comte Aldobrandini, son neveu,
                   pour faire le mariage entre elle et le Roi (Henri IV). Voeux pour sa
                   prospérité.</note>
             </item>
@@ -494,7 +494,7 @@
                <trait>
                   <p>l'illustre conventionnel, n. 1759, décapité en 1794.</p>
                </trait>
-               <desc xml:id="CAT_000167_e28_d1"><term ana="#document_type_9">L. s.</term> à Panis; Paris, 30 août l'an IV (1792), <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Quelques taches de rousseur.</desc><note>Il lui recommande un père de famille employé à la municipalité : « Songe qu'il
+               <desc xml:id="CAT_000167_e28_d1"><term ana="#document_type_9">L. s.</term> à Panis; Paris, 30 août l'an IV (<date when="1792">1792</date>), <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Quelques taches de rousseur.</desc><note>Il lui recommande un père de famille employé à la municipalité : « Songe qu'il
                   est père de famille, qu'il a, en outre, d'autres charges et qu'il n'a de ressource
                   que dans son emploi. Tout cela mérite considération.»</note>
             </item>
@@ -504,7 +504,7 @@
                <trait>
                   <p>le grand peintre d'histoire, n. 1748, m. 1825.</p>
                </trait>
-               <desc xml:id="CAT_000167_e29_d1"><term ana="#document_type_7">L. a. s.</term> à un ami ; Paris, 18 février 1808, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Précieuse lettre où il lui fait part du succès de son dernier tableau (Le
+               <desc xml:id="CAT_000167_e29_d1"><term ana="#document_type_7">L. a. s.</term> à un ami ; Paris, <date when="1808-02-18">18 février 1808</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Précieuse lettre où il lui fait part du succès de son dernier tableau (Le
                   Couronnement). «C'est un triomphe comme on n'en a jamais vu parmi la nation
                   gauloise.» Il raconte la fameuse visite de l'empereur à son atelier. « Sa Majesté,
                   après avoir loué mon ouvrage, après plus d'une heure d'examen, et de l'examen le
@@ -527,7 +527,7 @@
                <trait>
                   <p>célèbre poète tragique, membre de l'Académie française, n. 1733, m. 1816.</p>
                </trait>
-               <desc xml:id="CAT_000167_e31_d1">Pour la fête du citoyen Louis-Marie Revellière-Lepaux, le dimanche 24 août 1806, veille de la Saint-Louis, à la Rousselière, en Sologne, etc., <term ana="#document_type_2">pièce de vers aut. sig.</term>, <measure type="length" unit="p" n="8">8 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Superbe pièce. Une note de Mme Victoire Babois, nièce de Ducis, indique que
+               <desc xml:id="CAT_000167_e31_d1">Pour la fête du citoyen Louis-Marie Revellière-Lepaux, <date when="1806-08-24">le dimanche 24 août 1806</date>, veille de la Saint-Louis, à la Rousselière, en Sologne, etc., <term ana="#document_type_2">pièce de vers aut. sig.</term>, <measure type="length" unit="p" n="8">8 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Superbe pièce. Une note de Mme Victoire Babois, nièce de Ducis, indique que
                   cette pièce était encore inédite en 1835 et que Mme Babois en a fait don à
                   Béranger.</note>
             </item>
@@ -537,7 +537,7 @@
                <trait>
                   <p>le grand romancier, n. 1803, m. 1870.</p>
                </trait>
-               <desc xml:id="CAT_000167_e32_d1"><term ana="#document_type_7">L. a. s.</term> à M. Duret; Vienne, 3 janvier 1866, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Intéressante où il discute l'emplacement de la ville d'Alésia. Il conclut
+               <desc xml:id="CAT_000167_e32_d1"><term ana="#document_type_7">L. a. s.</term> à M. Duret; Vienne, <date when="1866-01-03">3 janvier 1866</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Intéressante où il discute l'emplacement de la ville d'Alésia. Il conclut
                   qu'elle devait se trouver à Alaise, en Franche-Comté. Il dit que l'Histoire est
                   l'école des rois, et que les grands hommes ont droit à l'intérêt des poètes et des
                   dramaturges. « Shakespeare a plus fait pour l'Angleterre que Hume et
@@ -550,7 +550,7 @@
                   <p>illustre chef du parti protestant, ami et conseiller de Henri IV, surnommé le
                      Pape des Huguenots, n. 1549, m. 1623.</p>
                </trait>
-               <desc xml:id="CAT_000167_e33_d1"><term ana="#document_type_7">L. a. s.</term> à Villarnoul ; Saumur, 30 juin 1610, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio.</measure> Belle pièce.</desc></item>
+               <desc xml:id="CAT_000167_e33_d1"><term ana="#document_type_7">L. a. s.</term> à Villarnoul ; Saumur, <date when="1610-06-30">30 juin 1610</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio.</measure> Belle pièce.</desc></item>
             <item n="34" xml:id="CAT_000167_e34">
                <num type="lot">34</num>
                <name type="author">DUROY (Jean-Michel),</name>
@@ -558,14 +558,14 @@
                   <p>député de l'Eure à la Convention, un des derniers montagnards, n. 1753,
                      décapité en 1795.</p>
                </trait>
-               <desc xml:id="CAT_000167_e34_d1"><term ana="#document_type_7">L. a. s.</term> à l'abbé de Larue ; Bernay, 24 octobre 1791, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle et rare pièce.</desc></item>
+               <desc xml:id="CAT_000167_e34_d1"><term ana="#document_type_7">L. a. s.</term> à l'abbé de Larue ; Bernay, <date when="1791-10-24">24 octobre 1791</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle et rare pièce.</desc></item>
             <item n="35" xml:id="CAT_000167_e35">
                <num type="lot">35</num>
                <name type="author">EISEN (Charles),</name>
                <trait>
                   <p>habile dessinateur et graveur, n. à Valenciennes, 1721, m. 1778.</p>
                </trait>
-               <desc xml:id="CAT_000167_e35_d1">P. <term ana="#document_type_15">a. s.</term> ; Paris, 24 janvier 1769, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_108">in-8 obl</measure>ong. Très rare. (Coll. Sensier.)</desc><note>Reçu de 48 livres pour un dessin qui doit servir de frontispice aux
+               <desc xml:id="CAT_000167_e35_d1">P. <term ana="#document_type_15">a. s.</term> ; Paris, <date when="1769-01-24">24 janvier 1769</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_108">in-8 obl</measure>ong. Très rare. (Coll. Sensier.)</desc><note>Reçu de 48 livres pour un dessin qui doit servir de frontispice aux
                   Lamentations de Jérémie par Baculard d'Arnaud.</note>
             </item>
             <item n="36" xml:id="CAT_000167_e36">
@@ -574,7 +574,7 @@
                <trait>
                   <p>reine de Roumanie, écrivain distinguée, connue sous le nom de Carmen Sylva.</p>
                </trait>
-               <desc xml:id="CAT_000167_e36_d1"><term ana="#document_type_7">L. a. s.</term>; Sinaïa, 21 novembre 1887, <measure type="length" unit="p" n="4">4 p.</measure> <measure type="format" unit="f" ana="#document_format_108">in-8 obl</measure>ong. Rare.</desc><note>Belle lettre où elle parle de ses travaux littéraires. Elle remercie son
+               <desc xml:id="CAT_000167_e36_d1"><term ana="#document_type_7">L. a. s.</term>; Sinaïa, <date when="1887-11-21">21 novembre 1887</date>, <measure type="length" unit="p" n="4">4 p.</measure> <measure type="format" unit="f" ana="#document_format_108">in-8 obl</measure>ong. Rare.</desc><note>Belle lettre où elle parle de ses travaux littéraires. Elle remercie son
                   correspondant de l'avoir fait connaître en France. « C'est par vous que je suis
                   entrée dans votre beau pays et qu'on m'y a fait un si bon accueil, et j'en suis
                   bien heureuse.»</note>
@@ -585,14 +585,14 @@
                <trait>
                   <p>maréchal de France, célèbre diplomate, n. à Agen, 1607, m. 1686.</p>
                </trait>
-               <desc xml:id="CAT_000167_e37_d1"><term ana="#document_type_7">L. a. s.</term> à M. Duclos-Destouches, à l'Arsenal; 18 janvier 1671, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle pièce.</desc></item>
+               <desc xml:id="CAT_000167_e37_d1"><term ana="#document_type_7">L. a. s.</term> à M. Duclos-Destouches, à l'Arsenal; <date when="1671-01-18">18 janvier 1671</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle pièce.</desc></item>
             <item n="38" xml:id="CAT_000167_e38">
                <num type="lot">38</num>
                <name type="author">FABERT (Abraham),</name>
                <trait>
                   <p>illustre maréchal de France, n. à Metz, 1599, m. 1662.</p>
                </trait>
-               <desc xml:id="CAT_000167_e38_d1"><term ana="#document_type_7">L. a. s.</term> (à Mazarin) ; 24 août (1655), <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Superbe lettre où il lui recommande la veuve de M. de Marolle.</note>
+               <desc xml:id="CAT_000167_e38_d1"><term ana="#document_type_7">L. a. s.</term> (à Mazarin) ; 24 août (<date when="1655">1655</date>), <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Superbe lettre où il lui recommande la veuve de M. de Marolle.</note>
             </item>
             <item n="39" xml:id="CAT_000167_e39">
                <num type="lot">39</num>
@@ -600,7 +600,7 @@
                <trait>
                   <p>le premier ministre de Louis XV, n. 1653, m. 1743.</p>
                </trait>
-               <desc xml:id="CAT_000167_e39_d1"><term ana="#document_type_8">Lettre aut.</term> ; 8 février (1725?), <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Ccrieuse lettre où il fait allusion à l'affaire qu'eut Voltaire avec le
+               <desc xml:id="CAT_000167_e39_d1"><term ana="#document_type_8">Lettre aut.</term> ; 8 février (<date when="1725">1725</date>?), <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Ccrieuse lettre où il fait allusion à l'affaire qu'eut Voltaire avec le
                   chevalier de Rohan. « Voltaire est un fol à qui quelques ducs et pairs ont tourné
                   la cervelle et l'ont rendu insolent. » Il blâme cependant son adversaire, qui
                   n'est pas excusable de la manière dont il s'est vengé.</note>
@@ -623,7 +623,7 @@
                <trait>
                   <p>le fameux surintendant des finances de Louis XIV, n. 1615, m. 1680.</p>
                </trait>
-               <desc xml:id="CAT_000167_e41_d1"><term ana="#document_type_7">L. a. s.</term> à M. de Vieuxpont; au camp de la Bassée, 26 août 1647, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachet et soies.</desc><note>Superbe lettre où il lui annonce l'échec de sa négociation en vue de faciliter
+               <desc xml:id="CAT_000167_e41_d1"><term ana="#document_type_7">L. a. s.</term> à M. de Vieuxpont; au camp de la Bassée, <date when="1647-08-26">26 août 1647</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachet et soies.</desc><note>Superbe lettre où il lui annonce l'échec de sa négociation en vue de faciliter
                   son retour à l'armée.</note>
             </item>
             <item n="42" xml:id="CAT_000167_e42">
@@ -640,7 +640,7 @@
                <trait>
                   <p>maréchal de France, n. 1602, m. 1680.</p>
                </trait>
-               <desc xml:id="CAT_000167_e43_d1"><term ana="#document_type_7">L. a. s.</term> à Piccolomini; camp de Mosen, 21 juin 1639, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio.</measure> Rare.</desc><note>Belle lettre où il lui demande la liberté d'un capitaine de son régiment nommé
+               <desc xml:id="CAT_000167_e43_d1"><term ana="#document_type_7">L. a. s.</term> à Piccolomini; camp de Mosen, <date when="1639-06-21">21 juin 1639</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio.</measure> Rare.</desc><note>Belle lettre où il lui demande la liberté d'un capitaine de son régiment nommé
                   Courcelle.</note>
             </item>
             <item n="44" xml:id="CAT_000167_e44">
@@ -649,7 +649,7 @@
                <trait>
                   <p>le Jeune, célèbre poète italien, auteur du Pastor fido, n. 1537, m. 1612.</p>
                </trait>
-               <desc xml:id="CAT_000167_e44_d1"><term ana="#document_type_7">L. a. s.</term> à Crispotti; Casteldurante, 17 mai 1603, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Très rare. Très intéressante lettre où il parle des oeuvres en prose et en vers
+               <desc xml:id="CAT_000167_e44_d1"><term ana="#document_type_7">L. a. s.</term> à Crispotti; Casteldurante, <date when="1603-05-17">17 mai 1603</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Très rare. Très intéressante lettre où il parle des oeuvres en prose et en vers
                   de Bonciarii et se réjouit de voir que la pureté latine persiste encore au moins à
                   Pérouse.</note>
             </item>
@@ -659,7 +659,7 @@
                <trait>
                   <p>célèbre graveur flamand, n. 1650, m. 1720.</p>
                </trait>
-               <desc xml:id="CAT_000167_e45_d1">P. <term ana="#document_type_15">a. s.</term>; 1702, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_104">in-4 obl</measure>ong. Très rare. (Coll. B. Fillon.)</desc></item>
+               <desc xml:id="CAT_000167_e45_d1">P. <term ana="#document_type_15">a. s.</term>; <date when="1702">1702</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_104">in-4 obl</measure>ong. Très rare. (Coll. B. Fillon.)</desc></item>
             <item n="46" xml:id="CAT_000167_e46">
                <num type="lot">46</num>
                <name type="author">HUET (Daniel),</name>
@@ -667,7 +667,7 @@
                   <p>le savant évêque d'Avranches, membre de l'Académie française, n. 1630, m.
                      1721.</p>
                </trait>
-               <desc xml:id="CAT_000167_e46_d1"><term ana="#document_type_7">L. a. s.</term> au révérend père…; Paris, 19 juillet 1714, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Belle lettre où il fait l'éloge de M. Sallier (membre de l'Académie française).
+               <desc xml:id="CAT_000167_e46_d1"><term ana="#document_type_7">L. a. s.</term> au révérend père…; Paris, <date when="1714-07-19">19 juillet 1714</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Belle lettre où il fait l'éloge de M. Sallier (membre de l'Académie française).
                   Il parle ensuite de la publication projetée de sa correspondance; il ne voudrait
                   faire cette publication qu'avec le concours de son correspondant. « Il est assez
                   rare qu'un homme vivant veuille se livrer lui-même au public et luy faire
@@ -693,7 +693,7 @@
                <trait>
                   <p>maréchal de France, m. 1694.</p>
                </trait>
-               <desc xml:id="CAT_000167_e48_d1"><term ana="#document_type_7">L. a. s.</term> à son père; au Sas Gand, 20 juillet (1646), <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Belle lettre militaire. Il annonce que le prince d'Orange est malade et qu'il
+               <desc xml:id="CAT_000167_e48_d1"><term ana="#document_type_7">L. a. s.</term> à son père; au Sas Gand, 20 juillet (<date when="1646">1646</date>), <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Belle lettre militaire. Il annonce que le prince d'Orange est malade et qu'il
                   n'a plus que pour peu de temps à vivre. « Il n'a aucune partie de son corps saine,
                   hors le coeur qui est toujours si grand qu'on ut toutes les penes du monde à
                   l'empescher de partir.»</note>
@@ -704,7 +704,7 @@
                <trait>
                   <p>célèbre conventionnel girondin, n. à Grasse, 1751, m. 1825.</p>
                </trait>
-               <desc xml:id="CAT_000167_e49_d1"><term ana="#document_type_7">L. a. s.</term> à un journaliste ; Draguignan, 31 mai 1790, <measure type="length" unit="p" n="4">4 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Rare</desc><note>Très intéressante lettre où il fait le récit de la cérémonie de la
+               <desc xml:id="CAT_000167_e49_d1"><term ana="#document_type_7">L. a. s.</term> à un journaliste ; Draguignan, <date when="1790-05-31">31 mai 1790</date>, <measure type="length" unit="p" n="4">4 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Rare</desc><note>Très intéressante lettre où il fait le récit de la cérémonie de la
                   confédération des gardes nationaux des districts de Draguignan et de Fréjus. Il
                   transcrit les paroles qu'il a prononcées à l'issue du banquet. Curieux
                   détails.</note>
@@ -734,7 +734,7 @@
                <trait>
                   <p>impéralrice des Français, première femme de Napoléon 1er, n. 1763, m. 1814.</p>
                </trait>
-               <desc xml:id="CAT_000167_e51_d1"><term ana="#document_type_4">P. s.</term>, avec une ligne autographe, signée aussi par Talma, le grand tragédien, et par Julie Talma, sa femme ; Paris, 1er nivôse an IV, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><note>Précieuse pièce. Conventions additionnelles au bail d'une maison fait par
+               <desc xml:id="CAT_000167_e51_d1"><term ana="#document_type_4">P. s.</term>, avec une ligne autographe, signée aussi par Talma, le grand tragédien, et par Julie Talma, sa femme ; Paris, <date date="1795-12-22" type="length">1er nivôse an IV</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><note>Précieuse pièce. Conventions additionnelles au bail d'une maison fait par
                   Madame Talma à la veuve Beauharnais. (Il s'agit du fameux petit hôtel de la rue de
                   la Victoire où Bonaparte prépara plus tard le coup d'Etat du 18 brumaire.)</note>
             </item>
@@ -744,7 +744,7 @@
                <trait>
                   <p>célèbre général des guerres de la République, n. 1769, tué à Novi en 1799.</p>
                </trait>
-               <desc xml:id="CAT_000167_e52_d1"><term ana="#document_type_7">L. a. s.</term> au Directoire; quartier général de Turin, 1er nivôse an VII, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio</measure>, tête imprimée.</desc><note>Superbe lettre où il confirme sa démission de général en chef de l'armée
+               <desc xml:id="CAT_000167_e52_d1"><term ana="#document_type_7">L. a. s.</term> au Directoire; quartier général de Turin, <date date="1798-12-21" type="length">1er nivôse an VII</date>, <measure type="length" unit="p" n="0.75">3/4 de p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio</measure>, tête imprimée.</desc><note>Superbe lettre où il confirme sa démission de général en chef de l'armée
                   d'Italie.</note>
             </item>
             <item n="53" xml:id="CAT_000167_e53">
@@ -762,7 +762,7 @@
                   <p>auteur dramatique et fameux pamphlétaire allemand, n. 1761, assassiné en
                      1819.</p>
                </trait>
-               <desc xml:id="CAT_000167_e54_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à Bouilly; Schwarzen en Esthonie, 17 février 1808, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Jolie lettre où il déplore la guerre qui a interrompu leurs relations
+               <desc xml:id="CAT_000167_e54_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à Bouilly; Schwarzen en Esthonie, <date when="1808-02-17">17 février 1808</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Jolie lettre où il déplore la guerre qui a interrompu leurs relations
                   épistolaires.</note>
             </item>
             <item n="55" xml:id="CAT_000167_e55">
@@ -779,14 +779,14 @@
                <trait>
                   <p>célèbre poète tragique, membre de l'Académie française, n. 1723, m. 1793.</p>
                </trait>
-               <desc xml:id="CAT_000167_e56_d1"><term ana="#document_type_7">L. a. s.</term> à M. Bosquillon; 3 mai 1787, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> (Coll. Gilbert.).</desc></item>
+               <desc xml:id="CAT_000167_e56_d1"><term ana="#document_type_7">L. a. s.</term> à M. Bosquillon; <date when="1787-05-03">3 mai 1787</date>, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> (Coll. Gilbert.).</desc></item>
             <item n="57" xml:id="CAT_000167_e57">
                <num type="lot">57</num>
                <name type="author">LEON X (Giovanni di Medici),</name>
                <trait>
                   <p>pape, protecteur des arts et des lettres, n. 1475, m. 1521.</p>
                </trait>
-               <desc xml:id="CAT_000167_e57_d1">Bulle, en latin, sur vélin ; Rome, 18 des calendes de juillet 1516, <measure type="length" unit="p" n="1">1 p.</measure> grand <measure type="format" unit="f" ana="#document_format_1">in-folio</measure>, sceau en plomb.</desc><note>Important document historique. Traité d'alliance entre Léon X et la République
+               <desc xml:id="CAT_000167_e57_d1">Bulle, en latin, sur vélin ; Rome, <date when="1516">18 des calendes de juillet 1516</date>, <measure type="length" unit="p" n="1">1 p.</measure> grand <measure type="format" unit="f" ana="#document_format_1">in-folio</measure>, sceau en plomb.</desc><note>Important document historique. Traité d'alliance entre Léon X et la République
                   de Sienne. Les principaux négociateurs sont Pierre Borghese et Raphaël
                   Petrucci.</note>
             </item>
@@ -796,7 +796,7 @@
                <trait>
                   <p>le pape actuel.</p>
                </trait>
-               <desc xml:id="CAT_000167_e58_d1"><term ana="#document_type_7">L. a. s.</term>, comme nonce apostolique, au cardinal Luigi Vannicelli; Bruxelles, 18 mai 1844, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio.</measure> Rare.</desc><note>Intéressante lettre, où il le remercie des renseignements qu'il lui donne sur
+               <desc xml:id="CAT_000167_e58_d1"><term ana="#document_type_7">L. a. s.</term>, comme nonce apostolique, au cardinal Luigi Vannicelli; Bruxelles, <date when="1844-05-18">18 mai 1844</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio.</measure> Rare.</desc><note>Intéressante lettre, où il le remercie des renseignements qu'il lui donne sur
                   le rétablissement de l'ordre dans la province de Bologne. Les feuilles libérales
                   dépeignaient l'état politique de l'Italie, et spécialement des Etats pontificaux,
                   sous d'autres couleurs. Il profitera de sa communication pour rectifier les
@@ -829,7 +829,7 @@
                <trait>
                   <p>l'épouse de Louis XIV, n. 1635, m. 1719.</p>
                </trait>
-               <desc xml:id="CAT_000167_e61_d1"><term ana="#document_type_7">L. a. s.</term> à l'évêque de Chartres; Saint-Cyr, 2 juillet 1706, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Déchirure et légère tache en tête du premier feuillet.</desc><note>Intéressante lettre où elle lui dit que la cordialité de ses lettres rachète la
+               <desc xml:id="CAT_000167_e61_d1"><term ana="#document_type_7">L. a. s.</term> à l'évêque de Chartres; Saint-Cyr, <date when="1706-07-02">2 juillet 1706</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Déchirure et légère tache en tête du premier feuillet.</desc><note>Intéressante lettre où elle lui dit que la cordialité de ses lettres rachète la
                   sécheresse de sa conduite à son égard.</note>
             </item>
             <item n="62" xml:id="CAT_000167_e62">
@@ -839,7 +839,7 @@
                   <p>l'illustre philosophe, auteur des Soirées de Saint-Pétersbourg, n. 1754, m.
                      1821.</p>
                </trait>
-               <desc xml:id="CAT_000167_e62_d1"><term ana="#document_type_7">L. a. s.</term> M. ; Saint-Pétersbourg, 28 avril 1808, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Curieuse lettre, où il l'informe qu'il vient de découvrir qu'il est parent de
+               <desc xml:id="CAT_000167_e62_d1"><term ana="#document_type_7">L. a. s.</term> M. ; Saint-Pétersbourg, <date when="1808-04-28">28 avril 1808</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Curieuse lettre, où il l'informe qu'il vient de découvrir qu'il est parent de
                   Napoléon par l'impératrice Joséphine. Il croit de son devoir de signaler au roi
                   (de Sardaigne) cette parenté qu'il veut tenir secrète. Intéressants
                   détails.</note>
@@ -847,7 +847,7 @@
             <item n="63" xml:id="CAT_000167_e63">
                <num type="lot">63</num>
                <name type="author">MAISTRE (Joseph, comte de)</name>
-               <desc xml:id="CAT_000167_e63_d1">Mémoires sur la position de la maison de Savoie au mois d'octobre 1813, et sur les mesures qu'elle doit prendre à cette époque, <term ana="#document_type_13">manuscrit autographe</term>; Saint-Pétersbourg, 31 octobre 1813, <measure type="length" unit="p" n="18">18 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio.</measure></desc><note>Précieuse pièce. Véritable consultation au sujet de la direction à donner à la
+               <desc xml:id="CAT_000167_e63_d1">Mémoires sur la position de la maison de Savoie au mois d'octobre 1813, et sur les mesures qu'elle doit prendre à cette époque, <term ana="#document_type_13">manuscrit autographe</term>; Saint-Pétersbourg, <date when="1813-10-31">31 octobre 1813</date>, <measure type="length" unit="p" n="18">18 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio.</measure></desc><note>Précieuse pièce. Véritable consultation au sujet de la direction à donner à la
                   politique étrangère de la Sardaigne. Il pose en principe que son pays n'a pas
                   d'amis décidés parce qu'il n'a pas pris de parti décidé. Il conseille de quitter
                   la politique d'attente et de chercher résolument une alliance avec une grande
@@ -864,7 +864,7 @@
                   <p>littérateur, membre de l'Académie française, l'organisateur des fêtes données à
                      Sceaux par la duchesse du Maine, n. 1650, m. 1727.</p>
                </trait>
-               <desc xml:id="CAT_000167_e64_d1">P. <term ana="#document_type_15">a. s.</term> ; Versailles, 1er décembre 1695, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Rare.</desc><note>Il donne l'ordre de faire un versement aux religieuses ursulines de
+               <desc xml:id="CAT_000167_e64_d1">P. <term ana="#document_type_15">a. s.</term> ; Versailles, <date when="1695-12-01">1er décembre 1695</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Rare.</desc><note>Il donne l'ordre de faire un versement aux religieuses ursulines de
                   Trévoux.</note>
             </item>
             <item n="65" xml:id="CAT_000167_e65">
@@ -873,7 +873,7 @@
                <trait>
                   <p>impératrice d'Allemagne, dite la Grande, n. 1717, m. 1780.</p>
                </trait>
-               <desc xml:id="CAT_000167_e65_d1"><term ana="#document_type_7">L. a. s.</term>, en français (au prince Frédéric de Deux-Ponts); (juillet 1760), <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Pièce historique où elle le félicite de l'heureuse délivrance de Dresde, qui
+               <desc xml:id="CAT_000167_e65_d1"><term ana="#document_type_7">L. a. s.</term>, en français (au prince Frédéric de Deux-Ponts); <date when="1760-07">(juillet 1760</date>), <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Pièce historique où elle le félicite de l'heureuse délivrance de Dresde, qui
                   lui fait tant d'honneur. « Dieu veuille vous assister encore de plus. La prise de
                   Torgau me paraît nécessaire dans ces circonstances. Il faudrait mettre une forte
                   et bonne garnison à Dresde. la réparer et renvoyer ce qui est inutile et sur tout
@@ -895,7 +895,7 @@
                <trait>
                   <p>l'illustre écrivain, membre de l'Académie française, n. 1689, m. 1755.</p>
                </trait>
-               <desc xml:id="CAT_000167_e67_d1"><term ana="#document_type_7">L. a. s.</term> à l'abbé de Saint-Amans; Bordeaux, 13 mai 1631, 1p. <measure type="format" unit="f" ana="#document_format_8">in-8</measure>, cachet bien conservé. Jolie et très rare pièce.</desc><note>Il lui demande un délai de quelques semaines pour s'occuper d'une affaire qui
+               <desc xml:id="CAT_000167_e67_d1"><term ana="#document_type_7">L. a. s.</term> à l'abbé de Saint-Amans; Bordeaux, <date when="1631-05-13">13 mai 1631</date>, 1p. <measure type="format" unit="f" ana="#document_format_8">in-8</measure>, cachet bien conservé. Jolie et très rare pièce.</desc><note>Il lui demande un délai de quelques semaines pour s'occuper d'une affaire qui
                   leur est commune.</note>
             </item>
             <item n="68" xml:id="CAT_000167_e68">
@@ -905,7 +905,7 @@
                   <p>illustre général républicain, n. 1763, blessé mortellement dans les rangs
                      ennemis à la bataille de Dresde, 1813.</p>
                </trait>
-               <desc xml:id="CAT_000167_e68_d1"><term ana="#document_type_7">L. a. s.</term> à Kleber; quartier général de l'armée de Rhin et Moselle, 10 nivôse an V, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, vignette gravée.</desc><note>Importante lettre militaire où il lui annonce que le Directoire vient de le
+               <desc xml:id="CAT_000167_e68_d1"><term ana="#document_type_7">L. a. s.</term> à Kleber; quartier général de l'armée de Rhin et Moselle, <date date="1796-12-30" type="length">10 nivôse an V</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, vignette gravée.</desc><note>Importante lettre militaire où il lui annonce que le Directoire vient de le
                   nommer général en chef des armées de Sambre-et-Meuse et de Rhin-et-Moselle. Il lui
                   donne ses instructions pour envoyer des renforts à l'armée d'Italie.</note>
             </item>
@@ -916,14 +916,14 @@
                   <p>duc d'Elchingen, prince de la Moskowa, illustre maréchal de l'Empire, n. 1769,
                      m. 1815.</p>
                </trait>
-               <desc xml:id="CAT_000167_e69_d1"><term ana="#document_type_7">L. a. s.</term> au général Lecourbe; Sinsheim, 10 frimaire an VIII, (30 novembre 1799), <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Belle lettre militaire. Il l'assure qu'il fera l'impossible pour contenir
+               <desc xml:id="CAT_000167_e69_d1"><term ana="#document_type_7">L. a. s.</term> au général Lecourbe; Sinsheim, 10 frimaire an VIII, <date when="1799-11-30">(30 novembre 1799</date>), <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Belle lettre militaire. Il l'assure qu'il fera l'impossible pour contenir
                   l'ennemi en cas d'attaque. « Le concert et l'harmonie dans vos mouvements, nous
                   offre assez de force pour tenir jusqu'à l'arrivée des renforts promis.»</note>
             </item>
             <item n="70" xml:id="CAT_000167_e70">
                <num type="lot">70</num>
                <name type="author">NEY (Michel)</name>
-               <desc xml:id="CAT_000167_e70_d1"><term ana="#document_type_7">L. a. s.</term> à Auguié ; Salzbourg, 10 février 1806, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Jolie lettre intime où il parle de sa femme Eglé Auguié. Il dit qu'il s'occupe
+               <desc xml:id="CAT_000167_e70_d1"><term ana="#document_type_7">L. a. s.</term> à Auguié ; Salzbourg, <date when="1806-02-10">10 février 1806</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Jolie lettre intime où il parle de sa femme Eglé Auguié. Il dit qu'il s'occupe
                   de revenir en France et qu'il attend les derniers ordres « Les Prussiens
                   paraissent prendre le parti de la sagesse; c'est de rentrer dans leurs
                   coquilles.»</note>
@@ -935,7 +935,7 @@
                   <p>célèbre diplomate et homme d'Etat, membre de l'Académie française, n. 1716, m.
                      1798.</p>
                </trait>
-               <desc xml:id="CAT_000167_e71_d1"><term ana="#document_type_8">Lettre autographe</term> à sa nièce, la duchesse de Polignac; 6 juin 1787, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Jolie lettre où il parle de son entrée au ministère; il craint que sa
+               <desc xml:id="CAT_000167_e71_d1"><term ana="#document_type_8">Lettre autographe</term> à sa nièce, la duchesse de Polignac; <date when="1787-06-06">6 juin 1787</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Jolie lettre où il parle de son entrée au ministère; il craint que sa
                   vieillesse et sa santé délicate rendent son sacrifice inutile. Il la félicite sur
                   sa situation. « Je sçais tous vos succès, je les prévoyais bien; mais ils ne m'en
                   font pas moins de plaisir et j'y prends la part la plus sensible.»</note>
@@ -947,7 +947,7 @@
                   <p>membre de la commune du DixAoût, député de Paris à la Convention, n. 1757, m.
                      1832.</p>
                </trait>
-               <desc xml:id="CAT_000167_e72_d1"><term ana="#document_type_7">L. a. s.</term> à Barras; Paris, 19 fructidor an IV, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Très curieuse lettre où il lui expose sa triste situation. Il lui rappelle les
+               <desc xml:id="CAT_000167_e72_d1"><term ana="#document_type_7">L. a. s.</term> à Barras; Paris, <date date="1796-09-05" type="length">19 fructidor an IV</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Très curieuse lettre où il lui expose sa triste situation. Il lui rappelle les
                   services qu'il a rendus à la Révolution et le conjure de ne pas le laisser mourir
                   de faim. Il lui demande emphatiquement de penser à lui la nuit, s'il est trop
                   occupé pour le faire dans le jour. « Que ma pensée t'occupe un moment, la nuit
@@ -961,7 +961,7 @@
                <trait>
                   <p>général républicain, qui conquit la Hollande, n. 1761, m. 1804.</p>
                </trait>
-               <desc xml:id="CAT_000167_e73_d1"><term ana="#document_type_7">L. a. s.</term> à Hoche; Vendenheim, 21 frimaire an II (10 janvier 1794), <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio</measure>, tête et vignette imprimées.</desc><note>Pièce histrique où il accuse le général Taponier de lui avoir fait manquer la
+               <desc xml:id="CAT_000167_e73_d1"><term ana="#document_type_7">L. a. s.</term> à Hoche; Vendenheim, <date when="1794-01-10">21 frimaire an II (10 janvier 1794</date>), <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio</measure>, tête et vignette imprimées.</desc><note>Pièce histrique où il accuse le général Taponier de lui avoir fait manquer la
                   veille une belle journée par son inaction. Il prie le général Hoche de renforcer
                   la division de ce général. Lorsque ce renfort sera arrivé il attaquera Haguenau. «
                   Allons, mon ami, les moments sont précieux. Profitons-en, n'en perdons aucun. Déjà
@@ -974,7 +974,7 @@
                <trait>
                   <p>pape, qui sacra Napoléon 1er, n. 1742, m. 1823.</p>
                </trait>
-               <desc xml:id="CAT_000167_e74_d1"><term ana="#document_type_7">L. a. s.</term> (au cardinal Fesch?); Rome, 2 décembre 1807, <measure type="length" unit="p" n="2.75">2 p. 3/4</measure>.</desc><note>in-4. Quelques trous causés par l'encre corrosive enlèvent quelques môts.
+               <desc xml:id="CAT_000167_e74_d1"><term ana="#document_type_7">L. a. s.</term> (au cardinal Fesch?); Rome, <date when="1807-12-02">2 décembre 1807</date>, <measure type="length" unit="p" n="2.75">2 p. 3/4</measure>.</desc><note>in-4. Quelques trous causés par l'encre corrosive enlèvent quelques môts.
                   Précieuse lettre historique où Pie VII se plaint que, depuis son retour de Paris à
                   Rome après le sacre, l'empereur Napoléon l'abreuve de douleur et d'amertume. Voilà
                   le fruit de son voyage. L'empereur est irrité de ce qu'il n'a pas fait droit à
@@ -1000,7 +1000,7 @@
                <trait>
                   <p>célèbre homme d'Etat, ministre de Louis XVIII, n. 1766, m. 1822.</p>
                </trait>
-               <desc xml:id="CAT_000167_e76_d1">8 l. <term ana="#document_type_15">a. s.</term>, dont 4 des initiales, à son frère, le général marquis de Jumilhac; Paris, 1815-1820, <measure type="length" unit="p" n="8">8 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Curieuse correspondance où il s'entretient avec son frère des difficultés qu'il
+               <desc xml:id="CAT_000167_e76_d1">8 l. <term ana="#document_type_15">a. s.</term>, dont 4 des initiales, à son frère, le général marquis de Jumilhac; Paris, <date when="1815">1815-1820</date>, <measure type="length" unit="p" n="8">8 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Curieuse correspondance où il s'entretient avec son frère des difficultés qu'il
                   rencontre pour gouverner. Il lui annonce l'arrangement conclu entre la France et
                   les alliés. « Voilà la France replacée fort honorablement dans la grande famille
                   européenne. Dieu veuille seulement qu'elle puisse s'y tenir, et qu'elle veuille
@@ -1025,7 +1025,7 @@
                <trait>
                   <p>lauteur de la Marseillaise, n. 1760, m. 1836.</p>
                </trait>
-               <desc xml:id="CAT_000167_e78_d1">12 l. <term ana="#document_type_15">a. s.</term>, dont plusieurs des initiales, à M. Lefebvre ; Choisy-le-Roi, 1829-1831, <measure type="length" unit="p" n="21">21 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Intéressantes lettres où il s'entretient des hommes et des choses de la
+               <desc xml:id="CAT_000167_e78_d1">12 l. <term ana="#document_type_15">a. s.</term>, dont plusieurs des initiales, à M. Lefebvre ; Choisy-le-Roi, <date when="1829">1829-1831</date>, <measure type="length" unit="p" n="21">21 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Intéressantes lettres où il s'entretient des hommes et des choses de la
                   Révolution sur lesquels il compose un ouvrage.</note>
             </item>
             <item n="79" xml:id="CAT_000167_e79">
@@ -1035,7 +1035,7 @@
                   <p>le célèbre poète et critique, membre de l'Académie française, n. 1804, m.
                      1869.</p>
                </trait>
-               <desc xml:id="CAT_000167_e79_d1">4 Béranger, <term ana="#document_type_2">pièce de vers autographe signée</term>; 12 novembre 1832, <measure type="length" unit="p" n="6">6 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Superbe pièce dont voici le commencement : « L'Étre complet dans la nature
+               <desc xml:id="CAT_000167_e79_d1">4 Béranger, <term ana="#document_type_2">pièce de vers autographe signée</term>; <date when="1832-11-12">12 novembre 1832</date>, <measure type="length" unit="p" n="6">6 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><note>Superbe pièce dont voici le commencement : « L'Étre complet dans la nature
                   immense, « Le germe heureux, fils de l'onde ou des airs, « Tout fruit parfait,
                   béni dans sa semence, « Le gland du chène ou la perle des mers, « Petit ou grand,
                   il est un Univers.</note>
@@ -1046,7 +1046,7 @@
                <trait>
                   <p>la grande romancière, n. 1804, m. 1876.</p>
                </trait>
-               <desc xml:id="CAT_000167_e80_d1"><term ana="#document_type_7">L. a. s.</term> (à M. Limayrac) ; Nohant, 31 décembre 1834, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Belle lettre.</desc></item>
+               <desc xml:id="CAT_000167_e80_d1"><term ana="#document_type_7">L. a. s.</term> (à M. Limayrac) ; Nohant, <date when="1834-12-31">31 décembre 1834</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Belle lettre.</desc></item>
             <item n="81" xml:id="CAT_000167_e81">
                <num type="lot">81</num>
                <name type="author">SERVIEN (Abel),</name>
@@ -1054,7 +1054,7 @@
                   <p>célèbre homme d'Etat, négociateur du traité de Munster, membre de l'Académie
                      française, n. à Grenoble, 1593, m. 1659.</p>
                </trait>
-               <desc xml:id="CAT_000167_e81_d1"><term ana="#document_type_7">L. a. s.</term> à Chavigny ; Angers, 15 avril 1641, <measure type="length" unit="p" n="1.25">1 p. 1/4</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure>, cachets brisés.</desc><note>Superbe lettre où il mande qu'il a éprouvé beaucoup de regret d'avoir été privé
+               <desc xml:id="CAT_000167_e81_d1"><term ana="#document_type_7">L. a. s.</term> à Chavigny ; Angers, <date when="1641-04-15">15 avril 1641</date>, <measure type="length" unit="p" n="1.25">1 p. 1/4</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure>, cachets brisés.</desc><note>Superbe lettre où il mande qu'il a éprouvé beaucoup de regret d'avoir été privé
                   pendant quelque temps de l'honneur de ses bonnes grâces. « Monsieur le Mareschal,
                   à qui j'ay tousjours découvert le fonds de mon âme, a cogneu le déplaisir que
                   j'avois ressenti de les avoir perdues et la joye que j'ay receue lors que vostre
@@ -1078,7 +1078,7 @@
                <trait>
                   <p>célèbre général vendéen, n. 1752, fusillé le 24 février 1796.</p>
                </trait>
-               <desc xml:id="CAT_000167_e83_d1">Lettre signée; <term ana="#document_type_8">L. a.</term> Morousière, 29 brumaire an IV (19 novembre 1795), <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Très rare.</desc><note>Précieuse lettre. Il informe son correspondant, pour qu'il en fasse part au
+               <desc xml:id="CAT_000167_e83_d1">Lettre signée; <term ana="#document_type_8">L. a.</term> Morousière, <date when="1795-11-19">29 brumaire an IV (19 novembre 1795</date>), <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Très rare.</desc><note>Précieuse lettre. Il informe son correspondant, pour qu'il en fasse part au
                   général Hoche, que les communes situées au-delà de la Divarde et autour du Laroux
                   ont toujours fait partie du territoire soumis à ses ordres. La seule violence a pu
                   pendant quelque temps les détacher de lui. Ces communes sollicitent son
@@ -1103,7 +1103,7 @@
                <trait>
                   <p>prince de Bénévent, le célèbre diplomate, n. 1754, m. 1838.</p>
                </trait>
-               <desc xml:id="CAT_000167_e85_d1"><term ana="#document_type_7">L. a. s.</term> à Brune; 23 vendémiaire an VIII (14 octobre 1799), <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachet.</desc><note>Superbe lettre où il le félicite de ses succès dans les Pays-Bas. (Brune avait
+               <desc xml:id="CAT_000167_e85_d1"><term ana="#document_type_7">L. a. s.</term> à Brune; <date when="1799-10-14">23 vendémiaire an VIII (14 octobre 1799</date>), <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachet.</desc><note>Superbe lettre où il le félicite de ses succès dans les Pays-Bas. (Brune avait
                   défait les Anglo-Russes à Astricum le 6 octobre). « Et Bonaparte dont on apprend
                   l'arrivée en France le jour même où nous savons que vous avez détruit l'armée
                   anglaise! que de bonheur à la fois, et quelle belle destinée se prépare pour nous.
@@ -1126,7 +1126,7 @@
                <trait>
                   <p>le célèbre tragédien, n. 1763, m. 1826.</p>
                </trait>
-               <desc xml:id="CAT_000167_e87_d1">1° <term ana="#document_type_7">L. a. s.</term>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Jolie lettre.</desc><desc xml:id="CAT_000167_e87_d2">2° <term ana="#document_type_7">L. a. s.</term> du vicomte de la Rochefoucauld à Talma; 19 janvier 1825, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Jolie lettre où il le complimente sur son rôle d'Oreste.</note>
+               <desc xml:id="CAT_000167_e87_d1">1° <term ana="#document_type_7">L. a. s.</term>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Jolie lettre.</desc><desc xml:id="CAT_000167_e87_d2">2° <term ana="#document_type_7">L. a. s.</term> du vicomte de la Rochefoucauld à Talma; <date when="1825-01-19">19 janvier 1825</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Jolie lettre où il le complimente sur son rôle d'Oreste.</note>
             </item>
             <item n="88" xml:id="CAT_000167_e88">
                <num type="lot">88</num>
@@ -1158,14 +1158,14 @@
                <trait>
                   <p>l'illustre fondateur de la Congrégation de la Mission, n. 1576, m. 1660.</p>
                </trait>
-               <desc xml:id="CAT_000167_e90_d1"><term ana="#document_type_4">P. s.</term>, sur vélin; Paris, 22 décembre 1631, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Jolie et rare pièce.</desc></item>
+               <desc xml:id="CAT_000167_e90_d1"><term ana="#document_type_4">P. s.</term>, sur vélin; Paris, <date when="1631-12-22">22 décembre 1631</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Jolie et rare pièce.</desc></item>
             <item n="91" xml:id="CAT_000167_e91">
                <num type="lot">91</num>
                <name type="author">VOLTAIRE (François-Marie Arouer de),</name>
                <trait>
                   <p>l'illustre écrivain, n. 1694, m. 1778.</p>
                </trait>
-               <desc xml:id="CAT_000167_e91_d1"><term ana="#document_type_7">L. a. s.</term> V. à M. de Vaux ; Potsdam, 8 mai 1751, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Intéressante lettre où il fait la description de son séjour à Potsdam et donne
+               <desc xml:id="CAT_000167_e91_d1"><term ana="#document_type_7">L. a. s.</term> V. à M. de Vaux ; Potsdam, <date when="1751-05-08">8 mai 1751</date>, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Intéressante lettre où il fait la description de son séjour à Potsdam et donne
                   l'emploi du temps du roi de Prusse. « Je laisse le roy faire le Mars tout le
                   matin, mais le soir il fait l'Apollon, et il ne paraît pas à souper, qu'il ait
                   exercé cinq ou six mille héros de six pieds. Cecy est Sparte et Athènes, c'est un
@@ -1180,7 +1180,7 @@
             <item n="93" xml:id="CAT_000167_e93">
                <num type="lot">93</num>
                <name type="author">CAMPAGNE DE FLANDRE DE1383</name>
-               <desc xml:id="CAT_000167_e93_d1">Pièce, sur vélin ; (Paris ?), 20 octobre 1383, <measure type="length" unit="p" n="1">1 p.</measure> grand <measure type="format" unit="f" ana="#document_format_1">in-folio.</measure></desc><note>Intéressant document. Ce sont les noms des gens d'armes que Jehan, duc de
+               <desc xml:id="CAT_000167_e93_d1">Pièce, sur vélin ; (Paris ?), <date when="1383-10-20">20 octobre 1383</date>, <measure type="length" unit="p" n="1">1 p.</measure> grand <measure type="format" unit="f" ana="#document_format_1">in-folio.</measure></desc><note>Intéressant document. Ce sont les noms des gens d'armes que Jehan, duc de
                   Berry, a tenu en sa compagnie du 1er août 1383 au 1er octobre suivant pour la
                   chevauchée que le roi (Charles VI) a faite en Flandre. On remarque les noms du
                   comte de Sancerre, de Robert de Ventadour, du sire de Nantouillet, etc.</note>
@@ -1188,18 +1188,18 @@
             <item n="94" xml:id="CAT_000167_e94">
                <num type="lot">94</num>
                <name type="author">CAPTIVITÉ DE LOUIS XVI AU TEMPLE</name>
-               <desc xml:id="CAT_000167_e94_d1"><term ana="#document_type_9">L. s.</term> par Loppé et Roché, commissaires au Temple, au gardien du garde-meuble ; Paris, 13 novembre 1792, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio</measure>, tête imprimée et cachet.</desc><note>Ils rappellent la demande qu'ils ont faite de linge et de hardes à l'usage de
+               <desc xml:id="CAT_000167_e94_d1"><term ana="#document_type_9">L. s.</term> par Loppé et Roché, commissaires au Temple, au gardien du garde-meuble ; Paris, <date when="1792-11-13">13 novembre 1792</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio</measure>, tête imprimée et cachet.</desc><note>Ils rappellent la demande qu'ils ont faite de linge et de hardes à l'usage de
                   Louis Capet et de sa famille. Ils prient qu'on leur envoie d'urgence ces objets de
                   première nécessité.</note>
             </item>
             <item n="95" xml:id="CAT_000167_e95">
                <num type="lot">95</num>
                <name type="author">COMITÉ DESALUT PUBLIC</name>
-               <desc xml:id="CAT_000167_e95_d1"><term ana="#document_type_4">P. s.</term> Carnot, Barère, Couthon, Collot-d'Herbois, R. Lindet et C.-A. Prieur ; Paris, 5 floréal an II, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc></item>
+               <desc xml:id="CAT_000167_e95_d1"><term ana="#document_type_4">P. s.</term> Carnot, Barère, Couthon, Collot-d'Herbois, R. Lindet et C.-A. Prieur ; Paris, <date date="1794-04-24" type="length">5 floréal an II</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc></item>
             <item n="96" xml:id="CAT_000167_e96">
                <num type="lot">96</num>
                <name type="author">CONDE (Documents sur le Grand)</name>
-               <desc xml:id="CAT_000167_e96_d1">1° 2 pièces signées par Louis II de Bourbon, prince de Condé ; 5 février 1653, <measure type="length" unit="p" n="4.5">4 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Ce sont deux procurations notariées données par Condé à <term ana="#document_type_3">P. Lenet pour l'autor</term>iser à engager et à aliéner ses biens.</desc><desc xml:id="CAT_000167_e96_d2">2° <term ana="#document_type_4">P. s.</term> par le même; Paris, 23 juillet 1660, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Décharge donnée à Lenet par ce prince pour toutes les opérations qu'il a
+               <desc xml:id="CAT_000167_e96_d1">1° 2 pièces signées par Louis II de Bourbon, prince de Condé ; <date when="1653-02-05">5 février 1653</date>, <measure type="length" unit="p" n="4.5">4 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Ce sont deux procurations notariées données par Condé à <term ana="#document_type_3">P. Lenet pour l'autor</term>iser à engager et à aliéner ses biens.</desc><desc xml:id="CAT_000167_e96_d2">2° <term ana="#document_type_4">P. s.</term> par le même; Paris, <date when="1660-07-23">23 juillet 1660</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><note>Décharge donnée à Lenet par ce prince pour toutes les opérations qu'il a
                   conclues en son nom. 3° 23 pièces concernant l'engagement des pierreries du prince
                   de Condé par Pierre Lenet à différents escompteurs de Bordeaux. Les pièces sont
                   très intéressantes; elles donnent le détail des objets mis en gages, des sommes
@@ -1209,18 +1209,18 @@
             <item n="97" xml:id="CAT_000167_e97">
                <num type="lot">97</num>
                <name type="author">CONGRÉGATION DE SAINT-MAUR</name>
-               <desc xml:id="CAT_000167_e97_d1">Procès-verbal des séances du définitoire du chapitre général de la Congrégation de Saint-Maur tenue en l'abbaye de Saint-Germain- des-Prés le 28 septembre 1766 ; manuscrit, <measure type="length" unit="p" n="192">192 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio.</measure></desc></item>
+               <desc xml:id="CAT_000167_e97_d1"><date when="1766">Procès-verbal des séances du définitoire du chapitre général de la Congrégation de Saint-Maur tenue en l'abbaye de Saint-Germain- des-Prés le 28 septembre 1766</date> ; manuscrit, <measure type="length" unit="p" n="192">192 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio.</measure></desc></item>
             <item n="98" xml:id="CAT_000167_e98">
                <num type="lot">98</num>
                <name type="author">DUELS</name>
-               <desc xml:id="CAT_000167_e98_d1">Pièce manuscrite signée par 16 docteurs de la faculté de théologie de Paris; Paris, 30 mai 1651, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio.</measure></desc><note>Curieux document où ils déclarent que le roi ne peut autoriser le duel dans
+               <desc xml:id="CAT_000167_e98_d1">Pièce manuscrite signée par 16 docteurs de la faculté de théologie de Paris; Paris, <date when="1651-05-30">30 mai 1651</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio.</measure></desc><note>Curieux document où ils déclarent que le roi ne peut autoriser le duel dans
                   aucun cas, sans enfreindre les canons et la constitution de l'Eglise, Parmi les
                   signataires on remarque : Sainte-Beuve, Brousse, Grandin, etc.</note>
             </item>
             <item n="99" xml:id="CAT_000167_e99">
                <num type="lot">99</num>
                <name type="author">GUERRES D'ITALIE</name>
-               <desc xml:id="CAT_000167_e99_d1">Pour quelle cause l'on perdit la journée sur les Chiaves, pièce manuscrite; 1554, <measure type="length" unit="p" n="6.5">6 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio.</measure></desc><note>Intéressant document qui raconte la défaite du maréchal Strozzi à
+               <desc xml:id="CAT_000167_e99_d1">Pour quelle cause l'on perdit la journée sur les Chiaves, pièce manuscrite; <date when="1554">1554</date>, <measure type="length" unit="p" n="6.5">6 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio.</measure></desc><note>Intéressant document qui raconte la défaite du maréchal Strozzi à
                   Marciano.</note>
             </item>
             <item n="100" xml:id="CAT_000167_e100">
@@ -1240,13 +1240,13 @@
             <item n="102" xml:id="CAT_000167_e102">
                <num type="lot">102</num>
                <name type="author">LETTRES D'ANOBLISSEMENT</name>
-               <desc xml:id="CAT_000167_e102_d1">5 pièces sur parchemin; 1665, <measure type="length" unit="p" n="5">5 p.</measure> grand <measure type="format" unit="f" ana="#document_format_1">in-folio</measure>, cachets dont un très grand en bon état, les autres sont endommagés.</desc><note>Lettres d'anoblissement et confirmation d'anoblissement pour Louis Costar et
+               <desc xml:id="CAT_000167_e102_d1">5 pièces sur parchemin; <date when="1665">1665</date>, <measure type="length" unit="p" n="5">5 p.</measure> grand <measure type="format" unit="f" ana="#document_format_1">in-folio</measure>, cachets dont un très grand en bon état, les autres sont endommagés.</desc><note>Lettres d'anoblissement et confirmation d'anoblissement pour Louis Costar et
                   ses enfants. Les armes de l'anobli sont peintes sur une des pièces.</note>
             </item>
             <item n="103" xml:id="CAT_000167_e103">
                <num type="lot">103</num>
                <name type="author">LOUIS XII (document sur le règne de).</name>
-               <desc xml:id="CAT_000167_e103_d1"><term ana="#document_type_7">L. a. s.</term> de Courteville au roi (Philippe le Beau?) ; Tours, 2 juin 1506, <measure type="length" unit="p" n="7">7 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio.</measure></desc><note>Document historique des plus intéressants. C'est une relation des États tenus à
+               <desc xml:id="CAT_000167_e103_d1"><term ana="#document_type_7">L. a. s.</term> de Courteville au roi (Philippe le Beau?) ; Tours, <date when="1506-06-02">2 juin 1506</date>, <measure type="length" unit="p" n="7">7 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio.</measure></desc><note>Document historique des plus intéressants. C'est une relation des États tenus à
                   Tours par Louis XII. On y a transcrit l'allocution prononcée par le roi, lorsque
                   les Etats lui décernèrent le titre de Père du peuple. Les fiancailles du duc de
                   Valois (François Ier) avec la fille de Louis XII (Claude de France) y sont
@@ -1261,7 +1261,7 @@
             <item n="105" xml:id="CAT_000167_e105">
                <num type="lot">105</num>
                <name type="author">Paris</name>
-               <desc xml:id="CAT_000167_e105_d1">3 pièces signées plusieurs fois par Jourdan, marquis de Launey, gouverneur de la Bastille et par les entrepreneurs qui ont reconstruit les boutiques placées sur les fossés de la Bastille; Paris, 1786, <measure type="length" unit="p" n="14">14 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio.</measure></desc><note>Curieux document parisien auquel est annexé un tableau indiquant le nom des
+               <desc xml:id="CAT_000167_e105_d1">3 pièces signées plusieurs fois par Jourdan, marquis de Launey, gouverneur de la Bastille et par les entrepreneurs qui ont reconstruit les boutiques placées sur les fossés de la Bastille; Paris, <date when="1786">1786</date>, <measure type="length" unit="p" n="14">14 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-folio.</measure></desc><note>Curieux document parisien auquel est annexé un tableau indiquant le nom des
                   locataires des boutiques reconstruites, le métier qu'ils. exercent et le prix de
                   la location desdites boutiques.</note>
             </item>
