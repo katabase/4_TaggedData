@@ -20,13 +20,17 @@
         <xsl:text>&#09;</xsl:text>
         <xsl:text>Term @ana</xsl:text>
         <xsl:text>&#09;</xsl:text>
-        <xsl:text>Measure</xsl:text>
+        <xsl:text>Length</xsl:text>
         <xsl:text>&#09;</xsl:text>
-        <xsl:text>Measure @type</xsl:text>
+        <xsl:text>Length @unit</xsl:text>
         <xsl:text>&#09;</xsl:text>
-        <xsl:text>Measure @unit </xsl:text>
+        <xsl:text>Length @n</xsl:text>
         <xsl:text>&#09;</xsl:text>
-        <xsl:text>Measure @n</xsl:text>
+        <xsl:text>Format</xsl:text>
+        <xsl:text>&#09;</xsl:text>
+        <xsl:text>Format @unit </xsl:text>
+        <xsl:text>&#09;</xsl:text>
+        <xsl:text>Format @ana</xsl:text>
         <xsl:text>&#09;</xsl:text>
         <xsl:text>Date</xsl:text>
         <xsl:text>&#09;</xsl:text>
@@ -41,13 +45,17 @@
             <xsl:text>&#09;</xsl:text>
             <xsl:value-of select="./term/@ana"/>
             <xsl:text>&#09;</xsl:text>
-            <xsl:value-of select="./measure/text()"/>
+            <xsl:value-of select="./measure[@type='length']/text()"/>
             <xsl:text>&#09;</xsl:text>
-            <xsl:value-of select="./measure/@type"/>
+            <xsl:value-of select="./measure[@type='length']/@unit"/>
             <xsl:text>&#09;</xsl:text>
-            <xsl:value-of select="./measure/@unit"/>
+            <xsl:value-of select="./measure[@type='length']/@n"/>
             <xsl:text>&#09;</xsl:text>
-            <xsl:value-of select="./measure/@n"/>
+            <xsl:value-of select="./measure[@type='format']/text()"/>
+            <xsl:text>&#09;</xsl:text>
+            <xsl:value-of select="./measure[@type='format']/@unit"/>
+            <xsl:text>&#09;</xsl:text>
+            <xsl:value-of select="./measure[@type='format']/@ana"/>
             <xsl:text>&#09;</xsl:text>
             <xsl:value-of select="./date/text()"/>
             <xsl:text>&#09;</xsl:text>
