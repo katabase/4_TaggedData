@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../_rules/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../_schemas/odd_editiones.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000011">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
@@ -207,11 +207,9 @@
          <list>
             <gap/>
             <item n="108" xml:id="CAT_000007_e108" corresp="#MS_000008">
-               <num>108</num>
+               <num type="lot">108</num>
                <name type="author">SEVIGNE (MARIE DE RABUTIN-CHANTAL, MARQUISE DE)</name>
-               <desc>Full A. L., unsigned as usual, 4 pp., 4zo. Au Rochers dimanche 20 aout [about 1691].
-                  Autograph cover addressed to Monsieur du Plessis.</desc>
-               <note>
+               <desc xmlns="http://www.tei-c.org/ns/1" xml:id="CAT_000007_e108_d1">Full A. L., unsigned as usual, 4 pp., <date xmlns="http://www.tei-c.org/ns/1.0" when="1691">4zo. Au Rochers dimanche 20 aout [about 1691</date>]. Autograph cover addressed to Monsieur du Plessis.</desc><note>
                   <p>A charming characteristic composition, in which she sympathizes with his
                   troubles which would not have occurred had she been near him.</p>
                   <p>"... quand vous aurez remis vostre petit poussis sous l'aile de son bonne
@@ -222,7 +220,7 @@
                   <p>A VERY RARE AUTOGRAPH IN FINE CONDITION.</p>
                </note>
                <add corresp="#CAT_000011_m">
-                  <num value="80" type="dollar">80$</num>
+                  <measure commodity="currency" unit="USD" quantity="80">80$</measure>
                </add>
             </item>
             <gap/>
