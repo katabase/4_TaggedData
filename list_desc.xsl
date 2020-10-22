@@ -16,10 +16,42 @@
     <xsl:template match="/">
         <xsl:text>Id</xsl:text>
         <xsl:text>&#09;</xsl:text>
+        <xsl:text>Term</xsl:text>
+        <xsl:text>&#09;</xsl:text>
+        <xsl:text>Term @ana</xsl:text>
+        <xsl:text>&#09;</xsl:text>
+        <xsl:text>Measure</xsl:text>
+        <xsl:text>&#09;</xsl:text>
+        <xsl:text>Measure @type</xsl:text>
+        <xsl:text>&#09;</xsl:text>
+        <xsl:text>Measure @unit </xsl:text>
+        <xsl:text>&#09;</xsl:text>
+        <xsl:text>Measure @n</xsl:text>
+        <xsl:text>&#09;</xsl:text>
+        <xsl:text>Date</xsl:text>
+        <xsl:text>&#09;</xsl:text>
+        <xsl:text>Date @when</xsl:text>
+        <xsl:text>&#09;</xsl:text>
         <xsl:text>Desc</xsl:text>
         <xsl:text>&#10;</xsl:text>
         <xsl:for-each select="$descs">
             <xsl:value-of select="./@xml:id"/>
+            <xsl:text>&#09;</xsl:text>
+            <xsl:value-of select="./term/text()"/>
+            <xsl:text>&#09;</xsl:text>
+            <xsl:value-of select="./term/@ana"/>
+            <xsl:text>&#09;</xsl:text>
+            <xsl:value-of select="./measure/text()"/>
+            <xsl:text>&#09;</xsl:text>
+            <xsl:value-of select="./measure/@type"/>
+            <xsl:text>&#09;</xsl:text>
+            <xsl:value-of select="./measure/@unit"/>
+            <xsl:text>&#09;</xsl:text>
+            <xsl:value-of select="./measure/@n"/>
+            <xsl:text>&#09;</xsl:text>
+            <xsl:value-of select="./date/text()"/>
+            <xsl:text>&#09;</xsl:text>
+            <xsl:value-of select="./date/@when"/>
             <xsl:text>&#09;</xsl:text>
             <!-- normalize-space is used because of break-lines inside the desc element. -->
             <xsl:value-of select="normalize-space(.)"/>
