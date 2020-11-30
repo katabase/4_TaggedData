@@ -1,2 +1,56 @@
-# README
-to do
+# Tagged Data - level 3
+
+This repository contains digitised manuscripts sale catalogs encoded in XML-TEI at level 3.
+
+The data have been cleaned (level 2) and post-processed (level 3).
+
+## Workflow
+
+Once the data have been cleaned and post-processed, we can check them. Some errors may appear and some corrections may be needed. 
+
+From this data, EXTRACTOR_JSON extracts informations and retrieves them in an JSON file, [available here]().
+
+The script transforms this 
+
+```xml
+<item n="80" xml:id="CAT_000146_e80">
+   <num>80</num>
+   <name type="author">Cherubini (L.),</name>
+   <trait>
+      <p>l'illustre compositeur</p>
+   </trait>
+   <desc><term>L. a. s.</term>;<date>1836</date>,
+   <measure type="length" unit="p" n="1">1 p.</measure> <measure unit="f" type="format" n="8">in-8</measure>.
+   <measure commodity="currency" unit="FRF" quantity="12">12</measure></desc>
+</item>
+```
+
+into 
+
+```json
+{
+"CAT_000156_e14_d1": {
+    "desc": "L. a. s.; 1836, 1 p. in-8. 12",
+    "price": 12,
+    "author": "Cherubini",
+    "date": 1836,
+    "number_of_pages": 1,
+    "format": 8,
+    "term": 4,
+    "sell_date": "Mars 1893"
+  }
+}
+```
+
+From `export.json`, we can proceed at the reconciliation of the catalogues entries. 
+If you want to learn more about the reconciliation, visite [this repository](https://raw.github.com/katabase/reconciliation).
+
+
+## Credits
+
+
+## Cite this repository
+Alexandre Bartz, Simon Gabay, Matthias Gille Levenson, Ljudmila Petkovic and Lucie Rondeau du Noyer, _Manuscript sale catalogues_, Neuchâtel: Université de Neuchâtel, 2020, [https://github.com/katabase/3_TaggedData](https://github.com/katabase/3_TaggedData).
+
+## Licence
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International Licence</a>.
