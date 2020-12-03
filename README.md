@@ -19,9 +19,12 @@ The script transforms this
    <trait>
       <p>l'illustre compositeur</p>
    </trait>
-   <desc><term>L. a. s.</term>;<date>1836</date>,
-   <measure type="length" unit="p" n="1">1 p.</measure> <measure unit="f" type="format" n="8">in-8</measure>.
-   <measure commodity="currency" unit="FRF" quantity="12">12</measure></desc>
+   <desc>
+      <term>L. a. s.</term>;<date>1836</date>,
+      <measure type="length" unit="p" n="1">1 p.</measure> 
+      <measure unit="f" type="format" n="8">in-8</measure>.
+      <measure commodity="currency" unit="FRF" quantity="12">12</measure>
+    </desc>
 </item>
 ```
 
@@ -59,7 +62,7 @@ pip install -r requirements.txt
 cd script 
 python3 extractor-json.py
 ```
-**Note that you have to be in the folder `script`to execute the extractor-json.py.**
+**Note that you have to be in the folder `script`to execute extractor-json.py.**
 
 The output file, `export.json` is in the folder `output`.
 
