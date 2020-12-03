@@ -8,7 +8,7 @@ The data have been cleaned (level 2) and post-processed (level 3).
 
 Once the data have been cleaned and post-processed, we can check them. Some errors may appear and some corrections may be needed. 
 
-From this data, EXTRACTOR_JSON extracts informations and retrieves them in an JSON file, [available here]().
+From this data, `extractor-json.py` extracts informations and retrieves them in an JSON file, [available here](https://github.com/katabase/3_TaggedData/tree/main/output).
 
 The script transforms this 
 
@@ -43,8 +43,25 @@ into
 ```
 
 From `export.json`, we can proceed at the reconciliation of the catalogues entries. 
-If you want to learn more about the reconciliation, visite [this repository](https://raw.github.com/katabase/reconciliation).
 
+If you want to learn more about the reconciliation, visite [this repository](https://raw.github.com/katabase/reconciliation). 
+
+If you want to query the database, don't hesitate to try our application.
+
+## Installation and use
+
+```shell
+git clone https://github.com/katabase/3_TaggedData.git
+cd 3_TaggedData
+python3 -m venv my_env
+source my_env/bin/activate
+pip install -r requirements.txt
+cd script 
+python3 extractor-json.py
+```
+**Note that you have to be in the folder `script`to execute the extractor-json.py.**
+
+The output file, `export.json` is in the folder `output`.
 
 ## Credits
 
