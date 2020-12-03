@@ -64,7 +64,7 @@ python3 extractor-json.py
 ```
 **Note that you have to be in the folder `script`to execute extractor-json.py.**
 
-The output file, `export.json` is in the folder `output`.
+The output file, `export.json`, is in the folder `output`.
 
 ## Credits
 
