@@ -40,7 +40,7 @@ into
     "number_of_pages": 1,
     "format": 8,
     "term": 4,
-    "sell_date": "Mars 1893"
+    "sell_date": "1893-03"
   }
 }
 ```
