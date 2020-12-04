@@ -5,14 +5,14 @@ from lxml import etree
 ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
 
-def data_extractor(descs_list, output_dict):
+def data_extractor(tree, output_dict):
 	"""
 	This function extract all the data from each desc.
-	:param entries_list: a list of all descs
-	:return: a dict with the data
+	:param tree: an XML tree
 	"""
+
 	# For each desc, a dict retrieve all the data.
-	for desc in descs_list:
+	for desc in tree.xpath('//tei:text//tei:item//tei:desc', namespaces=ns):
 		data = {}
 		desc_id = desc.xpath('./@xml:id', namespaces=ns)[0]
 		if desc.xpath('parent::tei:item/tei:measure[@quantity]', namespaces=ns):
@@ -49,8 +49,6 @@ def data_extractor(descs_list, output_dict):
 
 		output_dict[desc_id] = data
 
-	return output_dict
-
 
 
 if __name__ == "__main__":
@@ -62,10 +60,9 @@ if __name__ == "__main__":
 
 	for file in files:
 		# Each file is parsed.
-		opened_file = etree.parse(file)
-		# We get a list of all descs of the file.
-		descs_list = opened_file.xpath('//tei:text//tei:item//tei:desc', namespaces=ns)
-		output_dict = data_extractor(descs_list, output_dict)
+		tree = etree.parse(file)
+
+		data_extractor(tree, output_dict)
 
 
 	with open('../output/export.json', 'w') as outfile:

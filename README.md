@@ -60,11 +60,18 @@ If you want to query the database, don't hesitate to try our [application](https
 * source my_env/bin/activate
 * pip install -r requirements.txt
 * cd script 
-* python3 extractor-json.py
+* python3 extractor_json.py
 ```
-**Note that you have to be in the folder `script`to execute `extractor-json.py`.**
+**Note that you have to be in the folder `script`to execute `extractor_json.py`.**
 
 The output file, `export.json`, is in the folder `output`.
+
+### Unittest
+
+If you want run some unittests, try in the folder `script`: 
+```bash
+python3 test.py
+```
 
 ## Credits
 
