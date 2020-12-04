@@ -15,43 +15,35 @@ def data_extractor(descs_list, output_dict):
 	for desc in descs_list:
 		data = {}
 		desc_id = desc.xpath('./@xml:id', namespaces=ns)[0]
-
 		if desc.xpath('parent::tei:item/tei:measure[@quantity]', namespaces=ns):
 			data["price"] = desc.xpath('parent::tei:item//tei:measure[@commodity="currency"]/@quantity', namespaces=ns)[0]
 		else:
 			data["price"] = None
-
 		if desc.xpath('parent::tei:item/tei:name[@type="author"]/text()', namespaces=ns):
 			data["author"] = desc.xpath('parent::tei:item/tei:name[@type="author"]/text()', namespaces=ns)[0]
 		else:
 			data["author"] = None
-
 		if desc.xpath('./tei:date[@when]', namespaces=ns):
 			data["date"] = desc.xpath('./tei:date/@when', namespaces=ns)[0]
 		else:
 			data["date"] = None
-
 		if desc.xpath('./tei:measure[@type="length"]', namespaces=ns):
 			data["number_of_pages"] = desc.xpath('./tei:measure[@type="length"]/@n', namespaces=ns)[0]
 		else:
 			data["number_of_pages"] = None
-
 		if desc.xpath('./tei:measure[@type="format"]', namespaces=ns):
 			data["format"] = desc.xpath('./tei:measure[@type="format"]/@ana', namespaces=ns)[0]
 		else:
 			data["format"] = None
-
 		if desc.xpath('./tei:term', namespaces=ns):
 			data["term"] = desc.xpath('./tei:term/@ana', namespaces=ns)[0]
 		else:
 			data["term"] = None
-
 		if desc.xpath('ancestor::tei:TEI/tei:teiHeader//tei:sourceDesc//tei:date[@when]', namespaces=ns):
 			data["sell_date"] = desc.xpath('ancestor::tei:TEI/tei:teiHeader//tei:sourceDesc//tei:date/@when', namespaces=ns)[0]
 		else:
 			data["sell_date"] = None
-
-		# In order to check the data, we add its text in the dict.
+		# In order to check the data, we add its text (and only its text with .strip_tags) in the dict.
 		etree.strip_tags(desc, '{http://www.tei-c.org/ns/1.0}*')
 		data["desc"] = desc.text
 
@@ -63,17 +55,21 @@ def data_extractor(descs_list, output_dict):
 
 if __name__ == "__main__":
 
+	# This way, we get every single file contained in any subfolder of Catalogues/.
 	files = glob.glob("../Catalogues/**/*.xml", recursive=True)
 
 	output_dict = {}
 
 	for file in files:
-		file = etree.parse(file)
-		descs_list = file.xpath('//tei:text//tei:item//tei:desc', namespaces=ns)
+		# Each file is parsed.
+		opened_file = etree.parse(file)
+		# We get a list of all descs of the file.
+		descs_list = opened_file.xpath('//tei:text//tei:item//tei:desc', namespaces=ns)
 		output_dict = data_extractor(descs_list, output_dict)
 
 
 	with open('../output/export.json', 'w') as outfile:
+		# Older data are deleted. 
 		outfile.truncate(0)
 		json.dump(output_dict, outfile)
     
