@@ -2,7 +2,7 @@
 
 This repository contains digitised manuscripts sale catalogs encoded in XML-TEI at level 3.
 
-The data have been cleaned (level 2) and post-processed (level 3).
+The data have been cleaned ([level 2](https://github.com/katabase/2_CleanedData)) and post-processed (level 3).
 
 ## Workflow
 
@@ -32,7 +32,7 @@ into
 
 ```json
 {
-"CAT_000156_e14_d1": {
+"CAT_000146_e80_d1": {
     "desc": "L. a. s.; 1836, 1 p. in-8. 12",
     "price": 12,
     "author": "Cherubini",
@@ -49,20 +49,20 @@ From `export.json`, we can proceed at the reconciliation of the catalogues entri
 
 If you want to learn more about the reconciliation, visite [this repository](https://raw.github.com/katabase/reconciliation). 
 
-If you want to query the database, don't hesitate to try our application.
+If you want to query the database, don't hesitate to try our [application](https://raw.github.com/katabase/application).
 
 ## Installation and use
 
 ```shell
-git clone https://github.com/katabase/3_TaggedData.git
-cd 3_TaggedData
-python3 -m venv my_env
-source my_env/bin/activate
-pip install -r requirements.txt
-cd script 
-python3 extractor-json.py
+* git clone https://github.com/katabase/3_TaggedData.git
+* cd 3_TaggedData
+* python3 -m venv my_env
+* source my_env/bin/activate
+* pip install -r requirements.txt
+* cd script 
+* python3 extractor-json.py
 ```
-**Note that you have to be in the folder `script`to execute extractor-json.py.**
+**Note that you have to be in the folder `script`to execute `extractor-json.py`.**
 
 The output file, `export.json`, is in the folder `output`.
 
