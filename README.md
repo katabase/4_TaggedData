@@ -53,7 +53,7 @@ If you want to query the database, don't hesitate to try our [application](https
 
 ## Installation and use
 
-```shell
+```bash
 * git clone https://github.com/katabase/3_TaggedData.git
 * cd 3_TaggedData
 * python3 -m venv my_env
@@ -67,6 +67,9 @@ If you want to query the database, don't hesitate to try our [application](https
 The output file, `export.json`, is in the folder `output`.
 
 ## Credits
+
+* The script was created by Alexandre Bartz with the help of Matthias Gille Levenson and Simon Gabay.
+* The catalogs were encoded by Lucie Rondeau du Noyer, Simon Gabay, Matthias Gille Levenson, Ljudmila Petkovic and Alexandre Bartz.
 
 
 ## Cite this repository
