@@ -20,7 +20,13 @@ def data_extractor(tree, output_dict):
 		else:
 			data["price"] = None
 		if desc.xpath('parent::tei:item/tei:name[@type="author"]/text()', namespaces=ns):
-			data["author"] = desc.xpath('parent::tei:item/tei:name[@type="author"]/text()', namespaces=ns)[0]
+			author = desc.xpath('parent::tei:item/tei:name[@type="author"]/text()', namespaces=ns)[0]
+			try:
+            # We keep only the surname of the author.
+            	author = author.split(" ")[0]
+            except:
+            	author = None
+            data["author"] = author
 		else:
 			data["author"] = None
 		if desc.xpath('./tei:date[@when]', namespaces=ns):
@@ -28,11 +34,11 @@ def data_extractor(tree, output_dict):
 		else:
 			data["date"] = None
 		if desc.xpath('./tei:measure[@type="length"]', namespaces=ns):
-			data["number_of_pages"] = desc.xpath('./tei:measure[@type="length"]/@n', namespaces=ns)[0]
+			data["number_of_pages"] = int(desc.xpath('./tei:measure[@type="length"]/@n', namespaces=ns)[0])
 		else:
 			data["number_of_pages"] = None
 		if desc.xpath('./tei:measure[@type="format"]', namespaces=ns):
-			data["format"] = desc.xpath('./tei:measure[@type="format"]/@ana', namespaces=ns)[0]
+			data["format"] = int(desc.xpath('./tei:measure[@type="format"]/@ana', namespaces=ns)[0])
 		else:
 			data["format"] = None
 		if desc.xpath('./tei:term', namespaces=ns):
