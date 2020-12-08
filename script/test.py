@@ -44,7 +44,7 @@ class Data_extraction(unittest.TestCase):
 
         test_dict = {
             "CAT_000112_e18_d1": {
-                "author": "Barry (Ch.)",
+                "author": "Barry",
                 "date": "1846",
                 "desc": "L. a. s. au colonel Fox; 1846, 1 p. in-8.",
                 "format": "#document_format_8",
@@ -96,7 +96,7 @@ class Data_extraction(unittest.TestCase):
 
         test_dict = {
             "CAT_000112_e18_d1": {
-                "author": "Barry (Ch.)",
+                "author": "Barry",
                 "date": "1846",
                 "desc": "L. a. s. au colonel Fox; 1846, 1 p. in-8.",
                 "format": "#document_format_8",
@@ -106,7 +106,7 @@ class Data_extraction(unittest.TestCase):
                 "term": "#document_type_7",
             },
             "CAT_000112_e18_d2": {
-                "author": "Barry (Ch.)",
+                "author": "Barry",
                 "date": "1846-08-01",
                 "desc": "L. a. s. au colonel Fox; 1er août 1846, 3 p. in-4.",
                 "format": "#document_format_4",
