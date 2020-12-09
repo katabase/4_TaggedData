@@ -34,12 +34,12 @@ into
 {
 "CAT_000146_e80_d1": {
     "desc": "L. a. s.; 1836, 1 p. in-8. 12",
-    "price": 12,
+    "price": 12.0,
     "author": "Cherubini",
-    "date": 1836,
-    "number_of_pages": 1,
-    "format": 8,
-    "term": 4,
+    "date": "1836",
+    "number_of_pages": 1.0,
+    "format": "document_format_8",
+    "term": "document_type_7",
     "sell_date": "1893-03"
   }
 }
