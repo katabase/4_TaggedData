@@ -63,7 +63,7 @@
          <samplingDecl>
             <p>This electronic version of the catalog only reproduces selected entries</p>
          </samplingDecl>
-      <classDesc>
+      <classDecl>
         <taxonomy xml:id="format">
            <desc>Document format</desc>
            <category xml:id="document_format_1">
@@ -187,15 +187,15 @@
               <catDesc>Document (?) Autographe signé</catDesc>
            </category>
         </taxonomy>
-    </classDesc></encodingDesc>
+    </classDecl></encodingDesc>
    </teiHeader>
    <text>
       <body>
          <list>
             <gap/>
-            <item n="113" xml:id="CAT_000097_e113">
+            <item n="113" xml:id="CAT_000097_Day6e113">
                <num type="lot">113.</num>
-               <desc xml:id="CAT_000097_e113_d1">Four letters of the celebrated Madame de Sévigné, extremely scarce and curious</desc><add corresp="CAT_000097_w1">
+               <desc xml:id="CAT_000097_Day6e113_d1">Four letters of the celebrated Madame de Sévigné, extremely scarce and curious</desc><add corresp="CAT_000097_w1">
                   <num type="lot">4 14 4</num>
                   <note anchored="true">Vendu à Thorpe</note>
                </add>
