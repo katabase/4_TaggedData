@@ -1,6 +1,7 @@
 import json
 import glob
 from lxml import etree
+import re
 
 ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
@@ -33,8 +34,10 @@ def data_extractor(tree, output_dict):
 		if desc.xpath('parent::tei:item/tei:name[@type="author"]/text()', namespaces=ns):
 			author = desc.xpath('parent::tei:item/tei:name[@type="author"]/text()', namespaces=ns)[0]
 			try:
-            # We only keep the surname of the author.
-				author = author.split(" ")[0]
+            	# We only keep the surname of the author : we stop the match at the first parenthesis or dot and we keep the first match.
+				author = re.match('(.+)\(', author)[1]
+				# We remove blakspaces.
+				author = author.strip()
 			except:
 				author = None
 			data["author"] = author
