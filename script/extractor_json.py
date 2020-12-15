@@ -36,7 +36,7 @@ def data_extractor(tree, output_dict):
 			try:
             	# We only keep the surname of the author : we stop the match at the first parenthesis or dot and we keep the first match.
 				author = re.match('(.+)\(', author)[1]
-				# We remove blakspaces.
+				# We remove blankspaces.
 				author = author.strip()
 			except:
 				author = None
