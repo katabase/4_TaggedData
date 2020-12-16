@@ -49,7 +49,7 @@ def data_extractor(tree, output_dict):
 			author = desc.xpath('parent::tei:item/tei:name[@type="author"]/text()', namespaces=ns)[0]
 			try:
             	# We only keep the surname of the author : we stop the match at the first parenthesis or dot and we keep the first match.
-				author = re.match('^([^\(]+)', author)[1]
+				author = re.match('^([^\(|.|,|;]+)', author)[1]
 				# We remove blankspaces.
 				author = author.strip()
 			except:
