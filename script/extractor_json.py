@@ -17,6 +17,20 @@ def to_float(str):
 		return None
 
 
+def get_numbers(string):
+	"""
+	This function gets the numbers of a string with a regex.
+	in our case, we do this in order to compare int and not str during the clustering.
+	:param str: a string
+	:return: int
+	"""
+	try:
+		numbers = re.search('[0-9]+', string)
+		return int(numbers[0])
+	except:
+		return None
+
+
 def data_extractor(tree, output_dict):
 	"""
 	This function extract all the data from each desc.
@@ -52,11 +66,13 @@ def data_extractor(tree, output_dict):
 		else:
 			data["number_of_pages"] = None
 		if desc.xpath('./tei:measure[@type="format"]', namespaces=ns):
-			data["format"] = desc.xpath('./tei:measure[@type="format"]/@ana', namespaces=ns)[0]
+			desc_format = desc.xpath('./tei:measure[@type="format"]/@ana', namespaces=ns)[0]
+			data["format"] = get_numbers(str(desc_format))
 		else:
 			data["format"] = None
 		if desc.xpath('./tei:term', namespaces=ns):
-			data["term"] = desc.xpath('./tei:term/@ana', namespaces=ns)[0]
+			desc_term = desc.xpath('./tei:term/@ana', namespaces=ns)[0]
+			data["term"] = get_numbers(str(desc_term))
 		else:
 			data["term"] = None
 		if desc.xpath('ancestor::tei:TEI/tei:teiHeader//tei:sourceDesc//tei:date[@when]', namespaces=ns):
