@@ -38,8 +38,8 @@ into
     "author": "Cherubini",
     "date": "1836",
     "number_of_pages": 1.0,
-    "format": "document_format_8",
-    "term": "document_type_7",
+    "format": 8,
+    "term": 7,
     "sell_date": "1893-03"
   }
 }
