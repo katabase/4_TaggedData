@@ -4,6 +4,10 @@ This repository contains digitised manuscripts sale catalogs encoded in XML-TEI 
 
 The data have been cleaned ([level 2](https://github.com/katabase/2_CleanedData)) and post-processed (level 3).
 
+## Schema
+
+You can find the ODD that validates the encoding in the repository `schema`.
+
 ## Workflow
 
 Once the data have been cleaned and post-processed, we can check them. Some errors may appear and some corrections may be needed. 
