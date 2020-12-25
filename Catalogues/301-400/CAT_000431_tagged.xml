@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<?xml-model href="../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000431">
+<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000417">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -401,7 +401,7 @@
                <trait>
                   <p>prédicateur célèbre du XVIIIe siècle, poète, de l'Acad. fr.</p>
                </trait>
-               <desc xml:id="CAT_000431_e19_d1"><term ana="#document_type_7">L. a. s.</term> à M. de L. a. Londe; Paris, 15 août, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000431_e19_d1"><term ana="#document_type_7">L. a. s.</term> à M. de La Londe; Paris, 15 août, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
             <item n="20" xml:id="CAT_000431_e20">
                <num type="lot">20</num>
@@ -2150,7 +2150,7 @@
                <trait>
                   <p>stathouder des Pays-Bas, né en 1748, mort en 1806.</p>
                </trait>
-               <desc xml:id="CAT_000431_e199_d1"><term ana="#document_type_7">L. a. s.</term>, en français, L. a. Haye, <date when="1770-05-24">24 mai 1770</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000431_e199_d1"><term ana="#document_type_7">L. a. s.</term>, en français, La Haye, <date when="1770-05-24">24 mai 1770</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Jolie lettre où il dit qu'il a fait le projet d'aller dîner avec la princesse à
                   Vieux Loo.»</note>
             </item>

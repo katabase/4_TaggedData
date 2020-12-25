@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<?xml-model href="../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000422">
+<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000417">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -1342,7 +1342,7 @@
                   <p>peintre et lithographe français, père des célèbres dessinateurs vignettistes de
                      ce nom, mort à Mannheim en 1838.</p>
                </trait>
-               <desc xml:id="CAT_000422_e129_d1"><term ana="#document_type_7">L. a. s.</term> à M. de L. a. Madeleine, Mannheim, <date when="1834-03-13">13 mars 1834</date>, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <desc xml:id="CAT_000422_e129_d1"><term ana="#document_type_7">L. a. s.</term> à M. de La Madeleine, Mannheim, <date when="1834-03-13">13 mars 1834</date>, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
                <note>Jolie lettre toute relative à son fils Tony Johaunot.</note>
             </item>
             <item n="130" xml:id="CAT_000422_e130">
@@ -1434,7 +1434,7 @@
                <trait>
                   <p>illustre général et patriote.</p>
                </trait>
-               <desc xml:id="CAT_000422_e139_d1"><term ana="#document_type_7">L. a. s.</term> à Frochot ; L. a. Grange, <date when="1801-12-22">1er nivôse an X</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachet à ses armes. Belle lettre.</desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
+               <desc xml:id="CAT_000422_e139_d1"><term ana="#document_type_7">L. a. s.</term> à Frochot ; La Grange, <date when="1801-12-22">1er nivôse an X</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachet à ses armes. Belle lettre.</desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
             </item>
             <item n="140" xml:id="CAT_000422_e140">
                <num type="lot">140</num>
@@ -2375,7 +2375,7 @@
                <trait>
                   <p>célèbre chanteur de l'Opéra, né en 1856.</p>
                </trait>
-               <desc xml:id="CAT_000422_e238_d1"><term ana="#document_type_7">L. a. s.</term> ; L. a. Bourboule, <date when="1883">1883</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000422_e238_d1"><term ana="#document_type_7">L. a. s.</term> ; La Bourboule, <date when="1883">1883</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="239" xml:id="CAT_000422_e239">
                <num type="lot">239</num>

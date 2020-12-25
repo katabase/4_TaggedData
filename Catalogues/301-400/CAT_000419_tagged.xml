@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<?xml-model href="../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000419">
+<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000417">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -301,7 +301,7 @@
                <trait>
                   <p>célèbre violoniste compositeur</p>
                </trait>
-               <desc xml:id="CAT_000419_e10_d1"><term ana="#document_type_7">L. a. s.</term> au comte Magallon de L. a. Morlière, <date when="1825">1825</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000419_e10_d1"><term ana="#document_type_7">L. a. s.</term> au comte Magallon de La Morlière, <date when="1825">1825</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="11" xml:id="CAT_000419_e11">
                <num type="lot">11</num>
@@ -540,7 +540,7 @@
                <trait>
                   <p>peintre orientaliste très distingué, né à Marseille en 1823.</p>
                </trait>
-               <desc xml:id="CAT_000419_e32_d1"><term ana="#document_type_7">L. a. s.</term>, (<date when="1875">1875</date>), <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> L. a. seconde page contient un croquis à la plume sig. d'un de ses tableaux.</desc><measure commodity="currency" unit="FRF" quantity="7">7</measure>
+               <desc xml:id="CAT_000419_e32_d1"><term ana="#document_type_7">L. a. s.</term>, (<date when="1875">1875</date>), <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> La seconde page contient un croquis à la plume sig. d'un de ses tableaux.</desc><measure commodity="currency" unit="FRF" quantity="7">7</measure>
             </item>
             <item n="33" xml:id="CAT_000419_e33">
                <num type="lot">33</num>
@@ -1436,7 +1436,7 @@
                   <p>savant philologue, poète latin et homme d'Etat hollandais, bibliothécaire de
                      Christine de Suède, né en 1620, mort en 1681.</p>
                </trait>
-               <desc xml:id="CAT_000419_e122_d1"><term ana="#document_type_7">L. a. s.</term>, en latin, (à Christian Huygens), L. a. Haye, <date when="1675-06-16">16 juin 1675</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="25">25</measure>
+               <desc xml:id="CAT_000419_e122_d1"><term ana="#document_type_7">L. a. s.</term>, en latin, (à Christian Huygens), La Haye, <date when="1675-06-16">16 juin 1675</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note>Il regrette qu'il ne lui ait pas répondu au sujet des livres achetés à
                   Bienville et lui adresse un catalogue pour lui prouver qu'il se souvient toujours
                   de lui.</note>
@@ -1903,7 +1903,7 @@
                   <p>célèbre fondeur qui s'attacha à perfectionner les procédés pour forer et
                      tourner les canons, né à Berne en 1711, mort près de Lyon en 1790.</p>
                </trait>
-               <desc xml:id="CAT_000419_e169_d1"><term ana="#document_type_7">L. a. s.</term>; L. a. Rochefoucauld (Charente), <date when="1762-04-22">22 avril 1762</date>, <measure type="length" unit="p" n="3.5">3 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Rare.</desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <desc xml:id="CAT_000419_e169_d1"><term ana="#document_type_7">L. a. s.</term>; La Rochefoucauld (Charente), <date when="1762-04-22">22 avril 1762</date>, <measure type="length" unit="p" n="3.5">3 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Rare.</desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Belle lettre sur la fabrication des mortiers à bombes et de leurs affûts à
                   l'usine de Ruelle.</note>
             </item>
@@ -2563,7 +2563,7 @@
                   <p>célèbre littérateur et poète français contemporain, né à Strasbourg en 1827.
                     </p>
                </trait>
-               <desc xml:id="CAT_000419_e236_d1"><term ana="#document_type_8">L. a.</term> Plus Belle des Couleurs, sonnet aut. sig., <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Jolie pièce.</desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <desc xml:id="CAT_000419_e236_d1">La Plus Belle des Couleurs, sonnet <term ana="#document_type_15">aut. sig.</term>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Jolie pièce.</desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
             </item>
             <item n="237" xml:id="CAT_000419_e237">
                <num type="lot">237</num>
@@ -3245,7 +3245,7 @@
                   <p>stathouder de Hollande, époux de Marie d'Angleterre, fille de Charles Ier, mort
                      en 1650.</p>
                </trait>
-               <desc xml:id="CAT_000419_e304_d1">Pièce originale sur vélin ; <term ana="#document_type_8">L. a.</term> Haye, <date when="1647-11-28">28 novembre 1647</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, obl., cachet et sceau pendant.</desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
+               <desc xml:id="CAT_000419_e304_d1">Pièce originale sur vélin ; La Haye, <date when="1647-11-28">28 novembre 1647</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, obl., cachet et sceau pendant.</desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note>La Torre contre Claude Lamoral, prince de Ligne.</note>
             </item>
             <item n="305" xml:id="CAT_000419_e305">

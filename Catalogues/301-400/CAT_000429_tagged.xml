@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<?xml-model href="../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000429">
+<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000417">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -642,7 +642,7 @@
             <item n="44" xml:id="CAT_000429_e44">
                <num type="lot">44</num>
                <name type="author">Brizeux (A.</name>
-               <desc xml:id="CAT_000429_e44_d1">1° Manuscrit aut. ; <date when="1840">vers 1840</date>, <measure type="length" unit="p" n="22">22 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Notes, d'après des ouvrages anglais, sur les bardes gallois Merlin, Talésin, Arthur ; sur les poèmes du cycle Breton, le roman de Brut, etc. (Ces notes devaient servir au poème <term ana="#document_type_8">L. a.</term> chute de la Bretagne, divisé en trois récits ; Tristan, Merlin, Arthur). A la fin du cahier, essai inachevé d'étymologie : Les racines celtiques du Français.</desc><desc xml:id="CAT_000429_e44_d2">2° Notes originales dont une partie aut. ; <date when="1856">vers 1856</date>, environ <measure type="length" unit="p" n="38">38 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="30">30</measure>
+               <desc xml:id="CAT_000429_e44_d1">1° <term ana="#document_type_13">Manuscrit aut.</term> ; <date when="1840">vers 1840</date>, <measure type="length" unit="p" n="22">22 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Notes, d'après des ouvrages anglais, sur les bardes gallois Merlin, Talésin, Arthur ; sur les poèmes du cycle Breton, le roman de Brut, etc. (Ces notes devaient servir au poème La chute de la Bretagne, divisé en trois récits ; Tristan, Merlin, Arthur). A la fin du cahier, essai inachevé d'étymologie : Les racines celtiques du Français.</desc><desc xml:id="CAT_000429_e44_d2">2° Notes originales dont une partie aut. ; <date when="1856">vers 1856</date>, environ <measure type="length" unit="p" n="38">38 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="30">30</measure>
                <note>Notes pour une nouvelle édition de ses Proverbes bretons, publiés à Lorient en
                   1844, sous le nom de Furnez Breiz (sagesse de Bretagne) ; Extraits d'un
                   dictionnaire de dom Le Pelletier. -Extraits du dialecte de Vannes, publié à Leyde
@@ -1939,7 +1939,7 @@
             <item n="163" xml:id="CAT_000429_e163">
                <num type="lot">163</num>
                <name type="author">Louis XIV</name>
-               <desc xml:id="CAT_000429_e163_d1"><term ana="#document_type_8">Let. aut.</term> de Boissier, médecin de Louis XIV, à M.de L. a. Tresne, à Bordeaux, Versailles, <date when="1696-08-27">27 août 1696</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000429_e163_d1"><term ana="#document_type_8">Let. aut.</term> de Boissier, médecin de Louis XIV, à M.de La Tresne, à Bordeaux, Versailles, <date when="1696-08-27">27 août 1696</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Très intéressante lettre relative à une maladie de Louis XIV et au prochain
                   mariage de la duchesse de Bourgogne.</note>
             </item>
@@ -3076,7 +3076,7 @@
             <item n="268" xml:id="CAT_000429_e268">
                <num type="lot">268</num>
                <name type="author">Louis XIV (règne de</name>
-               <desc xml:id="CAT_000429_e268_d1"><term ana="#document_type_7">Lettre aut. sig.</term> d'Everard de Wrède au prince de Vaudemont ; L. a. Haye, <date when="1695-05-08">8 mai 1695</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <desc xml:id="CAT_000429_e268_d1"><term ana="#document_type_7">Lettre aut. sig.</term> d'Everard de Wrède au prince de Vaudemont ; La Haye, <date when="1695-05-08">8 mai 1695</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
                <note>Il lui transmet un mémoire « contenant les trouppes qui composeront les deux
                   armées (des alliées aux Pays Bas contre Louis XIV) et les généraux qui
                   commanderont dans l'une et dans l'autre, que le Roy (Guillaume III) m'a fait

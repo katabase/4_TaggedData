@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<?xml-model href="../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000430">
+<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000417">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -2013,7 +2013,7 @@
                <trait>
                   <p>l'illustre ministre de Louis XIV.</p>
                </trait>
-               <desc xml:id="CAT_000430_e181_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à Marchino, intendant du prince de Condé: L. a. Fère (Aisne), <date when="1657-06-27">27 juin 1657</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachet et soies.</desc><measure commodity="currency" unit="FRF" quantity="80">80</measure>
+               <desc xml:id="CAT_000430_e181_d1"><term ana="#document_type_7">L. a. s.</term>, en français, à Marchino, intendant du prince de Condé: La Fère (Aisne), <date when="1657-06-27">27 juin 1657</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachet et soies.</desc><measure commodity="currency" unit="FRF" quantity="80">80</measure>
             </item>
             <item n="182" xml:id="CAT_000430_e182">
                <num type="lot">182</num>
@@ -2193,7 +2193,7 @@
                <trait>
                   <p>savant bibliographe et érudit, né en 1751, mort en 1838.</p>
                </trait>
-               <desc xml:id="CAT_000430_e201_d1"><term ana="#document_type_7">L. a. s.</term> en vers, à Firmin-Didot; L. a. Charité, <date when="1808-03-29">29 mars 1808</date>, <measure type="length" unit="p" n="3.5">3 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000430_e201_d1"><term ana="#document_type_7">L. a. s.</term> en vers, à Firmin-Didot; La Charité, <date when="1808-03-29">29 mars 1808</date>, <measure type="length" unit="p" n="3.5">3 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Curieuse lettre où il lui demande d'imprimer son Eloge historique de Jean
                   Gutemberg.</note>
             </item>
@@ -2470,7 +2470,7 @@
                   <p>célèbre poète, disciple de Malherbe, de l'Acad. fr., né en Touraine en 1589,
                      mort en 1670.</p>
                </trait>
-               <desc xml:id="CAT_000430_e229_d1"><term ana="#document_type_4">Pièce sig</term>. sur vélin ; château de L. a. Roche, <date when="1638">1638</date>, <measure type="length" unit="p" n="4">4 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> Très rare.</desc><measure commodity="currency" unit="FRF" quantity="100">100</measure>
+               <desc xml:id="CAT_000430_e229_d1"><term ana="#document_type_4">Pièce sig</term>. sur vélin ; château de La Roche, <date when="1638">1638</date>, <measure type="length" unit="p" n="4">4 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> Très rare.</desc><measure commodity="currency" unit="FRF" quantity="100">100</measure>
             </item>
             <item n="230" xml:id="CAT_000430_e230">
                <num type="lot">230</num>
@@ -2529,7 +2529,7 @@
                <trait>
                   <p>célèbre chanteur de l'Opéra, né en 1856.</p>
                </trait>
-               <desc xml:id="CAT_000430_e236_d1"><term ana="#document_type_7">L. a. s.</term> ; L. a. Bourboule, <date when="1883">1883</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000430_e236_d1"><term ana="#document_type_7">L. a. s.</term> ; La Bourboule, <date when="1883">1883</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="237" xml:id="CAT_000430_e237">
                <num type="lot">237</num>

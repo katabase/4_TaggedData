@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<?xml-model href="../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000417">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
@@ -578,7 +578,7 @@
                   <p>littérateur contemporain distingué, ancien secrétaire de Barbey d'Aurévilly,
                      auteur du Désespéré.</p>
                </trait>
-               <desc xml:id="CAT_000417_e39_d1"><term ana="#document_type_8">L. a.</term> Checalière de la mort, manuscrit de <measure type="length" unit="p" n="28">28 pages</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, dont 18 aut. sig.</desc><measure commodity="currency" unit="FRF" quantity="50">50</measure>
+               <desc xml:id="CAT_000417_e39_d1">La Checalière de la mort, manuscrit de <measure type="length" unit="p" n="28">28 pages</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, dont 18 <term ana="#document_type_15">aut. sig.</term></desc><measure commodity="currency" unit="FRF" quantity="50">50</measure>
                <note>Importante et curieuse pièce sur Marie- Antoinette.</note>
             </item>
             <item n="40" xml:id="CAT_000417_e40">
@@ -1263,7 +1263,7 @@
                <trait>
                   <p/>
                </trait>
-               <desc xml:id="CAT_000417_e113_d1"><term ana="#document_type_7">L. a. s.</term> au général Garbé ; L. a. Caroline (Espagne), <date when="1823-10-22">22 octobre 1823</date>, <measure type="length" unit="p" n="4">4 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
+               <desc xml:id="CAT_000417_e113_d1"><term ana="#document_type_7">L. a. s.</term> au général Garbé ; La Caroline (Espagne), <date when="1823-10-22">22 octobre 1823</date>, <measure type="length" unit="p" n="4">4 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note>Importante lettre militaire toute relative aux succès des Français en
                   Espagne.</note>
             </item>
@@ -2727,7 +2727,7 @@
                      Wurtemberg et de Catherine Paulowna de Russie, née en 1818, morte en 1877.
                     </p>
                </trait>
-               <desc xml:id="CAT_000417_e265_d1"><term ana="#document_type_7">L. a. s.</term>, en français, (à la comtesse Walewska); L. a. Haye, <date when="1868-09-30">30 septembre 1868</date>, <measure type="length" unit="p" n="2">2 pages</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="25">25</measure>
+               <desc xml:id="CAT_000417_e265_d1"><term ana="#document_type_7">L. a. s.</term>, en français, (à la comtesse Walewska); La Haye, <date when="1868-09-30">30 septembre 1868</date>, <measure type="length" unit="p" n="2">2 pages</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note>Lettre touchante sur la mort du comte Walewski : « Après vous, je plains
                   l'Empereur qui ne trouvera pas souvent un dévouement pareil!»</note>
             </item>
@@ -3302,7 +3302,7 @@
             <item n="323" xml:id="CAT_000417_e323">
                <num type="lot">323</num>
                <name type="author">Turquie</name>
-               <desc xml:id="CAT_000417_e323_d1">2 let sig. du général comte Guilleminot, ambassadeur en Turquie, à M. de Fontenay; Constantinople, <date when="1824">1824</date>-25, <measure type="length" unit="p" n="5">5 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <desc xml:id="CAT_000417_e323_d1">2 let. sig. du général comte Guilleminot, ambassadeur en Turquie, à M. de Fontenay; Constantinople, <date when="1824">1824</date>-25, <measure type="length" unit="p" n="5">5 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Importantes lettres historiques. Malgré les représentations de la France, les
                   Turcs n'ont pas encore évacué la Moldavie; ils céderont sans doute devant les
                   résolutions prises par le tzar Alexandre. La flotte turcoégyptienne a été

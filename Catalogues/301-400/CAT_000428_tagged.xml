@@ -755,7 +755,7 @@
                   <p>un des chefs les plus chevaleresques du parti républicain sous Louis-Philippe,
                      écrivain romantique, né en 1801, mort en 1845,</p>
                </trait>
-               <desc xml:id="CAT_000428_e53_d1">1° <term ana="#document_type_7">L. a. s.</term> à M. Teste ; (1830), <date when="1830"><measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Curieuse lettre écrite pendant les journées de 1830</date>. « L. a. proclamation fait le meilleur effet. Il faut en faire distribuer à force, crier, etc.»</desc><desc xml:id="CAT_000428_e53_d2">2° <term ana="#document_type_3">Pièce aut.</term>, <measure type="length" unit="p" n="11">11 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000428_e53_d1">1° <term ana="#document_type_7">L. a. s.</term> à M. Teste ; (1830), <date when="1830"><measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Curieuse lettre écrite pendant les journées de 1830</date>. « La proclamation fait le meilleur effet. Il faut en faire distribuer à force, crier, etc.»</desc><desc xml:id="CAT_000428_e53_d2">2° <term ana="#document_type_3">Pièce aut.</term>, <measure type="length" unit="p" n="11">11 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Curieux manuscrit sur la réfutation de l'abbé de Montgaillard, par Laurent de
                   l'Ardèche.</note>
             </item>
@@ -1186,7 +1186,7 @@
                   <p>célèbre poëte dramatique, membre de l'Acad. fr., né à Versailles en 1733, mort
                      en 1816.</p>
                </trait>
-               <desc xml:id="CAT_000428_e95_d1">1° <term ana="#document_type_3">Pièce de vers aut.</term>, <measure type="length" unit="p" n="3.75">3 p. 3/4</measure> <measure type="format" unit="f" ana="#document_format_4">in-4..</measure></desc><desc xml:id="CAT_000428_e95_d2">2° <term ana="#document_type_2">Pièce de vers aut. sig.</term>, <measure type="length" unit="p" n="19">19 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Superbes pièces reliées ensemble.</desc><measure commodity="currency" unit="FRF" quantity="50">50</measure>
+               <desc xml:id="CAT_000428_e95_d1">1° <term ana="#document_type_3">Pièce de vers aut.</term>, <measure type="length" unit="p" n="3.75">3 p. 3/4</measure> <measure type="format" unit="f" ana="#document_format_4">in-4..</measure></desc><desc xml:id="CAT_000428_e95_d2">2° <term ana="#">Pièce de vers aut. sig.</term>, <measure type="length" unit="p" n="19">19 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Superbes pièces reliées ensemble.</desc><measure commodity="currency" unit="FRF" quantity="50">50</measure>
                <note>Couplets faits et chantés par Ducis, à la Rousselière en Sologne, à la fête de
                   Mme La Revellière Lepeaux. -Epître à Gérard.</note>
             </item>
@@ -1446,7 +1446,7 @@
                   <p>célèbre érudit, historiographe de France, né en 1615, mort à Lille en 1681.
                     </p>
                </trait>
-               <desc xml:id="CAT_000428_e118_d1"><term ana="#document_type_7">L. a. s.</term> à M. Schaep, à L. a. Haye ; Paris, <date when="1650-04-23">23 avril 1650</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> Cachets et soies. Légères déchirures.</desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <desc xml:id="CAT_000428_e118_d1"><term ana="#document_type_7">L. a. s.</term> à M. Schaep, à La Haye ; Paris, <date when="1650-04-23">23 avril 1650</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> Cachets et soies. Légères déchirures.</desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Il lui explique que Grossus Turonus désigne une monnaie de Tours sur la Loire
                   et non de Troyes en Champagne. -On a joint la minute aut. sig., en français, de la
                   réponse de M. Schaep.</note>
@@ -1467,7 +1467,7 @@
                   <p>conventionnel, connu l'Ain, un des plus ardents réacteurs après Thermidor.
                     </p>
                </trait>
-               <desc xml:id="CAT_000428_e120_d1"><term ana="#document_type_2">Pièce aut. sig.</term> ; Paris, <date when="1794-10-23">2 brumaire an III</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <desc xml:id="CAT_000428_e120_d1"><term ana="#">Pièce aut. sig.</term> ; Paris, <date when="1794-10-23">2 brumaire an III</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
             </item>
             <item n="121" xml:id="CAT_000428_e121">
                <num type="lot">121</num>
@@ -1488,7 +1488,7 @@
                   <p>célèbre général de la République et de l'Empire, qui se distingua en Vendée,
                      tué devant Gaète en 1806.</p>
                </trait>
-               <desc xml:id="CAT_000428_e122_d1">10 let aut. sig. au citoyen Rousselin; Nantes et <term ana="#document_type_8">L. a.</term> Rochelle, an <date when="1797-1798">VI</date>l-an <date when="1797-1798">VI</date>II, <measure type="length" unit="p" n="32">32 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure> et in-fol. vignettes.</desc><measure commodity="currency" unit="FRF" quantity="30">30</measure>
+               <desc xml:id="CAT_000428_e122_d1">10 let. <term ana="#document_type_15">aut. sig.</term> au citoyen Rousselin; Nantes et La Rochelle, an <date when="1798-1799">VII</date>-an <date when="1798-1799">VII</date>I, <measure type="length" unit="p" n="32">32 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure> et in-fol. vignettes.</desc><measure commodity="currency" unit="FRF" quantity="30">30</measure>
                <note>Intéressante correspondance militaire. Il déplore la mort du général Hoche et
                   lui communique un songe où l'ombre de Hoche lui est apparue. « Je voyais ce grand
                   homme me sourire au milieu des décombres fumants de la Vendée, inquiet des
@@ -1755,7 +1755,7 @@
                      frère de l'abbé de la Chétardie, curé de Saint-Sulpice, ami de Mme de
                      Maintenon.</p>
                </trait>
-               <desc xml:id="CAT_000428_e144_d1"><term ana="#document_type_2">Pièce aut. sig.</term> ; Schlestadt, <date when="1679">1679</date>. <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_108">in-8obl.</measure> Cachet à ses armes.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000428_e144_d1"><term ana="#">Pièce aut. sig.</term> ; Schlestadt, <date when="1679">1679</date>. <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_108">in-8obl.</measure> Cachet à ses armes.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
             <item n="145" xml:id="CAT_000428_e145">
                <num type="lot">145</num>
@@ -1795,7 +1795,7 @@
                <trait>
                   <p>curé et fondateur de Saint-Sulpice, celèbre par sa charité, né à Dijon.</p>
                </trait>
-               <desc xml:id="CAT_000428_e148_d1"><term ana="#document_type_2">Pièce aut. sig.</term> ; Paris, <date when="1720-03-18">18 mars 1720</date>. <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachet à ses armes.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000428_e148_d1"><term ana="#">Pièce aut. sig.</term> ; Paris, <date when="1720-03-18">18 mars 1720</date>. <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachet à ses armes.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Reçu du duc d'Albret la somme de cent livres pour ses pauvres.</note>
             </item>
             <item n="149" xml:id="CAT_000428_e149">
@@ -1939,7 +1939,7 @@
                </trait>
                <desc xml:id="CAT_000428_e163_d1"><term ana="#document_type_4">Pièce sig</term>., sig. aussi par Madame Adélaïde d'Orléans, sa soeur; <date when="1822-06-06">6 juin 1822</date>, <measure type="length" unit="p" n="4">4 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note>Curieuse pièce. Gratifications accordées par Louis-Philippe et sa soeur à
-                  d'anciens serviteurs de leur tante Louise-Marie- Thérèse Bathilde d'Orléans,
+                  d'anciens serviteurs de leur tante Louise-Marie-Thérèse Bathilde d'Orléans,
                   princesse de Condé.</note>
             </item>
             <item n="164" xml:id="CAT_000428_e164">
@@ -2819,7 +2819,7 @@
                <trait>
                   <p>le grand peintre d'histoire.</p>
                </trait>
-               <desc xml:id="CAT_000428_e251_d1"><term ana="#document_type_7">L. a. s.</term> au comte de L. a. Rochefoucauld, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <desc xml:id="CAT_000428_e251_d1"><term ana="#document_type_7">L. a. s.</term> au comte de La Rochefoucauld, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
             </item>
             <item n="252" xml:id="CAT_000428_e252">
                <num type="lot">252</num>
@@ -3126,7 +3126,7 @@
             <item n="280" xml:id="CAT_000428_e280">
                <num type="lot">280</num>
                <name type="author">Auvergne</name>
-               <desc xml:id="CAT_000428_e280_d1"><term ana="#document_type_4">Pièce sig</term>. sur vélin de L. a. Vernade, écuyer ; Paris, <date when="1579">1579</date>, <measure type="format" unit="f" ana="#document_format_108">in-8 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000428_e280_d1"><term ana="#document_type_4">Pièce sig</term>. sur vélin de La Vernade, écuyer ; Paris, <date when="1579">1579</date>, <measure type="format" unit="f" ana="#document_format_108">in-8 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="281" xml:id="CAT_000428_e281">
                <num type="lot">281</num>

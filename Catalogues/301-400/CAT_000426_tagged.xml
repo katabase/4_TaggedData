@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<?xml-model href="../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000426">
+<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000417">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -1994,7 +1994,7 @@
                <trait>
                   <p>célèbre voyageur, fils du ministre du Trésor de Napoléon Ier, né en 1796.</p>
                </trait>
-               <desc xml:id="CAT_000426_e174_d1">2 1. a. s. : <term ana="#document_type_8">L. a.</term> Havane, <date when="1836">1836-1838</date>, <measure type="length" unit="p" n="5">5 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Intéressantes.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000426_e174_d1">2 1. <term ana="#document_type_15">a. s.</term> : La Havane, <date when="1836">1836-1838</date>, <measure type="length" unit="p" n="5">5 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Intéressantes.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
             <item n="175" xml:id="CAT_000426_e175">
                <num type="lot">175</num>
@@ -2237,7 +2237,7 @@
                <trait>
                   <p>le célèbre auteur de la Marseillaise.</p>
                </trait>
-               <desc xml:id="CAT_000426_e195_d1">1° <term ana="#document_type_7">L. a. s.</term> , Choisy, <date when="1834-01-23">23 janvier 1834</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><desc xml:id="CAT_000426_e195_d2">2° L'absolution, <term ana="#document_type_3">pièce de vers aut.</term> <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> Curieuse.</desc><desc xml:id="CAT_000426_e195_d3">3° <term ana="#document_type_8">L. a.</term> Marseillaise, paroles et musique, avec gravures de Raynaud <measure type="length" unit="p" n="8">8 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><desc xml:id="CAT_000426_e195_d4">4° Feuilletons du siècle, signés par Deriège, sous le titre : Sa biographie, sa correspondance et ses oeuvres inédites, <date when="1848">1848</date>. Importante réunion. Un vol. relié.</desc><measure commodity="currency" unit="FRF" quantity="85">85</measure>
+               <desc xml:id="CAT_000426_e195_d1">1° <term ana="#document_type_7">L. a. s.</term> , Choisy, <date when="1834-01-23">23 janvier 1834</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><desc xml:id="CAT_000426_e195_d2">2° L'absolution, <term ana="#document_type_3">pièce de vers aut.</term> <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> Curieuse.</desc><desc xml:id="CAT_000426_e195_d3">3° La Marseillaise, paroles et musique, avec gravures de Raynaud <measure type="length" unit="p" n="8">8 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><desc xml:id="CAT_000426_e195_d4">4° Feuilletons du siècle, signés par Deriège, sous le titre : Sa biographie, sa correspondance et ses oeuvres inédites, <date when="1848">1848</date>. Importante réunion. Un vol. relié.</desc><measure commodity="currency" unit="FRF" quantity="85">85</measure>
             </item>
             <item n="196" xml:id="CAT_000426_e196">
                <num type="lot">196</num>
@@ -2508,7 +2508,7 @@
                   <p>maréchal de France, illustre marin du siècle de Louis XIV, né en 1642, mort en
                      1701.</p>
                </trait>
-               <desc xml:id="CAT_000426_e222_d1"><term ana="#document_type_4">Pièce sig</term>. ; L. a. Rochelle, <date when="1696-05-26">26 mai 1696</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachet à ses armes. Belle pièce.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000426_e222_d1"><term ana="#document_type_4">Pièce sig</term>. ; La Rochelle, <date when="1696-05-26">26 mai 1696</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachet à ses armes. Belle pièce.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
             <item n="223" xml:id="CAT_000426_e223">
                <num type="lot">223</num>
@@ -3110,7 +3110,7 @@
             <item n="276" xml:id="CAT_000426_e276">
                <num type="lot">276</num>
                <name type="author">Hollande</name>
-               <desc xml:id="CAT_000426_e276_d1"><term ana="#document_type_7">L. a. s.</term> de Abraham de Wicquefort, diplomate hollandais, au duc de Brunswich Lunebourg; L. a. Haye, <date when="1666-11-04">4 nov. 1666</date>, <measure type="length" unit="p" n="4">4 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000426_e276_d1"><term ana="#document_type_7">L. a. s.</term> de Abraham de Wicquefort, diplomate hollandais, au duc de Brunswich Lunebourg; La Haye, <date when="1666-11-04">4 nov. 1666</date>, <measure type="length" unit="p" n="4">4 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Il lui expose les difficultés sur venues entre la Diète et le roi de Suède,
                   Charles XI, au sujet de la possession de Brême, attribuée à ce dernier par les
                   traités de Westphalie ; la diète veut faire démanteler la ville ; le roi s'y
@@ -3134,7 +3134,7 @@
             <item n="278" xml:id="CAT_000426_e278">
                <num type="lot">278</num>
                <name type="author">Guerre de la succession d'Autriche</name>
-               <desc xml:id="CAT_000426_e278_d1">Mémoire en partie autog. du marquis Louis Neyret de <term ana="#document_type_8">L. a.</term> Ravoye, maréchal de camp sousles ordres du maréchal de Broglie, gouverneur d'Huningue ; <date when="1743">janvier 1743-mars 1744</date>, <measure type="length" unit="p" n="111">111 pages</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><measure commodity="currency" unit="FRF" quantity="50">50</measure>
+               <desc xml:id="CAT_000426_e278_d1">Mémoire en partie autog. du marquis Louis Neyret de La Ravoye, maréchal de camp sousles ordres du maréchal de Broglie, gouverneur d'Huningue ; <date when="1743">janvier 1743-mars 1744</date>, <measure type="length" unit="p" n="111">111 pages</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><measure commodity="currency" unit="FRF" quantity="50">50</measure>
                <note>Journal des plus intéressants pour l'histoire de la guerre de la succession
                   d'Autriche, après la retraite de Belle-Isle de Prague à Egra, ou Vauvenargues
                   contracta une maladie mortelle (déc 1742) ; le maréchal de Broglie, commandant en

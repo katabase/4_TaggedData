@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<?xml-model href="../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../_schemas/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000423">
+<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000417">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -263,7 +263,7 @@
                <trait>
                   <p>le célèbre révolutionnaire, né à la Guadeloupe en 1809, mort en 1870.</p>
                </trait>
-               <desc xml:id="CAT_000423_e6_d1">30 l. a. s. ou paraphées à M. Pellet : Vincennes, Doul-lens et <term ana="#document_type_8">L. a.</term> Haye, <date when="1849">1849</date>-64, <measure type="length" unit="p" n="114">114 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="300">300</measure>
+               <desc xml:id="CAT_000423_e6_d1">30 l. <term ana="#document_type_15">a. s.</term> ou paraphées à M. Pellet : Vincennes, Doul-lens et La Haye, <date when="1849">1849</date>-64, <measure type="length" unit="p" n="114">114 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="300">300</measure>
                <note>Précieuses lettres écrites pendant sa captitivité de 1849 à 1854, ou pendant
                   son exil à la Haye. -Les troubles du 13 juin sont qualifiés par Barbès de « Saint
                   Barthélemy de patriotes ». -« Je te remercie bien de m'avoir dédié ta réimpression
@@ -1793,7 +1793,7 @@
                <trait>
                   <p>duc de Bassano, l'infatigable ministre de Napoléon Ier.</p>
                </trait>
-               <desc xml:id="CAT_000423_e161_d1"><term ana="#document_type_7">L. a. s.</term> à M. de L. a. Tour Maubourg, ministre de France, à Wurtzbourg ; Paris, <date when="1813-04-06">6 avril 1813</date>, <measure type="length" unit="p" n="0.66">2/3 de p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <desc xml:id="CAT_000423_e161_d1"><term ana="#document_type_7">L. a. s.</term> à M. de La Tour Maubourg, ministre de France, à Wurtzbourg ; Paris, <date when="1813-04-06">6 avril 1813</date>, <measure type="length" unit="p" n="0.66">2/3 de p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
                <note>Belle lettre. Il lui annonce confidentiellement que l'Empereur sera à Mayence
                   du 12 au 15 avril.</note>
             </item>
@@ -2392,7 +2392,7 @@
                <trait>
                   <p>député de la Sarthe à la Convention.</p>
                </trait>
-               <desc xml:id="CAT_000423_e219_d1"><term ana="#document_type_4">Pièce sig</term>., comme représentant près les armées du Nord et de Sambre-et-Meuse ; L. a. Haye, <date when="1795-05-12">23 floréal an III</date>, tête impr., jolie vignette.</desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
+               <desc xml:id="CAT_000423_e219_d1"><term ana="#document_type_4">Pièce sig</term>., comme représentant près les armées du Nord et de Sambre-et-Meuse ; La Haye, <date when="1795-05-12">23 floréal an III</date>, tête impr., jolie vignette.</desc><measure commodity="currency" unit="FRF" quantity="4">4</measure>
             </item>
             <item n="220" xml:id="CAT_000423_e220">
                <num type="lot">220</num>
@@ -3100,7 +3100,7 @@
                <trait>
                   <p>célèbre diplomate hollandais, né à Amsterdam vers 1600, mort en 1670.</p>
                </trait>
-               <desc xml:id="CAT_000423_e292_d1"><term ana="#document_type_7">L. a. s.</term>, en latin à Gaspard Barlaeeus : L. a. Haye, <date when="1644-09-27">27 septembre 1644</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><measure commodity="currency" unit="FRF" quantity="25">25</measure>
+               <desc xml:id="CAT_000423_e292_d1"><term ana="#document_type_7">L. a. s.</term>, en latin à Gaspard Barlaeeus : La Haye, <date when="1644-09-27">27 septembre 1644</date>, <measure type="length" unit="p" n="1.5">1 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note>Très curieuse lettre. Il lui adresse des vers amoureux de Huyghens. Le prince
                   d'Orange doit se rendre à Bréda avant de venir a la Haye; le roi de Danemarck,
                   n'ayant pas été prévenu à temps de la mise à la voile de la flotte Suédoise, a
@@ -3420,7 +3420,7 @@
             <item n="320" xml:id="CAT_000423_e320">
                <num type="lot">320</num>
                <name type="author">Restauration</name>
-               <desc xml:id="CAT_000423_e320_d1">15 let. aut. sig. de la princesse Borghèse Aldobrandini (Adèle-Marie-Constance de <term ana="#document_type_8">L. a.</term> Rochefoucauld), au chevalier de Fontenay ; Paris, <date when="1814">1814</date> 19, <measure type="length" unit="p" n="39">39 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachets.</desc><measure commodity="currency" unit="FRF" quantity="45">45</measure>
+               <desc xml:id="CAT_000423_e320_d1">15 let. <term ana="#document_type_15">aut. sig.</term> de la princesse Borghèse Aldobrandini (Adèle-Marie-Constance de La Rochefoucauld), au chevalier de Fontenay ; Paris, <date when="1814">1814</date> 19, <measure type="length" unit="p" n="39">39 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachets.</desc><measure commodity="currency" unit="FRF" quantity="45">45</measure>
                <note>Importante correspondance dont voici une analyse sommaire : Elle reproche à M.
                   de Fontenay de lui avoir attiré une lettre ful. minante de son beau-frère
                   (Borghèse), elle y parle de la comtesse d'Albany et de Bacciochi. -Nous avons ici
