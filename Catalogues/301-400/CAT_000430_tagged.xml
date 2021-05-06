@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <?xml-model href="https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000417">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000430">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -74,24 +74,6 @@
                is not reproduced below.</p>
          </samplingDecl>
          <classDecl>
-                    <taxonomy xml:id="catalogue_type">
-                        <desc>Type of catalogues</desc>
-                        <category xml:id="RDA">
-                            <catDesc>Revue des autographes, des curiosités de l'histoire et de la biographie</catDesc>
-                        </category>
-                        <category xml:id="LAD">
-                            <catDesc>Lettres autographes et documents historiques</catDesc>
-                        </category>
-                        <category xml:id="AUC">
-                            <catDesc>Vente aux enchères</catDesc>
-                        </category>
-                        <category xml:id="LAV">
-                            <catDesc>Ventes Laverdet</catDesc>
-                        </category>
-                        <category xml:id="OTH">
-                            <catDesc>Divers/inconnu</catDesc>
-                        </category>
-                    </taxonomy>
         <taxonomy xml:id="format">
            <desc>Document format</desc>
            <category xml:id="document_format_1">
@@ -173,7 +155,7 @@
               <catDesc>Apostille autographe signée</catDesc>
            </category>
            <category xml:id="document_type_2">
-              <catDesc>Apostille autographe</catDesc>
+              <catDesc>Pièce autographe signée</catDesc>
            </category>
            <category xml:id="document_type_3">
               <catDesc>Pièce autographe</catDesc>
@@ -226,6 +208,26 @@
                <ptr target="https://github.com/MedKhem/grobid-dictionaries"/>
             </application>
          </appInfo>
+<classDecl>
+                    <taxonomy xml:id="catalogue_type">
+                        <desc>Type of catalogues</desc>
+                        <category xml:id="RDA">
+                            <catDesc>Revue des autographes, des curiosités de l'histoire et de la biographie</catDesc>
+                        </category>
+                        <category xml:id="LAD">
+                            <catDesc>Lettres autographes et documents historiques</catDesc>
+                        </category>
+                        <category xml:id="AUC">
+                            <catDesc>Vente aux enchères</catDesc>
+                        </category>
+                        <category xml:id="LAV">
+                            <catDesc>Ventes Laverdet</catDesc>
+                        </category>
+                        <category xml:id="OTH">
+                            <catDesc>Divers/inconnu</catDesc>
+                        </category>
+                    </taxonomy>
+                </classDecl>
       </encodingDesc>
    </teiHeader>
    <text>
@@ -325,7 +327,7 @@
                <trait>
                   <p>le célèbre écrivain.</p>
                </trait>
-               <desc xml:id="CAT_000430_e10_d1">25 lettres <term ana="#document_type_15">aut. sig.</term>, dont 2 de ses initiales, et 2 billets aut. à la comtesse de Molènes ; <measure type="length" unit="p" n="31">31 pages</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure>, et in-18, papier à son chiffre avec sa devise Never More, reliées.</desc><measure commodity="currency" unit="FRF" quantity="150">150</measure>
+               <desc xml:id="CAT_000430_e10_d1">25 lettres aut. sig., dont 2 de ses initiales, et 2 <term ana="#document_type_6">billets</term> aut. à la comtesse de Molènes ; <measure type="length" unit="p" n="31">31 pages</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure>, et in-18, papier à son chiffre avec sa devise Never More, reliées.</desc><measure commodity="currency" unit="FRF" quantity="150">150</measure>
                <note>Charmante correspondance littéraire écrite avec des encres de différentes
                   couleurs.</note>
             </item>
@@ -1466,7 +1468,7 @@
                   <p>comte de Cessac, l'infatigable ministre de Napoléon Ier, né près d'Agen en
                      1752, mort en 1841.</p>
                </trait>
-               <desc xml:id="CAT_000430_e128_d1">85 l. <term ana="#document_type_15">a. s.</term> à J.-F. Boudon de Saint-Amans, savant naturaliste ; <date when="1781">1781-1831</date>, <measure type="length" unit="p" n="150">150 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="150">150</measure>
+               <desc xml:id="CAT_000430_e128_d1">85 <term ana="#document_type_7">l. a. s.</term> à J.-F. Boudon de Saint-Amans, savant naturaliste ; <date when="1781">1781-1831</date>, <measure type="length" unit="p" n="150">150 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="150">150</measure>
                <note>Importante correspondance inédite, Metz, ! 3 juin 1781. -Il a présenté à M.
                   Dupré de Geneste, secrétaire de la Soc. Royale de Metz l'éloge historique de
                   François de Vivens, composé par son correspondant, il l'engage à faire un cours
@@ -1564,7 +1566,7 @@
                   <p>général de la Révolution, compromis dans la conspiration de Moreau, né à
                      Wissembourg en 1761,mort au château d'If en 1808.</p>
                </trait>
-               <desc xml:id="CAT_000430_e133_d1"><term ana="#document_type_9">Let. sig.</term>au citoyen Pressy, adjudant général ; Grenoble, 24 sept. 1793, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachet. Rare. On a joint une l. a. s. de Mme de Lajolais, veuve du général Frédéric de Lajolais, condamné dans la conspiration Pichegru ; <date when="1845">1845</date>, 1 p. in-4. Toute relative à la condamnation de son mari.</desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
+               <desc xml:id="CAT_000430_e133_d1">Let. sig.au citoyen Pressy, adjudant général ; Grenoble, 24 sept. 1793, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachet. Rare. On a joint une <term ana="#document_type_7">l. a. s.</term> de Mme de Lajolais, veuve du général Frédéric de Lajolais, condamné dans la conspiration Pichegru ; <date when="1845">1845</date>, 1 p. in-4. Toute relative à la condamnation de son mari.</desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
             </item>
             <item n="134" xml:id="CAT_000430_e134">
                <num type="lot">134</num>
@@ -2128,7 +2130,7 @@
                <trait>
                   <p>célèbre philanthrope, né en 1733, mort en 1820.</p>
                </trait>
-               <desc xml:id="CAT_000430_e192_d1">3 l. <term ana="#document_type_15">a. s.</term> à M. et Mme de Sévéry ; Londres, <date when="1794">1794-1795</date>, <measure type="length" unit="p" n="9">9 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure>, et in-18</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000430_e192_d1">3 <term ana="#document_type_7">l. a. s.</term> à M. et Mme de Sévéry ; Londres, <date when="1794">1794-1795</date>, <measure type="length" unit="p" n="9">9 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure>, et in-18</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Intéressantes lettres. Au milieu de détails intimes, il leur annonce un
                   soulèvement probable de l'Irlande, le débarquement de Mounier et les succès de
                   Charette en Vendée, son intention de ne pas se rendre en Suisse où les émigrès
@@ -3069,7 +3071,7 @@
             <item n="291" xml:id="CAT_000430_e291">
                <num type="lot">291</num>
                <name type="author">Fénelon (famille de)</name>
-               <desc xml:id="CAT_000430_e291_d1">2 l. <term ana="#document_type_15">a. s.</term> de l'abbé Mouchaton, prêtre du diocèse de Coutances à Duvau; Lyon, <date when="1803">1803 1809</date>, <measure type="length" unit="p" n="7">7 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000430_e291_d1">2 <term ana="#document_type_7">l. a. s.</term> de l'abbé Mouchaton, prêtre du diocèse de Coutances à Duvau; Lyon, <date when="1803">1803 1809</date>, <measure type="length" unit="p" n="7">7 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Il a été déporté en février 1793 ; il n'a pu, comme le clergé de Coutances, se
                   réfugier à Jersey ; il a traversé la France et s'est caché à Lucerne, près de
                   l'abbé de Fénelon; il consola la famille lorsque M. de Fénelon père fut guillotiné
@@ -3241,7 +3243,7 @@
             <item n="307" xml:id="CAT_000430_e307">
                <num type="lot">307</num>
                <name type="author">Théâtre</name>
-               <desc xml:id="CAT_000430_e307_d1">23 l. <term ana="#document_type_15">a. s.</term> de Armand Paul Favart, fils de Charles Simon Favart et de Marie Duronceray, <date when="1770">né en 1770</date>, filleul du maréchal de Richelieu ; adressées à son neveu Antoine Favart ; <measure type="length" unit="p" n="103">103 pages</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachets.</desc><measure commodity="currency" unit="FRF" quantity="50">50</measure>
+               <desc xml:id="CAT_000430_e307_d1">23 <term ana="#document_type_7">l. a. s.</term> de Armand Paul Favart, fils de Charles Simon Favart et de Marie Duronceray, <date when="1770">né en 1770</date>, filleul du maréchal de Richelieu ; adressées à son neveu Antoine Favart ; <measure type="length" unit="p" n="103">103 pages</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachets.</desc><measure commodity="currency" unit="FRF" quantity="50">50</measure>
                <note>Très intéressante correspondance. Il écrit à son neveu de Pecq. Tournay,
                   Templeuve, Chièvres, en Belgique ; il se plaint de ses fatigues, de son petit
                   traitement, du manque d'avancement : il parle parfois de sa soeur, ex-actrice,

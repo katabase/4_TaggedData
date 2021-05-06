@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <?xml-model href="https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000417">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000418">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -72,24 +72,6 @@
                is not reproduced below.</p>
          </samplingDecl>
          <classDecl>
-                    <taxonomy xml:id="catalogue_type">
-                        <desc>Type of catalogues</desc>
-                        <category xml:id="RDA">
-                            <catDesc>Revue des autographes, des curiosités de l'histoire et de la biographie</catDesc>
-                        </category>
-                        <category xml:id="LAD">
-                            <catDesc>Lettres autographes et documents historiques</catDesc>
-                        </category>
-                        <category xml:id="AUC">
-                            <catDesc>Vente aux enchères</catDesc>
-                        </category>
-                        <category xml:id="LAV">
-                            <catDesc>Ventes Laverdet</catDesc>
-                        </category>
-                        <category xml:id="OTH">
-                            <catDesc>Divers/inconnu</catDesc>
-                        </category>
-                    </taxonomy>
         <taxonomy xml:id="format">
            <desc>Document format</desc>
            <category xml:id="document_format_1">
@@ -171,7 +153,7 @@
               <catDesc>Apostille autographe signée</catDesc>
            </category>
            <category xml:id="document_type_2">
-              <catDesc>Apostille autographe</catDesc>
+              <catDesc>Pièce autographe signée</catDesc>
            </category>
            <category xml:id="document_type_3">
               <catDesc>Pièce autographe</catDesc>
@@ -224,6 +206,26 @@
                <ptr target="https://github.com/MedKhem/grobid-dictionaries"/>
             </application>
          </appInfo>
+<classDecl>
+                    <taxonomy xml:id="catalogue_type">
+                        <desc>Type of catalogues</desc>
+                        <category xml:id="RDA">
+                            <catDesc>Revue des autographes, des curiosités de l'histoire et de la biographie</catDesc>
+                        </category>
+                        <category xml:id="LAD">
+                            <catDesc>Lettres autographes et documents historiques</catDesc>
+                        </category>
+                        <category xml:id="AUC">
+                            <catDesc>Vente aux enchères</catDesc>
+                        </category>
+                        <category xml:id="LAV">
+                            <catDesc>Ventes Laverdet</catDesc>
+                        </category>
+                        <category xml:id="OTH">
+                            <catDesc>Divers/inconnu</catDesc>
+                        </category>
+                    </taxonomy>
+                </classDecl>
       </encodingDesc>
    </teiHeader>
    <text>
@@ -292,7 +294,7 @@
                <trait>
                   <p>célèbre romancier, né près de Versailles en 1789, mort en 1856.</p>
                </trait>
-               <desc xml:id="CAT_000418_e6_d1">L. a. Piété, <term ana="#document_type_2">pièce de vers aut. sig.</term>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_104">in-4 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000418_e6_d1">La Piété, <term ana="#document_type_2">pièce de vers aut. sig.</term>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_104">in-4 obl.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>cement : Il est des malheureux : Oui, tel est sur laterre, Des destins l'arrêt
                   redouté. Mais Dieu près du malheur place la piété, Appui consolation de l'humaine
                   misère. En nos coeurs raniment la foi, Sublime piété ! Bienfesante lumière !
@@ -369,7 +371,7 @@
                <trait>
                   <p>le célèbre auteur dramatique.</p>
                </trait>
-               <desc xml:id="CAT_000418_e13_d1">L. a. coix des Orphelins, <term ana="#document_type_2">pièce de vers aut. sig.</term>; <date when="1788">1788</date>, <measure type="length" unit="p" n="1">1 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle pièce.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000418_e13_d1">La coix des Orphelins, <term ana="#document_type_2">pièce de vers aut. sig.</term>; <date when="1788">1788</date>, <measure type="length" unit="p" n="1">1 p.</measure> pl. <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Belle pièce.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
             <item n="14" xml:id="CAT_000418_e14">
                <num type="lot">14</num>
@@ -1258,7 +1260,7 @@
                   <p>duc de Frioul, grand maréchal du palais de Napoléon Ier, né à Pont-à-Mousson en
                      1778, tué par un boulet à Mackersdorf en 1813.</p>
                </trait>
-               <desc xml:id="CAT_000418_e98_d1">2 let. sig.; Fontainebleau, <date when="1807">1807</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure> et in-fol., cachet.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000418_e98_d1">2 <term ana="#document_type_9">let. sig.</term>; Fontainebleau, <date when="1807">1807</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure> et in-fol., cachet.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Belles lettres écrites comme grand maréchal du palais de l'Empereur.</note>
             </item>
             <item n="99" xml:id="CAT_000418_e99">
@@ -1624,7 +1626,7 @@
                <trait>
                   <p>illustre historien et homme d'Etat, de l'Acad. fr.</p>
                </trait>
-               <desc xml:id="CAT_000418_e125_d1">2 l. <term ana="#document_type_15">a. s.</term>. au vicomte de Fontenay; Paris, <date when="1841">1841</date>-46. <measure type="length" unit="p" n="5">5 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="35">35</measure>
+               <desc xml:id="CAT_000418_e125_d1">2 <term ana="#document_type_7">l. a. s.</term>. au vicomte de Fontenay; Paris, <date when="1841">1841</date>-46. <measure type="length" unit="p" n="5">5 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="35">35</measure>
                <note>Importantes lettres politiques. -Paris, 9 oct. 1841. -« L'opinion d'un homme
                   tel que le prince de Metternich importe toujours beaucoup à connoître... Vous avez
                   eu bien raison de lui dire que l'agitation du recensement (troubles à Toulouse à
@@ -1787,7 +1789,7 @@
             <item n="138" xml:id="CAT_000418_e138">
                <num type="lot">138</num>
                <name type="author">Hugo (Victor)</name>
-               <desc xml:id="CAT_000418_e138_d1">2 l. <term ana="#document_type_15">a. sig.</term> Victor H. à Granier de Cassagnac; <date when="1845">1845</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure></desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <desc xml:id="CAT_000418_e138_d1">2 <term ana="#document_type_7">l. a. sig.</term> Victor H. à Granier de Cassagnac; <date when="1845">1845</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure></desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Curieuses lettres relatives au journal le Globe.</note>
             </item>
             <item n="139" xml:id="CAT_000418_e139">
@@ -1806,7 +1808,7 @@
                <trait>
                   <p>le prince des critiques, de l'Acad. fr.</p>
                </trait>
-               <desc xml:id="CAT_000418_e140_d1">2 l. <term ana="#document_type_15">a. s.</term> à Louis Ulbach; <measure type="length" unit="p" n="5.5">5 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <desc xml:id="CAT_000418_e140_d1">2 <term ana="#document_type_7">l. a. s.</term> à Louis Ulbach; <measure type="length" unit="p" n="5.5">5 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Belles lettres littéraire.  Paris, 10 juillet 1855. Il le félicite de son roman Suzanne Duchemin (roman par
                   lettres) ; à ce propos, il parle d'une oeuvre de jeunesse, sur RitaChristina. Il
                   compare le roman d'Ulbach à un opuscule de Descartes « les pensées de l'âme ». Il
@@ -1825,7 +1827,7 @@
                <trait>
                   <p>reine de Navarre, mère de Henri IV.</p>
                </trait>
-               <desc xml:id="CAT_000418_e141_d1"><term ana="#document_type_7">L. a. s.</term> à Charles IX; L. a. Rochelle, <date when="1571-01-03">3 janvier 1571</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> Très rare.</desc><measure commodity="currency" unit="FRF" quantity="300">300</measure>
+               <desc xml:id="CAT_000418_e141_d1"><term ana="#document_type_7">L. a. s.</term> à Charles IX; La Rochelle, <date when="1571-01-03">3 janvier 1571</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> Très rare.</desc><measure commodity="currency" unit="FRF" quantity="300">300</measure>
                <note>Belle et importante lettre historique. Elle ne peut croire aux protestations
                   d'amitié que le maréchal de Cossé (Arthus de Brissac, dit Gonnort) lui fait de la
                   part de Charles IX: « Nous ne doubtons nullement de vostre intension et bonne
@@ -2504,7 +2506,7 @@
                <trait>
                   <p>savant bibliographe et érudit, né en 1751, mort en 1838.</p>
                </trait>
-               <desc xml:id="CAT_000418_e213_d1"><term ana="#document_type_7">L. a. s.</term> en vers, à Firmin Didot; L. a. Charité, <date when="1808-03-20">20 mars 1808</date>, <measure type="length" unit="p" n="3.5">3 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000418_e213_d1"><term ana="#document_type_7">L. a. s.</term> en vers, à Firmin Didot; La Charité, <date when="1808-03-20">20 mars 1808</date>, <measure type="length" unit="p" n="3.5">3 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Curieuse lettre où il lui demande d'imprimer son Eloge historique de Jean
                   Gutemberg.</note>
             </item>
@@ -3298,7 +3300,7 @@
                   <p>célèbre maréchal de France, de l'Acad. fr., né à Moulins en 1653, mort en 1734.
                     </p>
                </trait>
-               <desc xml:id="CAT_000418_e294_d1">Let. sig.. sig. aussi par Armand de Gontaut, duc de Biron, à M. de <term ana="#document_type_8">L. a.</term> Motte Saint-Paul, à Fontenay-le-Comte (Poitou) ; Paris, <date when="1718-05-08">8 mai 1718</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <desc xml:id="CAT_000418_e294_d1"><term ana="#document_type_9">Let. sig.</term>. sig. aussi par Armand de Gontaut, duc de Biron, à M. de La Motte Saint-Paul, à Fontenay-le-Comte (Poitou) ; Paris, <date when="1718-05-08">8 mai 1718</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
             </item>
             <item n="295" xml:id="CAT_000418_e295">
                <num type="lot">295</num>
@@ -3341,7 +3343,7 @@
                <trait>
                   <p/>
                </trait>
-               <desc xml:id="CAT_000418_e298_d1">3 let. <term ana="#document_type_15">aut. sig.</term> le Suisse V. à Mme de Graffigny; Les Délices et Lausanne, février-mai, <date when="1758">1758</date>, <measure type="length" unit="p" n="11">11 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="200">200</measure>
+               <desc xml:id="CAT_000418_e298_d1">3 <term ana="#document_type_7">let. aut. sig.</term> le Suisse V. à Mme de Graffigny; Les Délices et Lausanne, février-mai, <date when="1758">1758</date>, <measure type="length" unit="p" n="11">11 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="200">200</measure>
                <note>Importantes lettres littéraires. «Nous avons une autre troupe à Lausanne, c'est
                   la troupe d'hiver; madame Denis joue les grands rôles et surtout ceux de mère. Il
                   y a un fils du général Constant, excellent acteur, et un autre encor, et un fils

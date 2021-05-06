@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <?xml-model href="https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000417">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000427">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -72,24 +72,6 @@
                is not reproduced below.</p>
          </samplingDecl>
          <classDecl>
-                    <taxonomy xml:id="catalogue_type">
-                        <desc>Type of catalogues</desc>
-                        <category xml:id="RDA">
-                            <catDesc>Revue des autographes, des curiosités de l'histoire et de la biographie</catDesc>
-                        </category>
-                        <category xml:id="LAD">
-                            <catDesc>Lettres autographes et documents historiques</catDesc>
-                        </category>
-                        <category xml:id="AUC">
-                            <catDesc>Vente aux enchères</catDesc>
-                        </category>
-                        <category xml:id="LAV">
-                            <catDesc>Ventes Laverdet</catDesc>
-                        </category>
-                        <category xml:id="OTH">
-                            <catDesc>Divers/inconnu</catDesc>
-                        </category>
-                    </taxonomy>
         <taxonomy xml:id="format">
            <desc>Document format</desc>
            <category xml:id="document_format_1">
@@ -171,7 +153,7 @@
               <catDesc>Apostille autographe signée</catDesc>
            </category>
            <category xml:id="document_type_2">
-              <catDesc>Apostille autographe</catDesc>
+              <catDesc>Pièce autographe signée</catDesc>
            </category>
            <category xml:id="document_type_3">
               <catDesc>Pièce autographe</catDesc>
@@ -224,6 +206,26 @@
                <ptr target="https://github.com/MedKhem/grobid-dictionaries"/>
             </application>
          </appInfo>
+<classDecl>
+                    <taxonomy xml:id="catalogue_type">
+                        <desc>Type of catalogues</desc>
+                        <category xml:id="RDA">
+                            <catDesc>Revue des autographes, des curiosités de l'histoire et de la biographie</catDesc>
+                        </category>
+                        <category xml:id="LAD">
+                            <catDesc>Lettres autographes et documents historiques</catDesc>
+                        </category>
+                        <category xml:id="AUC">
+                            <catDesc>Vente aux enchères</catDesc>
+                        </category>
+                        <category xml:id="LAV">
+                            <catDesc>Ventes Laverdet</catDesc>
+                        </category>
+                        <category xml:id="OTH">
+                            <catDesc>Divers/inconnu</catDesc>
+                        </category>
+                    </taxonomy>
+                </classDecl>
       </encodingDesc>
    </teiHeader>
    <text>
@@ -502,7 +504,7 @@
             <item n="27" xml:id="CAT_000427_e27">
                <num type="lot">27</num>
                <name type="author">Bonaparte (famille)</name>
-               <desc xml:id="CAT_000427_e27_d1">8 lettres.-Charles, prince de Canino ; 1. <term ana="#document_type_15">a. s.</term>, 1849, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure>, cachet. -Guilio Rasponi, l. <term ana="#document_type_15">a. s.</term> à M. Eug. Lebon secrétaire du prince Bacciochi, 1839, 2 p. in-8.-Madeleine Ramolino, let. sig. à M. Eug. Lebon, Ajaccio, 1841, 1 p. in-4, cachet.-Caroline Pepoli, l. <term ana="#document_type_15">a. s.</term> au même, 1849. 1 p. in-8, cachet.-Guilio Pepoli, l. a. s, au même, 1839, 1 p. in-8.-Zenaïde, princesse de Musignano, l. <term ana="#document_type_15">a. s.</term> au même, 1838, 1 p. in-8.-Joseph Napoléon Bonaparte, prince de Musignano, l. <term ana="#document_type_15">a. s.</term> au même, 1847, 2 p. in-8.-Charles, prince de Musignano, l. <term ana="#document_type_15">a. s.</term> au même, <date when="1837">1837</date>, 3 p. in-4. Intéressant dossier.</desc><measure commodity="currency" unit="FRF" quantity="40">40</measure>
+               <desc xml:id="CAT_000427_e27_d1">8 lettres.-Charles, prince de Canino ; 1. a. s., 1849, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure>, cachet. -Guilio Rasponi, <term ana="#document_type_7">l. a. s.</term> à M. Eug. Lebon secrétaire du prince Bacciochi, 1839, 2 p. in-8.-Madeleine Ramolino, let. sig. à M. Eug. Lebon, Ajaccio, 1841, 1 p. in-4, cachet.-Caroline Pepoli, <term ana="#document_type_7">l. a. s.</term> au même, 1849. 1 p. in-8, cachet.-Guilio Pepoli, l. a. s, au même, 1839, 1 p. in-8.-Zenaïde, princesse de Musignano, <term ana="#document_type_7">l. a. s.</term> au même, 1838, 1 p. in-8.-Joseph Napoléon Bonaparte, prince de Musignano, <term ana="#document_type_7">l. a. s.</term> au même, 1847, 2 p. in-8.-Charles, prince de Musignano, <term ana="#document_type_7">l. a. s.</term> au même, <date when="1837">1837</date>, 3 p. in-4. Intéressant dossier.</desc><measure commodity="currency" unit="FRF" quantity="40">40</measure>
             </item>
             <item n="28" xml:id="CAT_000427_e28">
                <num type="lot">28</num>
@@ -894,7 +896,7 @@
                   <p>oncle du marquis, évêque de Gap, d'Auxerre et de Lisieux, adversaire des
                      jansénistes, né en 1703, mort en 1783.</p>
                </trait>
-               <desc xml:id="CAT_000427_e67_d1">2 l. <term ana="#document_type_15">a. s.</term> et 2 l. s. à l'abbé de Boismont ; <date when="1761">1761-1762</date>, <measure type="length" unit="p" n="6">6 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000427_e67_d1">2 <term ana="#document_type_7">l. a. s.</term> et 2 l. s. à l'abbé de Boismont ; <date when="1761">1761-1762</date>, <measure type="length" unit="p" n="6">6 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Au sujet des revenus de l'abbaye de N.-D. de Grestain (Eure), dont l'abbé de Boismont était titulaire</note>
             </item>
             <item n="68" xml:id="CAT_000427_e68">
@@ -1038,7 +1040,7 @@
                <trait>
                   <p>le plus grand bibliographe de l'Angleterre, né en 1770, mort en 1847.</p>
                </trait>
-               <desc xml:id="CAT_000427_e80_d1">Fin de lettre <term ana="#document_type_15">aut. sig.</term>, <date when="1832">1832</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachet.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000427_e80_d1">Fin de <term ana="#document_type_7">lettre aut. sig.</term>, <date when="1832">1832</date>, <measure type="length" unit="p" n="0.5">1/2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachet.</desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
             </item>
             <item n="81" xml:id="CAT_000427_e81">
                <num type="lot">81</num>
@@ -1462,7 +1464,7 @@
                      on a mis les ouvrages en parallèle avec ceux d'Haydn, accompagnateur de la
                      reine Marie-Antoinette, né à Maubeuge (Nord) en 1774.</p>
                </trait>
-               <desc xml:id="CAT_000427_e119_d1">Fin de lettre <term ana="#document_type_15">aut. sig.</term> à M. Droz ; Marseille, <date when="1810">1810</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000427_e119_d1">Fin de <term ana="#document_type_7">lettre aut. sig.</term> à M. Droz ; Marseille, <date when="1810">1810</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>La signature de Guénin offre cette particularité curieuse que le paraphe
                   représente un violon avec son archet.</note>
             </item>
@@ -1586,7 +1588,7 @@
                   <p>médecin anglais,éditeur du Système de philosophie morale de sonpère, le célèbre
                      philosophe,</p>
                </trait>
-               <desc xml:id="CAT_000427_e131_d1"><term ana="#document_type_7">L. a. s.</term> à L. a. Beaumelle ; Dublin, <date when="1768-01-29">29 janvier 1768</date>, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <desc xml:id="CAT_000427_e131_d1"><term ana="#document_type_7">L. a. s.</term> à La Beaumelle ; Dublin, <date when="1768-01-29">29 janvier 1768</date>, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Très curieuse épître où il parle de l'expulsion des Jésuites de France : « Les
                   procédures contre les Jésuites par toute l'Europe peuvent avoir, et je crois,
                   auront nécessairement des conséquences très importantes. Peut-être furent elles
@@ -1656,7 +1658,7 @@
                      dans Leibniz, contre Maupertuis qui disait l'avoir inventé, membre
                      correspondant de l'Acad. des sciences, né en 1712, mort en 1757.</p>
                </trait>
-               <desc xml:id="CAT_000427_e137_d1">2 l. <term ana="#document_type_15">a. s.</term>, dont une de ses initiales, en français, à Mme de Graffigny ; Berne, <date when="1740">1740</date>. <measure type="length" unit="p" n="7">7 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="35">35</measure>
+               <desc xml:id="CAT_000427_e137_d1">2 <term ana="#document_type_7">l. a. s.</term>, dont une de ses initiales, en français, à Mme de Graffigny ; Berne, <date when="1740">1740</date>. <measure type="length" unit="p" n="7">7 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="35">35</measure>
                <note>Très curieuses lettres où il se plaint vivement de Mme du Chastelet. « Cette
                   femme qui ne trouvait au commencement aucun présent assez considérable pour moi;
                   comme vous le savés, bien loin de m'offrir quelque chose, n'a pas seulement daigné
@@ -2015,7 +2017,7 @@
                   <p>savant astronome français, professeur de Lalande, né en 1688, mort en 1768.
                     </p>
                </trait>
-               <desc xml:id="CAT_000427_e170_d1">Fin de let. sig. ; Paris, <date when="1757-10-18">18 oct. 1757</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <desc xml:id="CAT_000427_e170_d1">Fin de <term ana="#document_type_9">let. sig.</term> ; Paris, <date when="1757-10-18">18 oct. 1757</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
                <note>Intéressante pièce. Il fait imprimer le résultat de ses calculs sur
                   l'apparition d'une comète qui doit avoir lieu en 1758 où 1759, il conteste la
                   prédiction de Halley et déclare être à peu près d'accord avec Klinkenberg.</note>
@@ -2207,7 +2209,7 @@
                   <p>frère de Mme de Pompadour, directeur général des bâtiments, né en 1727, mort en
                      1781.</p>
                </trait>
-               <desc xml:id="CAT_000427_e185_d1">2 let. sig., aux directeurs de la manufacture des glaces ; Versailles, <date when="1757-03-13">13 et 22 mars 1757</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
+               <desc xml:id="CAT_000427_e185_d1">2 <term ana="#document_type_9">let. sig.</term>, aux directeurs de la manufacture des glaces ; Versailles, <date when="1757-03-13">13 et 22 mars 1757</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note>Relative à la fourniture des glaces pour l'appartement du duc de Bouillon au
                   château de Versailles.</note>
             </item>
@@ -2423,7 +2425,7 @@
                <trait>
                   <p>duchesse de Richelieu.</p>
                </trait>
-               <desc xml:id="CAT_000427_e205_d1">8 let. <term ana="#document_type_15">aut. sig.</term>, au ministre Lainé, (<date when="1822">1822</date>), <measure type="length" unit="p" n="21">21 pages</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure>, cachets.</desc><measure commodity="currency" unit="FRF" quantity="35">35</measure>
+               <desc xml:id="CAT_000427_e205_d1">8 <term ana="#document_type_7">let. aut. sig.</term>, au ministre Lainé, (<date when="1822">1822</date>), <measure type="length" unit="p" n="21">21 pages</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure>, cachets.</desc><measure commodity="currency" unit="FRF" quantity="35">35</measure>
                <note>Intéressante correspondance.</note>
             </item>
             <item n="206" xml:id="CAT_000427_e206">
@@ -3165,7 +3167,7 @@
                      Nevers (Philippe Mazarini Mancini) et peut-être bâtard
                      de la maison de Savoie-Soissons.</p>
                </trait>
-               <desc xml:id="CAT_000427_e270_d1">3. l. <term ana="#document_type_15">a. s.</term> au duc de Nevers ou a son premier gentilhomme M. de Taillevent; <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure>, <date when="1684">1684-1688</date>, cachets avec la devise, bis do et semel recipio.</desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <desc xml:id="CAT_000427_e270_d1">3. <term ana="#document_type_7">l. a. s.</term> au duc de Nevers ou a son premier gentilhomme M. de Taillevent; <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure>, <date when="1684">1684-1688</date>, cachets avec la devise, bis do et semel recipio.</desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
             </item>
             <item n="271" xml:id="CAT_000427_e271">
                <num type="lot">271</num>
@@ -3277,7 +3279,7 @@
                <trait>
                   <p>littérateur.</p>
                </trait>
-               <desc xml:id="CAT_000427_e281_d1">4 l. <term ana="#document_type_15">a. s.</term> au président de Ruffey. Verrey, <date when="1754">1754</date>-62, <measure type="length" unit="p" n="8.5">8 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="25">25</measure>
+               <desc xml:id="CAT_000427_e281_d1">4 <term ana="#document_type_7">l. a. s.</term> au président de Ruffey. Verrey, <date when="1754">1754</date>-62, <measure type="length" unit="p" n="8.5">8 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note>9 janvier 1754. Il le félicite d'avoir, dans sa réponse à l'abbé Leblanc, fait l'éloge des Bourguignons célèbres.
                   4 août 1759. Il lui envoie un os antédiluvien et un morceau de sculpture
                   antique que déchiffrera difficilement Dindin (Jehannin de Chamblanc). Dans

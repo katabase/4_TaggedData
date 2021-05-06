@@ -72,24 +72,6 @@
                is not reproduced below.</p>
          </samplingDecl>
          <classDecl>
-                    <taxonomy xml:id="catalogue_type">
-                        <desc>Type of catalogues</desc>
-                        <category xml:id="RDA">
-                            <catDesc>Revue des autographes, des curiosités de l'histoire et de la biographie</catDesc>
-                        </category>
-                        <category xml:id="LAD">
-                            <catDesc>Lettres autographes et documents historiques</catDesc>
-                        </category>
-                        <category xml:id="AUC">
-                            <catDesc>Vente aux enchères</catDesc>
-                        </category>
-                        <category xml:id="LAV">
-                            <catDesc>Ventes Laverdet</catDesc>
-                        </category>
-                        <category xml:id="OTH">
-                            <catDesc>Divers/inconnu</catDesc>
-                        </category>
-                    </taxonomy>
         <taxonomy xml:id="format">
            <desc>Document format</desc>
            <category xml:id="document_format_1">
@@ -171,7 +153,7 @@
               <catDesc>Apostille autographe signée</catDesc>
            </category>
            <category xml:id="document_type_2">
-              <catDesc>Apostille autographe</catDesc>
+              <catDesc>Pièce autographe signée</catDesc>
            </category>
            <category xml:id="document_type_3">
               <catDesc>Pièce autographe</catDesc>
@@ -224,6 +206,26 @@
                <ptr target="https://github.com/MedKhem/grobid-dictionaries"/>
             </application>
          </appInfo>
+<classDecl>
+                    <taxonomy xml:id="catalogue_type">
+                        <desc>Type of catalogues</desc>
+                        <category xml:id="RDA">
+                            <catDesc>Revue des autographes, des curiosités de l'histoire et de la biographie</catDesc>
+                        </category>
+                        <category xml:id="LAD">
+                            <catDesc>Lettres autographes et documents historiques</catDesc>
+                        </category>
+                        <category xml:id="AUC">
+                            <catDesc>Vente aux enchères</catDesc>
+                        </category>
+                        <category xml:id="LAV">
+                            <catDesc>Ventes Laverdet</catDesc>
+                        </category>
+                        <category xml:id="OTH">
+                            <catDesc>Divers/inconnu</catDesc>
+                        </category>
+                    </taxonomy>
+                </classDecl>
       </encodingDesc>
    </teiHeader>
    <text>
@@ -347,7 +349,7 @@
                <trait>
                   <p>célèbre général de la République et de l'Empire, né à Dôle (Jura).</p>
                </trait>
-               <desc xml:id="CAT_000417_e12_d1">7 l. <term ana="#document_type_15">a. s.</term> au général Garbé, <date when="1808">an XI-1808</date>, <measure type="length" unit="p" n="23">23 pages</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="25">25</measure>
+               <desc xml:id="CAT_000417_e12_d1">7 <term ana="#document_type_7">l. a. s.</term> au général Garbé, <date when="1808">an XI-1808</date>, <measure type="length" unit="p" n="23">23 pages</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note>Importante correspondance militaire, en grande partie relative à la campagne
                   d'Egypte et aux officiers qui ont pris part à cette campagne.</note>
             </item>
@@ -400,7 +402,7 @@
                      traduction annotée d'Enée le Tacticien, né à Niort en 1704, mort à Bisseuil en
                      1784.</p>
                </trait>
-               <desc xml:id="CAT_000417_e18_d1">3 l. <term ana="#document_type_15">a. s.</term> au marquis de Langeron, gouverneur de Wesel; Gueldre, <date when="1761-08-12">9-12 août 1761</date>. <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="30">30</measure>
+               <desc xml:id="CAT_000417_e18_d1">3 <term ana="#document_type_7">l. a. s.</term> au marquis de Langeron, gouverneur de Wesel; Gueldre, <date when="1761-08-12">9-12 août 1761</date>. <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="30">30</measure>
                <note>Belles et importantes lettres militaires écrites pendant la guerre de
                   Sept-Ans.</note>
             </item>
@@ -676,7 +678,7 @@
                <trait>
                   <p>homme d'Etat, vice-président de la République, né à Nancy.</p>
                </trait>
-               <desc xml:id="CAT_000417_e47_d1">2 l. <term ana="#document_type_15">a. s.</term>; Paris, <date when="1847">1847</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <desc xml:id="CAT_000417_e47_d1">2 <term ana="#document_type_7">l. a. s.</term>; Paris, <date when="1847">1847</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
             </item>
             <item n="48" xml:id="CAT_000417_e48">
                <num type="lot">48</num>
@@ -1970,7 +1972,7 @@
                   <p>célèbre général du génie de la Révolution et de l'Empire, né à Québec (Canada
                      en 1754, mort en 1824.</p>
                </trait>
-               <desc xml:id="CAT_000417_e184_d1">1° l. <term ana="#document_type_15">a. s.</term> à la citoyenne Fontenay, Mayence. <date when="1798-04-29">10 floréal an VI</date>, <measure type="length" unit="p" n="1.25">1 p. 1/4</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><desc xml:id="CAT_000417_e184_d2">2° 5 let. sig. au général Allent ; Mayence, prairial an <date when="1798-1799">VII</date>, <measure type="length" unit="p" n="12">12 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure> et in-fol.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000417_e184_d1">1° <term ana="#document_type_7">l. a. s.</term> à la citoyenne Fontenay, Mayence. <date when="1798-04-29">10 floréal an VI</date>, <measure type="length" unit="p" n="1.25">1 p. 1/4</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><desc xml:id="CAT_000417_e184_d2">2° 5 <term ana="#document_type_9">let. sig.</term> au général Allent ; Mayence, prairial an <date when="1798-1799">VII</date>, <measure type="length" unit="p" n="12">12 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure> et in-fol.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Intéressantes lettres toutes relatives aux fortifications de Mayence.</note>
             </item>
             <item n="185" xml:id="CAT_000417_e185">
@@ -2054,7 +2056,7 @@
                <trait>
                   <p>roi des Français.</p>
                </trait>
-               <desc xml:id="CAT_000417_e193_d1">3 let. <term ana="#document_type_15">aut. sig.</term> D. à l'abbé de Saint-Albin ; Neuilly, <date when="1820">1820</date>-21, <measure type="length" unit="p" n="4.5">4 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="30">30</measure>
+               <desc xml:id="CAT_000417_e193_d1">3 <term ana="#document_type_7">let. aut. sig.</term> D. à l'abbé de Saint-Albin ; Neuilly, <date when="1820">1820</date>-21, <measure type="length" unit="p" n="4.5">4 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="30">30</measure>
                <note>Intéressantes lettres intimes où il parle de sa famille, de la santé et de la
                   mort de sa mère. «Nous revenons d'Ivry où ma mère nous a permis de retourner
                   vendredi, nous enjoignant toujours de lui mener les enfants. Cette visite a été
@@ -2106,7 +2108,7 @@
                <trait>
                   <p>homme politique et administrateur distingué, né en 1762, mort en 1849.</p>
                </trait>
-               <desc xml:id="CAT_000417_e198_d1">2 l. <term ana="#document_type_15">a. s.</term> à Barras; Naples, an <date when="1798-1799">VII</date>, <measure type="length" unit="p" n="8">8 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> vig.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000417_e198_d1">2 <term ana="#document_type_7">l. a. s.</term> à Barras; Naples, an <date when="1798-1799">VII</date>, <measure type="length" unit="p" n="8">8 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> vig.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Très curieuses lettres relatives à sa mission à Naples et à son expulsion par
                   ordre du général en chef Championnet.</note>
             </item>
@@ -3320,7 +3322,7 @@
             <item n="323" xml:id="CAT_000417_e323">
                <num type="lot">323</num>
                <name type="author">Turquie</name>
-               <desc xml:id="CAT_000417_e323_d1">2 let. sig. du général comte Guilleminot, ambassadeur en Turquie, à M. de Fontenay; Constantinople, <date when="1824">1824</date>-25, <measure type="length" unit="p" n="5">5 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <desc xml:id="CAT_000417_e323_d1">2 <term ana="#document_type_9">let. sig.</term> du général comte Guilleminot, ambassadeur en Turquie, à M. de Fontenay; Constantinople, <date when="1824">1824</date>-25, <measure type="length" unit="p" n="5">5 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Importantes lettres historiques. Malgré les représentations de la France, les
                   Turcs n'ont pas encore évacué la Moldavie; ils céderont sans doute devant les
                   résolutions prises par le tzar Alexandre. La flotte turcoégyptienne a été
@@ -3344,7 +3346,7 @@
             <item n="325" xml:id="CAT_000417_e325">
                <num type="lot">325</num>
                <name type="author">Ancelot (Virginie)</name>
-               <desc xml:id="CAT_000417_e325_d1">Une vie au XIXe siècle, drame en 4 actes, un prologue et un épilogue, <term ana="#document_type_13">manuscrit autographe</term> d'environ <measure type="length" unit="p" n="170">170 pages</measure> petit <measure type="format" unit="f" ana="#document_format_4">in-4</measure> à mi-marges, précédé d'une lettre autographe signée, demi-rel., chagrin rouge.</desc><measure commodity="currency" unit="FRF" quantity="40">40</measure>
+               <desc xml:id="CAT_000417_e325_d1">Une vie au XIXe siècle, drame en 4 actes, un prologue et un épilogue, manuscrit autographe d'environ <measure type="length" unit="p" n="170">170 pages</measure> petit <measure type="format" unit="f" ana="#document_format_4">in-4</measure> à mi-marges, précédé d'une <term ana="#document_type_7">lettre autographe signée</term>, demi-rel., chagrin rouge.</desc><measure commodity="currency" unit="FRF" quantity="40">40</measure>
                <note>La scène se passe, « de nos jours », dans un château près de Toulouse.</note>
             </item>
             <item n="326" xml:id="CAT_000417_e326">
@@ -3399,7 +3401,7 @@
             <item n="332" xml:id="CAT_000417_e332">
                <num type="lot">332</num>
                <name type="author">Quinet (Edgar)</name>
-               <desc xml:id="CAT_000417_e332_d1">L'Esprit nouveau, manuscrit original, en partie autographe, précédé d'une lettre <term ana="#document_type_15">autographe signée</term> et de son portrait-carte photographie, avec envoi autographe signé, 2 vol. gr. <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, demi-rel, chagrin rouge.</desc><measure commodity="currency" unit="FRF" quantity="75">75</measure>
+               <desc xml:id="CAT_000417_e332_d1">L'Esprit nouveau, manuscrit original, en partie autographe, précédé d'une <term ana="#document_type_7">lettre autographe signée</term> et de son portrait-carte photographie, avec envoi autographe signé, 2 vol. gr. <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, demi-rel, chagrin rouge.</desc><measure commodity="currency" unit="FRF" quantity="75">75</measure>
             </item>
             <item n="333" xml:id="CAT_000417_e333">
                <num type="lot">333</num>

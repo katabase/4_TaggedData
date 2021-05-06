@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <?xml-model href="https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000417">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000423">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -72,24 +72,6 @@
                is not reproduced below.</p>
          </samplingDecl>
          <classDecl>
-                    <taxonomy xml:id="catalogue_type">
-                        <desc>Type of catalogues</desc>
-                        <category xml:id="RDA">
-                            <catDesc>Revue des autographes, des curiosités de l'histoire et de la biographie</catDesc>
-                        </category>
-                        <category xml:id="LAD">
-                            <catDesc>Lettres autographes et documents historiques</catDesc>
-                        </category>
-                        <category xml:id="AUC">
-                            <catDesc>Vente aux enchères</catDesc>
-                        </category>
-                        <category xml:id="LAV">
-                            <catDesc>Ventes Laverdet</catDesc>
-                        </category>
-                        <category xml:id="OTH">
-                            <catDesc>Divers/inconnu</catDesc>
-                        </category>
-                    </taxonomy>
         <taxonomy xml:id="format">
            <desc>Document format</desc>
            <category xml:id="document_format_1">
@@ -171,7 +153,7 @@
               <catDesc>Apostille autographe signée</catDesc>
            </category>
            <category xml:id="document_type_2">
-              <catDesc>Apostille autographe</catDesc>
+              <catDesc>Pièce autographe signée</catDesc>
            </category>
            <category xml:id="document_type_3">
               <catDesc>Pièce autographe</catDesc>
@@ -224,6 +206,26 @@
                <ptr target="https://github.com/MedKhem/grobid-dictionaries"/>
             </application>
          </appInfo>
+<classDecl>
+                    <taxonomy xml:id="catalogue_type">
+                        <desc>Type of catalogues</desc>
+                        <category xml:id="RDA">
+                            <catDesc>Revue des autographes, des curiosités de l'histoire et de la biographie</catDesc>
+                        </category>
+                        <category xml:id="LAD">
+                            <catDesc>Lettres autographes et documents historiques</catDesc>
+                        </category>
+                        <category xml:id="AUC">
+                            <catDesc>Vente aux enchères</catDesc>
+                        </category>
+                        <category xml:id="LAV">
+                            <catDesc>Ventes Laverdet</catDesc>
+                        </category>
+                        <category xml:id="OTH">
+                            <catDesc>Divers/inconnu</catDesc>
+                        </category>
+                    </taxonomy>
+                </classDecl>
       </encodingDesc>
    </teiHeader>
    <text>
@@ -281,7 +283,7 @@
                <trait>
                   <p>le célèbre révolutionnaire, né à la Guadeloupe en 1809, mort en 1870.</p>
                </trait>
-               <desc xml:id="CAT_000423_e6_d1">30 l. <term ana="#document_type_15">a. s.</term> ou paraphées à M. Pellet : Vincennes, Doul-lens et La Haye, <date when="1849">1849</date>-64, <measure type="length" unit="p" n="114">114 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="300">300</measure>
+               <desc xml:id="CAT_000423_e6_d1">30 <term ana="#document_type_7">l. a. s.</term> ou paraphées à M. Pellet : Vincennes, Doul-lens et La Haye, <date when="1849">1849</date>-64, <measure type="length" unit="p" n="114">114 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="300">300</measure>
                <note>Précieuses lettres écrites pendant sa captitivité de 1849 à 1854, ou pendant
                   son exil à la Haye. -Les troubles du 13 juin sont qualifiés par Barbès de « Saint
                   Barthélemy de patriotes ». -« Je te remercie bien de m'avoir dédié ta réimpression
@@ -477,7 +479,7 @@
                <trait>
                   <p>roi de Hollande, père de Napoléon III, né en 1778, mort en 1846.</p>
                </trait>
-               <desc xml:id="CAT_000423_e24_d1">22 lettres, dont 1 l. <term ana="#document_type_15">a. s.</term> et 21 l. s., au comte Armaroli ; <date when="1818">1818</date>-37, <measure type="length" unit="p" n="35">35 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachets.</desc><measure commodity="currency" unit="FRF" quantity="150">150</measure>
+               <desc xml:id="CAT_000423_e24_d1">22 lettres, dont 1 <term ana="#document_type_7">l. a. s.</term> et 21 l. s., au comte Armaroli ; <date when="1818">1818</date>-37, <measure type="length" unit="p" n="35">35 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachets.</desc><measure commodity="currency" unit="FRF" quantity="150">150</measure>
                <note>Très intéressante correspondance au sujet de l'administration de ses biens en
                   Italie. On y voit qu'à ce propos il était en relations avec le prince Eugène et
                   Madame Mère (Letizia).</note>
@@ -1367,7 +1369,7 @@
                <trait>
                   <p>l'illustrepoète</p>
                </trait>
-               <desc xml:id="CAT_000423_e116_d1">2 let. <term ana="#document_type_15">aut. sig.</term> V. H., <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure>, et in-18. Curieuses.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000423_e116_d1">2 <term ana="#document_type_7">let. aut. sig.</term> V. H., <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure>, et in-18. Curieuses.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
             <item n="117" xml:id="CAT_000423_e117">
                <num type="lot">117</num>
@@ -1511,7 +1513,7 @@
                <trait>
                   <p>célèbre homme d'Etat du XVIIIe siècle, né en 1598, mort en 1681.</p>
                </trait>
-               <desc xml:id="CAT_000423_e132_d1">5 let. sig. avec la souscript. aut. au marquis de Poyanne, gouverneur de Navarrens et de Dax ; <date when="1651">1651</date>-53, <measure type="length" unit="p" n="7">7 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><measure commodity="currency" unit="FRF" quantity="30">30</measure>
+               <desc xml:id="CAT_000423_e132_d1">5 <term ana="#document_type_9">let. sig.</term> avec la souscript. aut. au marquis de Poyanne, gouverneur de Navarrens et de Dax ; <date when="1651">1651</date>-53, <measure type="length" unit="p" n="7">7 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><measure commodity="currency" unit="FRF" quantity="30">30</measure>
                <note>Importantes lettres historiques. Le roi ne veut plus que l'on convoque les
                   Etats généraux, après assemblées préalables ; on s'en tiendra à ce qui s'est fait
                   en 1614. (Pour apaiser les Frondeurs, on avait songé à l'élection d'Etats généraux
@@ -1763,7 +1765,7 @@
                   <p>l'illustre ministre et défenseur de Louis XVI, né en 1721, guillotiné en 1794.
                     </p>
                </trait>
-               <desc xml:id="CAT_000423_e157_d1">1° <term ana="#document_type_9">Let. sig.</term> à l'abbé Boudot; <date when="1754-05-30">30 mai 1754</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Comme directeur de la librairie, il le prie d'examiner le Calendrier des Princes et de la Noblesse.</desc><desc xml:id="CAT_000423_e157_d2">2° 2 let. aut. à M. de Bois-gibault ; <date when="1775">1775-1776</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <desc xml:id="CAT_000423_e157_d1">1° <term ana="#document_type_9">Let. sig.</term> à l'abbé Boudot; <date when="1754-05-30">30 mai 1754</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Comme directeur de la librairie, il le prie d'examiner le Calendrier des Princes et de la Noblesse.</desc><desc xml:id="CAT_000423_e157_d2">2° 2 <term ana="#document_type_8">let. aut.</term> à M. de Bois-gibault ; <date when="1775">1775-1776</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Il le prie de transmettre à M. de Barentin (son successeur à la présidence de
                   la cour des aides) le projet de modification aux dépen ses de la maison du Roi.
                   -Suit la note accompagnant cette lettre ; on ne peut supprimer les charges
@@ -1872,7 +1874,7 @@
                   <p>personnage fameux par l'enlèvement des diamants de la reine de Westphalie et le
                      soufflet donné à Talleyrand, né en Bretagne en 1784, mort en 1868.</p>
                </trait>
-               <desc xml:id="CAT_000423_e167_d1">2 l. <term ana="#document_type_15">a. s.</term> à Belmontet ; Paris et Cholet, <date when="1855">1855</date>-58, <measure type="length" unit="p" n="12">12 p.</measure> in-fol. et <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="25">25</measure>
+               <desc xml:id="CAT_000423_e167_d1">2 <term ana="#document_type_7">l. a. s.</term> à Belmontet ; Paris et Cholet, <date when="1855">1855</date>-58, <measure type="length" unit="p" n="12">12 p.</measure> in-fol. et <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note>Très curieuses lettres. Il réclame au gouvernement impérial un arriéré de
                   pension ; il oublie ses torts envers la famille Bonaparte et rappelle qu'il a
                   souffleté Talleyrand en 1858, il félicite l'empereur d'avoir échappé aux bombes
@@ -1930,7 +1932,7 @@
                      premiers fondateurs de l'Indépendance de l'Amérique espagnole, né en 1712, mort
                      en 1816.</p>
                </trait>
-               <desc xml:id="CAT_000423_e173_d1">8 let. <term ana="#document_type_15">aut. sig.</term> de ses initiales, en français, à la marquise de Custine (Delphine de Sabran) ; Paris, <date when="1795">1795-1797</date>, <measure type="length" unit="p" n="12">12 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure> et in-4, cachets. Rares.</desc><measure commodity="currency" unit="FRF" quantity="100">100</measure>
+               <desc xml:id="CAT_000423_e173_d1">8 <term ana="#document_type_7">let. aut. sig.</term> de ses initiales, en français, à la marquise de Custine (Delphine de Sabran) ; Paris, <date when="1795">1795-1797</date>, <measure type="length" unit="p" n="12">12 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure> et in-4, cachets. Rares.</desc><measure commodity="currency" unit="FRF" quantity="100">100</measure>
                <note>Très curieuse correspondance écrite à l'époque de la Révolution. Il a vu chez
                   Lanjuinais Mme de la Fayette en pleurs qui sollicitait pour son mari ; il a rendu
                   visite à Mme de Stael ; il parle aussi de son évasion et des dangers qu'il a
@@ -2219,7 +2221,7 @@
                   <p>homme politique, fils du ministre de Louis-Philippe, ministre de l'Intérieur
                      sous M. Thiers</p>
                </trait>
-               <desc xml:id="CAT_000423_e199_d1">2 l. <term ana="#document_type_15">a. s.</term> à Perregaux ; Londres, <date when="1831">1831</date>, <measure type="length" unit="p" n="12">12 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000423_e199_d1">2 <term ana="#document_type_7">l. a. s.</term> à Perregaux ; Londres, <date when="1831">1831</date>, <measure type="length" unit="p" n="12">12 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Curieuses lettres. Il est à l'ambassade comme en famille ; M. de Talleyrand me
                   témoigne beaucoup d'amitié (dont au reste je sais bien a qui attribuer tout le
                   mérite), sa conversation, ses anecdotes racontées avec tant d'esprit et de grâce,
@@ -2312,7 +2314,7 @@
                      compatriote, fut au service de l'Angleterre, puis de la Russie, né près
                      d'Ajaccio en 1764. mort en 1842.</p>
                </trait>
-               <desc xml:id="CAT_000423_e208_d1">2 let. sig. à André Ceccaldi ; Bastia, <date when="1795">1795</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
+               <desc xml:id="CAT_000423_e208_d1">2 <term ana="#document_type_9">let. sig.</term> à André Ceccaldi ; Bastia, <date when="1795">1795</date>, <measure type="length" unit="p" n="2">2 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note>Belles lettres au sujet de la levée des milices à Santa Maria Penta,
                   acquatella, de la nomination des officiers dans celle de Loretto, on en référera
                   au vice roi anglais, George Elliot.»</note>
@@ -2503,7 +2505,7 @@
                   <p>amiral français, ministre de la marine, de l'Acad. des sciences, né à Dijon en
                      1781, mort en 1854.</p>
                </trait>
-               <desc xml:id="CAT_000423_e228_d1">6 l. <term ana="#document_type_15">a. s.</term> et 1 let. sig. à MM. Arago et Jullien ; Paris et Thérapia, <measure type="length" unit="p" n="22">22 pages</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="40">40</measure>
+               <desc xml:id="CAT_000423_e228_d1">6 <term ana="#document_type_7">l. a. s.</term> et 1 let. sig. à MM. Arago et Jullien ; Paris et Thérapia, <measure type="length" unit="p" n="22">22 pages</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="40">40</measure>
                <note>Intéressante correspondance. Il fait l'éloge d'une notice de Sismondi sur une
                   expédition dirigée contre Alger. Il rectifie un article de l'annuaire historique
                   sur son expédition à l'embouchure du Tage en 1831 lorsqu'il obligea don Miguel à
@@ -2921,7 +2923,7 @@
                   <p>célèbre médecin suisse du XVIIIe siècle, auteur de l'Onanisme, né à Grancy
                      (dans le pays de Vaud) en 1728, mort en 1797.</p>
                </trait>
-               <desc xml:id="CAT_000423_e271_d1">20 l. <term ana="#document_type_15">a. s.</term> au prince de Wurtemberg. à Renens; Lausanne, <date when="1765">1765</date>68, <measure type="length" unit="p" n="33">33 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, et in-8. Cachets.</desc><measure commodity="currency" unit="FRF" quantity="150">150</measure>
+               <desc xml:id="CAT_000423_e271_d1">20 <term ana="#document_type_7">l. a. s.</term> au prince de Wurtemberg. à Renens; Lausanne, <date when="1765">1765</date>68, <measure type="length" unit="p" n="33">33 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, et in-8. Cachets.</desc><measure commodity="currency" unit="FRF" quantity="150">150</measure>
                <note>Très précieuse correspondance scientifique et littéraire.</note>
             </item>
             <item n="272" xml:id="CAT_000423_e272">
@@ -3004,7 +3006,7 @@
                <trait>
                   <p>le grand peintre d'histoire, né en 1789, mort en 1863.</p>
                </trait>
-               <desc xml:id="CAT_000423_e280_d1">2 let. sig. avec la souscript. aut. ; château de Bormettes à Hyères (Var), <date when="1862-04">avril 1862</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000423_e280_d1">2 <term ana="#document_type_9">let. sig.</term> avec la souscript. aut. ; château de Bormettes à Hyères (Var), <date when="1862-04">avril 1862</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
                <note>Belles lettres relatives à son état de santé, qui l'empêche d'assister aux
                   séances de l'Institut.</note>
             </item>
@@ -3249,12 +3251,12 @@
             <item n="304" xml:id="CAT_000423_e304">
                <num type="lot">304</num>
                <name type="author">Auvergne</name>
-               <desc xml:id="CAT_000423_e304_d1">6 l. <term ana="#document_type_15">a. s</term> et <measure type="length" unit="p" n="1">1 p.</measure> s. du baron Favard de Langlade, député du Puy-de-Dôme, an XI, <date when="1807">1807</date>, 7 p. <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, et in-fol. Intéressante correspondance.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000423_e304_d1">6 <term ana="#document_type_7">l. a. s</term> et <measure type="length" unit="p" n="1">1 p.</measure> s. du baron Favard de Langlade, député du Puy-de-Dôme, an XI, <date when="1807">1807</date>, 7 p. <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, et in-fol. Intéressante correspondance.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
             <item n="305" xml:id="CAT_000423_e305">
                <num type="lot">305</num>
                <name type="author">Bretagne</name>
-               <desc xml:id="CAT_000423_e305_d1">3 l. <term ana="#document_type_15">a. s.</term> et 1 pièce originale de Nicolas Etienne Framery, lit-térateur, agent dramatique, né à Rennes en 1745, mort en 1810, au compositeur Champein ; <date when="1793">1793-1797</date>, <measure type="length" unit="p" n="12">12 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
+               <desc xml:id="CAT_000423_e305_d1">3 <term ana="#document_type_7">l. a. s.</term> et 1 pièce originale de Nicolas Etienne Framery, lit-térateur, agent dramatique, né à Rennes en 1745, mort en 1810, au compositeur Champein ; <date when="1793">1793-1797</date>, <measure type="length" unit="p" n="12">12 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note>Intéressante correspondance. Il lui annonce qu'il ne veut pas percevoir les
                   droits à lui dûs dans les départements, au théâtre Feydeau, à celui de Marseille.
                   Il l'informe qu'une société de paroliers et de musiciens veut faire concurrence à
@@ -3353,7 +3355,7 @@
             <item n="315" xml:id="CAT_000423_e315">
                <num type="lot">315</num>
                <name type="author">Turquie</name>
-               <desc xml:id="CAT_000423_e315_d1">2 l. <term ana="#document_type_15">a. s.</term> du vicomte Stratford de Redcliffe, ambassadeur à Constantinople ; à Edmond de la Cour ; Thérapia et Péra, <date when="1833">1833</date>, <measure type="length" unit="p" n="7">7 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
+               <desc xml:id="CAT_000423_e315_d1">2 <term ana="#document_type_7">l. a. s.</term> du vicomte Stratford de Redcliffe, ambassadeur à Constantinople ; à Edmond de la Cour ; Thérapia et Péra, <date when="1833">1833</date>, <measure type="length" unit="p" n="7">7 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note>Il ne faut pas rester dans l'inaction au sujet de la question des Lieux-Saints
                   et des difficultés russo turques; « je prends la partie de vous proposer d'ouvrir
                   notre campagne pacifique par le moyen de nos interprètes respectifs. J'espère que
@@ -3438,7 +3440,7 @@
             <item n="320" xml:id="CAT_000423_e320">
                <num type="lot">320</num>
                <name type="author">Restauration</name>
-               <desc xml:id="CAT_000423_e320_d1">15 let. <term ana="#document_type_15">aut. sig.</term> de la princesse Borghèse Aldobrandini (Adèle-Marie-Constance de La Rochefoucauld), au chevalier de Fontenay ; Paris, <date when="1814">1814</date> 19, <measure type="length" unit="p" n="39">39 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachets.</desc><measure commodity="currency" unit="FRF" quantity="45">45</measure>
+               <desc xml:id="CAT_000423_e320_d1">15 <term ana="#document_type_7">let. aut. sig.</term> de la princesse Borghèse Aldobrandini (Adèle-Marie-Constance de La Rochefoucauld), au chevalier de Fontenay ; Paris, <date when="1814">1814</date> 19, <measure type="length" unit="p" n="39">39 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachets.</desc><measure commodity="currency" unit="FRF" quantity="45">45</measure>
                <note>Importante correspondance dont voici une analyse sommaire : Elle reproche à M.
                   de Fontenay de lui avoir attiré une lettre ful. minante de son beau-frère
                   (Borghèse), elle y parle de la comtesse d'Albany et de Bacciochi. -Nous avons ici

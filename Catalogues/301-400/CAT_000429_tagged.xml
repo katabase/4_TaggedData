@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <?xml-model href="https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000417">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000429">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -74,24 +74,6 @@
                is not reproduced below.</p>
          </samplingDecl>
          <classDecl>
-                    <taxonomy xml:id="catalogue_type">
-                        <desc>Type of catalogues</desc>
-                        <category xml:id="RDA">
-                            <catDesc>Revue des autographes, des curiosités de l'histoire et de la biographie</catDesc>
-                        </category>
-                        <category xml:id="LAD">
-                            <catDesc>Lettres autographes et documents historiques</catDesc>
-                        </category>
-                        <category xml:id="AUC">
-                            <catDesc>Vente aux enchères</catDesc>
-                        </category>
-                        <category xml:id="LAV">
-                            <catDesc>Ventes Laverdet</catDesc>
-                        </category>
-                        <category xml:id="OTH">
-                            <catDesc>Divers/inconnu</catDesc>
-                        </category>
-                    </taxonomy>
         <taxonomy xml:id="format">
            <desc>Document format</desc>
            <category xml:id="document_format_1">
@@ -173,7 +155,7 @@
               <catDesc>Apostille autographe signée</catDesc>
            </category>
            <category xml:id="document_type_2">
-              <catDesc>Apostille autographe</catDesc>
+              <catDesc>Pièce autographe signée</catDesc>
            </category>
            <category xml:id="document_type_3">
               <catDesc>Pièce autographe</catDesc>
@@ -226,6 +208,26 @@
                <ptr target="https://github.com/MedKhem/grobid-dictionaries"/>
             </application>
          </appInfo>
+<classDecl>
+                    <taxonomy xml:id="catalogue_type">
+                        <desc>Type of catalogues</desc>
+                        <category xml:id="RDA">
+                            <catDesc>Revue des autographes, des curiosités de l'histoire et de la biographie</catDesc>
+                        </category>
+                        <category xml:id="LAD">
+                            <catDesc>Lettres autographes et documents historiques</catDesc>
+                        </category>
+                        <category xml:id="AUC">
+                            <catDesc>Vente aux enchères</catDesc>
+                        </category>
+                        <category xml:id="LAV">
+                            <catDesc>Ventes Laverdet</catDesc>
+                        </category>
+                        <category xml:id="OTH">
+                            <catDesc>Divers/inconnu</catDesc>
+                        </category>
+                    </taxonomy>
+                </classDecl>
       </encodingDesc>
    </teiHeader>
    <text>
@@ -386,7 +388,7 @@
                   <p>brave général de l'armée d'Afrique, blessé pendant l'insurrection de juin 1848,
                      né près de Nantes.</p>
                </trait>
-               <desc xml:id="CAT_000429_e17_d1">6 let. sig. au colonel Régeau; Constantine, <date when="1846-05">mai 1846</date>, <measure type="length" unit="p" n="11">11 pages</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000429_e17_d1">6 <term ana="#document_type_9">let. sig.</term> au colonel Régeau; Constantine, <date when="1846-05">mai 1846</date>, <measure type="length" unit="p" n="11">11 pages</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Intéressante correspondance toute relative à la guerre d'Afrique.</note>
             </item>
             <item n="18" xml:id="CAT_000429_e18">
@@ -418,7 +420,7 @@
                <trait>
                   <p>un des plus grands pontifes qui aient gouverné l'Eglise.</p>
                </trait>
-               <desc xml:id="CAT_000429_e20_d1">Post-scriptum aut., sur une lettre <term ana="#document_type_15">aut. sig.</term> de Angelo Arfelli, camérier; <date when="1748">Rome 28 février 1748</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
+               <desc xml:id="CAT_000429_e20_d1">Post-scriptum aut., sur une <term ana="#document_type_7">lettre aut. sig.</term> de Angelo Arfelli, camérier; <date when="1748">Rome 28 février 1748</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><measure commodity="currency" unit="FRF" quantity="8">8</measure>
             </item>
             <item n="21" xml:id="CAT_000429_e21">
                <num type="lot">21</num>
@@ -1234,7 +1236,7 @@
                   <p>statuaire et écrivain distingué, connue sous le pseudonyme de Gustave
                      Haller.</p>
                </trait>
-               <desc xml:id="CAT_000429_e96_d1">2 l. <term ana="#document_type_15">a. s.</term> ; <date when="1874">Paris 5 juin 1874</date>, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_18">in-18.</measure></desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <desc xml:id="CAT_000429_e96_d1">2 <term ana="#document_type_7">l. a. s.</term> ; <date when="1874">Paris 5 juin 1874</date>, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_18">in-18.</measure></desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
             </item>
             <item n="97" xml:id="CAT_000429_e97">
                <num type="lot">97</num>
@@ -1314,7 +1316,7 @@
                <trait>
                   <p>célèbre publiciste légitimiste, né à Montélimar.</p>
                </trait>
-               <desc xml:id="CAT_000429_e103_d1">2 let. aut. à M. Lubis; Londres, <date when="1835">1835</date>, <measure type="length" unit="p" n="6.5">6 p. 1/2</measure> in 4. Intéressantes lettres politiques.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
+               <desc xml:id="CAT_000429_e103_d1">2 <term ana="#document_type_8">let. aut.</term> à M. Lubis; Londres, <date when="1835">1835</date>, <measure type="length" unit="p" n="6.5">6 p. 1/2</measure> in 4. Intéressantes lettres politiques.</desc><measure commodity="currency" unit="FRF" quantity="10">10</measure>
             </item>
             <item n="104" xml:id="CAT_000429_e104">
                <num type="lot">104</num>
@@ -1383,7 +1385,7 @@
                   <p>célèbre général, aide de camp de Souvarow, né au château de Périer en 1766,
                      mort à Nice en 1836.</p>
                </trait>
-               <desc xml:id="CAT_000429_e110_d1">2 l. <term ana="#document_type_15">a. s.</term> au comte de Montlosier , Aix, <date when="1830">juillet-nov. 1830</date>, <measure type="length" unit="p" n="5.5">5 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachet. Intéressantes</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000429_e110_d1">2 <term ana="#document_type_7">l. a. s.</term> au comte de Montlosier , Aix, <date when="1830">juillet-nov. 1830</date>, <measure type="length" unit="p" n="5.5">5 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Cachet. Intéressantes</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
             <item n="111" xml:id="CAT_000429_e111">
                <num type="lot">111</num>
@@ -2394,7 +2396,7 @@
                <trait>
                   <p>compositeur français, né en 1824.</p>
                </trait>
-               <desc xml:id="CAT_000429_e207_d1">Morceau de musique avec parole s<term ana="#document_type_15">aut. sig.</term>; Paris, <date when="1878-12-20">20 décembre 1878</date>, <measure type="length" unit="p" n="1">1 p.</measure> in-fol. et let. <term ana="#document_type_15">aut. sig.</term> 1 p. <measure type="format" unit="f" ana="#document_format_8">in-8</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
+               <desc xml:id="CAT_000429_e207_d1">Morceau de musique avec parole saut. sig.; Paris, <date when="1878-12-20">20 décembre 1878</date>, <measure type="length" unit="p" n="1">1 p.</measure> in-fol. et <term ana="#document_type_7">let. aut. sig.</term> 1 p. <measure type="format" unit="f" ana="#document_format_8">in-8</measure></desc><measure commodity="currency" unit="FRF" quantity="5">5</measure>
                <note>Jolies pièces. Dona Balbine, poèmes et chants 1er livre, paroles de Théophile
                   Gautier.»</note>
             </item>
@@ -2512,7 +2514,7 @@
                <trait>
                   <p>le célèbre poète boulanger de Nîmes.</p>
                </trait>
-               <desc xml:id="CAT_000429_e219_d1">3 l. <term ana="#document_type_15">a. s.</term> à Mme Adèle Genton ; Nîmes, <date when="1846">1846</date>, <measure type="length" unit="p" n="4.5">4 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Intéressantes lettres littéraires.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000429_e219_d1">3 <term ana="#document_type_7">l. a. s.</term> à Mme Adèle Genton ; Nîmes, <date when="1846">1846</date>, <measure type="length" unit="p" n="4.5">4 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Intéressantes lettres littéraires.</desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
             </item>
             <item n="220" xml:id="CAT_000429_e220">
                <num type="lot">220</num>
@@ -2634,7 +2636,7 @@
                   <p>célèbre peintre de bas-reliefs ; il fut peintre de Louis XVI; et membre de
                      l'Acad. de peinture, né à Tournai en 1747, mort en 1818.</p>
                </trait>
-               <desc xml:id="CAT_000429_e231_d1">3 l. <term ana="#document_type_15">a. s.</term> (dont une écrite par sa femme à M. de Fontenelle, garde des dessins de l'Acad. de Montpellier ; <measure type="length" unit="p" n="9">9 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachets, reliées.</desc><measure commodity="currency" unit="FRF" quantity="25">25</measure>
+               <desc xml:id="CAT_000429_e231_d1">3 <term ana="#document_type_7">l. a. s.</term> (dont une écrite par sa femme à M. de Fontenelle, garde des dessins de l'Acad. de Montpellier ; <measure type="length" unit="p" n="9">9 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachets, reliées.</desc><measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note>Paris, 29 aout 1787. -Il l'entretient du salon de peinture ; David y expose la
                   mort de Socrate, Mme Lebrun des portraits, Vien des tableaux charmants; il lui
                   promet un dessus de boite dans le goût des peintures d'Herculanum. Paris, 13
@@ -2658,7 +2660,7 @@
                      auquel il fournit des documents pour son Histoire de Pierre--Le-Grand, né en
                      1727, mort en 1797.</p>
                </trait>
-               <desc xml:id="CAT_000429_e233_d1">12 l. <term ana="#document_type_15">a. s.</term>, en français, à sir William Hamilton, ambassadeur d'Angleterre à Naples ; <date when="1768">1768-1771</date>. <measure type="length" unit="p" n="25">25 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="300">300</measure>
+               <desc xml:id="CAT_000429_e233_d1">12 <term ana="#document_type_7">l. a. s.</term>, en français, à sir William Hamilton, ambassadeur d'Angleterre à Naples ; <date when="1768">1768-1771</date>. <measure type="length" unit="p" n="25">25 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="300">300</measure>
                <note>Intéressante correspondance dont voici une analyse sommaire : Rome. 19 juillet
                   1768. -« M. et Mme de Paur, qui me chargent de vous dire mille belles choses de
                   leur part, quittent Rome demain ; ils soupent chés moi aujourd'hui au jardin sur
@@ -2735,7 +2737,7 @@
                   <p>petite-fille de Mme de Sevigné et son émule dans le style épistolaire, née en
                      1674, morte en 1737.</p>
                </trait>
-               <desc xml:id="CAT_000429_e237_d1"><date when="1731">41 lettres <term ana="#document_type_15">autographes</term> et 1 lettre autographe signée 1731-1737</date> , B. J. du Trousset d'Héricourt, intendant de la marine à Marseille, puisà Toulon ; <measure type="length" unit="p" n="162">162 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachets, reliées.</desc><measure commodity="currency" unit="FRF" quantity="800">800</measure>
+               <desc xml:id="CAT_000429_e237_d1"><date when="1731">41 lettres autographes et 1 <term ana="#document_type_7">lettre autographe signée</term> 1731-1737</date> , B. J. du Trousset d'Héricourt, intendant de la marine à Marseille, puisà Toulon ; <measure type="length" unit="p" n="162">162 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachets, reliées.</desc><measure commodity="currency" unit="FRF" quantity="800">800</measure>
                <note>Précieuse correspondance dont voici une analyse sommaire : -Aix, 3 decembre -«
                   Je n'ay pas commencée n'y imaginée le mariage de M. d'Arcussias avec Mlle de
                   Sabran, mais comme j'ay l'honneur d'apartenir à ceus cy et que j'ay fort connu
@@ -2979,7 +2981,7 @@
                <trait>
                   <p>littérateur érudit. bibliothécaire de Besançon, né en 1779, mort en 1866.</p>
                </trait>
-               <desc xml:id="CAT_000429_e257_d1">5 l. <term ana="#document_type_15">a. s.</term> à M. Durand de Lançon <measure type="length" unit="p" n="15">15 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
+               <desc xml:id="CAT_000429_e257_d1">5 <term ana="#document_type_7">l. a. s.</term> à M. Durand de Lançon <measure type="length" unit="p" n="15">15 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="15">15</measure>
                <note>Correspondance intéressante dont voici une courte analyse : (22 mars 1828). Il
                   se plaint des lacunes de la biographie Michaud et du dict. de Quérard, il s'occupe
                   d'une biographie de Gilbert Cousin et regrette la dispersion du cabinet de M. de
@@ -3194,7 +3196,7 @@
                <trait>
                   <p>l'illustre général de la République.</p>
                </trait>
-               <desc xml:id="CAT_000429_e274_d1">3 l. <term ana="#document_type_15">a. s.</term> de la comtesse des Roys, née Hoche, fille unique du général au comte de Montlosier ; <date when="1835">1835</date>, <measure type="length" unit="p" n="4.5">4 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure>-On a joint une l. <term ana="#document_type_15">a. s.</term> du comte des Roys, son mari au comte de Montlosier ; château d'Eschandelys, <date when="1835">1835</date>, 3 p. in-4. Intéressantes.</desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
+               <desc xml:id="CAT_000429_e274_d1">3 <term ana="#document_type_7">l. a. s.</term> de la comtesse des Roys, née Hoche, fille unique du général au comte de Montlosier ; <date when="1835">1835</date>, <measure type="length" unit="p" n="4.5">4 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure>-On a joint une <term ana="#document_type_7">l. a. s.</term> du comte des Roys, son mari au comte de Montlosier ; château d'Eschandelys, <date when="1835">1835</date>, 3 p. in-4. Intéressantes.</desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
             </item>
             <item n="275" xml:id="CAT_000429_e275">
                <num type="lot">275</num>

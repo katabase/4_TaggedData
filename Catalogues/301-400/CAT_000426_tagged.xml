@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <?xml-model href="https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000417">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000426">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -72,24 +72,6 @@
                is not reproduced below.</p>
          </samplingDecl>
          <classDecl>
-                    <taxonomy xml:id="catalogue_type">
-                        <desc>Type of catalogues</desc>
-                        <category xml:id="RDA">
-                            <catDesc>Revue des autographes, des curiosités de l'histoire et de la biographie</catDesc>
-                        </category>
-                        <category xml:id="LAD">
-                            <catDesc>Lettres autographes et documents historiques</catDesc>
-                        </category>
-                        <category xml:id="AUC">
-                            <catDesc>Vente aux enchères</catDesc>
-                        </category>
-                        <category xml:id="LAV">
-                            <catDesc>Ventes Laverdet</catDesc>
-                        </category>
-                        <category xml:id="OTH">
-                            <catDesc>Divers/inconnu</catDesc>
-                        </category>
-                    </taxonomy>
         <taxonomy xml:id="format">
            <desc>Document format</desc>
            <category xml:id="document_format_1">
@@ -171,7 +153,7 @@
               <catDesc>Apostille autographe signée</catDesc>
            </category>
            <category xml:id="document_type_2">
-              <catDesc>Apostille autographe</catDesc>
+              <catDesc>Pièce autographe signée</catDesc>
            </category>
            <category xml:id="document_type_3">
               <catDesc>Pièce autographe</catDesc>
@@ -224,6 +206,26 @@
                <ptr target="https://github.com/MedKhem/grobid-dictionaries"/>
             </application>
          </appInfo>
+<classDecl>
+                    <taxonomy xml:id="catalogue_type">
+                        <desc>Type of catalogues</desc>
+                        <category xml:id="RDA">
+                            <catDesc>Revue des autographes, des curiosités de l'histoire et de la biographie</catDesc>
+                        </category>
+                        <category xml:id="LAD">
+                            <catDesc>Lettres autographes et documents historiques</catDesc>
+                        </category>
+                        <category xml:id="AUC">
+                            <catDesc>Vente aux enchères</catDesc>
+                        </category>
+                        <category xml:id="LAV">
+                            <catDesc>Ventes Laverdet</catDesc>
+                        </category>
+                        <category xml:id="OTH">
+                            <catDesc>Divers/inconnu</catDesc>
+                        </category>
+                    </taxonomy>
+                </classDecl>
       </encodingDesc>
    </teiHeader>
    <text>
@@ -425,7 +427,7 @@
                      s'offrit en otage pour Louis XVI, cousin de Rivarol, né en 1756, mort en 1817.
                     </p>
                </trait>
-               <desc xml:id="CAT_000426_e20_d1">4 l. <term ana="#document_type_15">a. s.</term> à M. d'Audiffret, son cousin ; <date when="1788">1788-1804</date>. <measure type="length" unit="p" n="9">9 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="30">30</measure>
+               <desc xml:id="CAT_000426_e20_d1">4 <term ana="#document_type_7">l. a. s.</term> à M. d'Audiffret, son cousin ; <date when="1788">1788-1804</date>. <measure type="length" unit="p" n="9">9 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure></desc><measure commodity="currency" unit="FRF" quantity="30">30</measure>
                <note>Très intéressantes lettres dont voici une analyse sommaire : Paris, 9 novembre
                   1788. Il donne tous ses noms et titres ainsi que ceux de sa femme, née de Cauchon
                   de Maupas, et les indications pour le baptême d'un enfant dont il attend la
@@ -519,7 +521,7 @@
                   <p>maréchal de l'Empire, puis roi de Suède sous le nom de Charles Jean XIV, né à
                      Pau en 1764, mort en 1844.</p>
                </trait>
-               <desc xml:id="CAT_000426_e28_d1">4 let. sig. avec 4 lig. aut. au citoyen Brêchet, commandant la place de Trieste. Quartier général de Saint-Michel et Neumarck, ans V-VI, <measure type="length" unit="p" n="5.5">5 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> cachets, vig.</desc><measure commodity="currency" unit="FRF" quantity="30">30</measure>
+               <desc xml:id="CAT_000426_e28_d1">4 <term ana="#document_type_9">let. sig.</term> avec 4 lig. aut. au citoyen Brêchet, commandant la place de Trieste. Quartier général de Saint-Michel et Neumarck, ans V-VI, <measure type="length" unit="p" n="5.5">5 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> cachets, vig.</desc><measure commodity="currency" unit="FRF" quantity="30">30</measure>
                <note>Importantes lettres relatives au traité de Campo-Formio.</note>
             </item>
             <item n="29" xml:id="CAT_000426_e29">
@@ -1446,7 +1448,7 @@
                   <p>célèbre général de la République et de l'Empire, né en 1766. tué devant Gaëte
                      en 1806.</p>
                </trait>
-               <desc xml:id="CAT_000426_e119_d1">2 let. sig. au ciloyen Courrière ; quartier géneral de Montaigu, au IV, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
+               <desc xml:id="CAT_000426_e119_d1">2 <term ana="#document_type_9">let. sig.</term> au ciloyen Courrière ; quartier géneral de Montaigu, au IV, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="6">6</measure>
             </item>
             <item n="120" xml:id="CAT_000426_e120">
                <num type="lot">120</num>
@@ -1641,7 +1643,7 @@
                <trait>
                   <p>l'éminent prédicateur.</p>
                </trait>
-               <desc xml:id="CAT_000426_e142_d1">13 l. <term ana="#document_type_15">a. s.</term> ; <date when="1829">1829-1857</date>, <measure type="length" unit="p" n="16">16 pages</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Intéressante réunion.</desc><measure commodity="currency" unit="FRF" quantity="200">200</measure>
+               <desc xml:id="CAT_000426_e142_d1">13 <term ana="#document_type_7">l. a. s.</term> ; <date when="1829">1829-1857</date>, <measure type="length" unit="p" n="16">16 pages</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Intéressante réunion.</desc><measure commodity="currency" unit="FRF" quantity="200">200</measure>
             </item>
             <item n="143" xml:id="CAT_000426_e143">
                <num type="lot">143</num>
@@ -2034,7 +2036,7 @@
                   <p>dame d'honneur de l'impératrice Marie-Louise, épouse du maréchal Lannes, née en
                      1784, morte en 1856.</p>
                </trait>
-               <desc xml:id="CAT_000426_e176_d1">6 l. <term ana="#document_type_15">a. s.</term> au comte de Montlosier ; Paris et Sainte Adresse, <date when="1828">1828</date>-31, <measure type="length" unit="p" n="13">13 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure>, cachets. Intéressantes lettres où elle parle de ses fils.-On a joint 4 l. <term ana="#document_type_15">a. s.</term> de Napoléon de Montebello au comte de Montlosier ; 5 p. in-4 et in-8. Intéressante correspondance.</desc><measure commodity="currency" unit="FRF" quantity="30">30</measure>
+               <desc xml:id="CAT_000426_e176_d1">6 <term ana="#document_type_7">l. a. s.</term> au comte de Montlosier ; Paris et Sainte Adresse, <date when="1828">1828</date>-31, <measure type="length" unit="p" n="13">13 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure>, cachets. Intéressantes lettres où elle parle de ses fils.-On a joint 4 <term ana="#document_type_7">l. a. s.</term> de Napoléon de Montebello au comte de Montlosier ; 5 p. in-4 et in-8. Intéressante correspondance.</desc><measure commodity="currency" unit="FRF" quantity="30">30</measure>
             </item>
             <item n="177" xml:id="CAT_000426_e177">
                <num type="lot">177</num>
@@ -2110,7 +2112,7 @@
                   <p>oratorien, naturaliste, né à Salins en 1736, mort à Clermont-Ferrand en 1808.
                     </p>
                </trait>
-               <desc xml:id="CAT_000426_e182_d1">5 l. <term ana="#document_type_15">a. s.</term> à l'abbé Séguin ; Riom, <date when="1774">1774</date>-79, <measure type="length" unit="p" n="11">11 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachets. Intéressante correspoudance.</desc><measure commodity="currency" unit="FRF" quantity="25">25</measure>
+               <desc xml:id="CAT_000426_e182_d1">5 <term ana="#document_type_7">l. a. s.</term> à l'abbé Séguin ; Riom, <date when="1774">1774</date>-79, <measure type="length" unit="p" n="11">11 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, cachets. Intéressante correspoudance.</desc><measure commodity="currency" unit="FRF" quantity="25">25</measure>
             </item>
             <item n="183" xml:id="CAT_000426_e183">
                <num type="lot">183</num>
@@ -2204,7 +2206,7 @@
                   <p>prélat et diplomate français, archevêque de Malines, aumônier de Napoléon 1er,
                      fameux par ses intrigues, né à Allanches (Cantal).</p>
                </trait>
-               <desc xml:id="CAT_000426_e190_d1">3 l. <term ana="#document_type_15">a. s.</term> au comte de Montlosier, <date when="1835">1835</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Intéressantes.</desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
+               <desc xml:id="CAT_000426_e190_d1">3 <term ana="#document_type_7">l. a. s.</term> au comte de Montlosier, <date when="1835">1835</date>, <measure type="length" unit="p" n="3">3 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Intéressantes.</desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
             </item>
             <item n="191" xml:id="CAT_000426_e191">
                <num type="lot">191</num>
@@ -2599,7 +2601,7 @@
                <trait>
                   <p>célèbre poète dramatique, de l'Acad. fr.</p>
                </trait>
-               <desc xml:id="CAT_000426_e229_d1">8 l. <term ana="#document_type_15">a. s.</term> à Brizeux, 1849-1858, <measure type="length" unit="p" n="63">63 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> 200 » Très intéressante correspondance inédite, précieuse par son intérêt et son mérite lit-téraire : Au Maine Giraud, 29 avrit 1849.-« Je n'ai point quitté mes belles sources, mes rochers, mes vieux chênes, <date when="1848">mes près et toutes mes géorgiques depuis le 3 mai 1848</date>.</desc><note>Il attend le nouveau volume de Brizeux (Primel et Nola) ; il va retourner à
+               <desc xml:id="CAT_000426_e229_d1">8 <term ana="#document_type_7">l. a. s.</term> à Brizeux, 1849-1858, <measure type="length" unit="p" n="63">63 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> 200 » Très intéressante correspondance inédite, précieuse par son intérêt et son mérite lit-téraire : Au Maine Giraud, 29 avrit 1849.-« Je n'ai point quitté mes belles sources, mes rochers, mes vieux chênes, <date when="1848">mes près et toutes mes géorgiques depuis le 3 mai 1848</date>.</desc><note>Il attend le nouveau volume de Brizeux (Primel et Nola) ; il va retourner à
                   Paris où l'Académie l'à nommé président : « la solitude qui m'est chère me coûte
                   beaucoup à quitter pour la ville de boue, de fumée et de sang ». Blanzac, 27 déc.
                   1851. - Il le félicite de ne plus croire à l'Italie : « Votre Arno, votre

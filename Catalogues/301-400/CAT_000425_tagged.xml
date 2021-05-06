@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <?xml-model href="https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/katabase/Data_extraction/master/_schemas/odd_katabase.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000417">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CAT_000425">
    <teiHeader xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron">
       <fileDesc>
          <titleStmt>
@@ -72,24 +72,6 @@
                is not reproduced below.</p>
          </samplingDecl>
          <classDecl>
-                    <taxonomy xml:id="catalogue_type">
-                        <desc>Type of catalogues</desc>
-                        <category xml:id="RDA">
-                            <catDesc>Revue des autographes, des curiosités de l'histoire et de la biographie</catDesc>
-                        </category>
-                        <category xml:id="LAD">
-                            <catDesc>Lettres autographes et documents historiques</catDesc>
-                        </category>
-                        <category xml:id="AUC">
-                            <catDesc>Vente aux enchères</catDesc>
-                        </category>
-                        <category xml:id="LAV">
-                            <catDesc>Ventes Laverdet</catDesc>
-                        </category>
-                        <category xml:id="OTH">
-                            <catDesc>Divers/inconnu</catDesc>
-                        </category>
-                    </taxonomy>
         <taxonomy xml:id="format">
            <desc>Document format</desc>
            <category xml:id="document_format_1">
@@ -171,7 +153,7 @@
               <catDesc>Apostille autographe signée</catDesc>
            </category>
            <category xml:id="document_type_2">
-              <catDesc>Apostille autographe</catDesc>
+              <catDesc>Pièce autographe signée</catDesc>
            </category>
            <category xml:id="document_type_3">
               <catDesc>Pièce autographe</catDesc>
@@ -224,6 +206,26 @@
                <ptr target="https://github.com/MedKhem/grobid-dictionaries"/>
             </application>
          </appInfo>
+<classDecl>
+                    <taxonomy xml:id="catalogue_type">
+                        <desc>Type of catalogues</desc>
+                        <category xml:id="RDA">
+                            <catDesc>Revue des autographes, des curiosités de l'histoire et de la biographie</catDesc>
+                        </category>
+                        <category xml:id="LAD">
+                            <catDesc>Lettres autographes et documents historiques</catDesc>
+                        </category>
+                        <category xml:id="AUC">
+                            <catDesc>Vente aux enchères</catDesc>
+                        </category>
+                        <category xml:id="LAV">
+                            <catDesc>Ventes Laverdet</catDesc>
+                        </category>
+                        <category xml:id="OTH">
+                            <catDesc>Divers/inconnu</catDesc>
+                        </category>
+                    </taxonomy>
+                </classDecl>
       </encodingDesc>
    </teiHeader>
    <text>
@@ -468,7 +470,7 @@
                <trait>
                   <p>littérateur, né à Paris en 1765, mort en 1849.</p>
                </trait>
-               <desc xml:id="CAT_000425_e21_d1">10 l. <term ana="#document_type_15">a. s.</term> , <date when="1799">1799-1845</date> ; <measure type="length" unit="p" n="31">31 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure> et in-4.</desc><measure commodity="currency" unit="FRF" quantity="25">25</measure>
+               <desc xml:id="CAT_000425_e21_d1">10 <term ana="#document_type_7">l. a. s.</term> , <date when="1799">1799-1845</date> ; <measure type="length" unit="p" n="31">31 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure> et in-4.</desc><measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note>Intéressante correspondance ; Cassel, 24 janvier 1808. -Il se félicite d'être
                   le secrétaire du ministre résidant à Cassel ; il vit dans un pays agréable,
                   entouré de ministres aimables et pleins d'esprit ; il entend les chefs d'oeuvre de
@@ -585,7 +587,7 @@
                <trait>
                   <p>célèbre amiral français, né à Sedan en 1784, mort en 1854.</p>
                </trait>
-               <desc xml:id="CAT_000425_e31_d1"><term ana="#document_type_7">L. a. s.</term> au comte Molé; L. a. Barre (Montmorency), <date when="1839-10-18">18 octobre 1839</date>, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <desc xml:id="CAT_000425_e31_d1"><term ana="#document_type_7">L. a. s.</term> au comte Molé; La Barre (Montmorency), <date when="1839-10-18">18 octobre 1839</date>, <measure type="length" unit="p" n="2.5">2 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Importante lettre politique où il lui annonce que le baron de Las Cases
                   colporte une lettre de Molé dans laquelle il blâme la conduite de Baudin au
                   Mexique ; son objectif a été d'épargner à la France des sacrifices, en ne
@@ -685,7 +687,7 @@
                   <p>général, compagnon d'infortune de Napoléon à Sainte-Hélène, né à Châteauroux.
                     </p>
                </trait>
-               <desc xml:id="CAT_000425_e40_d1">6 let. sig. comme Gouverneur des Provinces Illyriennes ; Laybach, <date when="1812">1812</date>, <measure type="length" unit="p" n="9">9 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> Intéressautes.</desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <desc xml:id="CAT_000425_e40_d1">6 <term ana="#document_type_9">let. sig.</term> comme Gouverneur des Provinces Illyriennes ; Laybach, <date when="1812">1812</date>, <measure type="length" unit="p" n="9">9 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure> Intéressautes.</desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
             </item>
             <item n="41" xml:id="CAT_000425_e41">
                <num type="lot">41</num>
@@ -767,7 +769,7 @@
                   <p>laborieux écrivain du XVIIIe siècle, auteur du Dictionnaire géographique, né à
                      Dieppe en 1683, mort en 1749.</p>
                </trait>
-               <desc xml:id="CAT_000425_e48_d1"><term ana="#document_type_7">L. a. s.</term>, L. a. Haye, <date when="1744">9 jauvier 1744</date>, <measure type="length" unit="p" n="3.5">3 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Rare. Très belle lettre toute littéraire.</desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <desc xml:id="CAT_000425_e48_d1"><term ana="#document_type_7">L. a. s.</term>, La Haye, <date when="1744">9 jauvier 1744</date>, <measure type="length" unit="p" n="3.5">3 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Rare. Très belle lettre toute littéraire.</desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
             </item>
             <item n="49" xml:id="CAT_000425_e49">
                <num type="lot">49</num>
@@ -1188,7 +1190,7 @@
                   <p>savant médecin, ne en 1725, mort à Chartreuve, près de Soissons (Aisne). en
                      1810.</p>
                </trait>
-               <desc xml:id="CAT_000425_e86_d1">2 l. <term ana="#document_type_15">a. s.</term> au docteur Andry ; Chartreuve, près Soissons, <date when="1803">1803-1804</date>, <measure type="length" unit="p" n="5.5">5 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Lettres scientifiques.</desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
+               <desc xml:id="CAT_000425_e86_d1">2 <term ana="#document_type_7">l. a. s.</term> au docteur Andry ; Chartreuve, près Soissons, <date when="1803">1803-1804</date>, <measure type="length" unit="p" n="5.5">5 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure> Lettres scientifiques.</desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
             </item>
             <item n="87" xml:id="CAT_000425_e87">
                <num type="lot">87</num>
@@ -1271,7 +1273,7 @@
                <trait>
                   <p/>
                </trait>
-               <desc xml:id="CAT_000425_e96_d1">5 l. <term ana="#document_type_15">a. s.</term>, en français, au marquis de Villette ; Fischbach, Berlin, Potsdam et Darmstadt, <date when="1846">1846</date>-51, <measure type="length" unit="p" n="7">7 pages</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="150">150</measure>
+               <desc xml:id="CAT_000425_e96_d1">5 <term ana="#document_type_7">l. a. s.</term>, en français, au marquis de Villette ; Fischbach, Berlin, Potsdam et Darmstadt, <date when="1846">1846</date>-51, <measure type="length" unit="p" n="7">7 pages</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="150">150</measure>
                <note>Correspondance politique et intime très importante ; en voici une analyse
                   sommaire ; Fischbach. 30 nov. 1846 -11 se rappelle l'accueil cordial qu'on lui a
                   fait à Plessis-Longneau « venant en ennemi dans ce charmant domicile ». « Sans
@@ -1744,7 +1746,7 @@
                   <p>célèbre premier ministre de Louis XV et de Louis XVI, né en 1701, mort en 1781.
                     </p>
                </trait>
-               <desc xml:id="CAT_000425_e139_d1">4 let. sig. à Phelypeaux d'Herbaut ; <date when="1697">Versailles et Fontainebleau 1697</date>, <measure type="length" unit="p" n="9">9. p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><measure commodity="currency" unit="FRF" quantity="25">25</measure>
+               <desc xml:id="CAT_000425_e139_d1">4 <term ana="#document_type_9">let. sig.</term> à Phelypeaux d'Herbaut ; <date when="1697">Versailles et Fontainebleau 1697</date>, <measure type="length" unit="p" n="9">9. p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><measure commodity="currency" unit="FRF" quantity="25">25</measure>
                <note>Il raille son parent de sa lenteur habituelle : « Je suis très édifié de la
                   diligence que vous avez faite pour vous rendre à Toulon ; c'est assurément ne pas
                   mal courir pour un homme qui de soy n'est pas fort pressé ». Il le raille aussi
@@ -1921,7 +1923,7 @@
                   <p>célèbre romancière irlandaise, née a Dublin en 1789, morte à Londres en 1859.
                     </p>
                </trait>
-               <desc xml:id="CAT_000425_e156_d1">9 l. <term ana="#document_type_15">a. s.</term> à la vicomtesse de Ruolz. Dublin, <date when="1816">1816-1817</date>, <measure type="length" unit="p" n="27">27 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure> et in-8.</desc><measure commodity="currency" unit="FRF" quantity="30">30</measure>
+               <desc xml:id="CAT_000425_e156_d1">9 <term ana="#document_type_7">l. a. s.</term> à la vicomtesse de Ruolz. Dublin, <date when="1816">1816-1817</date>, <measure type="length" unit="p" n="27">27 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure> et in-8.</desc><measure commodity="currency" unit="FRF" quantity="30">30</measure>
                <note>Très intéressante correspondance. Elle lui propose de traduire ses deux romans
                   qui n'ont point paru en français, St-Clair ou vHéritière de Desmond et la Novice
                   de St-Dominique. Elle lui adresse sa dernière production, O'Donnell, M. Le Brun de
@@ -2114,7 +2116,7 @@
                <trait>
                   <p>le libérateur de la Corse, né en 1726, mort en 1807.</p>
                </trait>
-               <desc xml:id="CAT_000425_e170_d1">7 l. <term ana="#document_type_15">a. s.</term> à André Ceccaldi, commissaire du département de la Corse; Murato et San Fiorenzo, <date when="1793">1793-1795</date>, <measure type="length" unit="p" n="12.5">12 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="175">175</measure>
+               <desc xml:id="CAT_000425_e170_d1">7 <term ana="#document_type_7">l. a. s.</term> à André Ceccaldi, commissaire du département de la Corse; Murato et San Fiorenzo, <date when="1793">1793-1795</date>, <measure type="length" unit="p" n="12.5">12 p. 1/2</measure> <measure type="format" unit="f" ana="#document_format_4">in-4.</measure></desc><measure commodity="currency" unit="FRF" quantity="175">175</measure>
                <note>Précieuse correspondance historique dont voici une analyse sommaire. Savelli
                   lui a dit que son correspondant craignait de voir sa conduite désapprouvée; qu'il
                   soit sans crainte ; la Corse est dans une situation meilleure que la plupart des
@@ -2309,7 +2311,7 @@
                   <p>intendant de la liste civile, dépositaire des papiers secrets de Louis XVI, né
                      à Versailles en 1744, guillotiné le 28 août 1792.</p>
                </trait>
-               <desc xml:id="CAT_000425_e185_d1">Let. sig. à M. de <term ana="#document_type_8">L. a.</term> Rochefoucauld ; Paris, <date when="1791-12-08">8 décembre 1791</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
+               <desc xml:id="CAT_000425_e185_d1"><term ana="#document_type_9">Let. sig.</term> à M. de La Rochefoucauld ; Paris, <date when="1791-12-08">8 décembre 1791</date>, <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_1">in-fol.</measure></desc><measure commodity="currency" unit="FRF" quantity="3">3</measure>
             </item>
             <item n="186" xml:id="CAT_000425_e186">
                <num type="lot">186</num>
@@ -2430,7 +2432,7 @@
                   <p>homme politique et poète distingué de l'école romantique, né à Toulouse en
                      1789, mort en 1862.</p>
                </trait>
-               <desc xml:id="CAT_000425_e195_d1">L. a. Châtelaine de la Vendée, <term ana="#document_type_2">pièce de vers aut. sig.</term> ; <date when="1832">(vers 1832</date>). <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, obl.</desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
+               <desc xml:id="CAT_000425_e195_d1">La Châtelaine de la Vendée, <term ana="#document_type_2">pièce de vers aut. sig.</term> ; <date when="1832">(vers 1832</date>). <measure type="length" unit="p" n="1">1 p.</measure> <measure type="format" unit="f" ana="#document_format_4">in-4</measure>, obl.</desc><measure commodity="currency" unit="FRF" quantity="12">12</measure>
                <note>Très jolie pièce dont voici un extrait : Châtelaine, Vendéenne Porte un drapeau
                   blanc dans la plaine : Anime d'un regard sa troupe qui se bat. Et. pour en moins
                   de tems décider le combat, Le chouan crie à perdre haleine : Châtelaine Vendéenne
@@ -2633,7 +2635,7 @@
                   <p>célèbre poète et philosophe du XVIIIe siècle, de l'Acad. fr., né à Nancy en
                      1716, mort en 1803.</p>
                </trait>
-               <desc xml:id="CAT_000425_e213_d1">10 l. <term ana="#document_type_15">a. s.</term> au juge de paix Poinsard, à Paris ; Eaubonne, <date when="1792">1792</date>-98, <measure type="length" unit="p" n="18.5">18 pages 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure>, cachets à ses armes.</desc><measure commodity="currency" unit="FRF" quantity="60">60</measure>
+               <desc xml:id="CAT_000425_e213_d1">10 <term ana="#document_type_7">l. a. s.</term> au juge de paix Poinsard, à Paris ; Eaubonne, <date when="1792">1792</date>-98, <measure type="length" unit="p" n="18.5">18 pages 1/2</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure>, cachets à ses armes.</desc><measure commodity="currency" unit="FRF" quantity="60">60</measure>
                <note>Intéressantes lettres écrites à l'époque de la Révolution, alors qu'il était
                   réfugié à Eaubonne, dans la famille d'Houdetot. Elles visent la gestion de ses
                   biens, le paiement de ses pensions Dans une lettre datée d'In goville (21 août
@@ -2649,7 +2651,7 @@
                   <p>fille de Guillaume d'Auterive, baron de Villesecq, épouse d'Eustache Titus de
                      Saint-Simon, né en 1667, morte en 1725.</p>
                </trait>
-               <desc xml:id="CAT_000425_e214_d1">8 let. aut. à M. Belot; <date when="1700">1700</date>, <measure type="length" unit="p" n="37">37 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure>, cachets à ses armes.</desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
+               <desc xml:id="CAT_000425_e214_d1">8 <term ana="#document_type_8">let. aut.</term> à M. Belot; <date when="1700">1700</date>, <measure type="length" unit="p" n="37">37 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure>, cachets à ses armes.</desc><measure commodity="currency" unit="FRF" quantity="20">20</measure>
                <note>Intéressante correspondance. Elle se plaint qu'une maison, où logéaient ses
                   domestiques et où étaient abrités ses carosses, ait été occupée, presque de force,
                   par M. Aubert, introducteur des ambassadeurs de Monsieur. Détails sur les derniers
@@ -2678,7 +2680,7 @@
                <trait>
                   <p>la grande romancière.</p>
                </trait>
-               <desc xml:id="CAT_000425_e216_d1">4 let. et 1 billet <term ana="#document_type_15">aut. sig.</term> au peintre Marchal ; <date when="1873">1873</date>, <measure type="length" unit="p" n="5">5 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Intéressantes-</desc><measure commodity="currency" unit="FRF" quantity="35">35</measure>
+               <desc xml:id="CAT_000425_e216_d1">4 let. et 1 <term ana="#document_type_5">billet aut. sig.</term> au peintre Marchal ; <date when="1873">1873</date>, <measure type="length" unit="p" n="5">5 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8.</measure> Intéressantes-</desc><measure commodity="currency" unit="FRF" quantity="35">35</measure>
             </item>
             <item n="217" xml:id="CAT_000425_e217">
                <num type="lot">217</num>
@@ -2717,7 +2719,7 @@
                <trait>
                   <p>publiciste et critique contemporain, né à Dourdan (Seine-et-Oise), en 1828, mort récemment.</p>
                </trait>
-               <desc xml:id="CAT_000425_e219_d1">39 lettres et billets <term ana="#document_type_15">aut. sig.</term> <measure type="length" unit="p" n="50">50 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure> et in-18. Curieuse réunion.</desc><measure commodity="currency" unit="FRF" quantity="40">40</measure>
+               <desc xml:id="CAT_000425_e219_d1">39 lettres et <term ana="#document_type_6">billets</term> aut. sig. <measure type="length" unit="p" n="50">50 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure> et in-18. Curieuse réunion.</desc><measure commodity="currency" unit="FRF" quantity="40">40</measure>
             </item>
             <item n="220" xml:id="CAT_000425_e220">
                <num type="lot">220</num>
@@ -2793,7 +2795,7 @@
                   <p>le savant institu. teur des sourds-muets, de l'Acad. fr., né au Fousseret
                      (Hte-Garonne) en 1742, mort en 1822.</p>
                </trait>
-               <desc xml:id="CAT_000425_e227_d1">15 let. aut. dont 4 sig.; Paris, <date when="1816">1816-1819</date>,<measure type="length" unit="p" n="24">24 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure>,et in-12.</desc><measure commodity="currency" unit="FRF" quantity="40">40</measure>
+               <desc xml:id="CAT_000425_e227_d1">15 <term ana="#document_type_8">let. aut.</term> dont 4 sig.; Paris, <date when="1816">1816-1819</date>,<measure type="length" unit="p" n="24">24 p.</measure> <measure type="format" unit="f" ana="#document_format_8">in-8</measure>,et in-12.</desc><measure commodity="currency" unit="FRF" quantity="40">40</measure>
                <note>Très intéressante correspondance avec M. et Mme Laya.</note>
             </item>
             <item n="228" xml:id="CAT_000425_e228">
