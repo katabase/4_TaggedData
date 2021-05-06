@@ -77,8 +77,10 @@ def data_extractor(tree, output_dict):
 			data["term"] = None
 		if desc.xpath('ancestor::tei:TEI/tei:teiHeader//tei:sourceDesc//tei:date[@when]', namespaces=ns):
 			data["sell_date"] = desc.xpath('ancestor::tei:TEI/tei:teiHeader//tei:sourceDesc//tei:date/@when', namespaces=ns)[0]
+		elif desc.xpath('ancestor::tei:TEI/tei:teiHeader//tei:sourceDesc//tei:date[@to]', namespaces=ns):
+    			data["sell_date"] = desc.xpath('ancestor::tei:TEI/tei:teiHeader//tei:sourceDesc//tei:date/@to', namespaces=ns)[0]
 		else:
-			data["sell_date"] = None
+			print("No sell date for" + desc_id)
 		# In order to check the data, we add its text (and only its text with .strip_tags) in the dict.
 		etree.strip_tags(desc, '{http://www.tei-c.org/ns/1.0}*')
 		data["desc"] = desc.text
