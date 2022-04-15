@@ -14,8 +14,10 @@
 #   finally, it saves the output dict as a JSON file in the 'output' directory
 # -----------------------------------------------------------
 
+import os
 import json
 import glob
+from pathlib import Path
 from lxml import etree
 import re
 
@@ -124,7 +126,14 @@ if __name__ == "__main__":
 
 		data_extractor(tree, output_dict)
 
+	# check if output directory exists ; if not, create it
+	cwd = os.path.dirname(os.path.abspath(__file__))  # current directory : script
+	root = Path(cwd).parent
+	output_dir = os.path.join(root, "output")
+	if not os.path.isdir(output_dir):
+		os.makedirs(output_dir)
 
+	# write the output to the output file
 	with open('../output/export.json', 'w') as outfile:
 		# Older data are deleted. 
 		outfile.truncate(0)
