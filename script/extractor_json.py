@@ -15,8 +15,10 @@
 # -----------------------------------------------------------
 
 import os
+import sys
 import json
 import glob
+import traceback
 from pathlib import Path
 from lxml import etree
 import re
@@ -74,7 +76,7 @@ def data_extractor(tree, output_dict):
 		if desc.xpath('ancestor::tei:TEI/tei:teiHeader//tei:sourceDesc//tei:date[@when]', namespaces=ns):  # récupérer la date de vente
 			data["sell_date"] = desc.xpath('ancestor::tei:TEI/tei:teiHeader//tei:sourceDesc//tei:date/@when', namespaces=ns)[0]
 		elif desc.xpath('ancestor::tei:TEI/tei:teiHeader//tei:sourceDesc//tei:date[@to]', namespaces=ns):
-    			data["sell_date"] = desc.xpath('ancestor::tei:TEI/tei:teiHeader//tei:sourceDesc//tei:date/@to', namespaces=ns)[0]
+			data["sell_date"] = desc.xpath('ancestor::tei:TEI/tei:teiHeader//tei:sourceDesc//tei:date/@to', namespaces=ns)[0]
 		else:
 			print("No sell date for" + desc_id)
 		# In order to check the data, we add its text (and only its text with .strip_tags) in the dict.
@@ -121,10 +123,19 @@ if __name__ == "__main__":
 	output_dict = {}
 
 	for file in files:
-		# Each file is parsed.
-		tree = etree.parse(file)
+		# additional error handling: if there is an error here (the only step where there can
+		# be an error, really), print the name of the file on which the error happened, the
+		# full error message and exit)
+		try:
+			# Each file is parsed.
+			tree = etree.parse(file)
 
-		data_extractor(tree, output_dict)
+			data_extractor(tree, output_dict)
+		except:
+			error = traceback.format_exc()  # full error message
+			print(f"ERROR ON FILE --- {file}")
+			print(error)
+			sys.exit(1)
 
 	# check if output directory exists ; if not, create it
 	cwd = os.path.dirname(os.path.abspath(__file__))  # current directory : script
