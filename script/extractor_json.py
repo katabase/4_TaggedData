@@ -20,19 +20,21 @@ import json
 import glob
 import traceback
 from pathlib import Path
+from statistics import mean, median, mode, pvariance
 from lxml import etree
 import re
 
 ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
 
-# ------ MAIN FUNCTION ------ #
+# ------ MAIN FUNCTIONS ------ #
 def data_extractor(tree, output_dict):
 	"""
 	This function extracts all the data from each desc and adds it to a dictionnary (desc) ;
 	in the end, it appends desc to the dictionnary.
 	:param tree: an XML tree
 	:param output_dict: the dictionnary on which every XML file's desc is stored
+	:return: updated dictionnary
 	"""
 
 	# For each desc, a dict retrieve all the data.
@@ -83,16 +85,18 @@ def data_extractor(tree, output_dict):
 		etree.strip_tags(desc, '{http://www.tei-c.org/ns/1.0}*')
 		data["desc"] = desc.text
 
+		# update the main dictionnary with the data of this file and return
 		output_dict[desc_id] = data
 	return output_dict
 
 
 def catalog_extractor(tree, catalog_dict):
 	"""
-
-	:param tree:
-	:param catalog_dict:
-	:return:
+	function to extract data on each catalogue and store it in a json file : year, number of items sold,
+	stats about the item's price...
+	:param tree: a catalog in XML format parsed with lxml
+	:param catalog_dict: a dictionnary to store all the data
+	:return: updated version of catalog_dict ; type dict, obviously
 	"""
 	data = {}  # dictionnary to store all the data on a catalog
 	# retrieve the title, sale date and number of entries in the catalog
@@ -110,25 +114,27 @@ def catalog_extractor(tree, catalog_dict):
 	if tree.xpath(".//tei:body//tei:item[.//tei:measure/@commodity='currency']", namespaces=ns):
 		# get the currency in which the catalog items are sold
 		if tree.xpath(".//tei:body//tei:item//tei:measure[@commodity]/@unit", namespaces=ns):
-			print(tree.xpath(".//tei:body//tei:item//tei:measure[@commodity]/@unit", namespaces=ns))
 			data["currency"] = tree.xpath(".//tei:body//tei:item//tei:measure[@commodity]/@unit", namespaces=ns)[0]
-		iplist = []  # list of all the tei:items in a catalog with their price
+		ipdict = {}  # dictionnary linking a tei:item's @xml:id to its price
 		plist = []  # list of the prices in one catalog
+		big = {}  # dictionnary to host all the most expensive items in a catalog
 		for item in tree.xpath(".//tei:body//tei:item[.//tei:measure/@commodity='currency']", namespaces=ns):
 			# if an item only has one price, extract it ; we try to get the price from the @quantity
 			# of the tei:measure, then from the text content of the tei:measure ; the only prices that
 			# are left must conform to the regular expression "[0-9]+(\.[0-9]+)?" ; else; price is None
-			ipdict = {}  # dictionnary linking a tei:item's @xml:id to its price
 			price = 0  # price of an item
 			if item.xpath("./@xml:id", namespaces=ns):
 				id = item.xpath("./@xml:id", namespaces=ns)[0]
 			if len(item.xpath(".//tei:measure[@commodity='currency']", namespaces=ns)) == 1:
-				if re.match(r"[0-9]+(\.[0-9]+)?",
-							item.xpath(".//tei:measure[@commodity='currency']/@quantity", namespaces=ns)[0]):
-					price = item.xpath(".//tei:measure[@commodity='currency']/@quantity", namespaces=ns)[0]
-				elif re.match(r"[0-9]+(\.[0-9]+)?",
-							  item.xpath(".//tei:measure[@commodity='currency']/text()", namespaces=ns)[0]):
-					price = item.xpath(".//tei:measure[@commodity='currency']/text()", namespaces=ns)[0]
+				try:
+					if re.match(r"[0-9]+(\.[0-9]+)?",
+								item.xpath(".//tei:measure[@commodity='currency']/@quantity", namespaces=ns)[0]):
+						price = item.xpath(".//tei:measure[@commodity='currency']/@quantity", namespaces=ns)[0]
+					elif re.match(r"[0-9]+(\.[0-9]+)?",
+								  item.xpath(".//tei:measure[@commodity='currency']/text()", namespaces=ns)[0]):
+						price = item.xpath(".//tei:measure[@commodity='currency']/text()", namespaces=ns)[0]
+				except:
+					price = None
 				price = to_number(price)
 
 			# if there are several prices in an item, add them up
@@ -142,13 +148,45 @@ def catalog_extractor(tree, catalog_dict):
 				if price is not None:
 					price += p
 
-			# after all the above use cases, add an entry to ipdict
+			# extend ipdict and plist with the data from every item
 			if price is not None:
 				ipdict[id] = price
-			print(ipdict)
+				plist.append(price)
+		# add the most expensive items to big
+		for ip in ipdict.items():
+			if ip[1] == sorted(plist)[-1]:
+				big[ip[0]] = ip[1]
+		# calculate the total sale price
+		psum = 0
+		for p in plist:
+			psum += p
+		psum = to_number(psum)
+		# produce some statistical data for the catalog
+		data["total price"] = psum  # the sum of the tei:item's prices
+		data["low price"] = plist[0]  # the lowest price in the catalog
+		data["high price"] = plist[1] if (len(plist) > 1) else plist[0]  # the highest price in the catalog
+		data["mean price"] = mean(plist)  # the average price in the catalog
+		data["median price"] = median(plist)  # the median price of the catalog
+		data["mode price"] = mode(plist)  # the mode price (most frequent price)
+		data["variance price"] = pvariance(plist)  # the population variance of the prices
+		data["high price items"] = big  # a dict with the most expensive item's @xml:id as keys, and price as values
+	# if there is no information about the price in the catalogs, these informations are "unknown";
+	# this allows to always work with the same data structure
+	else:
+		data["currency"] = "unknown"
+		data["total price"] = "unknown"
+		data["low price"] = "unknown"
+		data["high price"] = "unknown"
+		data["mean price"] = "unknown"
+		data["median price"] = "unknown"
+		data["mode price"] = "unknown"
+		data["variance price"] = "unknown"
+		data["high price items"] = "unknown"
 
+	# update the main dictionnary with the data of the file and return
 	if tree.xpath("./@xml:id", namespaces=ns):
 		catalog_dict[tree.xpath("./@xml:id", namespaces=ns)[0]] = data
+	return catalog_dict
 
 
 
@@ -202,19 +240,20 @@ if __name__ == "__main__":
 	# This way, we get every single file contained in any subfolder of Catalogues/.
 	files = glob.glob("../Catalogues/**/*.xml", recursive=True)
 
-	output_dict = {}
-	catalog_dict = {}
+	output_dict = {}  # dictionary to store the data on the items retrieved in data_extractor()
+	catalog_dict = {}  # dictionary to store the data on the catalogs retrieved in catalog_extractor()
 
 	for file in files:
 		# additional error handling: if there is an error here (the only step where there can
 		# be an error, really), print the name of the file on which the error happened, the
 		# full error message and exit)
 		try:
-			# Each file is parsed.
+			# Each file is parsed and the functions are run
 			tree = etree.parse(file)
 
-			#data_extractor(tree, output_dict)
+			data_extractor(tree, output_dict)
 			catalog_extractor(tree, catalog_dict)
+
 		except:
 			error = traceback.format_exc()  # full error message
 			print(f"ERROR ON FILE --- {file}")
@@ -228,8 +267,12 @@ if __name__ == "__main__":
 	if not os.path.isdir(output_dir):
 		os.makedirs(output_dir)
 
-	# write the output to the output file
-	with open('../output/export.json', 'w') as outfile:
+	# write the outputs to the output files
+	with open('../output/export_item.json', 'w') as outfile:
 		# Older data are deleted. 
 		outfile.truncate(0)
-		json.dump(output_dict, outfile)
+		json.dump(output_dict, outfile, indent=4)
+	with open('../output/export_catalog.json', 'w') as outfile:
+		# Older data are deleted.
+		outfile.truncate(0)
+		json.dump(catalog_dict, outfile, indent=4)
