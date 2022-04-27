@@ -129,14 +129,23 @@ def catalog_extractor(tree, catalog_dict):
 				elif re.match(r"[0-9]+(\.[0-9]+)?",
 							  item.xpath(".//tei:measure[@commodity='currency']/text()", namespaces=ns)[0]):
 					price = item.xpath(".//tei:measure[@commodity='currency']/text()", namespaces=ns)[0]
+				price = to_number(price)
 
 			# if there are several prices in an item, add them up
 			else:
-
-			# try to convert the price as an int or a float ; else, return none
+				for m in item.xpath(".//tei:measure[@commodity='currency']", namespaces=ns):
+					if re.match(r"[0-9]+(\.[0-9]+)?", m.xpath("./@quantity", namespaces=ns)[0]):
+						p = m.xpath("./@quantity", namespaces=ns)[0]
+					elif re.match(r"[0-9]+(\.[0-9]+)?", m.xpath("./text()", namespaces=ns)[0]):
+						p = m.xpath("./text()", namespaces=ns)[0]
+					p = to_number(p)
+				if price is not None:
+					price += p
 
 			# after all the above use cases, add an entry to ipdict
-			ipdict[id] = price
+			if price is not None:
+				ipdict[id] = price
+			print(ipdict)
 
 	if tree.xpath("./@xml:id", namespaces=ns):
 		catalog_dict[tree.xpath("./@xml:id", namespaces=ns)[0]] = data
@@ -169,6 +178,22 @@ def get_numbers(string):
 		return int(numbers[0])
 	except:
 		return None
+
+
+def to_number(str):
+	"""
+	function to convert a price string into an int or float in order to do calculations
+	:param str: string to convert ; type string
+	:return: string converted to float or int (if there's no problem) ; else, None
+	"""
+	try:
+		str = int(str)
+	except:
+		try:
+			str = float(str)
+		except:
+			str = None
+	return str
 
 
 # ----- COMMAND LINE INTERFACE ----- #
