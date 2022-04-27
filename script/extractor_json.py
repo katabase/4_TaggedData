@@ -46,7 +46,7 @@ def data_extractor(tree, output_dict):
 		if desc.xpath('parent::tei:item/tei:name[@type="author"]/text()', namespaces=ns):  # si il y a un.e auteur.ice, le récupérer (ne garder que le nom de famille)
 			author = desc.xpath('parent::tei:item/tei:name[@type="author"]/text()', namespaces=ns)[0]
 			try:
-            	# We only keep the surname of the author : we stop the match at the first parenthesis or dot and we keep the first match.
+				# We only keep the surname of the author : we stop the match at the first parenthesis or dot and we keep the first match.
 				author = re.match('^([^\(|.|,|;|-]+)', author)[1]
 				# We remove blankspaces.
 				author = author.strip()
@@ -84,6 +84,63 @@ def data_extractor(tree, output_dict):
 		data["desc"] = desc.text
 
 		output_dict[desc_id] = data
+	return output_dict
+
+
+def catalog_extractor(tree, catalog_dict):
+	"""
+
+	:param tree:
+	:param catalog_dict:
+	:return:
+	"""
+	data = {}  # dictionnary to store all the data on a catalog
+	# retrieve the title, sale date and number of entries in the catalog
+	if tree.xpath(".//tei:titleStmt//tei:title", namespaces=ns):
+		data["title"] = tree.xpath(".//tei:titleStmt//tei:title", namespaces=ns)[0].text
+	if tree.xpath('.//tei:bibl/tei:date[@when]', namespaces=ns):  # récupérer la date si elle existe
+		data["date"] = tree.xpath('.//tei:bibl/tei:date/@when', namespaces=ns)[0]
+	elif tree.xpath(".//.//tei:bibl/tei:date/text()", namespaces=ns):
+		data["date"] = tree.xpath('.//tei:bibl//tei:date/text()', namespaces=ns)[0]
+	if tree.xpath(".//tei:body//tei:item", namespaces=ns):
+		data["item count"] = int(tree.xpath("count(.//tei:body//tei:item)", namespaces=ns))
+
+	# if the catalog is a fixed-price catalog (has "tei//item//tei:measure[@commodity='currency']",
+	# extract data about the prices
+	if tree.xpath(".//tei:body//tei:item[.//tei:measure/@commodity='currency']", namespaces=ns):
+		# get the currency in which the catalog items are sold
+		if tree.xpath(".//tei:body//tei:item//tei:measure[@commodity]/@unit", namespaces=ns):
+			print(tree.xpath(".//tei:body//tei:item//tei:measure[@commodity]/@unit", namespaces=ns))
+			data["currency"] = tree.xpath(".//tei:body//tei:item//tei:measure[@commodity]/@unit", namespaces=ns)[0]
+		iplist = []  # list of all the tei:items in a catalog with their price
+		plist = []  # list of the prices in one catalog
+		for item in tree.xpath(".//tei:body//tei:item[.//tei:measure/@commodity='currency']", namespaces=ns):
+			# if an item only has one price, extract it ; we try to get the price from the @quantity
+			# of the tei:measure, then from the text content of the tei:measure ; the only prices that
+			# are left must conform to the regular expression "[0-9]+(\.[0-9]+)?" ; else; price is None
+			ipdict = {}  # dictionnary linking a tei:item's @xml:id to its price
+			price = 0  # price of an item
+			if item.xpath("./@xml:id", namespaces=ns):
+				id = item.xpath("./@xml:id", namespaces=ns)[0]
+			if len(item.xpath(".//tei:measure[@commodity='currency']", namespaces=ns)) == 1:
+				if re.match(r"[0-9]+(\.[0-9]+)?",
+							item.xpath(".//tei:measure[@commodity='currency']/@quantity", namespaces=ns)[0]):
+					price = item.xpath(".//tei:measure[@commodity='currency']/@quantity", namespaces=ns)[0]
+				elif re.match(r"[0-9]+(\.[0-9]+)?",
+							  item.xpath(".//tei:measure[@commodity='currency']/text()", namespaces=ns)[0]):
+					price = item.xpath(".//tei:measure[@commodity='currency']/text()", namespaces=ns)[0]
+
+			# if there are several prices in an item, add them up
+			else:
+
+			# try to convert the price as an int or a float ; else, return none
+
+			# after all the above use cases, add an entry to ipdict
+			ipdict[id] = price
+
+	if tree.xpath("./@xml:id", namespaces=ns):
+		catalog_dict[tree.xpath("./@xml:id", namespaces=ns)[0]] = data
+
 
 
 # ----- AUXILIARY FUNCTIONS ----- #
@@ -121,6 +178,7 @@ if __name__ == "__main__":
 	files = glob.glob("../Catalogues/**/*.xml", recursive=True)
 
 	output_dict = {}
+	catalog_dict = {}
 
 	for file in files:
 		# additional error handling: if there is an error here (the only step where there can
@@ -130,7 +188,8 @@ if __name__ == "__main__":
 			# Each file is parsed.
 			tree = etree.parse(file)
 
-			data_extractor(tree, output_dict)
+			#data_extractor(tree, output_dict)
+			catalog_extractor(tree, catalog_dict)
 		except:
 			error = traceback.format_exc()  # full error message
 			print(f"ERROR ON FILE --- {file}")
