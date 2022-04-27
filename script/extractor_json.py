@@ -161,10 +161,11 @@ def catalog_extractor(tree, catalog_dict):
 		for p in plist:
 			psum += p
 		psum = to_number(psum)
+		plist = sorted(plist)
 		# produce some statistical data for the catalog
 		data["total price"] = psum  # the sum of the tei:item's prices
 		data["low price"] = plist[0]  # the lowest price in the catalog
-		data["high price"] = plist[1] if (len(plist) > 1) else plist[0]  # the highest price in the catalog
+		data["high price"] = plist[-1]  # the highest price in the catalog
 		data["mean price"] = mean(plist)  # the average price in the catalog
 		data["median price"] = median(plist)  # the median price of the catalog
 		data["mode price"] = mode(plist)  # the mode price (most frequent price)
