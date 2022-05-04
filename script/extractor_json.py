@@ -104,9 +104,9 @@ def catalog_extractor(tree, catalog_dict):
 	if tree.xpath(".//tei:titleStmt//tei:title", namespaces=ns):
 		data["title"] = tree.xpath(".//tei:titleStmt//tei:title", namespaces=ns)[0].text
 	if tree.xpath('.//tei:bibl/tei:date[@when]', namespaces=ns):  # récupérer la date si elle existe
-		data["date"] = tree.xpath('.//tei:bibl/tei:date/@when', namespaces=ns)[0]
+		data["sell_date"] = tree.xpath('.//tei:bibl/tei:date/@when', namespaces=ns)[0]
 	elif tree.xpath(".//.//tei:bibl/tei:date/text()", namespaces=ns):
-		data["date"] = tree.xpath('.//tei:bibl//tei:date/text()', namespaces=ns)[0]
+		data["sell_date"] = tree.xpath('.//tei:bibl//tei:date/text()', namespaces=ns)[0]
 	if tree.xpath(".//tei:body//tei:item", namespaces=ns):
 		data["item count"] = int(tree.xpath("count(.//tei:body//tei:item)", namespaces=ns))
 
