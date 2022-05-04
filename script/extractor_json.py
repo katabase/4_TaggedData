@@ -171,18 +171,7 @@ def catalog_extractor(tree, catalog_dict):
 		data["mode price"] = mode(plist)  # the mode price (most frequent price)
 		data["variance price"] = pvariance(plist)  # the population variance of the prices
 		data["high price items"] = big  # a dict with the most expensive item's @xml:id as keys, and price as values
-	# if there is no information about the price in the catalogs, these informations are "unknown";
-	# this allows to always work with the same data structure
-	else:
-		data["currency"] = "unknown"
-		data["total price"] = "unknown"
-		data["low price"] = "unknown"
-		data["high price"] = "unknown"
-		data["mean price"] = "unknown"
-		data["median price"] = "unknown"
-		data["mode price"] = "unknown"
-		data["variance price"] = "unknown"
-		data["high price items"] = "unknown"
+	# if there is no information about the price in the catalogs, the above elements are not created
 
 	# update the main dictionnary with the data of the file and return
 	if tree.xpath("./@xml:id", namespaces=ns):
