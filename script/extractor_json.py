@@ -28,9 +28,9 @@ ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
 
 # ------ MAIN FUNCTIONS ------ #
-def data_extractor(tree, output_dict):
+def item_extractor(tree, output_dict):
 	"""
-	This function extracts all the data from each desc and adds it to a dictionnary (desc) ;
+	This function extracts all the data from each item's desc and adds it to a dictionnary (desc) ;
 	in the end, it appends desc to the dictionnary.
 	:param tree: an XML tree
 	:param output_dict: the dictionnary on which every XML file's desc is stored
@@ -43,6 +43,7 @@ def data_extractor(tree, output_dict):
 		desc_id = desc.xpath('./@xml:id', namespaces=ns)[0]  # récupérer l'ID
 		if desc.xpath('parent::tei:item/tei:measure[@quantity]', namespaces=ns):  # si il y a un prix, le récupérer
 			data["price"] = to_float(desc.xpath('parent::tei:item//tei:measure[@commodity="currency"]/@quantity', namespaces=ns)[0])
+			data["currency"] = desc.xpath('parent::tei:item//tei:measure[@commodity="currency"]/@unit', namespaces=ns)[0]
 		else:
 			data["price"] = None
 		if desc.xpath('parent::tei:item/tei:name[@type="author"]/text()', namespaces=ns):  # si il y a un.e auteur.ice, le récupérer (ne garder que le nom de famille)
@@ -179,16 +180,15 @@ def catalog_extractor(tree, catalog_dict):
 	return catalog_dict
 
 
-
 # ----- AUXILIARY FUNCTIONS ----- #
-def to_float(str):
+def to_float(string):
 	"""
 	This function tries to convert a string into a float.
-	:param str: a string
+	:param string: a string
 	:return: a float or None
 	"""
 	try:
-		return float(str)
+		return float(string)
 	except:
 		return None
 
@@ -198,7 +198,7 @@ def get_numbers(string):
 	"""
 	This function gets the numbers of a string with a regex.
 	in our case, we do this in order to compare int and not str during the clustering.
-	:param str: a string
+	:param string: a string
 	:return: int
 	"""
 	try:
@@ -208,20 +208,20 @@ def get_numbers(string):
 		return None
 
 
-def to_number(str):
+def to_number(string):
 	"""
 	function to convert a price string into an int or float in order to do calculations
 	:param str: string to convert ; type string
 	:return: string converted to float or int (if there's no problem) ; else, None
 	"""
 	try:
-		str = int(str)
+		string = int(string)
 	except:
 		try:
-			str = float(str)
+			string = float(string)
 		except:
-			str = None
-	return str
+			string = None
+	return string
 
 
 # ----- COMMAND LINE INTERFACE ----- #
@@ -241,7 +241,7 @@ if __name__ == "__main__":
 			# Each file is parsed and the functions are run
 			tree = etree.parse(file)
 
-			data_extractor(tree, output_dict)
+			item_extractor(tree, output_dict)
 			catalog_extractor(tree, catalog_dict)
 
 		except:
