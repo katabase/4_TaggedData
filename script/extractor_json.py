@@ -24,10 +24,13 @@ from statistics import mean, median, mode, pvariance
 from lxml import etree
 import re
 
+from .priceconv import pconverter_franc, pconverter_foreign
+
+
 ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
 
-# ------ MAIN FUNCTIONS ------ #
+# ============== MAIN FUNCTIONS ============== #
 def item_extractor(tree, output_dict):
 	"""
 	This function extracts all the data from each item's desc and adds it to a dictionnary (desc) ;
@@ -138,6 +141,8 @@ def catalog_extractor(tree, catalog_dict):
 					price = None
 				price = to_number(price)
 
+				# if the price is in french francs, convert it
+
 			# if there are several prices in an item, add them up
 			else:
 				for m in item.xpath(".//tei:measure[@commodity='currency']", namespaces=ns):
@@ -180,7 +185,7 @@ def catalog_extractor(tree, catalog_dict):
 	return catalog_dict
 
 
-# ----- AUXILIARY FUNCTIONS ----- #
+# ============== AUXILIARY FUNCTIONS ============== #
 def to_float(string):
 	"""
 	This function tries to convert a string into a float.
