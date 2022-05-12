@@ -47,15 +47,27 @@ def multiplier(csvr):
 
 def converter(csvr, m):
     """
-    create a price index to express the price of non-1900 francs in 1900 francs
+    create a price index to express the price of non-1900 francs in 1900 francs.
+    the franc in the XIXth century is considered extremely stable, so inflation
+    doesn't affect the prices ; in turn, the index of all years before 1889 and
+    after 1815 (end of the 1st Empire)
+    (for which Piketty doesn't give any price index) are equivalent of the 1889 inflation
     :param csvr: a csv.reader() object
     :param m: the multiplier used to convert the prices
-    :return:
+    :return: idxdict : the dictionary linking a year to its price index
     """
     idxdict = {}  # dictionary mapping to a year the price index for that year
+    nloop = 0  # count the number of loops
     for row in csvr:
         pidx = Decimal(row[1]) * Decimal(m)  # price index for a year
         idxdict[row[0]] = round(float(pidx), 2)
+        if nloop == 0:
+            preidx = {}  # index for the years before 1889
+            for i in range(1815, 1889):
+                preidx[i] = round(float(pidx), 2)
+        nloop += 1
+    idxdict = {**preidx, **idxdict}
+    print(idxdict)
     return idxdict
 
 
