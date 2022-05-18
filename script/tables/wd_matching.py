@@ -74,8 +74,8 @@ nobility = {
     "countess": ["comtesse", "ctesse"],
     "cardinal": ["cardinal"],
     "pope": ["pape"],
-    "lord": "lord",
-    "none": ["chevalier", "marquis", "marquise", "sire"]  # delete this line ?
+    "lord": ["lord"],
+    "none": ["chevalier", "marquise", "marquis", "sire"]  # delete this line ?
 }
 
 # a person's function; to be found in the tei:trait; not all words
@@ -379,7 +379,6 @@ colonies = [
     "tonkin",
     "annam",
     "cochinchine",
-    "chine",
     "guangzhou wan",
     "shanghai",
     "guangzhou",
@@ -391,4 +390,13 @@ colonies = [
     "vanuatu",
     "nouvelles-hébrides",
     "wallis et futuna"
+]
+
+countries = [
+    "états-unis",
+    "etats-unis",
+    "états-unis d'amérique",
+    "etats-unis d'amérique",
+    "grèce",
+    "chine",
 ]

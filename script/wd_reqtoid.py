@@ -3,76 +3,14 @@ import json
 import csv
 import re
 
-from tables.wd_matching import names
+from tables.wd_matching import names, nobility
 
 # get a wikidata id from a full text query
 
 # r = requests.get("https://www.wikidata.org/w/api.php?action=query&list=search&srsearch=du+resnel&format=json")
 
 
-def counter():
-    """
-    get the most frequent words in tei:traits and the number of times they appear;
-    write this dictionary in a json file ; 
-    used to get how to clusterize data
-    :return: None
-    """
-    with open("tables/wd_nametable.tsv", mode="r", encoding="utf-8") as f:
-        reader = csv.reader(f, delimiter="\t")
-        trait = ""
-        for row in reader:
-            trait += f"{row[3]} ; "
-    traitlist = list(trait.split())  # total list of "words" in all the tei:trait
-    
-    # clean traitlist : remove punctuation
-    cleanlist = []
-    for t in traitlist:
-        t = re.sub(r"\.|,|\(|\)", "", t)
-        cleanlist.append(t)
-    traitlist = cleanlist
-    traitset = set(traitlist)  # list of unique items in traitlist
-    
-    # clean traitset : remove most frequent french characters and useless words
-    # so that they aren't counted
-    dellist = [".", " ", ";", ",", "-", "le", "la", "un", "une", "des", "de", "d'un", "d'une",
-               "ce", "cette", "celui", "celle", "est", "a", "ses", "son", "sa", "leur",
-               "leurs", "lui", "elle", "célèbre", "illustre", "homme", "femme", "par",
-               "qui", "grand", "au", "fils", "plus", "moins", "les", "&", "é", "è", "et",
-               "en", "m", "n", "fr", "du", "mort", "né", "morte", "née", "il", "elle",
-               "eux", "avec", "puis", "fut", "vous", "l'illustre", "distingué", "savant",
-               "sous", "fameux"]
-    for d in dellist:
-        if d in traitset:
-            traitset.remove(d)
-    counter = {}  # dictionary mapping to a word the number of times it is used
-    
-    # build counter
-    nloop = 0
-    print("beginning to count occurences of words")
-    for w in traitset:
-        nloop += 1
-        if len(str(nloop)) >= 3 and str(nloop)[-2:] == "00":
-            print(f"{nloop} out of {len(traitset)} words counted !")
-        # we're looking for words to clusterize ; in turn, they must be meaningful traits, not numbers and such
-        if not re.match(r"\d+", w) and not re.match("[A-Z]+", w):
-            counter[w] = traitlist.count(w)
-
-    # order counter by descending values
-    counter_sort = {}
-    for c in sorted(list(counter.values()), reverse=True):
-        for k, v in counter.items():
-            if v == c:
-                counter_sort[k] = v
-    # counter_sort = {k: v for k, v in sorted(counter.items(), key=lambda item: item[1])}
-    # sortv = sorted(list(counter.values()))  # sorted count of words
-
-    # save counter and print it
-    with open("tables/wd_trait_wordcount.json", mode="w", encoding="utf-8") as out:
-        json.dump(counter_sort, out, indent=4)
-    print("done !")
-    return None
-
-
+# ================= BUILD A QUERY ================= #
 def prep_query(in_data):
     """
     prepare the query string: normalize first names, extract data from the tei:trait,
@@ -83,8 +21,9 @@ def prep_query(in_data):
     qdict = {}  # dictionary to store query data
     name = in_data[0]  # tei:name
     trait = in_data[1]  # tei:trait
-    # parse the name:
-    # - see if it's a place or a person or a "DIVERS / DOCUMENTS"
+
+    # =========== PARSE THE NAME =========== #
+    # see if it's a place or a person or a "DIVERS / DOCUMENTS"
     if re.match(r"^([Dd]((OCUMENT|ocument)[Ss]?|(IVERS|ivers))|\s)+$", name):
         qdict["name"] = None
     else:
@@ -92,18 +31,33 @@ def prep_query(in_data):
         if len(parenth) > 0:
             inp = re.sub(r"\(|\)", "", parenth[0])  # extract content in parenthesis
 
-            # get the full first name from its abbreviation
+            # check whether the name is a nobility (they have a special structure and must be
+            # treated differently : "Title name (Actual name, title)")
+            nobl = []
+            for k, v in nobility.items():
+                # DOES IT MAKE SENSE TO KEEP THE TITLE ??? NOT SO SURE
+                for t in v:
+                    nobl = [t for t in v if t in inp.lower()]
+                if len(nobl) > 0:  # if a nobility title is detected, treat it as such
+                    print(in_data[0])
+                    print(nobl)
+            """if len(nobl) > 0 and "princesse" in nobl:
+                print(f"{nobl} - {inp}")"""
+
+
+            # check whether the name is a geographic name: province, department, colony
+
+
+            # if it is a "normal name", get the full first name from its abbreviation
             if rgx_abvcomp(inp) is not None:
                 abvcomp = rgx_abvcomp(inp)  # try to match an abbreviated composed name
-                print(f"1 - {inp} # {abvcomp}")
+                # print(f"1 - {inp} # {abvcomp}")
             elif rgx_abvsimp(inp) is not None:
-                abvsimp = rgx_abvsimp(inp)
-                print(f"2 - {inp} # {abvsimp}")
+                abvsimp = rgx_abvsimp(inp)  # try to match an abbreviated non-composed name
+                # print(f"2 - {inp} # {abvsimp}")
             elif rgx_complnm(inp) is not None:
-                complnm = rgx_complnm(inp)
-                print(f"3 - {inp} # {complnm}")
-            else:
-                print(f"4 - {inp}")
+                complnm = rgx_complnm(inp)  # try to match a full name
+                # print(f"3 - {inp} # {complnm}")
             for k, v in names.items():
                 if v in inp.lower():
                     pass
@@ -151,7 +105,7 @@ def reqtoid():
             prep_query(in_data)
 
 
-# ======== REGEX MATCHING ======== #
+# ================= REGEX MATCHING ================= #
 def rgx_abvcomp(nstr):
     """
     try to extract an abbreviated composed first name. if there is no match, return None
@@ -254,6 +208,71 @@ def rgx_complnm(nstr):
         return None
 
 
+# ================= COUNT THE MOST FREQUENT WORDS ================= #
+def counter():
+    """
+    get the most frequent words in tei:traits and the number of times they appear;
+    write this dictionary in a json file ;
+    used to get how to clusterize data
+    :return: None
+    """
+    with open("tables/wd_nametable.tsv", mode="r", encoding="utf-8") as f:
+        reader = csv.reader(f, delimiter="\t")
+        trait = ""
+        for row in reader:
+            trait += f"{row[3]} ; "
+    traitlist = list(trait.split())  # total list of "words" in all the tei:trait
+
+    # clean traitlist : remove punctuation
+    cleanlist = []
+    for t in traitlist:
+        t = re.sub(r"\.|,|\(|\)", "", t)
+        cleanlist.append(t)
+    traitlist = cleanlist
+    traitset = set(traitlist)  # list of unique items in traitlist
+
+    # clean traitset : remove most frequent french characters and useless words
+    # so that they aren't counted
+    dellist = [".", " ", ";", ",", "-", "le", "la", "un", "une", "des", "de", "d'un", "d'une",
+               "ce", "cette", "celui", "celle", "est", "a", "ses", "son", "sa", "leur",
+               "leurs", "lui", "elle", "célèbre", "illustre", "homme", "femme", "par",
+               "qui", "grand", "au", "fils", "plus", "moins", "les", "&", "é", "è", "et",
+               "en", "m", "n", "fr", "du", "mort", "né", "morte", "née", "il", "elle",
+               "eux", "avec", "puis", "fut", "vous", "l'illustre", "distingué", "savant",
+               "sous", "fameux"]
+    for d in dellist:
+        if d in traitset:
+            traitset.remove(d)
+    counter = {}  # dictionary mapping to a word the number of times it is used
+
+    # build counter
+    nloop = 0
+    print("beginning to count occurences of words")
+    for w in traitset:
+        nloop += 1
+        if len(str(nloop)) >= 3 and str(nloop)[-2:] == "00":
+            print(f"{nloop} out of {len(traitset)} words counted !")
+        # we're looking for words to clusterize ; in turn, they must be meaningful traits, not numbers and such
+        if not re.match(r"\d+", w) and not re.match("[A-Z]+", w):
+            counter[w] = traitlist.count(w)
+
+    # order counter by descending values
+    counter_sort = {}
+    for c in sorted(list(counter.values()), reverse=True):
+        for k, v in counter.items():
+            if v == c:
+                counter_sort[k] = v
+    # counter_sort = {k: v for k, v in sorted(counter.items(), key=lambda item: item[1])}
+    # sortv = sorted(list(counter.values()))  # sorted count of words
+
+    # save counter and print it
+    with open("tables/wd_trait_wordcount.json", mode="w", encoding="utf-8") as out:
+        json.dump(counter_sort, out, indent=4)
+    print("done !")
+    return None
+
+
+# ================= LAUNCH THE SCRIPT ================= #
 if __name__ == "__main__":
     # req_to_id("louis davout")
     reqtoid()
