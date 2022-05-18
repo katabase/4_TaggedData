@@ -65,21 +65,28 @@ def counter():
     # sortv = sorted(list(counter.values()))  # sorted count of words
 
     # save counter and print it
-    with open("tables/wb_trait_wordcount.json", mode="w", encoding="utf-8") as out:
+    with open("tables/wd_trait_wordcount.json", mode="w", encoding="utf-8") as out:
         json.dump(counter_sort, out, indent=4)
     print("done !")
     return None
 
 
-def prep_qstr():
+def prep_query(in_data):
     """
     prepare the query string: normalize first names, extract data from the tei:trait,
     order the querystring
+    :param in_data: input data: a list of the 3rd and 4th entries of the csv
     :return:
     """
+    qdict = {}  # dictionary to store query data
+    name = in_data[0]  # tei:name
+    trait = in_data[1]  # tei:trait
+    # parse the name
+    # extract the years from tei:trait
+    # extract the person's occupation from the tei:trait
 
 
-def req_to_id(qstr):
+def launch_query(qstr):
     """
     get the wikipedia id from a full text query
     :param qstr: the query string (i.e., name for which we want a wikidata id)
@@ -103,6 +110,19 @@ def req_to_id(qstr):
     print(js["query"]["search"][0]["title"])  # first ID
 
 
+def reqtoid():
+    """
+    launch the query on all entries of wd_nametable.csv
+    :return:
+    """
+    with open("tables/wd_nametable.tsv", mode="r", encoding="utf-8") as fh:
+        reader = csv.reader(fh, delimiter="\t")
+        for row in reader:
+            in_data = [row[2], row[3]]  # input data on which to launch a query
+            prep_query(in_data)
+
+
+
 if __name__ == "__main__":
     # req_to_id("louis davout")
-    counter()
+    reqtoid()
