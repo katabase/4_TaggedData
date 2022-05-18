@@ -3,6 +3,8 @@ import json
 import csv
 import re
 
+from tables.wd_matching import names
+
 # get a wikidata id from a full text query
 
 # r = requests.get("https://www.wikidata.org/w/api.php?action=query&list=search&srsearch=du+resnel&format=json")
@@ -81,7 +83,34 @@ def prep_query(in_data):
     qdict = {}  # dictionary to store query data
     name = in_data[0]  # tei:name
     trait = in_data[1]  # tei:trait
-    # parse the name
+    # parse the name:
+    # - see if it's a place or a person or a "DIVERS / DOCUMENTS"
+    if re.match(r"^([Dd]((OCUMENT|ocument)[Ss]?|(IVERS|ivers))|\s)+$", name):
+        qdict["name"] = None
+    else:
+        parenth = re.findall(r"\(.+\)?", name)
+        if len(parenth) > 0:
+            inp = re.sub(r"\(|\)", "", parenth[0])  # extract content in parenthesis
+
+            # get the full first name from its abbreviation
+            if rgx_abvcomp(inp) is not None:
+                abvcomp = rgx_abvcomp(inp)  # try to match an abbreviated composed name
+                print(f"1 - {inp} # {abvcomp}")
+            elif rgx_abvsimp(inp) is not None:
+                abvsimp = rgx_abvsimp(inp)
+                print(f"2 - {inp} # {abvsimp}")
+            elif rgx_complnm(inp) is not None:
+                complnm = rgx_complnm(inp)
+                print(f"3 - {inp} # {complnm}")
+            else:
+                print(f"4 - {inp}")
+            for k, v in names.items():
+                if v in inp.lower():
+                    pass
+                        # print(t)
+    # - extract the surname (at the beginning, outside of "()"
+    # - extract the initials (in  "()")
+    # - extract nomility titles
     # extract the years from tei:trait
     # extract the person's occupation from the tei:trait
 
@@ -121,6 +150,108 @@ def reqtoid():
             in_data = [row[2], row[3]]  # input data on which to launch a query
             prep_query(in_data)
 
+
+# ======== REGEX MATCHING ======== #
+def rgx_abvcomp(nstr):
+    """
+    try to extract an abbreviated composed first name. if there is no match, return None
+
+    pattern
+    -------
+    the patterns in the example below are simplified to keep things readable
+    - two strings separated by a "-" or "\s"
+    - the first or second string can be a full name ([A-Z][a-z]+)
+      or an abbreviation ([A-Z][a-z]*\.)
+    - if the strings are separated by "\s", they must be finished by "\."
+      (to be sure that we don't capture full names, i.e: "J. Ch."  can be captured,
+      but not "Jean Charles")
+    - complex names with 3 or more words must have "-" and at least one "\."
+    - (\s|$) and (^|\s) are safeguards to avoid matching the end or beginning of another word
+
+    examples
+    --------
+    matched : M.-Madeleine Pioche de la Vergne  # matched string : M.-Madeleine
+    matched : C.-A. de Ferriol  # matched string : C.-A.
+    matched : J. F.  # matched string : J. F.
+    matched : Jean F.  # matched string : Jean F.
+    matched : Jean-F.  # matched string : Jean-F.
+    matched : A M  # matched string : A M
+    matched : C.-Edm.-G.  # matched string : C.-Edm.-G.
+    matched : Charles-Edm.-G.  # matched string : Charles-Edm.-G.
+    not matched : Anne M
+    not matched : Claude Henri blabla
+    not matched : Claude Henri
+
+    :param nstr: the name string used as input
+    :return: the matched string if there is a match ; None if there is no match
+    """
+    mo = re.search(r"(^|\s)[A-Z][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\.?-[A-Z][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\.(\s|$)", nstr) \
+         or re.search(
+            r"(^|\s)[A-Z][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\.-[A-Z][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\.?(\s|$)", nstr) \
+         or re.search(r"(^|\s)[A-Z]\.?\s[A-Z][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\.(\s|$)", nstr) \
+         or re.search(r"(^|\s)[A-Z][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\.?\s[A-Z]\.(\s|$)", nstr) \
+         or re.search(r"(^|\s)[A-Z]\.?\s[A-Z]\.?(\s|$)", nstr) \
+         or re.search(
+            r"(^|\s)([A-Z][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\.?-)+([A-Z][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\.)(\s|$)", nstr) \
+         or re.search(
+            r"(^|\s)([A-Z][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\.-)+([A-Z][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\.?)(\s|$)",nstr)
+
+    if mo is not None:
+        return mo[0]
+    else:
+        return None
+
+
+def rgx_abvsimp(nstr):
+    """
+    try to extract a "simple" (not composed) abbreviated first name. if there is no match, return None
+
+    pattern
+    -------
+    a capital letter (possibly followed by a certain number of lowercase letters)
+    ended with a dot. (\s|$) and (^|\s) are safeguards to avoid matching the beginning
+    end of another word.
+    *warning* : it can also capture parts of composed abbreviated names => must be used
+    in an if-elif after trying to match a composed abbreviated name
+
+    examples
+    --------
+    matched : bonjour Ad.  # matched string : Ad.
+    matched : J. baronne  # matched string : J. 
+    matched : J. F.  # matched string : J. 
+    matched : Jean F.  # matched string : F.
+    not matched : A.-M.
+    not matched : Anne M 
+    not matched : Hector
+
+    :param nstr: the name string used as input
+    :return:
+    """
+    mo = re.search(r"(^|\s)[A-Z][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\.(\s|$)", nstr)
+    if mo is not None:
+        return mo[0]
+    else:
+        return None
+
+
+def rgx_complnm(nstr):
+    """
+    try to extract a complete name from a string. if there is no match, return None
+
+    pattern
+    -------
+    - an uppercase letter followed by several lowercase letters ;
+    - this pattern can be repeated several times, separated by a space or "-"
+    - (\s|$) and (^|\s) are safeguards to avoid matching the beginning or end of another word.
+
+    :param nstr: the string from which a name should be extracted
+    :return:
+    """
+    mo = re.search(r"(^|\s)[A-Z][a-zàáâäéèêëíìîïòóôöúùûüøœæç]+((\s|-)[A-Z][a-zàáâäéèêëíìîïòóôöúùûüøœæç]+)?", nstr)
+    if mo is not None:
+        return mo[0]
+    else:
+        return None
 
 
 if __name__ == "__main__":

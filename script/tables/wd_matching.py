@@ -13,6 +13,7 @@ names = {
     "ad.": "adam",
     "alex": "alexandre",
     "alph.": "alphonse",
+    "ant": "antoine",
     "arm.": "armand",
     "aug.": "auguste",
     "ch.": "charles",
@@ -25,6 +26,7 @@ names = {
     "fr.": "françois",
     "fréd": "frédéric",
     "g.": "guillaume",
+    "guill.": "guillaume",
     "gab.": "gabriel",
     "jacq.": "jacques",
     "jh.": "joseph",
@@ -42,14 +44,20 @@ names = {
 # - keys: the abbreviation, found in catalogues;
 # - values: the full, normalised orthograph for wikidata
 comp_names = {
+    "f.-m.": "francois-marie",
     "j.-f.": "jean-francois",
     "j.-m.": "jean-marie",
     "j.-j.": "jean-jacques",
     "j.-l.": "jean-louis",
     "j.-b.": "jean-baptiste",
+    "j.-p.": "jean-pierre",
+    "j.-pierre": "jean-pierre",
+    "m.-madeleine": "marie-madeleine",
     "p.-j.": "pierre-jean",
     "j.-sylvain": "jean-sylvain",
-    "l.-ph.": "louis-philippe"
+    "l.-ph.": "louis-philippe",
+    "edm.-ch.": "edmond-charles",
+    "ch.-marie": "charles-marie"
 }
 
 # french nobility and clerical titles: some terms are not translated:
@@ -66,7 +74,8 @@ nobility = {
     "countess": ["comtesse", "ctesse"],
     "cardinal": ["cardinal"],
     "pope": ["pape"],
-    "none": ["chevalier", "marquis", "marquise"]  # delete this line ?
+    "lord": "lord",
+    "none": ["chevalier", "marquis", "marquise", "sire"]  # delete this line ?
 }
 
 # a person's function; to be found in the tei:trait; not all words
