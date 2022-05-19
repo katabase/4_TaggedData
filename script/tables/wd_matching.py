@@ -10,30 +10,30 @@
 # - keys: the abbreviation, found in catalogues;
 # - values: the full, normalised orthograph for wikidata
 names = {
-    "ad.": "adam",
+    "ad": "adam",
     "alex": "alexandre",
-    "alph.": "alphonse",
+    "alph": "alphonse",
     "ant": "antoine",
-    "arm.": "armand",
-    "aug.": "auguste",
-    "ch.": "charles",
-    "cl.": "claude",
-    "emm.": "emmanuel",
-    "ed.": "edouard",
-    "et.": "etienne",
-    "ét.": "etienne",
+    "arm": "armand",
+    "aug": "auguste",
+    "ch": "charles",
+    "cl": "claude",
+    "emm": "emmanuel",
+    "ed": "edouard",
+    "et": "etienne",
+    "ét": "etienne",
     "ferd": "ferdinand",
-    "fr.": "françois",
+    "fr": "françois",
     "fréd": "frédéric",
-    "g.": "guillaume",
-    "guill.": "guillaume",
-    "gab.": "gabriel",
-    "jacq.": "jacques",
-    "jh.": "joseph",
-    "jos.": "joseph",
-    "nic.": "nicolas",
-    "ph.": "philippe",
-    "v.": "victor",
+    "g": "guillaume",
+    "guill": "guillaume",
+    "gab": "gabriel",
+    "jacq": "jacques",
+    "jh": "joseph",
+    "jos": "joseph",
+    "nic": "nicolas",
+    "ph": "philippe",
+    "v": "victor",
     "vr": "victor",
 }
 
@@ -44,38 +44,49 @@ names = {
 # - keys: the abbreviation, found in catalogues;
 # - values: the full, normalised orthograph for wikidata
 comp_names = {
-    "f.-m.": "francois-marie",
-    "j.-f.": "jean-francois",
-    "j.-m.": "jean-marie",
-    "j.-j.": "jean-jacques",
-    "j.-l.": "jean-louis",
-    "j.-b.": "jean-baptiste",
-    "j.-p.": "jean-pierre",
-    "j.-pierre": "jean-pierre",
-    "m.-madeleine": "marie-madeleine",
-    "p.-j.": "pierre-jean",
-    "j.-sylvain": "jean-sylvain",
-    "l.-ph.": "louis-philippe",
-    "edm.-ch.": "edmond-charles",
-    "ch.-marie": "charles-marie"
+    "arm ch": "armand-charles",
+    "f m": "francois-marie",
+    "fr emm.": "françois-emmanuel",
+    "j f": "jean-francois",
+    "j m": "jean-marie",
+    "j j": "jean-jacques",
+    "j l": "jean-louis",
+    "j b": "jean-baptiste",
+    "j p": "jean-pierre",
+    "j pierre": "jean-pierre",
+    "m madeleine": "marie-madeleine",
+    "p j": "pierre-jean",
+    "j sylvain": "jean-sylvain",
+    "l ph": "louis-philippe",
+    "edm ch": "edmond-charles",
+    "ch marie": "charles-marie"
 }
 
-# french nobility and clerical titles: some terms are not translated:
-# persons are not referred to using those terms in wikidata;
+# french nobility and clerical title. only the most important
+# titles are translated because people are not referred to using those
+# terms in wikidata;
 # to be used on the tei:name
 # - keys: the term to be used in wikidata;
 # - values: a list of corresponding terms in the tei:traits
 nobility = {
-    "prince": ["prince"],
-    "princess": ["princesse"],
-    "duke": ["duc"],
-    "duchess": ["duchesse"],
-    "count": ["comte", "cte"],
-    "countess": ["comtesse", "ctesse"],
-    "cardinal": ["cardinal"],
-    "pope": ["pape"],
-    "lord": ["lord"],
-    "none": ["chevalier", "marquise", "marquis", "sire"]  # delete this line ?
+    "prince": "prince",
+    "princesse": "princess",
+    "duc": "duke",
+    "duchesse": "duchess",
+    "famille": "family",
+    "vicomte": "",
+    "victe": "",
+    "comtesse": "",
+    "ctesse": "",
+    "comte": "",
+    "cte": "",
+    "cardinal": "",
+    "pape": "",
+    "lord": "",
+    "chevalier": "",
+    "marquise": "",
+    "marquis": "",
+    "sire": ""
 }
 
 # a person's function; to be found in the tei:trait; not all words
@@ -84,33 +95,45 @@ nobility = {
 # - keys: the term to be used in wikidata;
 # - values: a list of corresponding terms in the tei:traits
 function = {
-    "general": ["général"],
-    "marshal": ["maréchal"],
-    "military": ["lieutenant", "officier", "colonel",
-                 "lieutenant-colonel", "commandant", "capitaine"],  # "less important" military positions
-    "king": ["roi"],
-    "emperor": ["empereur"],
-    "president": ["president"],
-    "politician": ["homme politique", "président de l'assemblée",
-                   "orateur", "député", "secrétaire d'état"],
-    "writer": ["écrivain", "auteur", "romancier"],
-    "actor": ["acteur"],
-    "actress": ["actrice"],
-    "singer": ["cantatrice", "chanteur", "chanteuse"],
-    "painter": ["peintre"],
-    "sculptor": ["sculpteur"],
-    "composer": ["compositeur"],
-    "musician": ["musicien", "musicienne"],
-    "chansonnier": ["chansonnier"],
-    "architect": ["achitecte"],
-    "journalist": ["journaliste"],
-    "inventor": ["inventeur"],
-    "chemist": ["chimiste"]
+    "général": "general",
+    "maréchal": "marshal",
+    "lieutenant": "military",
+    "officier": "military",
+    "colonel": "military",
+    "lieutenant-colonel": "military",
+    "commandant": "military",
+    "capitaine": "military",  # "less important" military positions
+    "roi": "king",
+    "empereur": "emperor",
+    "president": "president",
+    "homme politique": "politician",
+    "président de l'assemblée": "politician",
+    "orateur": "politician",
+    "député": "politician",
+    "secrétaire d'état": "politician",
+    "écrivain": "writer",
+    "auteur": "writer",
+    "romancier": "writer",
+    "acteur": "actor",
+    "actrice": "actress",
+    "cantatrice": "singer",
+    "chanteur": "singer",
+    "chanteuse": "singer",
+    "peintre": "painter",
+    "sculpteur": "sculptor",
+    "compositeur": "composer",
+    "musicien": "musician",
+    "musicienne": "musician",
+    "chansonnier": "chansonnier",
+    "achitecte": "architect",
+    "journaliste": "journalist",
+    "inventeur": "inventor",
+    "chimiste": "chemist"
 }
 
 # messy regex to match roman numerals and their french number suffixes:
-# "ier", "iind", "iiième" ...
-rgx_roman = "((i|v|x|d|c|m)+)(er|ère|ere|ème|eme|nd|nde)?"  # only keep $1 of that regex
+# "Ier", "IInd", "IIIème" ...
+rgx_roman = "((I|V|X|D|C|M)+)(er|ère|ere|ème|eme|nd|nde)?"  # only keep $1 of that regex
 
 # hybrid of the list of departments created in 1790 + list of 1811 departments
 # (largest number of departments in the french history)

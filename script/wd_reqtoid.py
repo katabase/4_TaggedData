@@ -3,11 +3,11 @@ import json
 import csv
 import re
 
-from tables.wd_matching import names, nobility
+from tables.wd_matching import comp_names, names, nobility
 
 # get a wikidata id from a full text query
 
-# r = requests.get("https://www.wikidata.org/w/api.php?action=query&list=search&srsearch=du+resnel&format=json")
+r = requests.get("https://www.wikidata.org/w/api.php?action=query&list=search&srsearch=du+resnel&format=json")
 
 
 # ================= BUILD A QUERY ================= #
@@ -30,19 +30,38 @@ def prep_query(in_data):
         parenth = re.findall(r"\(.+\)?", name)
         if len(parenth) > 0:
             inp = re.sub(r"\(|\)", "", parenth[0])  # extract content in parenthesis
+            fullfirstname(inp)  # get the full name
+
 
             # check whether the name is a nobility (they have a special structure and must be
-            # treated differently : "Title name (Actual name, title)")
-            nobl = []
-            for k, v in nobility.items():
+            # treated differently : "Title name (Actual name, title)").
+            # examples:
+            # - Ray (Otton de la Roche, sire de) => unimportant title, will be deleted
+            # - Sully (Maximilien de Béthune, duc de)  => important title, will be kept
+            nreal = ""  # real name, if the name contains a nobility name: "Otton de la Roche"
+            for k, v in list(nobility.items()):
+                if k in inp.lower():
+                    # only keep the actual name and the title if it is important. result :
+                    # - "otton"
+                    # - "maximilien de béthune duke"
+                    nreal = re.sub(f"[,\s]*((le|la|de|d')\s)*{k}(\.+)?", f" {nobility[k]}", inp.lower())
+                    nreal = re.sub(f"(,|d'|^de\s|de$|\svi\s|\spuis\s)", "", nreal)
+            if nreal != "":
+                # get the full name: real name, nobility title (if it has been kept), nobility name (name of their land)
+                # and delete extra spaces. result :
+                # - maximilien de béthune duke sully
+                # - otton de la roche ray
+                nfull = re.sub("(\s+|^\s|\s$)+", " ", nreal + " " + re.sub(r"\(.+\)?", "", name.lower()))
+
+                    # DELETE MULTIPLE NOBILITY TITLES IF THERE ARE
+
+            """for k, v in nobility.items():
                 # DOES IT MAKE SENSE TO KEEP THE TITLE ??? NOT SO SURE
                 for t in v:
                     nobl = [t for t in v if t in inp.lower()]
                 if len(nobl) > 0:  # if a nobility title is detected, treat it as such
                     print(in_data[0])
-                    print(nobl)
-            """if len(nobl) > 0 and "princesse" in nobl:
-                print(f"{nobl} - {inp}")"""
+                    print(nobl)"""
 
 
             # check whether the name is a geographic name: province, department, colony
@@ -103,9 +122,10 @@ def reqtoid():
         for row in reader:
             in_data = [row[2], row[3]]  # input data on which to launch a query
             prep_query(in_data)
+    # print(r.text)
 
 
-# ================= REGEX MATCHING ================= #
+# ================= WORKING ON NAMES: REGEX MATCHING AND GETTING THE FULL 1ST NAME ================= #
 def rgx_abvcomp(nstr):
     """
     try to extract an abbreviated composed first name. if there is no match, return None
@@ -206,6 +226,82 @@ def rgx_complnm(nstr):
         return mo[0]
     else:
         return None
+    
+
+def fullfirstname(nstr):
+    """
+    try to 
+    - match an abbreviated first name from a name string
+    - extract a full first name from an abbreviated version using conversion tables
+    :param nstr: 
+    :return: 
+    """
+    fname = ""  # full first name to be extracted
+    fullnstr = ""  # full name string, with the complete first name
+    rebuilt = False  # boolean indicating wether the first name is rebuild (can be trusted)
+                     # or not
+
+    # if it is a composed abbreviated first name, try to build a full version
+    if rgx_abvcomp(nstr) is not None:
+        print("1")
+        abvcomp = rgx_abvcomp(nstr)  # try to match an abbreviated composed name
+        nstr_prep = nstr.replace(abvcomp, "{MARKER}")  # prepare the name string for string replacement
+        # clean the composed name
+        abvcomp = re.sub(r"(^\s|\s$|\.)", "", abvcomp)
+        abvcomp = re.sub(r"-", " ", abvcomp).lower()
+        # try to get the complete form from the composed name dictionary
+        for k, v in comp_names.items():
+            if abvcomp == k:
+                fname = v
+        # if no composed name is returned, try to rebuild a composed name from
+        # the names dictionary (which doesn't contain full names)
+        if fname == "":
+            nlist = abvcomp.split()  # list of "subnames"
+            for k, v in names.items():
+                for n in nlist:
+                    if n == k:
+                        fname += f"{v} "
+        # rebuild a name string with the full name
+        if fname != "":
+            fullnstr = nstr_prep.replace("{MARKER}", f"{fname} ")
+            rebuilt = True
+
+    # if it is a "simple" (non-composed) abbreviated name, try to build a full name
+    elif rgx_abvsimp(nstr) is not None:
+        print("2")
+        abvsimp = rgx_abvsimp(nstr)  # try to match an abbreviated non-composed name
+        nstr_prep = nstr.replace(abvsimp, "{MARKER}")  # prepare the name string for string replacement
+        # try to get the complete name from the names dictionary
+        for k, v in names.items():
+            if abvsimp == k:
+                fname = v
+        # rebuild a name string with the full name
+        if fname != "":
+            fullnstr = nstr_prep.replace("{MARKER}", f"{fname} ")
+            rebuilt = True
+
+    # if it is a full name, keep it that way
+    elif rgx_complnm(nstr) is not None:
+        print("3")
+        complnm = rgx_complnm(nstr)  # try to match a full name
+        # the original name string is not changed and does not need to be rebuilt
+        fullnstr = nstr
+        rebuilt = False
+
+    # if no name is matched, the string is not rebuilt
+    else:
+        print("4")
+        fullnstr = nstr
+        rebuilt = False
+
+    og_nstr = nstr  # original name string
+
+    print(og_nstr)
+    print(fullnstr)
+    print("_____________________________________")
+
+    # return
+    return og_nstr, fullnstr, rebuilt
 
 
 # ================= COUNT THE MOST FREQUENT WORDS ================= #
