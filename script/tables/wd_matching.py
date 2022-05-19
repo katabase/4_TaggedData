@@ -68,12 +68,19 @@ comp_names = {
 # to be used on the tei:name
 # - keys: the term to be used in wikidata;
 # - values: a list of corresponding terms in the tei:traits
-nobility = {
-    "prince": "prince",
+status = {
+    "reine": "queen",
+    "roi": "king",
     "princesse": "princess",
-    "duc": "duke",
+    "prince": "prince",
+    "archiduchesse": "",
+    "archiduc": "",
     "duchesse": "duchess",
+    "duc": "duke",
     "famille": "family",
+    "seigneur": "",
+    "vicomtesse": "",
+    "victesse": "",
     "vicomte": "",
     "victe": "",
     "comtesse": "",
@@ -81,12 +88,21 @@ nobility = {
     "comte": "",
     "cte": "",
     "cardinal": "",
-    "pape": "",
+    "pape": "pope",
     "lord": "",
     "chevalier": "",
     "marquise": "",
     "marquis": "",
-    "sire": ""
+    "sire": "",
+    "baronnesse": "",
+    "baronne": "",
+    "baron": "",
+    "abbé": "",
+    "madame": "",
+    "monsieur": "",
+    "docteur": "",
+    "maréchale": "",
+    "maréchal": "",
 }
 
 # a person's function; to be found in the tei:trait; not all words
