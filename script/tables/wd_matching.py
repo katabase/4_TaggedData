@@ -24,6 +24,8 @@ names = {
     "ét": "etienne",
     "ferd": "ferdinand",
     "fr": "françois",
+    "franc": "françois",
+    "franç": "françois",
     "fréd": "frédéric",
     "g": "guillaume",
     "guill": "guillaume",
@@ -45,6 +47,7 @@ names = {
 # - values: the full, normalised orthograph for wikidata
 comp_names = {
     "arm ch": "armand-charles",
+    "ch m": "charles-marie",
     "f m": "francois-marie",
     "fr emm.": "françois-emmanuel",
     "j f": "jean-francois",
@@ -54,7 +57,9 @@ comp_names = {
     "j b": "jean-baptiste",
     "j p": "jean-pierre",
     "j pierre": "jean-pierre",
+    "franc rené": "francois-rené",
     "m madeleine": "marie-madeleine",
+    "ph h": "philippe henri",
     "p j": "pierre-jean",
     "j sylvain": "jean-sylvain",
     "l ph": "louis-philippe",
@@ -99,10 +104,14 @@ status = {
     "baron": "",
     "abbé": "",
     "madame": "",
+    "mme": "",
     "monsieur": "",
+    "mr": "",
     "docteur": "",
     "maréchale": "",
     "maréchal": "",
+    "mademoiselle": "",
+    "melle": ""
 }
 
 # a person's function; to be found in the tei:trait; not all words
@@ -155,7 +164,7 @@ rgx_roman = "((I|V|X|D|C|M)+)(er|ère|ere|ème|eme|nd|nde)?"  # only keep $1 of 
 # (largest number of departments in the french history)
 # https://fr.wikipedia.org/wiki/liste_des_d%c3%a9partements_fran%c3%a7ais_de_1790
 # https://fr.wikipedia.org/wiki/liste_des_d%c3%a9partements_fran%c3%a7ais_de_1811
-dpt = [
+dpts = [
     "ain",
     "aisne",
     "allier",
@@ -353,7 +362,6 @@ colonies = [
     "saint-vincent-et-les-grenadines",
     "saint-eustache",
     "saint-christophe",
-    "trinitad et tobago",
     "tobago",
     "brésil",
     "guyane française",
@@ -364,7 +372,6 @@ colonies = [
     "tunisie",
     "fezzan",
     "dahomey",
-    "bénin",
     "burkina-faso",
     "haute-volta",
     "cameround",
@@ -439,3 +446,19 @@ countries = [
     "grèce",
     "chine",
 ]
+
+# events are translated to something that returns a result in wikidata
+events = {
+    "guerre": "war",
+    "insurrection": "war",
+    "siège": "siege",
+    "commune": "commune",
+    "défense": "battle",
+    "revolution": "revolution"
+}
+
+other = {
+    "louvre": "louvre",
+    "arc de triomphe du carrousel": "arc de triomphe du carrousel",
+    "université": "university"
+}

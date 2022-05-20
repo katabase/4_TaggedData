@@ -3,7 +3,8 @@ import json
 import csv
 import re
 
-from tables.wd_matching import comp_names, names, status
+from tables.wd_matching import comp_names, names, status, provinces, dpts, colonies, \
+    countries, events, other
 
 # get a wikidata id from a full text query
 
@@ -18,33 +19,112 @@ def prep_query(in_data):
     :param in_data: input data: a list of the 3rd and 4th entries of the csv
     :return:
     """
+    fname = ""  # first name of a person or additional info if the tei:name is not about a person
+    lname = ""  # last name of a person or main info if the tei:name is not about a person
+    nobname_sts = ""  # name owned by a person if they are nobility
+    sts_title = []  # nobility title of a person
+    dates = []  # dates of life/death of a person (in tei:trait or in tei:name for historical events)
+    function = []  # functions occupied by a person (in tei:trait)
+    rebuilt = False  # wether a person's first name has been rebuilt from an abbreviation
+    abv = None  # wether a person's first name contains abbreviations
     qdata = {
         "fname": "",  # first name of a person
         "lname": "",  # last name of a person
-        "fname_sts": "",  # first name if a person has a "status" (implies a different text structure)
-        "lname_sts": "",  # last name if a person has a "status" (implies a different text structure)
         "nobname_sts": "",  # nobility name if a person has a "status": the name of their land
         "status": [],  # list of statuses of a person
         "dates": [],  # dates indicated in the tei:trait: life/death
         "function": "",  # functions occupated by a person in the tei:trait
-        "rebuilt": False  # wether the name has been rebuilt from an abbreviated form or not
+        "rebuilt": False,  # wether the name has been rebuilt from an abbreviated form or not
+        "abv": None  # wether a first name contains abbreviations or not: True if it contains abvs, False if not,
+        #              None if there's no first name
     }  # dictionary to store query data
     name = in_data[0]  # tei:name
     trait = in_data[1]  # tei:trait
+    parenth = re.search(r"\(.+\)?", name)  # check if there's text inside the parenthesis
+    if parenth is not None:
+        inp = re.sub(r"\(|\)", "", parenth[0])  # text in parenthesis
+        firstnm, matchstr, rebuilt, abv = namebuild(inp)  # try to extract the full name
+    else:
+        inp = ""
+        matchstr = ""  # so that the case 2 condition doesn't fail
 
     # =========== PARSE THE NAME =========== #
-    # see if it's a place or a person or a "DIVERS / DOCUMENTS"
+    # CASE 1 - "DIVERS / DOCUMENTS"
     if re.match(r"^([Dd]((OCUMENT|ocument)[Ss]?|(IVERS|ivers))|\s)+$", name):
-        qdata["lname"] = ""
-    else:
-        parenth = re.findall(r"\(.+\)?", name)
-        if len(parenth) > 0:
-            inp = re.sub(r"\(|\)", "", parenth[0])  # extract content in parenthesis
-            firstnm, matchstr, rebuilt = namebuild(inp)  # get the full name and the string that has been matched as a name
-            print(firstnm)
-            qdata["rebuilt"] = rebuilt  # indicate wether the name has been rebuilt or not; if not,
-            #                             it is more trustworthy
+        lname = ""
 
+    # CASE 2 - CHARTS
+    if re.search("[Cc](HARTE|harte)[sS]?", name) is not None:
+        lname = "charter"
+
+    # CASE 3 - it contains geographic data:
+    elif any(p in name.lower().split() for p in provinces) \
+            or any(d in name.lower().split() for d in dpts) \
+            or any(c in name.lower().split() for c in colonies) \
+            or any(c in name.lower().split() for c in countries):
+        if matchstr == "" and not any(s in name.lower() for s in status):  # check that it's not a name
+            # clean the string
+            name = re.sub(r"(^\.?\s+|.?\s+.?$)", "", name).lower()
+            # remove extra noise : persons
+            if name == "pelet de la lozère" or name == "anne de bretagne" or name == "jeanne de bourgogne":
+                fname = re.search(r"^[a-z]+", name)[0]
+                lname = re.search(r"de", name)[0]
+            # extract info about the churches
+            elif re.search(r"[ée]glises?", name):
+                for d in dpts:
+                    if d in name:
+                        lname = d
+                        fname = "religious buildings"
+            # extract other specific places
+            elif any(o in name for o in list(other.keys())):
+                for o in other:
+                    if o in name:
+                        fname = other[o]
+                        lname = re.search(r"^[A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ]+[a-zàáâäéèêëíìîïòóôöúùûüøœæç]*", name)  # name of city
+            # remove the events: assign the event to fname, geographical data to lname, dates to lname
+            elif any(e in name for e in list(events.keys())):
+                for k, v in events.items():
+                    if k in name:
+                        dates.append(re.search(r"\d{4}", name)[0]) if re.search(r"\d{4}", name) is not None \
+                            else dates.append("")
+                        for c in countries:
+                            if c in name:
+                                lname = c
+                        for p in provinces:
+                            if p in name:
+                                lname = p
+                        for c in colonies:
+                            if c in name:
+                                lname = c
+                        for d in dpts:
+                            if d in name:
+                                lname = d
+            # all the other cases, where we have just the name or other, marginal and uselsee
+            # info (aka, info that we cannot easily pass to wikidata). the info added to fname
+            # is not necessarily meaningful: it is what works best to get the first result to
+            # be the good one on wikidata
+            else:
+                for c in countries:
+                    if c in name:
+                        lname = c
+                for p in provinces:
+                    if p in name:
+                        fname = "province"
+                        lname = p
+                for c in colonies:
+                    if c in name:
+                        fname = "french"
+                        lname = c
+                for d in dpts:
+                    if d in name:
+                        fname = "french department"
+                        lname = d
+
+    # CASE 4 - other historical events
+
+    # CASE 4 - it's a name (yay!)
+    else:
+        if inp != "":
             # check whether the name is a nobility (they have a special structure and must be
             # treated differently : "Title name (Actual name, title)").
             # examples:
@@ -60,7 +140,7 @@ def prep_query(in_data):
                     # - isn't a name (doesn't match matchstring)
                     # - does not contain only lowercase letters
                     # this horrendous series of regexes pretty much removes all the noise
-                    inp = inp.replace(matchstr, "")  # delete the strings matched as names
+                    inp = inp.replace(matchstr, "")  # delete strings matched by namebuild (deletes status titles if they were matched)
                     inp = re.sub(f",?\s?(le|la|l')?\s?{k}(\s(de|de\sla|du|d'|,)*(\s|$))*", "", inp)
                     inp = re.sub(r"(^|\s)+(puis|dit)", "", inp)
                     inp = re.sub(r"(^|\s)+([Ll]e|[Ll]a|[Dd]e(s)?|[Dd]u)+(\s|$)", "", inp)
@@ -74,51 +154,25 @@ def prep_query(in_data):
                     inp = re.sub(r"\s+", " ", inp)
                     
                     sts = True  # a status has been found ; the string will be worked differently
-                    qdata["status"].append(v)  # add the title to the dictionary
+                    sts_title.append(v)  # add the title to the dictionary
             
             if sts is True:
-                print(inp)
-                qdata["fname_sts"] = firstnm  # THERE'S AN ITERATION PROBLEM HERE IN THE NAMEBUILD FUNCTION
-                qdata["lname_sts"] = inp  # NO DATA HERE
-                qdata["nobname_sts"] = name.replace(parenth[0], "")  # WORKS FILE
-                print(qdata)
-            
-            
-            """if nreal != "":
-                # get the full name: real name, nobility title (if it has been kept), nobility name (name of their land)
-                # and delete extra spaces. result :
-                # - maximilien de béthune duke sully
-                # - otton de la roche ray
-                # nfull = re.sub("(\s+|^\s|\s$)+", " ", nreal + " " + re.sub(r"\(.+\)?", "", name.lower()))
+                # print(inp)
+                fname = firstnm
+                lname = inp
+                nobname_sts = name.replace(parenth[0], "")
 
-                    # DELETE MULTIPLE NOBILITY TITLES IF THERE ARE
+    qdata = {
+        "fname": fname,
+        "lname": lname,
+        "nobname_sts": nobname_sts,
+        "status": sts_title,
+        "dates": dates,
+        "function": function,
+        "rebuilt": rebuilt,
+        "abv": abv
+    }
 
-            for k, v in nobility.items():
-                # DOES IT MAKE SENSE TO KEEP THE TITLE ??? NOT SO SURE
-                for t in v:
-                    nobl = [t for t in v if t in inp.lower()]
-                if len(nobl) > 0:  # if a nobility title is detected, treat it as such
-                    print(in_data[0])
-                    print(nobl)"""
-
-
-            # check whether the name is a geographic name: province, department, colony
-
-
-            # if it is a "normal name", get the full first name from its abbreviation
-            if rgx_abvcomp(inp) is not None:
-                abvcomp = rgx_abvcomp(inp)  # try to match an abbreviated composed name
-                # print(f"1 - {inp} # {abvcomp}")
-            elif rgx_abvsimp(inp) is not None:
-                abvsimp = rgx_abvsimp(inp)  # try to match an abbreviated non-composed name
-                # print(f"2 - {inp} # {abvsimp}")
-            elif rgx_complnm(inp) is not None:
-                complnm = rgx_complnm(inp)  # try to match a full name
-                # print(f"3 - {inp} # {complnm}")
-            for k, v in names.items():
-                if v in inp.lower():
-                    pass
-                        # print(t)
     # - extract the surname (at the beginning, outside of "()"
     # - extract the initials (in  "()")
     # - extract nomility titles
@@ -197,23 +251,20 @@ def rgx_abvcomp(nstr):
     :param nstr: the name string used as input
     :return: the matched string if there is a match ; None if there is no match
     """
-    mo = re.search(r"(^|\s)[A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*"
-                   + "\.?-[A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\.(\s|$)", nstr) \
-         or re.search(r"(^|\s)[A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\."
-                      +"-[A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\.?(\s|$)", nstr) \
-         or re.search(r"(^|\s)[A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ]\.?\s"
-                      +"[A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\.(\s|$)", nstr) \
-         or re.search(r"(^|\s)[A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\.?"
-                      +"\s[A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ]\.(\s|$)", nstr) \
-         or re.search(r"(^|\s)[A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ]\.?\s[A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ]\.?(\s|$)", nstr) \
-         or re.search(r"[A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ].{2,}", nstr) \
-         or re.search(
-            r"(^|\s)([A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\.?-)+"
-            +"([A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\.)(\s|$)", nstr) \
-         or re.search(
-            r"(^|\s)([A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\.-)+"
-            +"([A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\.?)(\s|$)",nstr)
-
+    mo = re.search(r"(^|,|\s)[A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*"
+                   + "\.?-[A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\.(\s|,|$)", nstr) \
+         or re.search(r"(^|,|\s)[A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\."
+                      + "-[A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\.?(\s|,|$)", nstr) \
+         or re.search(r"(^|,|\s)[A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ]\.?\s"
+                      + "[A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\.(\s|,|$)", nstr) \
+         or re.search(r"(^|,|\s)[A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\.?"
+                      + "\s[A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ]\.(\s|,|$)", nstr) \
+         or re.search(r"(^|,|\s)[A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ]\.?\s[A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ]\.?(\s|,|$)", nstr) \
+         or re.search(r"([A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ]\.){2,}", nstr) \
+         or re.search(r"(^|,|\s)([A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\.?-)+"
+                      + "([A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\.)(\s|,|$)", nstr) \
+         or re.search(r"(^|,|\s)([A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\.-)+"
+                      + "([A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ][a-zàáâäéèêëíìîïòóôöúùûüøœæç]*\.?)(\s|,|$)", nstr)
     if mo is not None:
         return mo[0]
     else:
@@ -266,7 +317,7 @@ def rgx_complnm(nstr):
     :return:
     """
     mo = re.search(r"(^|\s)[A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ][a-zàáâäéèêëíìîïòóôöúùûüøœæç]+"
-                   +"((\s|-)[A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ][a-zàáâäéèêëíìîïòóôöúùûüøœæç]+)?", nstr)
+                   +"((\s|-)[A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ][a-zàáâäéèêëíìîïòóôöúùûüøœæç]+)*", nstr)
     if mo is not None:
         return mo[0]
     else:
@@ -278,87 +329,116 @@ def namebuild(nstr):
     try to 
     - match an abbreviated first name from a name string
     - extract a full first name from an abbreviated version using conversion tables
-    :param nstr: 
-    :return: 
+    :param nstr: the string from which to extract a name
+    :return: firstnm, matchstr, rebuilt, abv
+    - firstnm :
+      - if a name is matched, the full form if possible; else, the full form where
+        possible and an abbreviation elsewhere
+      - an empty string if no name is matched
+    - matchstr : the string that has been matched as a name, to modify the name variable from
+      prep_query()
+    - rebuilt : a boolean value indicating wether the name has been rebuilt (and can be trusted in queries)
+    - abv : a boolean indicating if the name contains abbreviations:
+      - True if the firstnm contains abbreviations
+      - False if not
+      - None if no name string has been matched
     """
     firstnm = ""  # full first name to be extracted
     matchstr = ""  # the matched string
-    fullnstr = ""  # full name string, with the complete first name
     rebuilt = False  # boolean indicating wether the first name is rebuild (can be trusted)
                      # or not
+    abv = None  # boolean indicating wether the name contains an abbreviation or not:
+    #             we try to rebuild a full name from abbreviation, but can't always; in
+    #             that case, abv is True to indicate that the name contains an abv
 
-    # if it is a composed abbreviated first name, try to build a full version
+    # print(nstr)
+
+    # CASE 1 - if it is a composed abbreviated first name, try to build a full version
+    # print(rgx_abvcomp(nstr))
     if rgx_abvcomp(nstr) is not None:
         # print("1")
         abvcomp = rgx_abvcomp(nstr)  # try to match an abbreviated composed name
         matchstr = abvcomp
-        """nstr_prep = nstr.replace(abvcomp, "{MARKER}")  # prepare the name string for string replacement"""
         # clean the composed name
         abvcomp = re.sub(r"(^\s|\s$|\.)", "", abvcomp)
         abvcomp = re.sub(r"-", " ", abvcomp).lower()
+
         # try to get the complete form from the composed name dictionary
         for k, v in comp_names.items():
             if abvcomp == k:
                 firstnm = v
-        # if no composed name is returned, try to rebuild a composed name from
-        # the names dictionary (which doesn't contain full names)
-        if firstnm == "":
-            nlist = abvcomp.split()  # list of "subnames"
-            for k, v in names.items():
-                for n in nlist:
-                    if n == k:
-                        firstnm += f"{v} "
-                    else:
-                        firstnm += f"{n} "
-                    rebuilt = True
-        """# rebuild a name string with the full name
-        if firstnm != "":
-            fullnstr = nstr_prep.replace("{MARKER}", f"{firstnm} ")
-            rebuilt = True"""
+                rebuilt = True
+                abv = False  # boolean indicating wether firstnm contains abbreviations
 
-    # if it is a "simple" (non-composed) abbreviated name, try to build a full name
+        # if no composed name is returned, try to rebuild a composed name
+        # - first, try to rebuild the composed name from a smaller set of letters
+        #   in the comp_names dictionary (J.-P.-Guillaume => "J.-P." is in the dictionary)
+        # - then, try to rebuild the name from non-composed names in the the names dictionary
+        # example: J.-P.-Ch. => jean pierre charles
+        if firstnm == "":
+            ndict = {n: False for n in abvcomp.split()}  # dictionary of subnames: "N." in "P.-N."; the
+            #                                              boolean indicates wether a match has been found
+            # get a full name from composed name: here, J.-P. would be matched
+            for k, v in comp_names.items():
+                if k in abvcomp:
+                    firstnm += f"{v} "  # add the full matched name
+                    k = k.split()  # split the matching composed name in a list to mark the terms
+                    #                list items as matched in ndict
+                    abv = False
+                    for i in k:
+                        ndict[i] = True  # mark matched subnames as true
+                    rebuilt = True
+                    break  # stop the loop. it's super unlikely that 2 names in comp_names are in abvcomp with 0 errors
+            # get a full name from a single name: here, Ch. would be matched
+            for name, found in ndict.items():
+                if found is False:
+                    for k, v in names.items():
+                        if name == k:
+                            firstnm += f"{v} "  # add the full version to the name
+                            found = True
+                            ndict[k] = True  # indicate that the full name has been found
+                            rebuilt = True
+                    if found is False:
+                        firstnm += f"{name} "  # add the abbreviated version if a full version hasn't been found
+            # check whether there are still abbreviations in the name to give a value du abv
+            if False in list(ndict.values()):
+                abv = True
+            else:
+                abv = False
+
+    # CASE 2 - if it is a "simple" (non-composed) abbreviated name, try to build a full name
     elif rgx_abvsimp(nstr) is not None:
         # print("2")
         abvsimp = rgx_abvsimp(nstr)  # try to match an abbreviated non-composed name
         matchstr = abvsimp
-        """nstr_prep = nstr.replace(abvsimp, "{MARKER}")  # prepare the name string for string replacement"""
+        abvsimp = re.sub(r"(^\s|\s$|\.)", "", abvsimp).lower()
         # try to get the complete name from the names dictionary
         for k, v in names.items():
             if abvsimp == k:
                 firstnm = v
                 rebuilt = True
-        """# rebuild a name string with the full name
-        if firstnm != "":
-            fullnstr = nstr_prep.replace("{MARKER}", f"{firstnm} ")
-            rebuilt = True"""
+                abv = False
+        if abv is None:
+            abv = True
 
-    # if it is a full name, keep it that way
+    # CASE 3 - if it is a full name, keep it that way
     elif rgx_complnm(nstr) is not None:
-        # print("3")
+        # print(3)
         complnm = rgx_complnm(nstr)  # try to match a full name
         matchstr = complnm
-        """# the original name string is not changed and does not need to be rebuilt
-        fullnstr = nstr
-        rebuilt = False"""
-        firstnm = complnm
+        firstnm = complnm.lower()
+        abv = False
 
-    # if no name is matched, the string is not rebuilt
+    # CASE 4 - if no name is matched, the string is not rebuilt
     else:
         # print("4")
-        """fullnstr = nstr
-        rebuilt = False"""
+        abv = None  # neither true nor false, since there are no names
 
-    # print(firstnm) if firstnm in ["Famille", "famille"] else print()
-    return firstnm, matchstr, rebuilt
+    # print(firstnm)
+    # print(abv)
+    # print("_____________________________________")
 
-    """og_nstr = nstr  # original name string
-
-    print(og_nstr)
-    print(fullnstr)
-    print("_____________________________________")
-
-    # return
-    return og_nstr, fullnstr, rebuilt"""
+    return firstnm, matchstr, rebuilt, abv
 
 
 # ================= COUNT THE MOST FREQUENT WORDS ================= #
