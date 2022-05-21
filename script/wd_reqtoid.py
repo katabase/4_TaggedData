@@ -4,26 +4,35 @@ import csv
 import re
 
 from tables.wd_matching import comp_names, names, status, provinces, dpts, colonies, \
-    countries, events, other
+    countries, events, other, rgx_roman
 
 # get a wikidata id from a full text query
 
-# r = requests.get("https://www.wikidata.org/w/api.php?action=query&list=search&srsearch=du+resnel&format=json")
+# r_url = "https://www.wikidata.org/w/api.php?action=query&list=search&srsearch=du+resnel&format=json"
+# r_headers = {
+#     "User-Agent": "katabot/1.0 (https://katabase.huma-num.fr/) python/requests/2.27.1",
+#     "Accept-Encoding": "gzip"
+# }
+# r = requests.get(r_url, headers=r_headers)
+# print(r.text)
+
+# https://www.mediawiki.org/wiki/API:Etiquette
 
 
 # ================= BUILD A QUERY ================= #
-def prep_query(in_data):
+def prep_query(in_data, prev):
     """
     prepare the query string: normalize first names, extract data from the tei:trait,
     order the querystring
     :param in_data: input data: a list of the 3rd and 4th entries of the csv
+    :param prev: the dictionary built in the previous loop (in case a tei:name has "le même" as value)
     :return:
     """
     fname = ""  # first name of a person or additional info if the tei:name is not about a person
     lname = ""  # last name of a person or main info if the tei:name is not about a person
     nobname_sts = ""  # name owned by a person if they are nobility
-    sts_title = []  # nobility title of a person
-    dates = []  # dates of life/death of a person (in tei:trait or in tei:name for historical events)
+    sts_title = ""  # nobility titles of a person
+    dates = ""  # dates of life/death of a person (in tei:trait or in tei:name for historical events)
     function = []  # functions occupied by a person (in tei:trait)
     rebuilt = False  # wether a person's first name has been rebuilt from an abbreviation
     abv = None  # wether a person's first name contains abbreviations
@@ -46,22 +55,29 @@ def prep_query(in_data):
         firstnm, matchstr, rebuilt, abv = namebuild(inp)  # try to extract the full name
     else:
         inp = ""
-        matchstr = ""  # so that the case 2 condition doesn't fail
+        matchstr = ""  # so that the case 4 condition doesn't fail
 
     # =========== PARSE THE NAME =========== #
-    # CASE 1 - "DIVERS / DOCUMENTS"
-    if re.match(r"^([Dd]((OCUMENT|ocument)[Ss]?|(IVERS|ivers))|\s)+$", name):
+    # CASE 1 - the name is the same as the one in the previous item: build this item's data w/ data from the prev item
+    if re.match("(le|la)\smême", name.lower()):
+        qdata = prev
+        qdata_prev = qdata
+        return qdata, prev  # at this point, there's no tei:trait with meaningful
+        #                     info when tei:name == "le même" => stop the function there
+
+    # CASE 2 - "DIVERS / DOCUMENTS"
+    elif re.match(r"([Dd]((OCUMENT|ocument)[Ss]?|(IVERS|ivers))|\s)+", name):
         lname = ""
 
-    # CASE 2 - CHARTS
-    if re.search("[Cc](HARTE|harte)[sS]?", name) is not None:
+    # CASE 3 - CHARTS
+    elif re.search("[Cc](HARTE|harte)[sS]?", name) is not None:
         lname = "charter"
 
-    # CASE 3 - it contains geographic data:
-    elif any(p in name.lower().split() for p in provinces) \
-            or any(d in name.lower().split() for d in dpts) \
-            or any(c in name.lower().split() for c in colonies) \
-            or any(c in name.lower().split() for c in countries):
+    # CASE 4 - it contains geographic data:
+    elif any(p in re.sub(r"(\.|,|(\s-)|(-\s))+", " ", name).lower().split() for p in provinces) \
+            or any(d in re.sub(r"(\.|,|(\s-)|(-\s))+", " ", name).lower().split() for d in dpts) \
+            or any(c in re.sub(r"(\.|,|(\s-)|(-\s))+", " ", name).lower().split() for c in colonies) \
+            or any(c in re.sub(r"(\.|,|(\s-)|(-\s))+", " ", name).lower().split() for c in countries.keys()):
         if matchstr == "" and not any(s in name.lower() for s in status):  # check that it's not a name
             # clean the string
             name = re.sub(r"(^\.?\s+|.?\s+.?$)", "", name).lower()
@@ -76,20 +92,21 @@ def prep_query(in_data):
                         lname = d
                         fname = "religious buildings"
             # extract other specific places
-            elif any(o in name for o in list(other.keys())):
+            elif any(o in name for o in other.keys()):
                 for o in other:
                     if o in name:
                         fname = other[o]
                         lname = re.search(r"^[A-ZÀÂÄÈÉÊËÏÔŒÙÛÜŸ]+[a-zàáâäéèêëíìîïòóôöúùûüøœæç]*", name)  # name of city
             # remove the events: assign the event to fname, geographical data to lname, dates to lname
-            elif any(e in name for e in list(events.keys())):
+            elif any(e in name for e in events.keys()):
                 for k, v in events.items():
                     if k in name:
-                        dates.append(re.search(r"\d{4}", name)[0]) if re.search(r"\d{4}", name) is not None \
-                            else dates.append("")
-                        for c in countries:
+                        fname = v
+                        if re.search(r"\d{4}", name) is not None:
+                            dates += re.search(r"\d{4}", name)[0] + " "
+                        for c in countries.keys():
                             if c in name:
-                                lname = c
+                                lname = countries[c]
                         for p in provinces:
                             if p in name:
                                 lname = p
@@ -104,9 +121,9 @@ def prep_query(in_data):
             # is not necessarily meaningful: it is what works best to get the first result to
             # be the good one on wikidata
             else:
-                for c in countries:
+                for c in countries.keys():
                     if c in name:
-                        lname = c
+                        lname = countries[c]
                 for p in provinces:
                     if p in name:
                         fname = "province"
@@ -120,19 +137,13 @@ def prep_query(in_data):
                         fname = "french department"
                         lname = d
 
-    # CASE 4 - other historical events
-
-    # CASE 4 - it's a name (yay!)
+    # CASE 5 - it's (considered to be) a name (yay!)
     else:
         if inp != "":
             # check whether the name is a nobility (they have a special structure and must be
             # treated differently : "Title name (Actual name, title)").
-            # examples:
-            # - Ray (Otton de la Roche, sire de) => unimportant title, will be deleted
-            # - Sully (Maximilien de Béthune, duc de)  => important title, will be kept
-            # nreal = ""  # real name, if the name contains a nobility name: "Otton de la Roche"
             sts = False  # check wether a status name has been found
-            for k, v in list(status.items()):
+            for k, v in status.items():
                 if k in inp.lower():
                     # extract the person's surname by suppressing the noise (aka, non-surname data)
                     # a surname is something that: 
@@ -154,14 +165,77 @@ def prep_query(in_data):
                     inp = re.sub(r"\s+", " ", inp)
                     
                     sts = True  # a status has been found ; the string will be worked differently
-                    sts_title.append(v)  # add the title to the dictionary
+                    if v != "":
+                        sts_title += f"{v} "  # add the title to the dictionary
             
             if sts is True:
-                # print(inp)
                 fname = firstnm
-                lname = inp
+                lname = inp.lower()
                 nobname_sts = name.replace(parenth[0], "")
 
+            # if no status info has been found but there is data in parenthesis, the
+            # full name is much simpler to extract: the format is "Last name (first name)"
+            # first extract the first name from the parenthesis and try to build a full name;
+            # then, extract the last name outside the parenthesis
+            else:
+                # if the string is not completely empty, try to match a complete name that might have gone unnoticed
+                if not re.search("^\s*(\s|d'|de|dit|,)*\s*$", inp.replace(matchstr, "")):
+                    if rgx_complnm(inp.replace(matchstr, "")) is not None:
+                        # rebuild the name from the remaining strings in inp: str.find()
+                        # returns the starting position of a substring in a string and
+                        # is used to get the relative position of the firstnm (rebuilt complete
+                        # name extracted from matchstr) compared to the additional
+                        # matched name (addnm)
+                        addnm = rgx_complnm(inp.replace(matchstr, ""))
+                        if "père" in inp and "Dumas" in name:
+                            add = "père"
+                        elif "fils" in inp and "Dumas" in name:
+                            add = "fils"
+                        else:
+                            add = ""
+                        if inp.find(matchstr) < inp.find(addnm):
+                            fname = re.sub("\s+", " ", f"{firstnm} {add} {addnm}").lower()
+                        else:
+                            fname = re.sub("\s+", " ", f"{addnm} {add} {firstnm}").lower()
+                else:
+                    # match alexandre dumas père / fils (quite a lot of entries on them)
+                    if re.search(r"(^|\s+)(père|fils)(\s+|$)", name.replace(parenth[0], "")) \
+                            and re.search(r"(^|\s+)D(UMAS|umas)(\s+|$)", name):
+                        add = re.search(r"(^|\s+)(père|fils)(\s+|$)", name.replace(parenth[0], ""))[0]
+                    else:
+                        add = ""
+                    fname = re.sub("\s+", " ", f"{firstnm} {add}").lower()
+
+                # clean the last name
+                lname = name.replace(parenth[0], "").lower()
+                lname = re.sub("(^|\s+)(père|fils)(\s+|$)", " ", lname)
+                lname = re.sub(r",|\.", "", lname)
+                lname = re.sub("\s+", " ", lname)
+
+        # if the tei: name doesn't contain parenthesis, it is generally pretty clean
+        # and structured but its structure is too loose to do any regex matching =>
+        # clean it a bit and save it as lname
+        else:
+            lname = re.sub(r"\.|,|(^\s)|(\s$)|(-\s?$)|(^\s?-)|\(|\)|\"", "", name).lower()
+
+    # =========== PARSE THE trait =========== #
+    # try to extract the birth/death dates
+    if re.search(r"\d{4}", trait):
+        # get some context on the date to determine whether it's a birth/death date or another date
+
+        # PROBLEM W/ MATCHING EVERYTHING BETWEEN BIRTHDEATH WORD AND DATE: [^\d{4,}]+
+
+        if re.search(r"(^|\s|,|\.)[Nn](.|\s|ée?)[^\d{4,}]+\d{4}", trait):
+            context = re.search(r"(^|\s|,|\.)[Nn](.|\s|ée?)[^\d{4,}]+\d{4}", trait)[0]
+            dates += re.search(r"\d{4}", context)[0] + " "
+        elif re.search(r"(^|\s|,|\.)[Mm][.|\s|orte?][^\d{4,}]+\d{4}", trait):
+            context = re.search(r"(^|\s|,|\.)[Mm][.|\s|orte?][^\d{4,}]+\d{4}", trait)[0]
+            dates += re.search(r"\d{4}", context)[0] + " "
+        elif re.search(r"(^|\s|,|\.)([Dd]écap|[Aa]ssa|[Tt]uée?)[^\d{4,}]+\d{4}", trait):
+            context = re.search(r"(^|\s|,|\.)([Gg]uil|[Dd]écap|[Aa]ssa|[Tt]uée?|[Ff]usi)[^\d{4,}]+\d{4}", trait)[0]
+            dates += re.search(r"\d{4}", context)[0] + " "
+        else:
+            print(trait)
     qdata = {
         "fname": fname,
         "lname": lname,
@@ -172,6 +246,10 @@ def prep_query(in_data):
         "rebuilt": rebuilt,
         "abv": abv
     }
+    qdata_prev = qdata  # in case an entry is labeled "le même", aka the same person as the entry before
+
+    # return
+    return qdata, qdata_prev
 
     # - extract the surname (at the beginning, outside of "()"
     # - extract the initials (in  "()")
@@ -182,18 +260,27 @@ def prep_query(in_data):
 
 def launch_query(qstr):
     """
-    get the wikipedia id from a full text query
+    get the wikipedia id from a full text query and launch the http get query
     :param qstr: the query string (i.e., name for which we want a wikidata id)
     :return:
     """
+
+    # IF THERE ARE SEVERAL NOBILITY TITLES, SHOULD THE QUERY BE REBUILT WITH ALL THE NOBILITY TITLES ?
+
     # build query url
     url = "https://www.wikidata.org/w/api.php"
+    headers = {
+        "User-Agent": "katabot/1.0 (https://katabase.huma-num.fr/) python/requests/2.27.1",
+        "Accept-Encoding": "gzip"
+    }  # set a user-agent, as per the api's etiquette (https://www.mediawiki.org/wiki/API:Etiquette);
+    #    gzip encoding makes requests faster
     params = {
         "action": "query",
         "list": "search",
         "srsearch": qstr,
+        "srlimit": 1,
         "format": "json"
-    }
+    }  # build request parameters
 
     # launch query
     r = requests.get(url, params=params)
@@ -211,9 +298,10 @@ def reqtoid():
     """
     with open("tables/wd_nametable.tsv", mode="r", encoding="utf-8") as fh:
         reader = csv.reader(fh, delimiter="\t")
+        prev = {}  # dictionary to store the previous loop entry
         for row in reader:
             in_data = [row[2], row[3]]  # input data on which to launch a query
-            prep_query(in_data)
+            qdict, prev = prep_query(in_data, prev)
     # print(r.text)
 
 
@@ -401,7 +489,7 @@ def namebuild(nstr):
                     if found is False:
                         firstnm += f"{name} "  # add the abbreviated version if a full version hasn't been found
             # check whether there are still abbreviations in the name to give a value du abv
-            if False in list(ndict.values()):
+            if False in ndict.values():
                 abv = True
             else:
                 abv = False
@@ -507,5 +595,5 @@ def counter():
 
 # ================= LAUNCH THE SCRIPT ================= #
 if __name__ == "__main__":
-    # req_to_id("louis davout")
+    # launch_query("merzbow")
     reqtoid()

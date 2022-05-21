@@ -33,6 +33,7 @@ names = {
     "jacq": "jacques",
     "jh": "joseph",
     "jos": "joseph",
+    "math": "matthieu",
     "nic": "nicolas",
     "ph": "philippe",
     "v": "victor",
@@ -60,6 +61,7 @@ comp_names = {
     "franc rené": "francois-rené",
     "m madeleine": "marie-madeleine",
     "ph h": "philippe henri",
+    "p alex": "pierre alexandre",
     "p j": "pierre-jean",
     "j sylvain": "jean-sylvain",
     "l ph": "louis-philippe",
@@ -74,6 +76,9 @@ comp_names = {
 # - keys: the term to be used in wikidata;
 # - values: a list of corresponding terms in the tei:traits
 status = {
+    "empereur": "",
+    "impératrice": "",
+    "géneral": "general",
     "reine": "queen",
     "roi": "king",
     "princesse": "princess",
@@ -88,6 +93,7 @@ status = {
     "victesse": "",
     "vicomte": "",
     "victe": "",
+    "comtesse palatine": "countess palatine",
     "comtesse": "",
     "ctesse": "",
     "comte": "",
@@ -111,7 +117,9 @@ status = {
     "maréchale": "",
     "maréchal": "",
     "mademoiselle": "",
-    "melle": ""
+    "melle": "",
+    "mlle": "",
+    "sir": ""
 }
 
 # a person's function; to be found in the tei:trait; not all words
@@ -158,7 +166,7 @@ function = {
 
 # messy regex to match roman numerals and their french number suffixes:
 # "Ier", "IInd", "IIIème" ...
-rgx_roman = "((I|V|X|D|C|M)+)(er|ère|ere|ème|eme|nd|nde)?"  # only keep $1 of that regex
+rgx_roman = r"(^|\s)((I|V|X|D|C|M)+)(er|ère|ere|ème|eme|nd|nde)?(\s|$)"  # only keep $1 of that regex
 
 # hybrid of the list of departments created in 1790 + list of 1811 departments
 # (largest number of departments in the french history)
@@ -340,7 +348,6 @@ provinces = [
 # list of french colonies; alternate and old orthographs
 # are in the list too, in order to facilitate the matching process
 colonies = [
-    "canada",
     "québec",
     "ontario",
     "saint-pierre-et-miquelon",
@@ -351,10 +358,7 @@ colonies = [
     "antigua",
     "dominique",
     "saint-domingue",
-    "grenade",
     "guadeloupe",
-    "haïti",
-    "martinique",
     "monsterrat",
     "saint-martin",
     "saint-barthélémy",
@@ -362,66 +366,44 @@ colonies = [
     "saint-vincent-et-les-grenadines",
     "saint-eustache",
     "saint-christophe",
-    "tobago",
-    "brésil",
+    "martinique"
     "guyane française",
     "guyane",
-    "maroc",
-    "algérie",
-    "algérie française",
-    "tunisie",
+    "maroc",  # unfortunately the morocco referred to in XIXth century france is a french protectorate
+    "algérie",  # same
+    "algérie française",  # same
+    "tunisie",  # same
     "fezzan",
     "dahomey",
-    "burkina-faso",
     "haute-volta",
-    "cameround",
     "oubangui-chari",
-    "tchad",
-    "congo",
     "congo français",
     "moyen-congo",
-    "gabon",
-    "guinée",
     "guinée française",
-    "côte d'ivoire",
-    "mali",
     "soudan français",
-    "mauritanie",
-    "niger",
-    "sénégal",
     "gorée",
     "tigi",
     "djibouti",
     "cheikh saïd",
     "comores",
-    "madagascar",
     "fort-dauphin",
-    "île maurice",
+    "îles maurice",
     "mayotte",
     "la réunion",
     "îles éparses",
-    "seychelles",
-    "tanzanie",
-    "zanzibar",
     "île amsterdam",
     "île saint-paul",
     "archipel crozet",
     "îles kerguelen",
     "castellorizo",
-    "liban",
     "grand-liban",
-    "syrie",
     "sandjak d'alexandrette",
-    "inde",
     "indes françaises",
     "pondichéry",
     "karikal",
     "yanaon",
     "mahé",
     "chanderngor",
-    "cambodge",
-    "laos",
-    "viêt-nam",
     "tonkin",
     "annam",
     "cochinchine",
@@ -438,14 +420,38 @@ colonies = [
     "wallis et futuna"
 ]
 
-countries = [
-    "états-unis",
-    "etats-unis",
-    "états-unis d'amérique",
-    "etats-unis d'amérique",
-    "grèce",
-    "chine",
-]
+countries = {
+    "états-unis d'amérique": "united states of america",
+    "etats-unis d'amérique": "united states of america",
+    "états-unis": "united states of america",
+    "etats-unis": "united states of america",
+    "grèce": "greece",
+    "canada": "canada",
+    "chine": "china",
+    "haïti": "haiti",
+    "tobago": "tobago",
+    "brésil": "brasil",
+    "burkina-faso": "burkina-faso",
+    "cameroun": "cameroun",
+    "tchad": "tchad",
+    "congo": "congo",
+    "gabon": "gabon",
+    "guinée": "guinea",
+    "côte d'ivoire": "ivory coast",
+    "mali": "mali",
+    "mauritanie": "mauritania",
+    "niger": "niger",
+    "sénégal": "senegal",
+    "madagascar": "madagascar",
+    "seychelles": "seychelles",
+    "tanzanie": "tanzania",
+    "zanzibar": "zanzibar",
+    "liban": "lebanon",
+    "syrie": "syria",
+    "inde": "india",
+    "laos": "laos",
+    "viet-nâm": "vietnam"
+}
 
 # events are translated to something that returns a result in wikidata
 events = {
