@@ -1,6 +1,10 @@
 from decimal import Decimal
 import json
 import csv
+import os
+
+
+curdir = os.path.abspath(os.path.dirname(os.path.abspath(__file__)))  # current directory
 
 
 # ============== GET INFO ON FOREIGN CURRENCIES ============== #
@@ -13,7 +17,7 @@ def currency_checker():
     take into account the new currencies
     :return: None
     """
-    with open("../output/export_catalog.json", mode="r") as f:
+    with open(f"{curdir}/../output/export_catalog.json", mode="r") as f:
         truc = json.load(f)
     currency_set = []
     currency_dict = {}
@@ -80,7 +84,7 @@ def build_convtable():
     using this dictionary, every year's prices can be converted in 1900 francs
     :return: None
     """
-    with open("tables/piketty_price_index.csv") as f:
+    with open(f"{curdir}/tables/piketty_price_index.csv", mode="r") as f:
         csvreader = csv.reader(f, delimiter=',', quotechar='"')
         f.seek(0)
         next(f)
@@ -88,7 +92,7 @@ def build_convtable():
         f.seek(0)
         next(f)
         idxdict = converter(csvr=csvreader, m=m)
-        with open("tables/price_index_franc.json", mode="w") as out:
+        with open(f"{curdir}/tables/price_index_franc.json", mode="w") as out:
             json.dump(idxdict, out, indent=4)
     return None
 
@@ -103,7 +107,7 @@ def pconverter_franc(date, price):
     :param price: the price itself
     :return:
     """
-    with open("tables/price_index_franc.json", mode="r") as f:
+    with open(f"{curdir}/tables/price_index_franc.json", mode="r") as f:
         idxdict = json.load(f)
     price = round(price * idxdict[str(date)], 2)
     return price
@@ -120,7 +124,7 @@ def pconverter_foreign(currency, date, price):
     :param price: the price of the item
     :return: the converted price
     """
-    with open("tables/price_index_foreign.json", mode="r") as f:
+    with open(f"{curdir}/tables/price_index_foreign.json", mode="r") as f:
         idxdict = json.load(f)
     price = round(price * idxdict[currency][str(date)], 2)
     return price

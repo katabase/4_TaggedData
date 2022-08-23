@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # coding: utf-8
 
-# -----------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
 # Katabase project: github.com/katabase/
 # Python script to extract the <desc> of XML files and save it in a JSON file
 #
@@ -12,7 +12,7 @@
 #   we need to get data from ; on each iteration, it calls data_extractor()
 #   to do the dirty work and updates an output_dict with the results from data_extractor ;
 #   finally, it saves the output dict as a JSON file in the 'output' directory
-# -----------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
 
 
 import os
@@ -33,6 +33,7 @@ from priceconv import pconverter_foreign, pconverter_franc
 
 
 ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
+curdir = os.path.abspath(os.path.dirname(os.path.abspath(__file__)))
 
 
 # ============== MAIN FUNCTIONS ============== #
@@ -94,6 +95,11 @@ def item_extractor(tree, output_dict):
 			data["author"] = author
 		else:
 			data["author"] = None
+		try:
+			author_wikidata_id = desc.xpath("parent::tei:item/tei:name/@ref", namespaces=ns)[0]
+		except IndexError:
+			author_wikidata_id = None
+		data["author_wikidata_id"] = author_wikidata_id
 		if desc.xpath('./tei:date[@when]', namespaces=ns):  # récupérer la date si elle existe
 			data["date"] = desc.xpath('./tei:date/@when', namespaces=ns)[0]
 		else:
@@ -138,6 +144,8 @@ def catalog_extractor(tree, catalog_dict):
 	# retrieve the title, sale date and number of entries in the catalog
 	if tree.xpath(".//tei:titleStmt//tei:title", namespaces=ns):
 		data["title"] = tree.xpath(".//tei:titleStmt//tei:title", namespaces=ns)[0].text
+	if tree.xpath(".//tei:sourceDesc/tei:bibl/@ana", namespaces=ns):
+		data["cat_type"] = tree.xpath(".//tei:sourceDesc/tei:bibl/@ana", namespaces=ns)[0]
 	if tree.xpath('.//tei:bibl/tei:date[@when]', namespaces=ns):
 		date = tree.xpath('.//tei:bibl/tei:date/@when', namespaces=ns)[0]
 		data["sell_date"] = date
@@ -272,7 +280,7 @@ def to_number(string):
 if __name__ == "__main__":
 
 	# This way, we get every single file contained in any subfolder of Catalogues/.
-	files = glob.glob("../Catalogues/**/*.xml", recursive=True)
+	files = glob.glob(f"{curdir}/../Catalogues/**/*.xml", recursive=True)
 
 	output_dict = {}  # dictionary to store the data on the items retrieved in data_extractor()
 	catalog_dict = {}  # dictionary to store the data on the catalogs retrieved in catalog_extractor()
@@ -302,11 +310,11 @@ if __name__ == "__main__":
 		os.makedirs(output_dir)
 
 	# write the outputs to the output files
-	with open('../output/export_item.json', 'w') as outfile:
+	with open(f'{curdir}/../output/export_item.json', 'w') as outfile:
 		# Older data are deleted. 
 		outfile.truncate(0)
 		json.dump(output_dict, outfile, indent=4)
-	with open('../output/export_catalog.json', 'w') as outfile:
+	with open(f'{curdir}/../output/export_catalog.json', 'w') as outfile:
 		# Older data are deleted.
 		outfile.truncate(0)
 		json.dump(catalog_dict, outfile, indent=4)
